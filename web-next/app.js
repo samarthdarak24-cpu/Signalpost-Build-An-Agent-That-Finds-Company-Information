@@ -1197,6 +1197,10 @@ async function viewCompany(orgnr, tab) {
 }
 
 function factRow(field, value, fact, opts = {}) {
+  if (fact) {
+    if (!window.__factsMap) window.__factsMap = {};
+    window.__factsMap[field] = fact;
+  }
   const conf = fact && typeof fact.confidence === "number" ? pct(fact.confidence) : "";
   const long = String(value).length > 130;
   return `<div class="fact">
@@ -1357,6 +1361,7 @@ function closeDrawer() {
   const drawer = $("#drawer");
   if (!drawer) return;
   drawer.hidden = true;
+  drawer.style.display = "none";
   drawer.innerHTML = "";
   drawer.removeAttribute("aria-labelledby");
   const bd = $("#drawerBackdrop");
@@ -1368,6 +1373,7 @@ window.closeDrawer = closeDrawer;
 
 function openDrawer(html, title) {
   const drawer = $("#drawer");
+  if (!drawer) return;
   closeDrawer();
   window.__lastFocus = document.activeElement;
 
@@ -1378,6 +1384,7 @@ function openDrawer(html, title) {
   document.body.appendChild(backdrop);
 
   drawer.hidden = false;
+  drawer.style.display = "block";
   drawer.innerHTML = `<button class="close" type="button" onclick="closeDrawer()"
       aria-label="Close panel">${icon("close")}</button>
     <div class="eyebrow">Evidence</div>
@@ -1390,8 +1397,16 @@ function openDrawer(html, title) {
 /* The evidence detail view. Everything shown here is a field the pipeline
  * actually wrote — nothing is inferred for display. */
 window.openEvidenceByField = function (field) {
-  if (!state.profile) return;
-  const fact = (state.profile.facts || []).find((f) => f.field === field);
+  let fact = null;
+  if (window.__factsMap && window.__factsMap[field]) {
+    fact = window.__factsMap[field];
+  }
+  if (!fact && state.profile && state.profile.facts) {
+    fact = (state.profile.facts || []).find((f) => f.field === field);
+  }
+  if (!fact && state.lookupResult && state.lookupResult.profile && state.lookupResult.profile.facts) {
+    fact = (state.lookupResult.profile.facts || []).find((f) => f.field === field);
+  }
   if (!fact) {
     openDrawer(note("void", `<div>This field has no published fact, so there is nothing to
       show. It was left empty rather than guessed.</div>`, "info"), FIELD_LABELS[field] || field);
@@ -1401,7 +1416,7 @@ window.openEvidenceByField = function (field) {
     ? `${esc(fact.freshness)}`
     : `<span class="dim">not recorded</span>`;
   const isUrl = /^https?:/.test(fact.source_url || "");
-  const url = isUrl ? fact.source_url : "https://" + (fact.source_url || "");
+  const url = isUrl ? fact.source_url : (fact.source_url ? "https://" + fact.source_url : "");
   const conf = typeof fact.confidence === "number" ? pct(fact.confidence) : "—";
 
   openDrawer(`
@@ -1411,7 +1426,7 @@ window.openEvidenceByField = function (field) {
 
       <dt>Source</dt>
       <dd class="mono" style="font-size:12px;word-break:break-all">
-        <a href="${esc(url)}" target="_blank" rel="noopener">${esc(fact.source_url || "—")}</a></dd>
+        ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(fact.source_url || url)}</a>` : '<span class="dim">not recorded</span>'}</dd>
 
       <dt>Passage read from the source</dt>
       <dd class="quote">${fact.evidence ? esc(fact.evidence) : '<span class="dim">no passage recorded</span>'}</dd>
