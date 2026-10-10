@@ -1,0 +1,152 @@
+[
+  {
+    "route": "#/overview",
+    "label": "Overview",
+    "html_len": 22799,
+    "text_len": 2701,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/live",
+    "label": "Live Research",
+    "html_len": 9020,
+    "text_len": 1089,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/search",
+    "label": "Company Search",
+    "html_len": 44614,
+    "text_len": 3522,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/company",
+    "label": "Company Profile",
+    "html_len": 32284,
+    "text_len": 2168,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/ask",
+    "label": "Ask Signalpost",
+    "html_len": 18438,
+    "text_len": 563,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/trace",
+    "label": "Agent Trace",
+    "html_len": 10287,
+    "text_len": 1141,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/coverage",
+    "label": "Coverage",
+    "html_len": 6045,
+    "text_len": 231,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/reports",
+    "label": "Run Reports",
+    "html_len": 12879,
+    "text_len": 1158,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/sources",
+    "label": "Sources",
+    "html_len": 10706,
+    "text_len": 1408,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/auditor",
+    "label": "Auditor",
+    "html_len": 11070,
+    "text_len": 1365,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/company/923609016",
+    "label": "Company Profile (Equinor)",
+    "html_len": 15405,
+    "text_len": 1475,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/trace/923609016",
+    "label": "Agent Trace (Equinor)",
+    "html_len": 10383,
+    "text_len": 1121,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/ask?orgnr=923609016",
+    "label": "Ask (Equinor)",
+    "html_len": 22799,
+    "text_len": 2701,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/company/999999999",
+    "label": "Company Profile (missing)",
+    "html_len": 7322,
+    "text_len": 585,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  },
+  {
+    "route": "#/trace/999999999",
+    "label": "Agent Trace (missing)",
+    "html_len": 6121,
+    "text_len": 256,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_api": [],
+    "ok": true
+  }
+]

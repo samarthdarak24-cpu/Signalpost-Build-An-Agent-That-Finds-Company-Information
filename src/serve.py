@@ -116,7 +116,15 @@ class Handler(BaseHTTPRequestHandler):
 
         if route.startswith("/api/profile/"):
             number = route.rsplit("/", 1)[-1]
-            self._file(ROOT / "profiles" / f"{number}.json")
+            path = ROOT / "profiles" / f"{number}.json"
+            if not path.exists():
+                # A missing profile is a normal, expected state (the number was
+                # simply never researched), not a server error. Answer 200 with
+                # an explicit body so the console renders "not found" without a
+                # spurious 4xx in the browser console or the request log.
+                self._json({"error": "not found", "org_number": number}, 200)
+                return
+            self._file(path)
             return
 
         if route == "/api/runs":

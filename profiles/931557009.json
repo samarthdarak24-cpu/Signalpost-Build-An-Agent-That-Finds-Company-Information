@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931557009",
+  "legal_name": "LUONGO MAURIZIO KONSULTING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T123200Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Skådalsveien 22H, 0781 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "forretningsadresse: Skådalsveien 22H, 0781 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: address = 'Skådalsveien 22H, 0781 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Konditori, konsulting.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"aktivitet\": \"Konditori, konsulting.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: description = 'Konditori, konsulting.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med bakervarer, konditorvarer og sukkervarer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med bakervarer, konditorvarer og sukkervarer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: industry = 'Detaljhandel med bakervarer, konditorvarer og sukkervarer', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LUONGO MAURIZIO KONSULTING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"navn\": \"LUONGO MAURIZIO KONSULTING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: legal_name = 'LUONGO MAURIZIO KONSULTING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.240",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"kode\": \"47.240\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: nace_code = '47.240', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931557009",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "organisasjonsnummer: \"931557009\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: org_number = '931557009', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Maurizio Luongo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"navn\": \"Maurizio Luongo\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: owner = 'Maurizio Luongo', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0781",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"postnummer\": \"0781\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: postcode = '0781', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-06-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-06-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: registered = '2023-06-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931557009",
+      "retrieved_at": "2026-10-10T12:33:29Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LUONGO MAURIZIO KONSULTING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931557009",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

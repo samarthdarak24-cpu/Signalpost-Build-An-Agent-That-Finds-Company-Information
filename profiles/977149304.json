@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "977149304",
+  "legal_name": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T125716Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "c/o Lindesnes Kommune, Nordre Heddeland 26, 4534 MARNARDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "forretningsadresse: c/o Lindesnes Kommune, Nordre Heddeland 26, 4534 MARNARDAL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: address = 'c/o Lindesnes Kommune, Nordre Heddeland 26, 4534 MARNARDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Paal Pedersen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"navn\": \"Paal Pedersen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: board_chair = 'Paal Pedersen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Eva Marie Jansvik, Kyrre Jordbakke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "roles: Eva Marie Jansvik, Kyrre Jordbakke",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: board_members = 'Eva Marie Jansvik, Kyrre Jordbakke', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "MARNARDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"poststed\": \"MARNARDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: city = 'MARNARDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Å stimulere til frivillig innsats innen humanitære og sosiale tiltak.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"aktivitet\": \"Å stimulere til frivillig innsats innen humanitære og sosiale tiltak.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: description = 'Å stimulere til frivillig innsats innen humanitære og sosiale tiltak.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 584721,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 584721 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: equity = 584721, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1991-12-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"stiftelsesdato\": \"1991-12-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: founded = '1991-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: industry = 'Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"kode\": \"STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: legal_form = 'STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"navn\": \"MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: legal_name = 'MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LINDESNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"kommune\": \"LINDESNES\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: municipality = 'LINDESNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.991",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"kode\": \"94.991\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: nace_code = '94.991', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 3229,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 3229 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: net_result = 3229, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -24161,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -24161 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: operating_result = -24161, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "977149304",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "organisasjonsnummer: \"977149304\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: org_number = '977149304', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4534",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"postnummer\": \"4534\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: postcode = '4534', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1997-02-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1997-02-23\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: registered = '1997-02-23', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/977149304",
+      "retrieved_at": "2026-10-10T12:57:31Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 584721,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/977149304",
+      "retrieved_at": "2026-10-10T12:57:44Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 584721 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MANDAL KOMMUNES LEGAT FOR HUMANITÆR OG SOSIAL STI: total_assets = 584721, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "977149304",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

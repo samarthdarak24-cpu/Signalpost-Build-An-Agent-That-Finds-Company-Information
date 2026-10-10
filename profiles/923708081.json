@@ -1,0 +1,484 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923708081",
+  "legal_name": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T125716Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Annette Grønstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"navn\": \"Annette Grønstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: board_chair = 'Annette Grønstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Bjarne Olai Braastad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "roles: Bjarne Olai Braastad",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: board_deputies = 'Bjarne Olai Braastad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Agnete Lien Wylie, Kristin Sæther Tvervåg, Ann-Christin Østling, Sissel Rolseth",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "roles: Agnete Lien Wylie, Kristin Sæther Tvervåg, Ann-Christin Østling, Sissel Rolseth",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: board_members = 'Agnete Lien Wylie, Kristin Sæther Tvervåg, Ann-Christin Østling, Sissel Rolseth', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 25866,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 25866 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: debt = 25866, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Yter sorgstøtte og omsorg til etterlatte etter dødsfall, uavhengig av dødsårsak. Arbeider forebyggende mot komplisert sorg, psykisk uhelse og selvmord gjennom samtaletilbud, kurs og seminarer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"aktivitet\": \"Yter sorgstøtte og omsorg til etterlatte etter dødsfall, uavhengig av dødsårsak. Arbeider forebyggende mot komplisert sorg, psykisk uhelse og selvmord gjennom samtaletilbud, kurs og seminarer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: description = 'Yter sorgstøtte og omsorg til etterlatte etter dødsfall, uavhengig av dødsårsak. Arbeid...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 301707,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 301707 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: equity = 301707, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2019-10-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"stiftelsesdato\": \"2019-10-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: founded = '2019-10-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: industry = 'Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"kode\": \"STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: legal_form = 'STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"navn\": \"LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: legal_name = 'LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.991",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"kode\": \"94.991\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: nace_code = '94.991', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -131408,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result -131408 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: net_result = -131408, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -138333,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -138333 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: operating_result = -138333, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "923708081",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "organisasjonsnummer: \"923708081\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: org_number = '923708081', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2019-11-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-11-19\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: registered = '2019-11-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 265413,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: revenue latest 265413 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: revenue_latest = 265413, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923708081",
+      "retrieved_at": "2026-10-10T12:59:08Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 327573,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923708081",
+      "retrieved_at": "2026-10-10T12:59:22Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 327573 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LILLEBRORS MINNE - STIFTELSEN MED OMSORG FOR ETTERLATTE: total_assets = 327573, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923708081",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

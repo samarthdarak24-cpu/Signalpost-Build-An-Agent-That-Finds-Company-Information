@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "org_number": "997644611",
+  "legal_name": "GUNVOR SA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T130811Z",
+  "fact_count": 12,
+  "facts": [
+    {
+      "field": "address",
+      "value": "80-84 Rue du Rhone, 1204 Geneve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "forretningsadresse: 80-84 Rue du Rhone, 1204 Geneve",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: address = '80-84 Rue du Rhone, 1204 Geneve', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "1204 Geneve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"poststed\": \"1204 Geneve\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: city = '1204 Geneve', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Handel, transport, megling etc. med olje og energiprodukter.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"aktivitet\": \"Handel, transport, megling etc. med olje og energiprodukter.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: description = 'Handel, transport, megling etc. med olje og energiprodukter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med drivstoff, brensel og beslektede produkter",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med drivstoff, brensel og beslektede produkter\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: industry = 'Engroshandel med drivstoff, brensel og beslektede produkter', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "GUNVOR SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"navn\": \"GUNVOR SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: legal_name = 'GUNVOR SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.810",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"kode\": \"46.810\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: nace_code = '46.810', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "997644611",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "organisasjonsnummer: \"997644611\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: org_number = '997644611', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2011-11-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2011-11-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: registered = '2011-11-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997644611",
+      "retrieved_at": "2026-10-10T13:08:48Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "GUNVOR SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "997644611",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

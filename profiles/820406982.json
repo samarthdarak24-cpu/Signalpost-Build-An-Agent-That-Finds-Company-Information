@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "820406982",
+  "legal_name": "ETLAND STAVE MAT AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T132458Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "regnskapsperiode ended 2024-09-19",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 63485,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: debt 63485 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: debt = 63485, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 791733,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: equity 791733 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: equity = 791733, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820406982",
+      "retrieved_at": "2026-10-10T13:25:44Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ETLAND STAVE MAT AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820406982",
+      "retrieved_at": "2026-10-10T13:25:44Z",
+      "evidence": "\"navn\": \"ETLAND STAVE MAT AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: legal_name = 'ETLAND STAVE MAT AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820406982",
+      "retrieved_at": "2026-10-10T13:25:44Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 206506,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: net result 206506 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: net_result = 206506, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 225269,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: operating result 225269 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: operating_result = 225269, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "820406982",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820406982",
+      "retrieved_at": "2026-10-10T13:25:44Z",
+      "evidence": "organisasjonsnummer: \"820406982\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: org_number = '820406982', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-09-19",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "regnskapsperiode slutt 2024-09-19",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: reporting_period = '2024-09-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 7096524,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: revenue latest 7096524 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: revenue_latest = 7096524, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820406982",
+      "retrieved_at": "2026-10-10T13:25:44Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 855218,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820406982",
+      "retrieved_at": "2026-10-10T13:25:56Z",
+      "evidence": "Annual accounts for the period ending 2024-09-19: total assets 855218 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ETLAND STAVE MAT AS: total_assets = 855218, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "820406982",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

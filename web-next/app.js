@@ -1095,9 +1095,28 @@ async function viewCompany(orgnr, tab) {
   }
 
   const [profile, synth] = await Promise.all([
-    api("/api/profile/" + encodeURIComponent(orgnr)),
+    apiSoft("/api/profile/" + encodeURIComponent(orgnr), null),
     apiSoft("/api/synthesis/" + encodeURIComponent(orgnr), { views: {} }),
   ]);
+
+  // A company that is not in the local corpus (or was never researched) must
+  // render an honest "not found" panel, not a console error from a thrown 404.
+  if (!profile || profile.error || !profile.facts) {
+    return `<div class="page-head">
+      <div class="eyebrow">Company</div>
+      <h1>No profile for ${esc(orgnr)}</h1>
+      <p class="sub">This organisation number has not been researched yet, or is not in the
+        local corpus. Run a live lookup to build its profile now.</p>
+    </div>
+    <div class="panel">
+      ${emptyState("Nothing on file for this number",
+        "Open Live Research and search the number, or the organisation number, to fetch and verify it live.")}
+      <div class="btn-row">
+        <a class="btn" href="#/live">${icon("live")}<span>Research this company</span></a>
+        <a class="btn ghost" href="#/search">${icon("search")}<span>Search companies</span></a>
+      </div>
+    </div>`;
+  }
   state.profile = profile; state.synthesis = synth; state.orgnr = orgnr;
 
   const facts = profile.facts || [];
