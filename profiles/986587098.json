@@ -3,29 +3,44 @@
   "org_number": "986587098",
   "legal_name": "2CARE BPA AS",
   "run_date": "2026-10-11",
-  "run_id": "20261010T193212Z",
-  "fact_count": 33,
+  "run_id": "20261010T203014Z",
+  "fact_count": 43,
   "facts": [
     {
       "field": "accounting_year",
       "value": 2025,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "regnskapsperiode ended 2025-12-31",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "derived from period end date",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
+    },
+    {
+      "field": "activity_count",
+      "value": 2,
+      "source_url": "https://havas.no",
+      "retrieved_at": "2026-10-10T20:30:18Z",
+      "evidence": "2 dated public update(s) listed",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.86,
+      "layer": "web_rules",
+      "method": "public updates on the verified site",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: activity_count = 2, taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
     },
     {
       "field": "address",
       "value": "Brobekkveien 80, 0582 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "forretningsadresse: Brobekkveien 80, 0582 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
@@ -40,67 +55,67 @@
       "field": "board_chair",
       "value": "Knut Granlund Blom",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-07T19:13:44Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"navn\": \"Knut Granlund Blom\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: board_chair = 'Knut Granlund Blom', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: board_chair = 'Knut Granlund Blom', read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "board_members",
       "value": "Ronny Dahlstrøm",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-07T19:13:44Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "roles: Ronny Dahlstrøm",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: board_members = 'Ronny Dahlstrøm', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: board_members = 'Ronny Dahlstrøm', read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
       "value": "Brobekkveien 80, 0582 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-07T19:13:44Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"beliggenhetsadresse\": 'Brobekkveien 80, 0582 OSLO' (first of 1)",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: business_locations = 'Brobekkveien 80, 0582 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: business_locations = 'Brobekkveien 80, 0582 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "ceo",
       "value": "Henriette Marie Hansson Nilssen",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-07T19:13:44Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"navn\": \"Henriette Marie Hansson Nilssen\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: ceo = 'Henriette Marie Hansson Nilssen', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: ceo = 'Henriette Marie Hansson Nilssen', read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
@@ -115,22 +130,22 @@
       "field": "debt",
       "value": 11284076,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: debt 11284076 NOK",
       "match_proof": "registry",
       "confidence": 0.92,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: debt = 11284076, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: debt = 11284076, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Aktør som kan tilby kommuner, bydeler, NAV, forsikringsselskaper eller private servicetjenester/omsorgstjeneste der den enkelte tjenestemottaker skal få økt livskvalitet. Gi et faglig serviceservicetjeneste-/omsorgstilbud innenfor brukerstyrt personlig assistent-ordninger, omsorgsbolig og hjemmetjenester. Tilrettelegge for et individuelt bo- og aktivitetstilbud innenfor faste økonomiske rammer overfor ulike brukergrupper med omfattende heldøgns omsorgstilbud. Deltakelse i annen virksomhet som naturlig faller inn under dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"aktivitet\": \"Aktør som kan tilby kommuner, bydeler, NAV, forsikringsselskaper eller private servicetjenester/omsorgstjeneste der den enkelte tjenestemottaker skal få økt livskvalitet. Gi et faglig serviceservicetjeneste-/omsorgstilbud innenfor brukerstyrt personlig assistent-ordninger, omsorgsbolig og hjemmetjenester. Tilrettelegge for et individuelt bo- og aktivitetstilbud innenfor faste økonomiske rammer overfor ulike brukergrupper med omfattende heldøgns omsorgstilbud. Deltakelse i annen virksomhet som naturlig faller inn under dette.\"",
       "match_proof": "registry",
       "confidence": 0.9,
@@ -145,7 +160,7 @@
       "field": "email",
       "value": "hav@havas.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"epostadresse\": \"hav@havas.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
@@ -160,7 +175,7 @@
       "field": "employees",
       "value": 244,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"antallAnsatte\": 244",
       "match_proof": "registry",
       "confidence": 0.97,
@@ -175,22 +190,37 @@
       "field": "equity",
       "value": 2792513,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: equity 2792513 NOK",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: equity = 2792513, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: equity = 2792513, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
+    },
+    {
+      "field": "facebook",
+      "value": "https://www.facebook.com/BPANORGE/",
+      "source_url": "https://havas.no/kontakt-oss",
+      "retrieved_at": "2026-10-10T20:30:22Z",
+      "evidence": "<a href=\"https://www.facebook.com/BPANORGE/\">",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.88,
+      "layer": "web_rules",
+      "method": "social profile link",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: facebook = 'https://www.facebook.com/BPANORGE/', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2004-02-02",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"stiftelsesdato\": \"2004-02-02\"",
       "match_proof": "registry",
       "confidence": 0.98,
@@ -205,7 +235,7 @@
       "field": "industry",
       "value": "Brukerstyrt personlig assistanse (bpa)",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"beskrivelse\": \"Brukerstyrt personlig assistanse (bpa)\"",
       "match_proof": "registry",
       "confidence": 0.99,
@@ -217,10 +247,25 @@
       "freshness": "recent"
     },
     {
+      "field": "instagram",
+      "value": "https://www.instagram.com/havbpa/",
+      "source_url": "https://havas.no/kontakt-oss",
+      "retrieved_at": "2026-10-10T20:30:22Z",
+      "evidence": "<a href=\"https://www.instagram.com/havbpa/\">",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.88,
+      "layer": "web_rules",
+      "method": "social profile link",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: instagram = 'https://www.instagram.com/havbpa/', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
@@ -235,7 +280,7 @@
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
@@ -247,10 +292,40 @@
       "freshness": "recent"
     },
     {
+      "field": "latest_job_title",
+      "value": "Jobb hos oss",
+      "source_url": "https://havas.no",
+      "retrieved_at": "2026-10-10T20:30:18Z",
+      "evidence": "latest listing: \"Jobb hos oss\"",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.87,
+      "layer": "web_rules",
+      "method": "job listing title",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: latest_job_title = 'Jobb hos oss', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_update_title",
+      "value": "Nyheter",
+      "source_url": "https://havas.no",
+      "retrieved_at": "2026-10-10T20:30:18Z",
+      "evidence": "latest public update: \"Nyheter\"",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.85,
+      "layer": "web_rules",
+      "method": "most recent public update title",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: latest_update_title = 'Nyheter', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
@@ -265,7 +340,7 @@
       "field": "legal_name",
       "value": "2CARE BPA AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"navn\": \"2CARE BPA AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
@@ -277,25 +352,40 @@
       "freshness": "recent"
     },
     {
+      "field": "linkedin",
+      "value": "https://no.linkedin.com/in/hav-as-1a8728b9",
+      "source_url": "https://havas.no/kontakt-oss",
+      "retrieved_at": "2026-10-10T20:30:22Z",
+      "evidence": "<a href=\"https://no.linkedin.com/in/hav-as-1a8728b9\">",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.88,
+      "layer": "web_rules",
+      "method": "social profile link",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: linkedin = 'https://no.linkedin.com/in/hav-as-1a8728b9', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
       "field": "location_count",
       "value": 2,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-07T19:13:44Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"underenheter\": 1 registered sub-entities",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
@@ -310,7 +400,7 @@
       "field": "nace_code",
       "value": "88.104",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"kode\": \"88.104\"",
       "match_proof": "registry",
       "confidence": 0.99,
@@ -325,37 +415,52 @@
       "field": "net_result",
       "value": 667933,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: net result 667933 NOK",
       "match_proof": "registry",
       "confidence": 0.92,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: net_result = 667933, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: net_result = 667933, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
+    },
+    {
+      "field": "open_roles",
+      "value": 1,
+      "source_url": "https://havas.no",
+      "retrieved_at": "2026-10-10T20:30:18Z",
+      "evidence": "1 open role(s) listed: Jobb hos oss",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.88,
+      "layer": "web_rules",
+      "method": "job listings on the verified careers page",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: open_roles = 1, taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
     },
     {
       "field": "operating_result",
       "value": 856106,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: operating result 856106 NOK",
       "match_proof": "registry",
       "confidence": 0.92,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: operating_result = 856106, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: operating_result = 856106, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "org_number",
       "value": "986587098",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "organisasjonsnummer: \"986587098\"",
       "match_proof": "registry",
       "confidence": 1.0,
@@ -370,7 +475,7 @@
       "field": "phone",
       "value": "45 22 22 88",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"telefon\": \"45 22 22 88\"",
       "match_proof": "registry",
       "confidence": 0.95,
@@ -385,7 +490,7 @@
       "field": "postcode",
       "value": "0582",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"postnummer\": \"0582\"",
       "match_proof": "registry",
       "confidence": 0.97,
@@ -400,7 +505,7 @@
       "field": "purpose",
       "value": "Gi et faglig tilbud på Brukerstyrt Personlig Assistanse (BPA) er en ordning der dem med nedsatt funksjonsevne/foresatte selv styrer egen hverdag, og har et lederansvar for assistentene som skal bistå med praktiske ting i hverdagen. BPA er et frigjørings- og antidiskrimineringsverktøy som gir langt større fleksibilitet og selvstendighet, og muligheten til å leve et aktivt og likeverdig liv. Samt det som står i naturlig forbindelse med dette. Independent Living er grunnregel i 2Care BPA AS.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Gi et faglig tilbud på Brukerstyrt Personlig Assistanse (BPA) er en ordning der dem med nedsatt funksjonsevne/foresatte selv styrer egen hverdag, og har et lederansvar for assistentene som skal bistå med praktiske ting i hverdagen. BPA er et frigjørings- og antidiskrimineringsverktøy som gir langt større fleksibilitet og selvstendighet, og muligheten til å leve et aktivt og likeverdig liv. Samt det som står i naturlig forbindelse med dette. Independent Living er grunnregel i 2Care BPA AS.\"",
       "match_proof": "registry",
       "confidence": 0.93,
@@ -415,7 +520,7 @@
       "field": "registered",
       "value": "2004-02-23",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2004-02-23\"",
       "match_proof": "registry",
       "confidence": 0.98,
@@ -427,25 +532,40 @@
       "freshness": "recent"
     },
     {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
+      "retrieved_at": "2026-10-10T20:30:19Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
       "field": "revenue_latest",
       "value": 36102079,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: revenue latest 36102079 NOK",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: revenue_latest = 36102079, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: revenue_latest = 36102079, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
@@ -460,7 +580,7 @@
       "field": "status",
       "value": "active",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "no dissolution flag set on the register record",
       "match_proof": "registry",
       "confidence": 0.95,
@@ -475,239 +595,80 @@
       "field": "total_assets",
       "value": 14076588,
       "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986587098",
-      "retrieved_at": "2026-10-07T19:13:52Z",
+      "retrieved_at": "2026-10-10T20:30:19Z",
       "evidence": "Annual accounts for the period ending 2025-12-31: total assets 14076588 NOK",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Regnskapsregisteret",
       "changed_from": null,
-      "explanation": "2CARE BPA AS: total_assets = 14076588, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "explanation": "2CARE BPA AS: total_assets = 14076588, read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
-      "freshness": "this_week"
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "havas.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "retrieved_at": "2026-10-10T19:32:12Z",
+      "retrieved_at": "2026-10-10T20:30:18Z",
       "evidence": "\"hjemmeside\": \"havas.no\"",
       "match_proof": "registry",
-      "confidence": 0.95,
+      "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
       "explanation": "2CARE BPA AS: website = 'havas.no', read directly from the official register. (registry, retrieved 2026-10-10).",
       "org_number": "986587098",
+      "sources": [
+        {
+          "url": "https://havas.no",
+          "match_proof": "orgnr_on_page",
+          "evidence": "45 22 22 88 Personvern Organisasjonsnummer 2care BPA: 986 587 098 © 2Care BPA Vi bruker teknologi so",
+          "retrieved_at": "2026-10-10T20:30:19Z"
+        }
+      ],
+      "freshness": "recent"
+    },
+    {
+      "field": "website_orgnr_proof",
+      "value": "986 587 098",
+      "source_url": "https://havas.no",
+      "retrieved_at": "2026-10-10T20:30:19Z",
+      "evidence": "organisation number 986 587 098 on page",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.96,
+      "layer": "web_rules",
+      "method": "proof-of-ownership gate",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: website_orgnr_proof = '986 587 098', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
+      "freshness": "recent"
+    },
+    {
+      "field": "youtube",
+      "value": "https://www.youtube.com/channel/UCX3FnM2tzx89yvuJNF9pimg/featured",
+      "source_url": "https://havas.no/kontakt-oss",
+      "retrieved_at": "2026-10-10T20:30:22Z",
+      "evidence": "<a href=\"https://www.youtube.com/channel/UCX3FnM2tzx89yvuJNF9pimg/featured\">",
+      "match_proof": "orgnr_on_page",
+      "confidence": 0.88,
+      "layer": "web_rules",
+      "method": "social profile link",
+      "changed_from": null,
+      "explanation": "2CARE BPA AS: youtube = 'https://www.youtube.com/channel/UCX3FnM2tzx89yvuJNF9pimg/featured', taken from a page that displays the company's own organisation number (the organisation number printed on the page). (page rules, retrieved 2026-10-10).",
+      "org_number": "986587098",
       "freshness": "recent"
     }
   ],
-  "changes": [
-    {
-      "field": "accounting_year",
-      "old": 2025,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "revenue_latest",
-      "old": 36102079,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "net_result",
-      "old": 667933,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "operating_result",
-      "old": 856106,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "total_assets",
-      "old": 14076588,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "equity",
-      "old": 2792513,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "debt",
-      "old": 11284076,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "ceo",
-      "old": "Henriette Marie Hansson Nilssen",
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "board_chair",
-      "old": "Knut Granlund Blom",
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "board_members",
-      "old": "Ronny Dahlstrøm",
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "location_count",
-      "old": 2,
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    },
-    {
-      "field": "business_locations",
-      "old": "Brobekkveien 80, 0582 OSLO",
-      "new": null,
-      "detected_at": "2026-10-10T19:32:12Z",
-      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986587098",
-      "kind": "web"
-    }
-  ],
+  "changes": [],
   "empty_fields": [
-    {
-      "field": "accounting_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "reporting_period",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "net_result",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "operating_result",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "total_assets",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "equity",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "debt",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "ceo",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "board_chair",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "board_members",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
     {
       "field": "auditor",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
-      "field": "location_count",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "business_locations",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "facebook",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "linkedin",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "instagram",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
       "field": "careers_page",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "open_roles",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "latest_job_title",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "latest_update_title",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "activity_count",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -722,7 +683,5 @@
       "candidates_considered": 0
     }
   ],
-  "errors": [
-    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
-  ]
+  "errors": []
 }

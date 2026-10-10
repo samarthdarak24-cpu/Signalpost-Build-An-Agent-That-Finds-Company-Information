@@ -70,7 +70,7 @@ REVIEW_THRESHOLD = 0.30
 _DIRECTORY_HOSTS = (
     "proff.no", "1881.no", "gulesider.no", "regnskapstall.no", "purehelp.no",
     "wikipedia.org", "facebook.com", "linkedin.com", "instagram.com",
-    "brreg.no", "data.brreg.no", "skatteetaten.no", "dnb.no", "finn.no",
+    "brreg.no", "data.brreg.no", "skatteetaten.no", "dnb.com", "finn.no",
 )
 
 

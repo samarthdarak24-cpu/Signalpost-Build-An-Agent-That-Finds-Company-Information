@@ -49,7 +49,7 @@ DIRECTORY_HOSTS: tuple[str, ...] = (
     "proff.no", "1881.no", "gulesider.no", "regnskapstall.no", "purehelp.no",
     "orgnummer.no", "orgn.no", "yra.no", "visverdi.no", "virksomhet.no",
     "bedriftsopplysninger.no", "kred.no", "soliditet.no", "bisnode.no",
-    "dnb.no", "finn.no",
+    "dnb.com", "finn.no",
     # business/finance aggregators
     "bloomberg.com", "theorg.com", "apollo.io", "crunchbase.com", "pitchbook.com",
     "bbb.org", "yelp.com", "glassdoor.com", "indeed.com", "linkedin.com",

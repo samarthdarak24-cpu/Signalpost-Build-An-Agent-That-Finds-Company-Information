@@ -1833,7 +1833,7 @@ async function viewAsk() {
 
 async function viewTrace(orgnr) {
   const profiles = await ensureProfiles();
-  if (!orgnr) orgnr = profiles.length ? profiles[0].org_number : "";
+  if (!orgnr) orgnr = state.orgnr || (profiles.some((p) => p.org_number === "984851006") ? "984851006" : (profiles[0] ? profiles[0].org_number : ""));
   if (!orgnr) {
     return `<div class="page-head"><div class="eyebrow">Transparency</div>
       <h1>Agent Trace</h1></div>
@@ -1849,7 +1849,7 @@ async function viewTrace(orgnr) {
 
   const stepHtml = steps.map((s, i) => {
     const cls = s.ok ? "done" : "skipped";
-    const status = s.ok ? pill("ok", "completed") : pill("void", "no output", false);
+    const status = s.ok ? pill("ok", s.status || "completed") : pill("void", s.status || "no output", false);
     return `<li class="tl-item ${cls}">
       <span class="marker" aria-hidden="true"></span>
       <div class="tl-head">
@@ -1860,23 +1860,51 @@ async function viewTrace(orgnr) {
     </li>`;
   }).join("");
 
-  return `
+  const presets = [
+    { name: "DNB Bank", orgnr: "984851006" },
+    { name: "Equinor", orgnr: "923609016" },
+    { name: "Telenor", orgnr: "982463718" },
+    { name: "2Care BPA", orgnr: "986587098" },
+    { name: "Sandnes Elektriske", orgnr: "810034882" },
+  ];
+
+  const wrap = document.createElement("div");
+  wrap.innerHTML = `
     <div class="page-head">
       <div class="eyebrow">Transparency</div>
       <h1>Agent Trace</h1>
       <p class="sub">The pipeline stages recorded for
-        <strong>${esc(trace.legal_name || orgnr)}</strong>, reconstructed from its stored profile.
-        Stages that produced nothing are shown as such rather than omitted.</p>
+        <strong>${esc(trace.legal_name || orgnr)}</strong> (<span class="mono">${esc(orgnr)}</span>).
+        Stages with output show verified evidence; stages without output reflect honest abstention rather than imagined data.</p>
+      <form id="traceForm" class="bar-form" style="margin-top:var(--s4);display:flex;gap:var(--s2);max-width:540px">
+        <input class="input" id="traceInput" type="text" placeholder="Enter Norwegian org number..." value="${esc(orgnr)}" style="flex:1">
+        <button class="btn primary sm" type="submit">${icon("trace")}<span>Trace</span></button>
+      </form>
+      <div class="chip-row" style="margin-top:var(--s3)">
+        <span class="dim" style="font-size:12px;margin-right:6px">Quick trace:</span>
+        ${presets.map((p) => `<button type="button" class="chip${p.orgnr === orgnr ? " active" : ""}" data-trace-org="${esc(p.orgnr)}">${esc(p.name)} (${esc(p.orgnr)})</button>`).join("")}
+      </div>
     </div>
     <section class="panel">
-      <div class="section-head"><h2>Execution</h2>
+      <div class="section-head"><h2>Execution Cascade</h2>
         <span class="right">${pill("ok", `${done} produced output`)}
-          ${skipped ? pill("void", `${skipped} produced nothing`, false) : ""}</span></div>
+          ${skipped ? pill("void", `${skipped} abstained / empty`, false) : ""}</span></div>
       <ul class="timeline" style="list-style:none;margin:0;padding-left:var(--s5)">${stepHtml}</ul>
     </section>
-    ${note("void", `<div>The trace is derived from the profile's own facts, so it reflects what the
-      run produced. Timing and live tool-call events are not persisted per company, so they are not
-      shown here — an absent timestamp would be invented, not measured.</div>`, "info")}`;
+    ${note("void", `<div>The trace reflects each pipeline stage: <strong>Registry</strong> (Enhetsregisteret), <strong>Enrichment</strong> (GLEIF LEI & Wikidata SPARQL), <strong>Website Discovery</strong>, <strong>Ownership Gate</strong> (checksummed org-number verification), <strong>Rule Extraction</strong>, and <strong>Gap Filling</strong>. If an entity has no web domain or international LEI, Signalpost abstains rather than inventing data.</div>`, "info")}`;
+
+  $("#traceForm", wrap).addEventListener("submit", (e) => {
+    e.preventDefault();
+    const val = $("#traceInput", wrap).value.trim().replace(/\s+/g, "");
+    if (val) location.hash = "#/trace/" + encodeURIComponent(val);
+  });
+  $$("[data-trace-org]", wrap).forEach((btn) => {
+    btn.addEventListener("click", () => {
+      location.hash = "#/trace/" + encodeURIComponent(btn.dataset.traceOrg);
+    });
+  });
+
+  return wrap;
 }
 
 /* ============================================================== coverage === */

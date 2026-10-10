@@ -792,9 +792,9 @@ def _identifier_facts(enrichment: Any, number: str) -> list[Fact]:
                     field="wikidata", value=enrichment.wikidata.qid,
                     source_url=enrichment.wikidata.source_url,
                     retrieved_at=enrichment.wikidata.retrieved_at or retrieved,
-                    evidence=f'Wikidata item matching P2338 = "{number}"',
+                    evidence=f'Wikidata item matching P2333 = "{number}"',
                     match_proof="identifier_join", confidence=0.86, layer="identifier",
-                    method="Wikidata SPARQL on P2338", org_number=number,
+                    method="Wikidata SPARQL on P2333", org_number=number,
                 )
             )
         if enrichment.wikidata.official_website:

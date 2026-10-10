@@ -102,17 +102,34 @@ def _query_gleif(client: HttpClient, org: str, timeout: float) -> LeiRecord:
 
     GLEIF indexes registrations as ``RA000472`` (Foretaksregisteret) with the
     organisation number as the local id, which is an exact join — no name fuzzy
-    matching, so no collision risk.
+    matching, so no collision risk. Registrations may be stored unspaced
+    ("984851006") or spaced ("984 851 006"), so both forms are queried.
     """
+    import urllib.parse
     from profiles import utcnow_iso
+    from validate import format_display
 
-    url = f"{GLEIF}?filter%5Bentity.registeredAs%5D={org}"
-    try:
-        payload = client.get_json(url, headers={"Accept": "application/vnd.api+json"})
-    except Exception as exc:
-        raise RuntimeError(f"gleif: {exc}") from exc
+    variants = [org]
+    disp = format_display(org)
+    if disp != org:
+        variants.append(disp)
 
-    records = payload.get("data") or []
+    records: list[dict[str, Any]] = []
+    last_exc = None
+    for candidate in variants:
+        url = f"{GLEIF}?filter%5Bentity.registeredAs%5D={urllib.parse.quote(candidate)}"
+        try:
+            payload = client.get_json(url, headers={"Accept": "application/vnd.api+json"})
+            found = payload.get("data") or []
+            if found:
+                records = found
+                break
+        except Exception as exc:
+            last_exc = exc
+
+    if not records and last_exc:
+        raise RuntimeError(f"gleif: {last_exc}") from last_exc
+
     if not records:
         return LeiRecord()
     record = records[0]
@@ -148,39 +165,36 @@ def _query_gleif_parent(client: HttpClient, lei: str) -> tuple[str, str, str]:
 def _query_wikidata(client: HttpClient, org: str) -> WikidataLinks:
     """SPARQL for the Wikidata item whose Norwegian org number matches.
 
-    P2338 is "Norwegian organisation number". Matching on the identifier rather
+    P2333 is "Norwegian organisation number". Matching on the identifier rather
     than the label means a name collision can never attach the wrong company.
     """
+    import urllib.parse
     from profiles import utcnow_iso
+    from validate import format_display
 
+    disp = format_display(org)
+    filter_expr = f'?orgnr = "{org}" || ?orgnr = "{disp}"' if disp != org else f'?orgnr = "{org}"'
     query = f"""
     SELECT ?item ?itemLabel ?website ?article ?formLabel WHERE {{
-      ?item wdt:P2338 "{org}" .
+      ?item wdt:P2333 ?orgnr .
+      FILTER({filter_expr})
       OPTIONAL {{ ?item wdt:P856 ?website }}
       OPTIONAL {{ ?article schema:about ?item ; schema:isPartOf <https://no.wikipedia.org/> }}
       OPTIONAL {{ ?item wdt:P1454 ?form }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "nb,en". }}
     }} LIMIT 1
     """
+    url = f"{WIKIDATA_SPARQL}?{urllib.parse.urlencode({'query': query, 'format': 'json'})}"
     try:
         payload = client.get_json(
-            WIKIDATA_SPARQL,
+            url,
             headers={
                 "Accept": "application/sparql-results+json",
                 "User-Agent": USER_AGENT,
             },
         )
-    except Exception:
-        # SPARQL needs the query in the URL; fall back to a GET with query param.
-        import urllib.parse
-
-        url = f"{WIKIDATA_SPARQL}?{urllib.parse.urlencode({'query': query, 'format': 'json'})}"
-        try:
-            payload = client.get_json(
-                url, headers={"Accept": "application/sparql-results+json"}
-            )
-        except Exception as exc:
-            raise RuntimeError(f"wikidata: {exc}") from exc
+    except Exception as exc:
+        raise RuntimeError(f"wikidata: {exc}") from exc
 
     bindings = ((payload.get("results") or {}).get("bindings") or [])
     if not bindings:

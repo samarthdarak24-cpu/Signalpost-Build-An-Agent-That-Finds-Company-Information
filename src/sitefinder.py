@@ -372,12 +372,16 @@ class SiteFinder:
 
         #: Candidate queries, in priority order. Deduped and capped by
         #: ``max_queries`` so query expansion cannot exhaust the request budget.
+        org_val = getattr(org, "value", None) or str(org)
+        org_disp = getattr(org, "display", None) or (
+            f"{org_val[:3]} {org_val[3:6]} {org_val[6:]}" if len(org_val) == 9 else org_val
+        )
         raw_queries = [
             name,                                      # bare name -> official site is top hit
             f"{name} hjemmeside",                      # explicit "website" intent
             (f"{name} {city}" if city else None),       # name + locality disambiguates
-            f'"{name}" "{org.display}"',                # identifier query (last resort)
-            f"{name} organisasjonsnummer {org.value}",  # number query (last resort)
+            f'"{name}" "{org_disp}"',                   # identifier query (last resort)
+            f"{name} organisasjonsnummer {org_val}",   # number query (last resort)
         ]
         seen: set[str] = set()
         queries: list[str] = []

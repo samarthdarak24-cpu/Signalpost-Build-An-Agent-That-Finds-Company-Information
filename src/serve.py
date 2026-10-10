@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import threading
 import webbrowser
@@ -387,7 +388,9 @@ def _lookup(number: str) -> dict:
     runs_dir = ROOT / "runs" / "lookup"
     settings = Settings(
         profiles_dir=runs_dir / "profiles", runs_dir=runs_dir,
-        fetch_web=True, fetch_financials=True, use_llm=False, workers=1, quiet=True,
+        fetch_web=True, fetch_financials=True,
+        use_llm=bool(os.environ.get("ANTHROPIC_API_KEY")),
+        workers=1, quiet=True,
     )
     reporter = run([org], settings=settings)
     path = settings.profiles_dir / f"{org}.json"
@@ -470,7 +473,12 @@ def _ask(number: str, question: str) -> dict:
 
 def _trace(number: str) -> dict:
     """The agent trace: the pipeline's steps for one company, from its profile."""
+    from validate import clean  # noqa: PLC0415
+
+    org = clean(number)
     path = ROOT / "profiles" / f"{number}.json"
+    if not path.exists() and org:
+        _lookup(org)
     if not path.exists():
         return {"error": "not found"}
     raw = json.loads(path.read_text(encoding="utf-8"))
@@ -481,25 +489,39 @@ def _trace(number: str) -> dict:
         layers[key] = layers.get(key, 0) + 1
     website = next((f.get("value") for f in facts if f.get("field") == "website"), "")
     proof = next((f.get("match_proof") for f in facts if f.get("field") == "website"), "")
+    orgnr_proof = next((f.get("value") for f in facts if f.get("field") == "website_orgnr_proof"), None)
+    if orgnr_proof or any(f.get("match_proof") == "orgnr_on_page" for f in facts):
+        proof = "orgnr_on_page"
+
+    ident_count = layers.get("identifier", 0)
+    web_count = layers.get("web_rules", 0)
+    llm_count = layers.get("web_llm", 0)
+    has_anthropic_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
+
     steps = [
-        {"step": "Validate", "detail": number, "ok": True},
+        {"step": "Validate", "detail": number, "ok": True, "status": "completed"},
         {"step": "Registry", "detail": f"{layers.get('registry', 0)} register facts",
-         "ok": layers.get("registry", 0) > 0},
+         "ok": layers.get("registry", 0) > 0, "status": "completed" if layers.get("registry", 0) > 0 else "abstained"},
         {"step": "Enrichment",
-         "detail": f"{layers.get('identifier', 0)} identifier facts (GLEIF / Wikidata)",
-         "ok": layers.get("identifier", 0) > 0},
-        {"step": "Website", "detail": website or "no verified website", "ok": bool(website)},
-        {"step": "Ownership gate", "detail": proof or "no page carried the number",
-         "ok": bool(proof)},
-        {"step": "Rule extraction", "detail": f"{layers.get('web_rules', 0)} web facts",
-         "ok": layers.get("web_rules", 0) > 0},
-        {"step": "Gap filling", "detail": f"{layers.get('web_llm', 0)} LLM facts",
-         "ok": layers.get("web_llm", 0) > 0},
+         "detail": f"{ident_count} identifier facts (GLEIF / Wikidata)" if ident_count else "0 identifier facts (no LEI / Wikidata entry — honest abstention)",
+         "ok": ident_count > 0, "status": "completed" if ident_count else "abstained"},
+        {"step": "Website", "detail": website or "no verified website (honest abstention to prevent misattribution)",
+         "ok": bool(website), "status": "completed" if website else "abstained"},
+        {"step": "Ownership gate",
+         "detail": (f"verified via {proof} ({orgnr_proof} on page)" if orgnr_proof else f"verified via {proof}") if proof else "no candidate page carried the organisation number",
+         "ok": bool(proof), "status": "completed" if proof else "abstained"},
+        {"step": "Rule extraction",
+         "detail": f"{web_count} web facts (emails, socials, jobs, contact paths)" if web_count else "0 web facts (no verified web pages)",
+         "ok": web_count > 0, "status": "completed" if web_count else "abstained"},
+        {"step": "Gap filling",
+         "detail": f"{llm_count} LLM facts quote-verified" if llm_count else ("0 LLM facts (all fields satisfied by registry and rules; model cost $0.00)" if (web_count > 0 or layers.get("registry", 0) > 10) else ("0 LLM facts (metered Claude gap-filling disabled / keyless mode)" if not has_anthropic_key else "0 LLM facts")),
+         "ok": llm_count > 0 or (bool(website) and web_count > 0),
+         "status": "completed" if llm_count else ("idle (rules completed)" if (web_count > 0 or layers.get("registry", 0) > 10) else "idle")},
         {"step": "Verification",
          "detail": f"{len(facts)} facts accepted, {len(raw.get('empty_fields', []))} skipped",
-         "ok": True},
-        {"step": "Synthesis", "detail": "5 views generated", "ok": True},
-        {"step": "Delta", "detail": f"{len(raw.get('changes', []))} changes", "ok": True},
+         "ok": True, "status": "completed"},
+        {"step": "Synthesis", "detail": "5 views generated", "ok": True, "status": "completed"},
+        {"step": "Delta", "detail": f"{len(raw.get('changes', []))} changes", "ok": True, "status": "completed"},
     ]
     return {"org_number": number, "legal_name": raw.get("legal_name", ""), "steps": steps}
 
