@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "914789362",
   "legal_name": "APELTUNNESET HUSEIERLAG SA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 20,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 22,
   "facts": [
     {
       "field": "address",
       "value": "Apeltunvegen 104, 5238 RÅDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "forretningsadresse: Apeltunvegen 104, 5238 RÅDAL",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: address = 'Apeltunvegen 104, 5238 RÅDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: address = 'Apeltunvegen 104, 5238 RÅDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "APELTUNNESET HUSEIERLAG SA: board_chair = 'Baste Ebbesvik', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "org_number": "914789362",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "APELTUNNESET HUSEIERLAG SA: board_members = 'Eirik Aspenes Telle, Rune Fauske', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "org_number": "914789362",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -60,119 +63,128 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "APELTUNNESET HUSEIERLAG SA: ceo = 'Baste Ebbesvik', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "org_number": "914789362",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "RÅDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"poststed\": \"RÅDAL\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: city = 'RÅDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: city = 'RÅDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Felles drift av avløpsanlegg for medlemmene.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"aktivitet\": \"Felles drift av avløpsanlegg for medlemmene.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: description = 'Felles drift av avløpsanlegg for medlemmene.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: description = 'Felles drift av avløpsanlegg for medlemmene.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "eirik.a.telle@gmail.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"epostadresse\": \"eirik.a.telle@gmail.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: email = 'eirik.a.telle@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: email = 'eirik.a.telle@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2016-01-07",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"stiftelsesdato\": \"2016-01-07\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: founded = '2016-01-07', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: founded = '2016-01-07', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Oppsamling og behandling av avløpsvann",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Oppsamling og behandling av avløpsvann\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: industry = 'Oppsamling og behandling av avløpsvann', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: industry = 'Oppsamling og behandling av avløpsvann', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "APELTUNNESET HUSEIERLAG SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"navn\": \"APELTUNNESET HUSEIERLAG SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: legal_name = 'APELTUNNESET HUSEIERLAG SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: legal_name = 'APELTUNNESET HUSEIERLAG SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -186,111 +198,257 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "APELTUNNESET HUSEIERLAG SA: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "org_number": "914789362",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "BERGEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kommune\": \"BERGEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "37.000",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"37.000\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: nace_code = '37.000', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: nace_code = '37.000', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "914789362",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "organisasjonsnummer: \"914789362\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "APELTUNNESET HUSEIERLAG SA: org_number = '914789362', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "99573967",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"mobil\": \"99573967\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: phone = '99573967', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: phone = '99573967', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "5238",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"postnummer\": \"5238\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: postcode = '5238', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: postcode = '5238', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Felles drift av avløpsanlegg for medlemmene.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Felles drift av avløpsanlegg for medlemmene.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: purpose = 'Felles drift av avløpsanlegg for medlemmene.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: purpose = 'Felles drift av avløpsanlegg for medlemmene.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2016-05-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2016-05-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: registered = '2016-05-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: registered = '2016-05-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
-      "retrieved_at": "2026-10-07T19:14:25Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "APELTUNNESET HUSEIERLAG SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914789362"
+      "explanation": "APELTUNNESET HUSEIERLAG SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "APELTUNNESET HUSEIERLAG SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "914789362",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "ceo",
+      "old": "Baste Ebbesvik",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Baste Ebbesvik",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Eirik Aspenes Telle, Rune Fauske",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 1,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914789362",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -315,6 +473,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -323,17 +506,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "4 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

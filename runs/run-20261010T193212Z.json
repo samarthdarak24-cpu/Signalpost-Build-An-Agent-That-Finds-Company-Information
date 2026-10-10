@@ -1,0 +1,4005 @@
+{
+  "run_id": "20261010T193212Z",
+  "started_at": "2026-10-10T19:32:12Z",
+  "finished_at": "2026-10-10T19:32:18Z",
+  "seconds": 6.4,
+  "companies_requested": 120,
+  "companies_written": 120,
+  "companies_failed": 0,
+  "invalid_numbers": [],
+  "not_in_registry": [],
+  "websites_accepted": 0,
+  "websites_rejected": 0,
+  "gate_breakdown": {},
+  "requests": 0,
+  "search_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "changes_detected": 888,
+  "registry_events_applied": 0,
+  "registry_fetched_live": 0,
+  "corroborated_fields": 0,
+  "conflicts_resolved": 0,
+  "conflicts_dropped": 0,
+  "invalid_dropped": 2,
+  "field_coverage": {
+    "legal_name": 120,
+    "legal_form": 120,
+    "status": 120,
+    "industry": 120,
+    "nace_code": 120,
+    "employees": 39,
+    "founded": 105,
+    "registered": 120,
+    "municipality": 120,
+    "postcode": 120,
+    "city": 120,
+    "address": 120,
+    "sector": 120,
+    "language_form": 120,
+    "purpose": 105,
+    "latest_accounts_year": 87,
+    "website": 85,
+    "phone": 91,
+    "description": 120,
+    "email": 86,
+    "parent_org_number": 1
+  },
+  "coverage_ratio": 0.4089,
+  "layer_counts": {
+    "registry": 2163,
+    "derived": 120
+  },
+  "models": {
+    "gap_filling": "claude-haiku-4-5-20251001",
+    "arbitration": "claude-sonnet-5-5",
+    "search": "brave-web-search"
+  },
+  "budget": {
+    "requests_used": 0,
+    "requests_soft_limit": 1700,
+    "requests_hard_limit": 2000,
+    "search_calls": 0,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0,
+    "cost_usd": 0.0,
+    "elapsed_seconds": 6.39,
+    "max_seconds": 2700.0,
+    "max_usd": 10.0
+  },
+  "envelopes_path": "C:\\Users\\darak\\Downloads\\mycompanyhackathonproj\\signalpost\\runs\\envelopes.jsonl",
+  "envelopes_total": 120,
+  "envelopes_by_status": {
+    "available": 120,
+    "not_available": 0,
+    "not_applicable": 0,
+    "ambiguous": 0,
+    "blocked": 0,
+    "failed": 0
+  },
+  "envelope_audit": {
+    "inputs": 120,
+    "outputs": 120,
+    "matched": 120,
+    "ambiguous": 0,
+    "not_available": 0,
+    "not_applicable": 0,
+    "blocked": 0,
+    "failed": 0,
+    "missing_outputs": [],
+    "duplicate_outputs": [],
+    "unknown_orgnrs": [],
+    "ok": true
+  },
+  "cost": {
+    "search_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "search_usd": 0.0,
+    "llm_usd": 0.0,
+    "total_usd": 0.0,
+    "per_1000_profiles_usd": 0.0
+  },
+  "execution": {
+    "run_id": "20261010T193212Z",
+    "started_at": "2026-10-10T19:32:12Z",
+    "finished_at": "2026-10-10T19:32:18Z",
+    "elapsed_seconds": 6.4,
+    "termination_reason": "completed",
+    "early_termination": false,
+    "profiles": {
+      "requested": 120,
+      "attempted": 120,
+      "completed": 120,
+      "deferred": 0,
+      "failed": 0
+    },
+    "outbound": {
+      "attempts": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "redirected": 0,
+      "retried": 0,
+      "cache_hits": 0
+    },
+    "by_provider": {},
+    "by_operation": {},
+    "cost": {
+      "actual_usd": 0.0,
+      "reserved_usd": 0.0,
+      "worst_case_usd": 0.0,
+      "unknown_cost_operations": 0
+    },
+    "facts": {
+      "added": 0,
+      "updated": 888,
+      "unchanged": 2314,
+      "rejected": 2,
+      "carried_forward": 919
+    },
+    "searches": {
+      "ok": 0,
+      "empty": 0,
+      "skipped": 0,
+      "failed": 0
+    }
+  },
+  "results": [
+    {
+      "org_number": "984851006",
+      "legal_name": "DNB BANK ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.13,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "923609016",
+      "legal_name": "EQUINOR ASA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 25,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 14,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "986587098",
+      "legal_name": "2CARE BPA AS",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.28,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "982463718",
+      "legal_name": "TELENOR ASA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.37,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "815680022",
+      "legal_name": "BIGSET SKOGSVEGLAG SA",
+      "ok": true,
+      "facts": 23,
+      "empty_fields": 27,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.29,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 5,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "819767122",
+      "legal_name": "10FOLD AS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 25,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.29,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "822907822",
+      "legal_name": "OBSERVE MEDICAL ASA",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.26,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "830357432",
+      "legal_name": "Bonheur ASA",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "850719942",
+      "legal_name": "24 CHILLOUT MUSIC Helge Krabye",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 29,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "857475712",
+      "legal_name": "ANS BASARENE HAMAR",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "871454272",
+      "legal_name": "ASKELADDEN BARNEHAGE SA",
+      "ok": true,
+      "facts": 26,
+      "empty_fields": 25,
+      "changes": 5,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.26,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 6,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "883432932",
+      "legal_name": "102 OKTAN Christer Lundem",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.27,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "885556582",
+      "legal_name": "BAKKEHAUGEN BARNEHAGE SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.28,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "891797702",
+      "legal_name": "NORTH ENERGY ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "892955522",
+      "legal_name": "1 AID NORGE - LØVTANGEN",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 29,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "894515902",
+      "legal_name": "ADVOKATFIRMAET NIDAROS INKASSO ANS",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "899234812",
+      "legal_name": "BARNEHAGEN HUNDRE SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "910132695",
+      "legal_name": "ALTA SKIFERBRUDD SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "910568183",
+      "legal_name": "BIBLIOTEKSENTRALEN SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "910747711",
+      "legal_name": "ORKLA ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "913281187",
+      "legal_name": "ALM ØSTRE ANS",
+      "ok": true,
+      "facts": 30,
+      "empty_fields": 24,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 9,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "913779908",
+      "legal_name": "+ ARK AS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 25,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "914041244",
+      "legal_name": "1LIFEAPP AS",
+      "ok": true,
+      "facts": 28,
+      "empty_fields": 27,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "914778271",
+      "legal_name": "Norsk Hydro ASA",
+      "ok": true,
+      "facts": 35,
+      "empty_fields": 24,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 14,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "914778964",
+      "legal_name": "BAGSTADVEGEN SA",
+      "ok": true,
+      "facts": 24,
+      "empty_fields": 26,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 5,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "914789362",
+      "legal_name": "APELTUNNESET HUSEIERLAG SA",
+      "ok": true,
+      "facts": 22,
+      "empty_fields": 27,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.21,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "915243495",
+      "legal_name": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 26,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "915319343",
+      "legal_name": "21MANAGEMENT KNUT AXEL GULBRANDSEN",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "916052553",
+      "legal_name": "2 UNDER PAR AS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 25,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "916318855",
+      "legal_name": "1 EIENDOM AS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 27,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "917103801",
+      "legal_name": "Veidekke ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "918391983",
+      "legal_name": "1OFFSHORE AS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 28,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "919160675",
+      "legal_name": "VÅR ENERGI ASA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.25,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "919732725",
+      "legal_name": "00NATION AS",
+      "ok": true,
+      "facts": 30,
+      "empty_fields": 27,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "920153577",
+      "legal_name": "ELMERA GROUP ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "921004737",
+      "legal_name": "13 HUMLER AS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 27,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "921218648",
+      "legal_name": "BJØRGAN SETERVEG SA",
+      "ok": true,
+      "facts": 22,
+      "empty_fields": 27,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "921896328",
+      "legal_name": "AXACTOR ASA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "922993742",
+      "legal_name": "ASKSETERVEIEN SKOGSBILVEGLAG SA",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 29,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "923177035",
+      "legal_name": "102 ASIA MAT AS",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 24,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "923579982",
+      "legal_name": "100% REGNSKAP AS",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "923936343",
+      "legal_name": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.21,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "924829214",
+      "legal_name": "@RNEBLIKK AS",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "926756729",
+      "legal_name": "1BYGG AS",
+      "ok": true,
+      "facts": 27,
+      "empty_fields": 27,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 9,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "928285251",
+      "legal_name": "1423 NORGE AS",
+      "ok": true,
+      "facts": 30,
+      "empty_fields": 27,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "929286057",
+      "legal_name": "123 UTLEIE AS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 27,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "930325686",
+      "legal_name": "1991 PRODUKSJON AS",
+      "ok": true,
+      "facts": 28,
+      "empty_fields": 28,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "932055171",
+      "legal_name": "123 REGNSKAP AS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 25,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.23,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "932514125",
+      "legal_name": "ALNES BÅTUTLEIE ANS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 27,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.21,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "933544184",
+      "legal_name": "2511 SOLHEIM",
+      "ok": true,
+      "facts": 25,
+      "empty_fields": 30,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "933632296",
+      "legal_name": "ATNDALEN NORD VEILAG SA",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 29,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 5,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "935446449",
+      "legal_name": "· JYNEX MIROZADA",
+      "ok": true,
+      "facts": 17,
+      "empty_fields": 31,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.27,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "935751837",
+      "legal_name": "1 ØRE AS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 28,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.28,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "935830729",
+      "legal_name": "12I EIENDOM AS",
+      "ok": true,
+      "facts": 27,
+      "empty_fields": 28,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.3,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "936653790",
+      "legal_name": "2IDRIFT ANS",
+      "ok": true,
+      "facts": 18,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.26,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "938682208",
+      "legal_name": "ALSAKER & CO BYGGEVARER",
+      "ok": true,
+      "facts": 27,
+      "empty_fields": 27,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.24,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 9,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "944470433",
+      "legal_name": "AVERØY REGNSKAPSLAG SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.22,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "948197790",
+      "legal_name": "ANS HUSMANN",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 28,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "953931621",
+      "legal_name": "ANDRESEN EIENDOM ANS",
+      "ok": true,
+      "facts": 30,
+      "empty_fields": 28,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "954840697",
+      "legal_name": "ALBINBUSSEN ANS",
+      "ok": true,
+      "facts": 29,
+      "empty_fields": 25,
+      "changes": 9,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 9,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "955198336",
+      "legal_name": "ADVOKATFIRMA SEKSE & CO ANS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 25,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "955501292",
+      "legal_name": "AGAT DATA ANS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 29,
+      "changes": 4,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "957307655",
+      "legal_name": "BJØRKEBO BARNEHAGE SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "958861915",
+      "legal_name": "ANS FREDHEIMVEIEN 3",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "960851544",
+      "legal_name": "ALTA BILUTLEIE ANS",
+      "ok": true,
+      "facts": 30,
+      "empty_fields": 25,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "964544751",
+      "legal_name": "AMBROSIA NORGE ANS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 27,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "969044854",
+      "legal_name": "AKTIVE FORELDRE SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "971053518",
+      "legal_name": "BALESTRAND BYGDAHUS SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "971177837",
+      "legal_name": "AVISA FRIHETEN V/NKP SA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 25,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "971475560",
+      "legal_name": "BHT-GRUPPEN SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 11,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 11,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "974529459",
+      "legal_name": "OTELLO CORPORATION ASA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "974760673",
+      "legal_name": "REGISTERENHETEN I BRØNNØYSUND",
+      "ok": true,
+      "facts": 23,
+      "empty_fields": 27,
+      "changes": 5,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 4,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "976543807",
+      "legal_name": "BILDELERINGEN SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "976605713",
+      "legal_name": "KITRON ASA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.21,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "979911254",
+      "legal_name": "BAKKELY GARASJELAG SA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "980039439",
+      "legal_name": "ADVOKATFIRMAET STRAND & CO ANS",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 24,
+      "changes": 10,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 10,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "980250547",
+      "legal_name": "ITERA ASA",
+      "ok": true,
+      "facts": 35,
+      "empty_fields": 24,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 14,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "980348202",
+      "legal_name": "ADVOKATFIRMAET NICOLAISEN ANS",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "980624196",
+      "legal_name": "1 2 EXCELLENCE Morten Kaspar Gudmundseth",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 29,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "980998363",
+      "legal_name": "AKERSHUS VARE DISTRIBUSJON ANS",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 28,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "981142160",
+      "legal_name": "BITEHAGEN BARNEHAGE SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "981953134",
+      "legal_name": "ZALARIS ASA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "982769221",
+      "legal_name": "STRONGPOINT ASA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 25,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "983085644",
+      "legal_name": "ALPACA FOR YOU ANS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 26,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "984052448",
+      "legal_name": "ABAN MEDIA ANS",
+      "ok": true,
+      "facts": 18,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "984195486",
+      "legal_name": "VOIM ASA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "984270011",
+      "legal_name": "AKKSANG ANS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 27,
+      "changes": 1,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 1,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "984289847",
+      "legal_name": "AMANDA BARNEHAGE SA",
+      "ok": true,
+      "facts": 33,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 12,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "984371926",
+      "legal_name": "ADVANCED MEDIA ANS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 26,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "985258325",
+      "legal_name": "ALLASSO.NO ANS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 26,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "985374945",
+      "legal_name": "ADRENALIN MEDIA ANS",
+      "ok": true,
+      "facts": 22,
+      "empty_fields": 26,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "985667160",
+      "legal_name": "AUSTEVOLL VATN OG AVLØP SA",
+      "ok": true,
+      "facts": 32,
+      "empty_fields": 26,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "986228608",
+      "legal_name": "YARA INTERNATIONAL ASA",
+      "ok": true,
+      "facts": 35,
+      "empty_fields": 24,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 14,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "986405887",
+      "legal_name": "0 - 6 UTVIKLING NEDERHOED",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 29,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "987036230",
+      "legal_name": "ANNA NILSSENS MINNE SA",
+      "ok": true,
+      "facts": 34,
+      "empty_fields": 24,
+      "changes": 12,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "987428317",
+      "legal_name": "180.NO NUMMEROPPLYSNINGEN AS",
+      "ok": true,
+      "facts": 35,
+      "empty_fields": 24,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 14,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "988215562",
+      "legal_name": "ALFA HUNDESKOLE ANS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 26,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "988384135",
+      "legal_name": "KID ASA",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 27,
+      "changes": 13,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 13,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "988539473",
+      "legal_name": "-EBE- DATA Eyolf Berg",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 29,
+      "changes": 2,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 2,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "989011766",
+      "legal_name": "1001 ROM Kathrine Sørgård",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 29,
+      "changes": 3,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 3,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "989796739",
+      "legal_name": "NORDIC MINING ASA",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 24,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "990317402",
+      "legal_name": "ADVOKATNETT SA",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 25,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "990702438",
+      "legal_name": "100-METERSKOGEN BARNEHAGE AS",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 24,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "990962545",
+      "legal_name": "ATELIER ILSVIKA SA",
+      "ok": true,
+      "facts": 18,
+      "empty_fields": 27,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "991126783",
+      "legal_name": "BALESTRAND SAMDRIFT SA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.2,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "992104228",
+      "legal_name": "1969 TATTOO ART-IAM",
+      "ok": true,
+      "facts": 17,
+      "empty_fields": 29,
+      "changes": 1,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "992249986",
+      "legal_name": "B2 IMPACT ASA",
+      "ok": true,
+      "facts": 21,
+      "empty_fields": 24,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "992357010",
+      "legal_name": "2 SNØMENN AS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 25,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.19,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "993288624",
+      "legal_name": "BERGEN AIRPORT TAXI SA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "993877379",
+      "legal_name": "2-RAYZ SYNDICATE TOURAY",
+      "ok": true,
+      "facts": 17,
+      "empty_fields": 29,
+      "changes": 1,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "994047043",
+      "legal_name": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA",
+      "ok": true,
+      "facts": 17,
+      "empty_fields": 29,
+      "changes": 1,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified",
+        "web_skipped_sole_trader"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "994084232",
+      "legal_name": "100 METER SKOGEN AS",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "994936093",
+      "legal_name": "1818 OPPLYSNINGSTJENESTEN AS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 25,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "995216604",
+      "legal_name": "WALLENIUS WILHELMSEN ASA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "995359774",
+      "legal_name": "SAGA PURE ASA",
+      "ok": true,
+      "facts": 18,
+      "empty_fields": 27,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "995451697",
+      "legal_name": "+2 INTERIØR AS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 25,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "996394638",
+      "legal_name": "WEBSTEP ASA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "996819000",
+      "legal_name": "VOW ASA",
+      "ok": true,
+      "facts": 17,
+      "empty_fields": 28,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "997471466",
+      "legal_name": "1DAYSERVICE TOTALBYGG AS",
+      "ok": true,
+      "facts": 20,
+      "empty_fields": 25,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.17,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    },
+    {
+      "org_number": "999164137",
+      "legal_name": "ZAPTEC ASA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 26,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": "",
+        "match_score": 0.0,
+        "match_verdict": ""
+      },
+      "layers_used": [
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.18,
+      "cost_usd": 0.0,
+      "error": "",
+      "search": {
+        "status": "",
+        "error": ""
+      },
+      "facts_carried_forward": 0,
+      "had_previous_profile": true
+    }
+  ]
+}

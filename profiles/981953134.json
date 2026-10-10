@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "981953134",
   "legal_name": "ZALARIS ASA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 31,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 33,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ZALARIS ASA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Hoffsveien 4, 0275 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: Hoffsveien 4, 0275 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: address = 'Hoffsveien 4, 0275 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: address = 'Hoffsveien 4, 0275 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ZALARIS ASA: board_chair = 'Fredrik Gyllenhammar Raaum', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ZALARIS ASA: board_members = 'Adele Bugge Norman Pran, Marius Hol, Anders Kvåle, Liselotte Hägertz Engstam', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ZALARIS ASA: business_locations = 'Televeien 2, 8410 LØDINGEN | Hoffsveien 4, 0275 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ZALARIS ASA: ceo = 'Hans Petter Mellerud', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,49 +123,53 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: debt = 1012168000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Outsourcing av lønns- og personaladministrative tjenester og konsulentvirksomhet. Konsulenttjenester innen IT og data. Videresalg av software og lisenser.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Outsourcing av lønns- og personaladministrative tjenester og konsulentvirksomhet. Konsulenttjenester innen IT og data. Videresalg av software og lisenser.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: description = 'Outsourcing av lønns- og personaladministrative tjenester og konsulentvirksomhet. Konsu...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: description = 'Outsourcing av lønns- og personaladministrative tjenester og konsulentvirksomhet. Konsu...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "info@zalaris.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"info@zalaris.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: email = 'info@zalaris.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: email = 'info@zalaris.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 21,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"antallAnsatte\": 21",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: employees = 21, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: employees = 21, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -172,91 +183,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: equity = 273980000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2000-04-14",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"stiftelsesdato\": \"2000-04-14\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: founded = '2000-04-14', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: founded = '2000-04-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ZALARIS ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"ZALARIS ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: legal_name = 'ZALARIS ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: legal_name = 'ZALARIS ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ZALARIS ASA: location_count = 3, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "62.200",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"62.200\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: net_result = 53398000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,63 +348,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: operating_result = 158902000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "981953134",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"981953134\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ZALARIS ASA: org_number = '981953134', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "40003300",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"mobil\": \"40003300\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: phone = '40003300', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: phone = '40003300', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "0275",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"0275\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: postcode = '0275', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: postcode = '0275', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Yte fullservice outsourcing- og konsulenttjenester relatert til salg, implementering og drift av HR(Human Resources)-prosesser og funksjonalitet som lønn, lønnsregnskap, personaladministrasjon, reiseregninger, oppfølging av sykefravær, rekruttering opplæringsadministrasjon o.l. og salg av tilhørende programvare, samt å eie aksjer i andre selskaper og virksomheter som står i forbindelse med dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Yte fullservice outsourcing- og konsulenttjenester relatert til salg, implementering og drift av HR(Human Resources)-prosesser og funksjonalitet som lønn, lønnsregnskap, personaladministrasjon, reiseregninger, oppfølging av sykefravær, rekruttering opplæringsadministrasjon o.l. og salg av tilhørende programvare, samt å eie aksjer i andre selskaper og virksomheter som står i forbindelse med dette.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: purpose = 'Yte fullservice outsourcing- og konsulenttjenester relatert til salg, implementering og...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: purpose = 'Yte fullservice outsourcing- og konsulenttjenester relatert til salg, implementering og...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2000-05-02",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2000-05-02\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: registered = '2000-05-02', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: registered = '2000-05-02', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -396,21 +438,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: revenue_latest = 1503246000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ZALARIS ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -424,25 +483,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ZALARIS ASA: total_assets = 1286148000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "org_number": "981953134",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.zalaris.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
-      "retrieved_at": "2026-10-07T19:16:19Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.zalaris.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ZALARIS ASA: website = 'www.zalaris.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "981953134"
+      "explanation": "ZALARIS ASA: website = 'www.zalaris.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981953134",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 1503246000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 53398000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 158902000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 1286148000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 273980000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 1012168000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Hans Petter Mellerud",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Fredrik Gyllenhammar Raaum",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Adele Bugge Norman Pran, Marius Hol, Anders Kvåle, Liselotte Hägertz Engstam",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 3,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Televeien 2, 8410 LØDINGEN | Hoffsveien 4, 0275 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981953134",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -459,6 +687,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -469,5 +722,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

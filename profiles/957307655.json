@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "957307655",
   "legal_name": "BJØRKEBO BARNEHAGE SA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 31,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 33,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Bekkevegen 54, 2383 BRUMUNDDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "forretningsadresse: Bekkevegen 54, 2383 BRUMUNDDAL",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: address = 'Bekkevegen 54, 2383 BRUMUNDDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: address = 'Bekkevegen 54, 2383 BRUMUNDDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: board_chair = 'Steffen Svanheim', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: board_members = 'Hanne Pedersen Roset, Hanna Walhovd Sveløkken, Adrian Nysæter Lillebo, Henrik Arnesen W...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: business_locations = 'Bekkevegen 54, 2383 BRUMUNDDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: ceo = 'Lene Hårseth Holmlund', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "BRUMUNDDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"poststed\": \"BRUMUNDDAL\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: city = 'BRUMUNDDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: city = 'BRUMUNDDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,49 +123,53 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: debt = 2860110, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Etablere, eie og drive barnehage i Ringsaker kommune for andelshavernes barn.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"aktivitet\": \"Etablere, eie og drive barnehage i Ringsaker kommune for andelshavernes barn.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: description = 'Etablere, eie og drive barnehage i Ringsaker kommune for andelshavernes barn.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: description = 'Etablere, eie og drive barnehage i Ringsaker kommune for andelshavernes barn.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@bjorkebo.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"epostadresse\": \"post@bjorkebo.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: email = 'post@bjorkebo.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: email = 'post@bjorkebo.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 37,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"antallAnsatte\": 37",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: employees = 37, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: employees = 37, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -172,91 +183,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: equity = 8156619, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1989-09-01",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"stiftelsesdato\": \"1989-09-01\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: founded = '1989-09-01', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: founded = '1989-09-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Førskoleundervisning og drift av barnehager",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Førskoleundervisning og drift av barnehager\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: industry = 'Førskoleundervisning og drift av barnehager', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: industry = 'Førskoleundervisning og drift av barnehager', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "BJØRKEBO BARNEHAGE SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"navn\": \"BJØRKEBO BARNEHAGE SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: legal_name = 'BJØRKEBO BARNEHAGE SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: legal_name = 'BJØRKEBO BARNEHAGE SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "RINGSAKER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kommune\": \"RINGSAKER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: municipality = 'RINGSAKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: municipality = 'RINGSAKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "85.100",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"85.100\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: nace_code = '85.100', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: nace_code = '85.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: net_result = 404603, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,63 +348,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: operating_result = 112869, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "957307655",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "organisasjonsnummer: \"957307655\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BJØRKEBO BARNEHAGE SA: org_number = '957307655', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "62 34 52 77",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"telefon\": \"62 34 52 77\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: phone = '62 34 52 77', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: phone = '62 34 52 77', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2383",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"postnummer\": \"2383\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: postcode = '2383', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: postcode = '2383', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Eie og drive barnehage til det beste for medlemmene og deres barn. Foretaket skal fremme medlemmenes økonomiske interesser gjennom deres deltakelse i virksomheten som kjøpere av barnehagetjenester fra foretaket.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Eie og drive barnehage til det beste for medlemmene og deres barn. Foretaket skal fremme medlemmenes økonomiske interesser gjennom deres deltakelse i virksomheten som kjøpere av barnehagetjenester fra foretaket.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: purpose = 'Eie og drive barnehage til det beste for medlemmene og deres barn. Foretaket skal fremm...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: purpose = 'Eie og drive barnehage til det beste for medlemmene og deres barn. Foretaket skal fremm...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -396,21 +438,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: revenue_latest = 18584193, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BJØRKEBO BARNEHAGE SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -424,25 +483,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "BJØRKEBO BARNEHAGE SA: total_assets = 11016729, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "org_number": "957307655",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.bjoerkebo-bhg.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
-      "retrieved_at": "2026-10-07T19:15:38Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"hjemmeside\": \"www.bjoerkebo-bhg.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "BJØRKEBO BARNEHAGE SA: website = 'www.bjoerkebo-bhg.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "957307655"
+      "explanation": "BJØRKEBO BARNEHAGE SA: website = 'www.bjoerkebo-bhg.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "957307655",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 18584193,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 404603,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 112869,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 11016729,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 8156619,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 2860110,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Lene Hårseth Holmlund",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Steffen Svanheim",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Hanne Pedersen Roset, Hanna Walhovd Sveløkken, Adrian Nysæter Lillebo, Henrik Arnesen Wiken",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Bekkevegen 54, 2383 BRUMUNDDAL",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/957307655",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -459,6 +687,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -469,5 +722,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

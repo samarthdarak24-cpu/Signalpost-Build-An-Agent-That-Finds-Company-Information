@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "921004737",
   "legal_name": "13 HUMLER AS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 27,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 29,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "13 HUMLER AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Torget 7, 4280 SKUDENESHAVN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "forretningsadresse: Torget 7, 4280 SKUDENESHAVN",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: address = 'Torget 7, 4280 SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: address = 'Torget 7, 4280 SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "13 HUMLER AS: board_chair = 'Stian Risdal', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "13 HUMLER AS: board_members = \"Svein Andre' Waage, Rolf Tobiassen, Otilia Dascalu\", read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,21 +78,23 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "13 HUMLER AS: business_locations = 'Torget 7, 4280 SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "SKUDENESHAVN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"poststed\": \"SKUDENESHAVN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: city = 'SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: city = 'SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -102,35 +108,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: debt = 537248, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbransjen.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"aktivitet\": \"Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbransjen.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: description = 'Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbr...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: description = 'Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbr...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 9,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"antallAnsatte\": 9",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: employees = 9, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: employees = 9, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -144,91 +153,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: equity = -300031, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2018-04-24",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"stiftelsesdato\": \"2018-04-24\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: founded = '2018-04-24', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: founded = '2018-04-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Drift av restauranter",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Drift av restauranter\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: industry = 'Drift av restauranter', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: industry = 'Drift av restauranter', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "13 HUMLER AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"navn\": \"13 HUMLER AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: legal_name = '13 HUMLER AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: legal_name = '13 HUMLER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -242,35 +258,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "13 HUMLER AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "KARMØY",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kommune\": \"KARMØY\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: municipality = 'KARMØY', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: municipality = 'KARMØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "56.110",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"56.110\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: nace_code = '56.110', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: nace_code = '56.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -284,7 +303,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: net_result = -38261, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -298,49 +318,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: operating_result = -15100, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "921004737",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "organisasjonsnummer: \"921004737\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: org_number = '921004737', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "4280",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"postnummer\": \"4280\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: postcode = '4280', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: postcode = '4280', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: purpose = 'Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: purpose = 'Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2018-06-14",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-06-14\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: registered = '2018-06-14', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: registered = '2018-06-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -354,21 +393,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: revenue_latest = 2175832, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
-      "retrieved_at": "2026-10-07T19:14:41Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "13 HUMLER AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "explanation": "13 HUMLER AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921004737",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -382,11 +438,171 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "13 HUMLER AS: total_assets = 237217, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921004737"
+      "org_number": "921004737",
+      "freshness": "this_week"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 2175832,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": -38261,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -15100,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 237217,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": -300031,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 537248,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Stian Risdal",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Svein Andre' Waage, Rolf Tobiassen, Otilia Dascalu",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Torget 7, 4280 SKUDENESHAVN",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "website",
       "reason": "no source produced a value above the confidence threshold",
@@ -418,6 +634,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -428,5 +669,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "11 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

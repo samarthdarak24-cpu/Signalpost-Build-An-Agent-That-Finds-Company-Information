@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "958861915",
   "legal_name": "ANS FREDHEIMVEIEN 3",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 29,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 31,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Fredheimveien 3, 1087 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "forretningsadresse: Fredheimveien 3, 1087 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: address = 'Fredheimveien 3, 1087 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: address = 'Fredheimveien 3, 1087 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: board_chair = 'Runi Erlandsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: board_members = 'Bodil Lindseth Nilsen, Knut Erik Erlandsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: business_locations = 'Fredheimveien 3, 1087 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: ceo = 'Runi Erlandsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,35 +123,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: debt = 60848, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"aktivitet\": \"Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: description = 'Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: description = 'Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "runierl@gmail.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"epostadresse\": \"runierl@gmail.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: email = 'runierl@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: email = 'runierl@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -158,91 +168,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: equity = 2690914, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1990-05-28",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"stiftelsesdato\": \"1990-05-28\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: founded = '1990-05-28', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: founded = '1990-05-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Utleie av egen eller leid fast eiendom",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ANS FREDHEIMVEIEN 3",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"navn\": \"ANS FREDHEIMVEIEN 3\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: legal_name = 'ANS FREDHEIMVEIEN 3', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: legal_name = 'ANS FREDHEIMVEIEN 3', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -256,35 +273,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "68.200",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"68.200\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -298,7 +318,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: net_result = 458851, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -312,63 +333,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: operating_result = 458923, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "958861915",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "organisasjonsnummer: \"958861915\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ANS FREDHEIMVEIEN 3: org_number = '958861915', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "97797214",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"mobil\": \"97797214\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: phone = '97797214', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: phone = '97797214', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1087",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"postnummer\": \"1087\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: postcode = '1087', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: postcode = '1087', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: purpose = 'Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: purpose = 'Eie og forvalte eiendommen Fredheimveien 3, gnr. 107, bnr. 134 i Oslo.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-20",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -382,21 +423,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: revenue_latest = 808482, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
-      "retrieved_at": "2026-10-07T19:15:40Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ANS FREDHEIMVEIEN 3: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "explanation": "ANS FREDHEIMVEIEN 3: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ANS FREDHEIMVEIEN 3: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "958861915",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -410,13 +468,181 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS FREDHEIMVEIEN 3: total_assets = 2751761, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "958861915"
+      "org_number": "958861915",
+      "freshness": "this_week"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 808482,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 458851,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 458923,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 2751761,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 2690914,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 60848,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Runi Erlandsen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Runi Erlandsen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Bodil Lindseth Nilsen, Knut Erik Erlandsen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Fredheimveien 3, 1087 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958861915",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -441,6 +667,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -451,5 +702,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

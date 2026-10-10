@@ -2,121 +2,129 @@
   "schema_version": "1.0",
   "org_number": "915319343",
   "legal_name": "21MANAGEMENT KNUT AXEL GULBRANDSEN",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 17,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 19,
   "facts": [
     {
       "field": "address",
       "value": "Eiksveien 65, 1361 ØSTERÅS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "forretningsadresse: Eiksveien 65, 1361 ØSTERÅS",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: address = 'Eiksveien 65, 1361 ØSTERÅS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: address = 'Eiksveien 65, 1361 ØSTERÅS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "ØSTERÅS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"poststed\": \"ØSTERÅS\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: city = 'ØSTERÅS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: city = 'ØSTERÅS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Artistformidling, management, formidling av foredragsholdere og underholdning.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"aktivitet\": \"Artistformidling, management, formidling av foredragsholdere og underholdning.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: description = 'Artistformidling, management, formidling av foredragsholdere og underholdning.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: description = 'Artistformidling, management, formidling av foredragsholdere og underholdning.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "axel.gulbrandsen@gmail.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"epostadresse\": \"axel.gulbrandsen@gmail.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: email = 'axel.gulbrandsen@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: email = 'axel.gulbrandsen@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: industry = 'All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: industry = 'All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ENK",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"ENK\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "21MANAGEMENT KNUT AXEL GULBRANDSEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"navn\": \"21MANAGEMENT KNUT AXEL GULBRANDSEN\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: legal_name = '21MANAGEMENT KNUT AXEL GULBRANDSEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: legal_name = '21MANAGEMENT KNUT AXEL GULBRANDSEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -130,35 +138,53 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "org_number": "915319343",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "BÆRUM",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kommune\": \"BÆRUM\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "74.990",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"74.990\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: nace_code = '74.990', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: nace_code = '74.990', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "915319343",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "organisasjonsnummer: \"915319343\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: org_number = '915319343', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "owner",
@@ -172,77 +198,98 @@
       "method": "Enhetsregisteret role INNH (Owner)",
       "changed_from": null,
       "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: owner = 'Knut Axel Gulbrandsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "org_number": "915319343",
+      "freshness": "this_week"
     },
     {
       "field": "phone",
       "value": "959 82 613",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"mobil\": \"959 82 613\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: phone = '959 82 613', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: phone = '959 82 613', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1361",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"postnummer\": \"1361\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: postcode = '1361', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: postcode = '1361', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2015-04-29",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-04-29\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: registered = '2015-04-29', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: registered = '2015-04-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlig næringsdrivende",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.tjueen.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
-      "retrieved_at": "2026-10-07T19:14:27Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"hjemmeside\": \"www.tjueen.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: website = 'www.tjueen.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "915319343"
+      "explanation": "21MANAGEMENT KNUT AXEL GULBRANDSEN: website = 'www.tjueen.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915319343",
+      "freshness": "recent"
     }
   ],
   "changes": [
@@ -250,7 +297,15 @@
       "field": "website",
       "old": "www.tjueen.no",
       "new": null,
-      "detected_at": "2026-10-07T19:14:33Z",
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 1,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915319343",
       "kind": "web"
     }
@@ -272,6 +327,86 @@
       "candidates_considered": 0
     },
     {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -287,6 +422,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -295,17 +455,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "2 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

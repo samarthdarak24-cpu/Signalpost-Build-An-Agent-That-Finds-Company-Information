@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "921896328",
   "legal_name": "AXACTOR ASA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 31,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 33,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "AXACTOR ASA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Karenslyst allé 8, 0278 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "forretningsadresse: Karenslyst allé 8, 0278 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: address = 'Karenslyst allé 8, 0278 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: address = 'Karenslyst allé 8, 0278 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "AXACTOR ASA: board_chair = 'Terje Mjøs', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "AXACTOR ASA: board_members = 'Leslee Freda Neiman, Christopher Carl Linkas, Brita Eilertsen, Anette Willumsen, Eirik ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "AXACTOR ASA: business_locations = 'Karenslyst allé 8, 0278 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "AXACTOR ASA: ceo = 'Johnny Tsolis', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,49 +123,53 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: debt = 884650000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarbeid, inkassovirksomhet, finansielle og administrative tjenester, juridiske tjenester, faktureringstjenester, erverv av gjeld og annen investeringsvirksomhet, samt annen virksomhet i forbindelse med dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"aktivitet\": \"Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarbeid, inkassovirksomhet, finansielle og administrative tjenester, juridiske tjenester, faktureringstjenester, erverv av gjeld og annen investeringsvirksomhet, samt annen virksomhet i forbindelse med dette.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: description = 'Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarb...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: description = 'Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarb...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "hilde.gamkinn@axactor.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"epostadresse\": \"hilde.gamkinn@axactor.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: email = 'hilde.gamkinn@axactor.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: email = 'hilde.gamkinn@axactor.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 17,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"antallAnsatte\": 17",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: employees = 17, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: employees = 17, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -172,91 +183,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: equity = 367758000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1982-12-17",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"stiftelsesdato\": \"1982-12-17\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: founded = '1982-12-17', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: founded = '1982-12-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Inkasso- og kredittopplysningsvirksomhet",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Inkasso- og kredittopplysningsvirksomhet\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: industry = 'Inkasso- og kredittopplysningsvirksomhet', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: industry = 'Inkasso- og kredittopplysningsvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "AXACTOR ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"navn\": \"AXACTOR ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: legal_name = 'AXACTOR ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: legal_name = 'AXACTOR ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "AXACTOR ASA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "82.910",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"82.910\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: nace_code = '82.910', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: nace_code = '82.910', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: net_result = 36030000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,63 +348,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: operating_result = 125248000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "921896328",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "organisasjonsnummer: \"921896328\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "AXACTOR ASA: org_number = '921896328', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "97160647",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"mobil\": \"97160647\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: phone = '97160647', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: phone = '97160647', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "0278",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"postnummer\": \"0278\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: postcode = '0278', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: postcode = '0278', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarbeid, inkassovirksomhet, finansielle og administrative tjenester, juridiske tjenester, faktureringstjenester, erverv av gjeld og annen investeringsvirksomhet, samt annen virksomhet i forbindelse med dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarbeid, inkassovirksomhet, finansielle og administrative tjenester, juridiske tjenester, faktureringstjenester, erverv av gjeld og annen investeringsvirksomhet, samt annen virksomhet i forbindelse med dette.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: purpose = 'Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarb...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: purpose = 'Drive eller yte, direkte eller indirekte gjennom datterselskap eller investeringssamarb...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2018-12-21",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-12-21\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: registered = '2018-12-21', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: registered = '2018-12-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -396,21 +438,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: revenue_latest = 258393000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "AXACTOR ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -424,25 +483,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "AXACTOR ASA: total_assets = 1252407000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "org_number": "921896328",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.axactor.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
-      "retrieved_at": "2026-10-07T19:14:47Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"hjemmeside\": \"www.axactor.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "AXACTOR ASA: website = 'www.axactor.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "921896328"
+      "explanation": "AXACTOR ASA: website = 'www.axactor.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921896328",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 258393000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 36030000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 125248000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 1252407000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 367758000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 884650000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Johnny Tsolis",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Terje Mjøs",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Leslee Freda Neiman, Christopher Carl Linkas, Brita Eilertsen, Anette Willumsen, Eirik Westvig Rogstad, Peder Strand",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Karenslyst allé 8, 0278 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921896328",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -459,6 +687,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -469,5 +722,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

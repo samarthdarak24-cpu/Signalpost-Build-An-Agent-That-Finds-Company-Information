@@ -2,267 +2,385 @@
   "schema_version": "1.0",
   "org_number": "995451697",
   "legal_name": "+2 INTERIØR AS",
-  "run_date": "2026-10-07",
-  "run_id": "20261007T164537Z",
-  "fact_count": 18,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 20,
   "facts": [
     {
       "field": "address",
       "value": "Olaf Helsets vei 5, 0694 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "forretningsadresse: Olaf Helsets vei 5, 0694 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: address = 'Olaf Helsets vei 5, 0694 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: address = 'Olaf Helsets vei 5, 0694 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med dette, herunder å delta i andre selskap med lignende virksomhet, og kjøp og salg av aksjer eller på annen måte gjøre seg interessert i andre foretak.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"aktivitet\": \"Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med dette, herunder å delta i andre selskap med lignende virksomhet, og kjøp og salg av aksjer eller på annen måte gjøre seg interessert i andre foretak.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: description = 'Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med de...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: description = 'Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med de...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "charlotte@pluss2.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"epostadresse\": \"charlotte@pluss2.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: email = 'charlotte@pluss2.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: email = 'charlotte@pluss2.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2010-03-01",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"stiftelsesdato\": \"2010-03-01\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: founded = '2010-03-01', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: founded = '2010-03-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Interiørdesignvirksomhet",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"beskrivelse\": \"Interiørdesignvirksomhet\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: industry = 'Interiørdesignvirksomhet', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: industry = 'Interiørdesignvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "+2 INTERIØR AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"navn\": \"+2 INTERIØR AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: legal_name = '+2 INTERIØR AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: legal_name = '+2 INTERIØR AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "74.130",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kode\": \"74.130\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: nace_code = '74.130', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: nace_code = '74.130', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "995451697",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
+      "retrieved_at": "2026-10-10T19:32:18Z",
+      "evidence": "organisasjonsnummer: \"995451697\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "+2 INTERIØR AS: org_number = '995451697', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "976 71 809",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"mobil\": \"976 71 809\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: phone = '976 71 809', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: phone = '976 71 809', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "0694",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"postnummer\": \"0694\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: postcode = '0694', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: postcode = '0694', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med dette, herunder å delta i andre selskap med lignende virksomhet, og kjøp og salg av aksjer eller på annen måte gjøre seg interessert i andre foretak.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med dette, herunder å delta i andre selskap med lignende virksomhet, og kjøp og salg av aksjer eller på annen måte gjøre seg interessert i andre foretak.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: purpose = 'Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med de...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: purpose = 'Interiør, innredning samt andre produkter og tjenester som naturlig hører sammen med de...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2010-04-28",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2010-04-28\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: registered = '2010-04-28', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: registered = '2010-04-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
+      "retrieved_at": "2026-10-10T19:32:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "+2 INTERIØR AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "Www.pluss2.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995451697",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"hjemmeside\": \"Www.pluss2.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "+2 INTERIØR AS: website = 'Www.pluss2.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "995451697"
+      "explanation": "+2 INTERIØR AS: website = 'Www.pluss2.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995451697",
+      "freshness": "recent"
     }
   ],
   "changes": [],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -282,17 +400,37 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
       "field": "parent_org_number",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "857475712",
   "legal_name": "ANS BASARENE HAMAR",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 30,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 32,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Kornsilovegen 54, 2316 HAMAR",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "forretningsadresse: Kornsilovegen 54, 2316 HAMAR",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: address = 'Kornsilovegen 54, 2316 HAMAR', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: address = 'Kornsilovegen 54, 2316 HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: board_chair = 'Ole Christian Lunke', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: board_members = 'Erik Aas, Roger Hjelmstadstuen, Andreas Haugsvær, Torbjørn Mærde', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: business_locations = 'Kornsilovegen 54, 2316 HAMAR', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: ceo = 'Ole Christian Lunke', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "HAMAR",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"poststed\": \"HAMAR\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: city = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: city = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,35 +123,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: debt = 38652613, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og Lille Strandgate 3, gnr. 1, bnr. 29.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"aktivitet\": \"Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og Lille Strandgate 3, gnr. 1, bnr. 29.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: description = 'Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: description = 'Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@olrud.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"epostadresse\": \"post@olrud.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: email = 'post@olrud.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: email = 'post@olrud.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -158,91 +168,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: equity = 1350000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1989-12-20",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"stiftelsesdato\": \"1989-12-20\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: founded = '1989-12-20', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: founded = '1989-12-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Utleie av egen eller leid fast eiendom",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ANS BASARENE HAMAR",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"navn\": \"ANS BASARENE HAMAR\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: legal_name = 'ANS BASARENE HAMAR', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: legal_name = 'ANS BASARENE HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -256,35 +273,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "HAMAR",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kommune\": \"HAMAR\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: municipality = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: municipality = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "68.200",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"68.200\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -298,7 +318,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: net_result = 4731098, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -312,63 +333,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: operating_result = 7035992, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "857475712",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "organisasjonsnummer: \"857475712\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ANS BASARENE HAMAR: org_number = '857475712', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "95 49 10 00",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"telefon\": \"95 49 10 00\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: phone = '95 49 10 00', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: phone = '95 49 10 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2316",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"postnummer\": \"2316\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: postcode = '2316', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: postcode = '2316', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og Lille Strandgate 3, gnr. 1, bnr. 29.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og Lille Strandgate 3, gnr. 1, bnr. 29.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: purpose = 'Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: purpose = 'Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -382,21 +423,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: revenue_latest = 11538346, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ANS BASARENE HAMAR: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -410,27 +468,196 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ANS BASARENE HAMAR: total_assets = 40002613, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "org_number": "857475712",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.olrud.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
-      "retrieved_at": "2026-10-07T19:13:58Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"hjemmeside\": \"www.olrud.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ANS BASARENE HAMAR: website = 'www.olrud.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "857475712"
+      "explanation": "ANS BASARENE HAMAR: website = 'www.olrud.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "857475712",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 11538346,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 4731098,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 7035992,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 40002613,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 1350000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 38652613,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Ole Christian Lunke",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Ole Christian Lunke",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Erik Aas, Roger Hjelmstadstuen, Andreas Haugsvær, Torbjørn Mærde",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Kornsilovegen 54, 2316 HAMAR",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/857475712",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -450,6 +677,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -460,5 +712,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

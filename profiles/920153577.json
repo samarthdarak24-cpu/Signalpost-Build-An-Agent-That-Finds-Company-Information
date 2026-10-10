@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "920153577",
   "legal_name": "ELMERA GROUP ASA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 30,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 32,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Folke Bernadottes vei 38, 5147 FYLLINGSDALEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "forretningsadresse: Folke Bernadottes vei 38, 5147 FYLLINGSDALEN",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: address = 'Folke Bernadottes vei 38, 5147 FYLLINGSDALEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: address = 'Folke Bernadottes vei 38, 5147 FYLLINGSDALEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: board_chair = 'Steinar Sønsteby', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "board_deputies",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role VARA (Deputy board member)",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: board_deputies = 'Carl-Erik Olsen, Ina Therese Wiik Marås, Carina Faye Bardhaj', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: board_members = 'Live Bertha Haukvik, Heidi Theresa Ose, Per Oluf Solbraa, Anne Marit Steen, Frank Øklan...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -88,7 +93,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: business_locations = 'Folke Bernadottes vei 38, 5147 FYLLINGSDALEN | Parkgata 36, 2317 HAMAR | Østre Kullerød...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -102,21 +108,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: ceo = 'Rolf Jørgen Barmen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "FYLLINGSDALEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"poststed\": \"FYLLINGSDALEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: city = 'FYLLINGSDALEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: city = 'FYLLINGSDALEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -130,35 +138,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: debt = 5620467000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som har tilknytning til dette, herunder deltakelse i andre selskaper.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"aktivitet\": \"Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som har tilknytning til dette, herunder deltakelse i andre selskaper.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: description = 'Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: description = 'Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 172,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"antallAnsatte\": 172",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: employees = 172, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: employees = 172, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -172,91 +183,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: equity = 1484051000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2017-12-15",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"stiftelsesdato\": \"2017-12-15\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: founded = '2017-12-15', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: founded = '2017-12-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Handel med elektrisitet",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Handel med elektrisitet\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: industry = 'Handel med elektrisitet', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: industry = 'Handel med elektrisitet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ELMERA GROUP ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"navn\": \"ELMERA GROUP ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: legal_name = 'ELMERA GROUP ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: legal_name = 'ELMERA GROUP ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: location_count = 7, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "BERGEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kommune\": \"BERGEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "35.150",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"35.150\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: nace_code = '35.150', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: nace_code = '35.150', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: net_result = 163601000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,49 +348,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: operating_result = 385282000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "920153577",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "organisasjonsnummer: \"920153577\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ELMERA GROUP ASA: org_number = '920153577', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "5147",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"postnummer\": \"5147\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: postcode = '5147', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: postcode = '5147', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som har tilknytning til dette, herunder deltakelse i andre selskaper.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som har tilknytning til dette, herunder deltakelse i andre selskaper.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: purpose = 'Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: purpose = 'Omsetning av elektrisk kraft og annen energi i sluttbrukermarkedet, samt virksomhet som...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2017-12-20",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-12-20\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: registered = '2017-12-20', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: registered = '2017-12-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -382,21 +423,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: revenue_latest = 12118147000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ELMERA GROUP ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -410,25 +468,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ELMERA GROUP ASA: total_assets = 7104518000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "org_number": "920153577",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "elmeragroup.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
-      "retrieved_at": "2026-10-07T19:14:40Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"hjemmeside\": \"elmeragroup.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ELMERA GROUP ASA: website = 'elmeragroup.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "920153577"
+      "explanation": "ELMERA GROUP ASA: website = 'elmeragroup.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920153577",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 12118147000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 163601000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 385282000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 7104518000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 1484051000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 5620467000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Rolf Jørgen Barmen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Steinar Sønsteby",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Live Bertha Haukvik, Heidi Theresa Ose, Per Oluf Solbraa, Anne Marit Steen, Frank Økland, Stian Madsen, Pia Haugland Tviberg",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 7,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Folke Bernadottes vei 38, 5147 FYLLINGSDALEN | Parkgata 36, 2317 HAMAR | Østre Kullerød 3, 3241 SANDEFJORD | Strandgata 47, 8400 SORTLAND | Ishockeyveien 1, 4021 STAVANGER | Sluppenvegen 17B, 7037 TRONDHEIM",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920153577",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "email",
       "reason": "no source produced a value above the confidence threshold",
@@ -455,6 +682,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -465,5 +717,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "13 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

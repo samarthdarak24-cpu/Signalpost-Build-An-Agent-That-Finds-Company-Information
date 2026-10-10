@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "914778964",
   "legal_name": "BAGSTADVEGEN SA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 22,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 24,
   "facts": [
     {
       "field": "address",
       "value": "v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "forretningsadresse: v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: address = 'v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: address = 'v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "BAGSTADVEGEN SA: board_chair = 'Joakim Nordby Strand', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "org_number": "914778964",
+      "freshness": "this_week"
     },
     {
       "field": "board_deputies",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role VARA (Deputy board member)",
       "changed_from": null,
       "explanation": "BAGSTADVEGEN SA: board_deputies = 'Bjarne Atle Sivertsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "org_number": "914778964",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "BAGSTADVEGEN SA: board_members = 'Aina Bergene Bagstad, Robert Øverby Bagstad', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "org_number": "914778964",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,133 +78,143 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "BAGSTADVEGEN SA: business_locations = 'v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "org_number": "914778964",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "ØYER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"poststed\": \"ØYER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: city = 'ØYER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: city = 'ØYER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Veglag.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"aktivitet\": \"Veglag.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: description = 'Veglag.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: description = 'Veglag.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "bagstadvegen@gmail.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"epostadresse\": \"bagstadvegen@gmail.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: email = 'bagstadvegen@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: email = 'bagstadvegen@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2004-04-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"stiftelsesdato\": \"2004-04-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: founded = '2004-04-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: founded = '2004-04-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Eiendomsforvaltning på oppdrag",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Eiendomsforvaltning på oppdrag\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2016",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2016\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: latest_accounts_year = '2016', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: latest_accounts_year = '2016', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "BAGSTADVEGEN SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"navn\": \"BAGSTADVEGEN SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: legal_name = 'BAGSTADVEGEN SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: legal_name = 'BAGSTADVEGEN SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -214,111 +228,252 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "BAGSTADVEGEN SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "org_number": "914778964",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "ØYER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kommune\": \"ØYER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: municipality = 'ØYER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: municipality = 'ØYER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "68.320",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"68.320\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "914778964",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "organisasjonsnummer: \"914778964\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BAGSTADVEGEN SA: org_number = '914778964', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "412 03 358",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"mobil\": \"412 03 358\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: phone = '412 03 358', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: phone = '412 03 358', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2636",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"postnummer\": \"2636\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: postcode = '2636', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: postcode = '2636', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Sørge for nødvendig vedlikehold, både sommer og vinter. Om nødvendig foreta opprusting og omlegging. Vegen skal på en tidsmessig måte tjene både jord-, skogbruks og bostesinteresser innenfor vegens dekningsområde.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Sørge for nødvendig vedlikehold, både sommer og vinter. Om nødvendig foreta opprusting og omlegging. Vegen skal på en tidsmessig måte tjene både jord-, skogbruks og bostesinteresser innenfor vegens dekningsområde.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: purpose = 'Sørge for nødvendig vedlikehold, både sommer og vinter. Om nødvendig foreta opprusting ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: purpose = 'Sørge for nødvendig vedlikehold, både sommer og vinter. Om nødvendig foreta opprusting ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2015-05-26",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-05-26\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: registered = '2015-05-26', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: registered = '2015-05-26', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
-      "retrieved_at": "2026-10-07T19:14:23Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "BAGSTADVEGEN SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "914778964"
+      "explanation": "BAGSTADVEGEN SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BAGSTADVEGEN SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "914778964",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "board_chair",
+      "old": "Joakim Nordby Strand",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Aina Bergene Bagstad, Robert Øverby Bagstad",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "v/ Aina Bagstad, Bagstadvegen 164, 2636 ØYER",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778964",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -343,6 +498,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -351,12 +531,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "5 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "982769221",
   "legal_name": "STRONGPOINT ASA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 31,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 33,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Brynsengveien 10, 0667 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: Brynsengveien 10, 0667 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: address = 'Brynsengveien 10, 0667 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: address = 'Brynsengveien 10, 0667 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: board_chair = 'Trond Klethagen Johannessen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: board_members = 'Ingeborg Molden Hegstad, Pål Wibe, Preben Rasch-Olsen, Monica Aune', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: business_locations = 'Brynsengveien 10, 0667 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: ceo = 'Jacob Tveraabak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,35 +123,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: debt = 530494000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsninger rettet mot detaljhandel, elektronisk handel eller øvrig handel. Selskapet kan også delta i annen næringsvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsninger rettet mot detaljhandel, elektronisk handel eller øvrig handel. Selskapet kan også delta i annen næringsvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: description = 'Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsni...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: description = 'Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsni...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "info.no@strongpoint.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"info.no@strongpoint.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: email = 'info.no@strongpoint.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: email = 'info.no@strongpoint.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -158,91 +168,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: equity = 477623000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2000-12-14",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"stiftelsesdato\": \"2000-12-14\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: founded = '2000-12-14', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: founded = '2000-12-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Engroshandel med informasjons- og kommunikasjonsteknologiutstyr",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Engroshandel med informasjons- og kommunikasjonsteknologiutstyr\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: industry = 'Engroshandel med informasjons- og kommunikasjonsteknologiutstyr', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: industry = 'Engroshandel med informasjons- og kommunikasjonsteknologiutstyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "STRONGPOINT ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"STRONGPOINT ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: legal_name = 'STRONGPOINT ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: legal_name = 'STRONGPOINT ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "lei",
@@ -256,7 +273,8 @@
       "method": "GLEIF registeredAs join",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: lei = '5967007LIEEXZXISIG31', joined on a shared register identifier. (GLEIF/Wikidata, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "46.500",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"46.500\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: nace_code = '46.500', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: nace_code = '46.500', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: net_result = -4971000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,63 +348,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: operating_result = -16787000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "982769221",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"982769221\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STRONGPOINT ASA: org_number = '982769221', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "93 40 32 54",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"telefon\": \"93 40 32 54\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: phone = '93 40 32 54', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: phone = '93 40 32 54', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "0667",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"0667\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: postcode = '0667', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: postcode = '0667', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsninger rettet mot detaljhandel, elektronisk handel eller øvrig handel. Selskapet kan også delta i annen næringsvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsninger rettet mot detaljhandel, elektronisk handel eller øvrig handel. Selskapet kan også delta i annen næringsvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: purpose = 'Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsni...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: purpose = 'Å være en ledende utvikler, produsent, integrator og markedsfører av teknologiske løsni...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2000-12-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2000-12-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: registered = '2000-12-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: registered = '2000-12-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -396,21 +438,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: revenue_latest = 1358909000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STRONGPOINT ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -424,27 +483,204 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "STRONGPOINT ASA: total_assets = 1008118000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "org_number": "982769221",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.strongpoint.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
-      "retrieved_at": "2026-10-07T19:16:20Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.strongpoint.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "STRONGPOINT ASA: website = 'www.strongpoint.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "982769221"
+      "explanation": "STRONGPOINT ASA: website = 'www.strongpoint.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "982769221",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 1358909000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": -4971000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -16787000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 1008118000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 477623000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 530494000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Jacob Tveraabak",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Trond Klethagen Johannessen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Ingeborg Molden Hegstad, Pål Wibe, Preben Rasch-Olsen, Monica Aune",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Brynsengveien 10, 0667 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    },
+    {
+      "field": "lei",
+      "old": "5967007LIEEXZXISIG31",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982769221",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -464,10 +700,42 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "13 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "980348202",
   "legal_name": "ADVOKATFIRMAET NICOLAISEN ANS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 31,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 33,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Hvamstubben 17, 2013 SKJETTEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: Hvamstubben 17, 2013 SKJETTEN",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: address = 'Hvamstubben 17, 2013 SKJETTEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: address = 'Hvamstubben 17, 2013 SKJETTEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: board_chair = 'Tom Carsten Troberg', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: board_members = 'John Arne Dalby, Sjur Ringstad, Elin Brattbakk Myrset, Andreas Engen Nilsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: business_locations = 'Bærumsveien 205-207, 1357 BEKKESTUA | Storgata 11A, 2050 JESSHEIM | Henrik Ibsens gate ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: ceo = 'Elin Brattbakk Myrset', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "SKJETTEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"SKJETTEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: city = 'SKJETTEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: city = 'SKJETTEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,49 +123,53 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: debt = 12667021, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Advokatvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Advokatvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: description = 'Advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: description = 'Advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "firmapost@advonico.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"firmapost@advonico.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: email = 'firmapost@advonico.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: email = 'firmapost@advonico.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 22,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"antallAnsatte\": 22",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: employees = 22, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: employees = 22, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -172,91 +183,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: equity = 3535597, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1998-11-27",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"stiftelsesdato\": \"1998-11-27\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: founded = '1998-11-27', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: founded = '1998-11-27', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Juridisk tjenesteyting",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Juridisk tjenesteyting\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: industry = 'Juridisk tjenesteyting', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: industry = 'Juridisk tjenesteyting', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ADVOKATFIRMAET NICOLAISEN ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"ADVOKATFIRMAET NICOLAISEN ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: legal_name = 'ADVOKATFIRMAET NICOLAISEN ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: legal_name = 'ADVOKATFIRMAET NICOLAISEN ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -270,35 +288,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: location_count = 5, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "LILLESTRØM",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"LILLESTRØM\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: municipality = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: municipality = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "69.100",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"69.100\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: nace_code = '69.100', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: nace_code = '69.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -312,7 +333,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: net_result = 2231472, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -326,63 +348,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: operating_result = 2916006, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "980348202",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"980348202\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: org_number = '980348202', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "64 83 00 00",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"telefon\": \"64 83 00 00\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: phone = '64 83 00 00', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: phone = '64 83 00 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2013",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"2013\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: postcode = '2013', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: postcode = '2013', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Advokatvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Advokatvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: purpose = 'Advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: purpose = 'Advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1998-12-29",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1998-12-29\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: registered = '1998-12-29', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: registered = '1998-12-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -396,21 +438,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: revenue_latest = 45949057, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -424,25 +483,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: total_assets = 16202618, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "org_number": "980348202",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.advonico.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
-      "retrieved_at": "2026-10-07T19:16:11Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.advonico.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: website = 'www.advonico.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "980348202"
+      "explanation": "ADVOKATFIRMAET NICOLAISEN ANS: website = 'www.advonico.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348202",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 45949057,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 2231472,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 2916006,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 16202618,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 3535597,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 12667021,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Elin Brattbakk Myrset",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Tom Carsten Troberg",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "John Arne Dalby, Sjur Ringstad, Elin Brattbakk Myrset, Andreas Engen Nilsen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 5,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Bærumsveien 205-207, 1357 BEKKESTUA | Storgata 11A, 2050 JESSHEIM | Henrik Ibsens gate 90, 0255 OSLO | Hvamstubben 17, 2013 SKJETTEN",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348202",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -459,6 +687,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -469,5 +722,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

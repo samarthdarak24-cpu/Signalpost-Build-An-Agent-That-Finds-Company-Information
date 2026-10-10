@@ -2,253 +2,370 @@
   "schema_version": "1.0",
   "org_number": "999164137",
   "legal_name": "ZAPTEC ASA",
-  "run_date": "2026-10-07",
-  "run_id": "20261007T164537Z",
-  "fact_count": 17,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 19,
   "facts": [
     {
       "field": "address",
       "value": "Vassbotnen 1, 4313 SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "forretningsadresse: Vassbotnen 1, 4313 SANDNES",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: address = 'Vassbotnen 1, 4313 SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: address = 'Vassbotnen 1, 4313 SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"poststed\": \"SANDNES\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: city = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: city = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert høyspentelektronikk tilpasset krevende omgivelser. Ingeniør tjenester og utvikling av elektronikk.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"aktivitet\": \"Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert høyspentelektronikk tilpasset krevende omgivelser. Ingeniør tjenester og utvikling av elektronikk.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: description = 'Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: description = 'Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "bwj@zaptec.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"epostadresse\": \"bwj@zaptec.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: email = 'bwj@zaptec.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: email = 'bwj@zaptec.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2012-11-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"stiftelsesdato\": \"2012-11-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: founded = '2012-11-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: founded = '2012-11-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Engroshandel med informasjons- og kommunikasjonsteknologiutstyr",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"beskrivelse\": \"Engroshandel med informasjons- og kommunikasjonsteknologiutstyr\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: industry = 'Engroshandel med informasjons- og kommunikasjonsteknologiutstyr', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: industry = 'Engroshandel med informasjons- og kommunikasjonsteknologiutstyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ZAPTEC ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"navn\": \"ZAPTEC ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: legal_name = 'ZAPTEC ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: legal_name = 'ZAPTEC ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "municipality",
       "value": "SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kommune\": \"SANDNES\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: municipality = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: municipality = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "46.500",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"kode\": \"46.500\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: nace_code = '46.500', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: nace_code = '46.500', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "999164137",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
+      "retrieved_at": "2026-10-10T19:32:18Z",
+      "evidence": "organisasjonsnummer: \"999164137\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ZAPTEC ASA: org_number = '999164137', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "4313",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"postnummer\": \"4313\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: postcode = '4313', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: postcode = '4313', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert høyspentelektronikk tilpasset krevende omgivelser.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert høyspentelektronikk tilpasset krevende omgivelser.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: purpose = 'Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: purpose = 'Videreutvikling, tilpasning, sertifisering, kommersialisering og salg av miniatyrisert ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2012-11-21",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2012-11-21\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: registered = '2012-11-21', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: registered = '2012-11-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
+      "retrieved_at": "2026-10-10T19:32:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ZAPTEC ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.zaptec.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999164137",
-      "retrieved_at": "2026-10-07T16:45:46Z",
+      "retrieved_at": "2026-10-10T19:32:18Z",
       "evidence": "\"hjemmeside\": \"www.zaptec.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ZAPTEC ASA: website = 'www.zaptec.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "999164137"
+      "explanation": "ZAPTEC ASA: website = 'www.zaptec.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999164137",
+      "freshness": "recent"
     }
   ],
   "changes": [],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -273,17 +390,37 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
       "field": "parent_org_number",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }

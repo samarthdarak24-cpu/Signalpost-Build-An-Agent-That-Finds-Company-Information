@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "918391983",
   "legal_name": "1OFFSHORE AS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 27,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 29,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Kokstadflaten 5, 5257 KOKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "forretningsadresse: Kokstadflaten 5, 5257 KOKSTAD",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: address = 'Kokstadflaten 5, 5257 KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: address = 'Kokstadflaten 5, 5257 KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: board_chair = 'Jan Vatsvåg', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: board_members = 'Gunnar Hausberg', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: business_locations = 'Kokstadflaten 5, 5257 KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: ceo = 'Gunnar Hausberg', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "KOKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"poststed\": \"KOKSTAD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: city = 'KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: city = 'KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,21 +123,23 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: debt = 1639631, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å delta i andre selskaper med lignende virksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"aktivitet\": \"Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å delta i andre selskaper med lignende virksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: description = 'Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å del...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: description = 'Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å del...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -144,91 +153,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: equity = 1352902, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2017-01-01",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"stiftelsesdato\": \"2017-01-01\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: founded = '2017-01-01', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: founded = '2017-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Annen teknisk konsulentvirksomhet",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Annen teknisk konsulentvirksomhet\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: industry = 'Annen teknisk konsulentvirksomhet', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: industry = 'Annen teknisk konsulentvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "1OFFSHORE AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"navn\": \"1OFFSHORE AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: legal_name = '1OFFSHORE AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: legal_name = '1OFFSHORE AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -242,35 +258,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "BERGEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kommune\": \"BERGEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "71.129",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"71.129\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: nace_code = '71.129', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: nace_code = '71.129', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -284,7 +303,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: net_result = 672336, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -298,49 +318,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: operating_result = 871041, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "918391983",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "organisasjonsnummer: \"918391983\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "1OFFSHORE AS: org_number = '918391983', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "5257",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"postnummer\": \"5257\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: postcode = '5257', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: postcode = '5257', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å delta i andre selskaper med lignende virksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å delta i andre selskaper med lignende virksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: purpose = 'Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å del...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: purpose = 'Ingeniørvirksomhet, konsulentbistand samt hva hermed står i forbindelse, herunder å del...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2017-01-18",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-01-18\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: registered = '2017-01-18', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: registered = '2017-01-18', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -354,21 +393,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: revenue_latest = 5623746, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
-      "retrieved_at": "2026-10-07T19:14:34Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "1OFFSHORE AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "explanation": "1OFFSHORE AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "1OFFSHORE AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "918391983",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -382,13 +438,181 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1OFFSHORE AS: total_assets = 2992532, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "918391983"
+      "org_number": "918391983",
+      "freshness": "this_week"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 5623746,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 672336,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 871041,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 2992532,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 1352902,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 1639631,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Gunnar Hausberg",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Jan Vatsvåg",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Gunnar Hausberg",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Kokstadflaten 5, 5257 KOKSTAD",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918391983",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -423,6 +647,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -433,5 +682,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

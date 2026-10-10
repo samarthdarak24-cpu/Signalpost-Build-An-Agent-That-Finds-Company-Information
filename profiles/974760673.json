@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "974760673",
   "legal_name": "REGISTERENHETEN I BRØNNØYSUND",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 21,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 23,
   "facts": [
     {
       "field": "address",
       "value": "Havnegata 48, 8900 BRØNNØYSUND",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: Havnegata 48, 8900 BRØNNØYSUND",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: address = 'Havnegata 48, 8900 BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: address = 'Havnegata 48, 8900 BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "REGISTERENHETEN I BRØNNØYSUND: business_locations = 'Teknologiveien 10, 8517 NARVIK | Havnegata 48, 8900 BRØNNØYSUND | Grev Wedels plass 9, ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "org_number": "974760673",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -46,119 +48,128 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "REGISTERENHETEN I BRØNNØYSUND: ceo = 'Inger Lise Strøm', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "org_number": "974760673",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "BRØNNØYSUND",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"BRØNNØYSUND\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: city = 'BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: city = 'BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Registeretat.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Registeretat.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: description = 'Registeretat.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: description = 'Registeretat.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "firmapost@brreg.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"firmapost@brreg.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: email = 'firmapost@brreg.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: email = 'firmapost@brreg.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 487,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"antallAnsatte\": 487",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: employees = 487, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: employees = 487, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Generell offentlig administrasjon",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Generell offentlig administrasjon\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: industry = 'Generell offentlig administrasjon', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: industry = 'Generell offentlig administrasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ORGL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ORGL\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "REGISTERENHETEN I BRØNNØYSUND",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"REGISTERENHETEN I BRØNNØYSUND\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: legal_name = 'REGISTERENHETEN I BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: legal_name = 'REGISTERENHETEN I BRØNNØYSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "lei",
@@ -172,7 +183,8 @@
       "method": "GLEIF registeredAs join",
       "changed_from": null,
       "explanation": "REGISTERENHETEN I BRØNNØYSUND: lei = '5967007LIEEXZX4LPK21', joined on a shared register identifier. (GLEIF/Wikidata, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "org_number": "974760673",
+      "freshness": "this_week"
     },
     {
       "field": "location_count",
@@ -186,119 +198,158 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "REGISTERENHETEN I BRØNNØYSUND: location_count = 4, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "org_number": "974760673",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "BRØNNØY",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"BRØNNØY\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: municipality = 'BRØNNØY', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: municipality = 'BRØNNØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "84.110",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"84.110\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: nace_code = '84.110', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: nace_code = '84.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "974760673",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"974760673\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: org_number = '974760673', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "parent_org_number",
       "value": "912660680",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"overordnetEnhet\": \"912660680\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret overordnetEnhet",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: parent_org_number = '912660680', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: parent_org_number = '912660680', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "75 00 75 09",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"telefon\": \"75 00 75 09\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: phone = '75 00 75 09', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: phone = '75 00 75 09', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "8900",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"8900\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: postcode = '8900', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: postcode = '8900', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-08-09",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-08-09\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: registered = '1995-08-09', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: registered = '1995-08-09', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Statsforvaltningen",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Statsforvaltningen\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: sector = 'Statsforvaltningen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: sector = 'Statsforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.brreg.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
-      "retrieved_at": "2026-10-07T19:15:57Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.brreg.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "REGISTERENHETEN I BRØNNØYSUND: website = 'www.brreg.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "974760673"
+      "explanation": "REGISTERENHETEN I BRØNNØYSUND: website = 'www.brreg.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974760673",
+      "freshness": "recent"
     }
   ],
   "changes": [
@@ -306,7 +357,39 @@
       "field": "website",
       "old": "www.brreg.no",
       "new": null,
-      "detected_at": "2026-10-07T19:16:06Z",
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Inger Lise Strøm",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 4,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Teknologiveien 10, 8517 NARVIK | Havnegata 48, 8900 BRØNNØYSUND | Grev Wedels plass 9, 0151 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
+      "kind": "web"
+    },
+    {
+      "field": "lei",
+      "old": "5967007LIEEXZX4LPK21",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974760673",
       "kind": "web"
     }
@@ -319,6 +402,86 @@
     },
     {
       "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -338,15 +501,37 @@
       "candidates_considered": 0
     },
     {
-      "field": "latest_accounts_year",
+      "field": "careers_page",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
-      "field": "revenue_latest",
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "4 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

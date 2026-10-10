@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "986405887",
   "legal_name": "0 - 6 UTVIKLING NEDERHOED",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 18,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 20,
   "facts": [
     {
       "field": "address",
       "value": "Brattvollveien 19A, 1164 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "forretningsadresse: Brattvollveien 19A, 1164 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: address = 'Brattvollveien 19A, 1164 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: address = 'Brattvollveien 19A, 1164 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
@@ -32,105 +33,113 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "0 - 6 UTVIKLING NEDERHOED: business_locations = 'Brattvollveien 19A, 1164 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "org_number": "986405887",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Produksjon og salg av illustrasjoner/foto til tidsskrifter.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"aktivitet\": \"Produksjon og salg av illustrasjoner/foto til tidsskrifter.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: description = 'Produksjon og salg av illustrasjoner/foto til tidsskrifter.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: description = 'Produksjon og salg av illustrasjoner/foto til tidsskrifter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@artific.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"epostadresse\": \"post@artific.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: email = 'post@artific.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: email = 'post@artific.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Grafisk design og visuell kommunikasjonsdesign",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Grafisk design og visuell kommunikasjonsdesign\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: industry = 'Grafisk design og visuell kommunikasjonsdesign', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: industry = 'Grafisk design og visuell kommunikasjonsdesign', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ENK",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"ENK\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "0 - 6 UTVIKLING NEDERHOED",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"navn\": \"0 - 6 UTVIKLING NEDERHOED\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: legal_name = '0 - 6 UTVIKLING NEDERHOED', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: legal_name = '0 - 6 UTVIKLING NEDERHOED', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -144,35 +153,53 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "0 - 6 UTVIKLING NEDERHOED: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "org_number": "986405887",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "74.120",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"74.120\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: nace_code = '74.120', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: nace_code = '74.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "986405887",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "organisasjonsnummer: \"986405887\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: org_number = '986405887', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "owner",
@@ -186,77 +213,98 @@
       "method": "Enhetsregisteret role INNH (Owner)",
       "changed_from": null,
       "explanation": "0 - 6 UTVIKLING NEDERHOED: owner = 'Anders Nederhoed', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "org_number": "986405887",
+      "freshness": "this_week"
     },
     {
       "field": "phone",
       "value": "48287059",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"mobil\": \"48287059\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: phone = '48287059', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: phone = '48287059', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1164",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"postnummer\": \"1164\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: postcode = '1164', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: postcode = '1164', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2004-01-17",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2004-01-17\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: registered = '2004-01-17', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: registered = '2004-01-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlig næringsdrivende",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.artific.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
-      "retrieved_at": "2026-10-07T19:16:42Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"hjemmeside\": \"www.artific.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "0 - 6 UTVIKLING NEDERHOED: website = 'www.artific.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "986405887"
+      "explanation": "0 - 6 UTVIKLING NEDERHOED: website = 'www.artific.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986405887",
+      "freshness": "recent"
     }
   ],
   "changes": [
@@ -264,7 +312,23 @@
       "field": "website",
       "old": "www.artific.no",
       "new": null,
-      "detected_at": "2026-10-07T19:16:50Z",
+      "detected_at": "2026-10-10T19:32:17Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:17Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Brattvollveien 19A, 1164 OSLO",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:17Z",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986405887",
       "kind": "web"
     }
@@ -286,6 +350,86 @@
       "candidates_considered": 0
     },
     {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -301,6 +445,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -309,17 +478,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "3 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

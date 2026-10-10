@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "871454272",
   "legal_name": "ASKELADDEN BARNEHAGE SA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 24,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 26,
   "facts": [
     {
       "field": "address",
       "value": "Maihaugvegen 1, 2609 LILLEHAMMER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "forretningsadresse: Maihaugvegen 1, 2609 LILLEHAMMER",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: address = 'Maihaugvegen 1, 2609 LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: address = 'Maihaugvegen 1, 2609 LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: board_chair = 'Johannes Mørreaunet Selvaag', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "board_deputies",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role VARA (Deputy board member)",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: board_deputies = 'Eirik Thomassen, Martine Linge Joten', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: board_members = 'Lene Susan Carlsen, Ragnhild Haakenaasen, Anders Rørlien, Beate Kristine Slåttsveen Bjø...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: business_locations = 'Maihaugvegen 1, 2609 LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,133 +93,143 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: ceo = 'Lene Susan Carlsen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "LILLEHAMMER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"poststed\": \"LILLEHAMMER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: city = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: city = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Drift av barnehage.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"aktivitet\": \"Drift av barnehage.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: description = 'Drift av barnehage.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: description = 'Drift av barnehage.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "mail@aladden.info",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"epostadresse\": \"mail@aladden.info\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: email = 'mail@aladden.info', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: email = 'mail@aladden.info', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 7,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"antallAnsatte\": 7",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: employees = 7, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: employees = 7, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "1982-01-01",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"stiftelsesdato\": \"1982-01-01\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: founded = '1982-01-01', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: founded = '1982-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Førskoleundervisning og drift av barnehager",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Førskoleundervisning og drift av barnehager\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: industry = 'Førskoleundervisning og drift av barnehager', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: industry = 'Førskoleundervisning og drift av barnehager', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ASKELADDEN BARNEHAGE SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"navn\": \"ASKELADDEN BARNEHAGE SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: legal_name = 'ASKELADDEN BARNEHAGE SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: legal_name = 'ASKELADDEN BARNEHAGE SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -228,123 +243,278 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ASKELADDEN BARNEHAGE SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "org_number": "871454272",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "LILLEHAMMER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kommune\": \"LILLEHAMMER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: municipality = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: municipality = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "85.100",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"85.100\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: nace_code = '85.100', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: nace_code = '85.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "871454272",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "organisasjonsnummer: \"871454272\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ASKELADDEN BARNEHAGE SA: org_number = '871454272', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "61 25 59 51",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"telefon\": \"61 25 59 51\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: phone = '61 25 59 51', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: phone = '61 25 59 51', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2609",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"postnummer\": \"2609\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: postcode = '2609', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: postcode = '2609', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Å eie og drive barnehage hvor medlemmene kan få barnehageplass. Barnehagen skal drives til det beste for medlemmene og deres barn. Barnehagen er livssynsnøytral. Foretaket skal fremme medlemmenes økonomiske interesser gjennom deres deltakelse i virksomheten som kjøpere av barnehagetjenester fra foretaket. Formålet er ikke kapitalavkastning til medlemmene. Eventuelt årsoverskudd skal godskrives egenkapitalen i foretaket.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Å eie og drive barnehage hvor medlemmene kan få barnehageplass. Barnehagen skal drives til det beste for medlemmene og deres barn. Barnehagen er livssynsnøytral. Foretaket skal fremme medlemmenes økonomiske interesser gjennom deres deltakelse i virksomheten som kjøpere av barnehagetjenester fra foretaket. Formålet er ikke kapitalavkastning til medlemmene. Eventuelt årsoverskudd skal godskrives egenkapitalen i foretaket.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: purpose = 'Å eie og drive barnehage hvor medlemmene kan få barnehageplass. Barnehagen skal drives ...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: purpose = 'Å eie og drive barnehage hvor medlemmene kan få barnehageplass. Barnehagen skal drives ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-20",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ASKELADDEN BARNEHAGE SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.aladden.info",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
-      "retrieved_at": "2026-10-07T19:13:59Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"hjemmeside\": \"www.aladden.info\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ASKELADDEN BARNEHAGE SA: website = 'www.aladden.info', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "871454272"
+      "explanation": "ASKELADDEN BARNEHAGE SA: website = 'www.aladden.info', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "871454272",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "ceo",
+      "old": "Lene Susan Carlsen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Johannes Mørreaunet Selvaag",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Lene Susan Carlsen, Ragnhild Haakenaasen, Anders Rørlien, Beate Kristine Slåttsveen Bjørnerud",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Maihaugvegen 1, 2609 LILLEHAMMER",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/871454272",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -361,6 +531,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -369,17 +564,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "6 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

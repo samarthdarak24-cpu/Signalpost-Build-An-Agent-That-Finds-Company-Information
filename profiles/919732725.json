@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "919732725",
   "legal_name": "00NATION AS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 28,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 30,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "00NATION AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Torvveien 19, 1383 ASKER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "forretningsadresse: Torvveien 19, 1383 ASKER",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "00NATION AS: address = 'Torvveien 19, 1383 ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: address = 'Torvveien 19, 1383 ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "00NATION AS: board_chair = 'Runar Eidsaa', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "00NATION AS: board_members = 'Dariusz Mioduski, Carlos Eduardo Canellas Da Cunha, David Maurice Williams', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "00NATION AS: business_locations = 'Torvveien 19, 1383 ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -88,21 +93,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "00NATION AS: ceo = 'Tore Sebastian Damhaug Geurts', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "ASKER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"poststed\": \"ASKER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "00NATION AS: city = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: city = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -116,21 +123,23 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: debt = 44172503, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Drift av idrettslag og idrettsklubb for sport og e-sport.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"aktivitet\": \"Drift av idrettslag og idrettsklubb for sport og e-sport.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "00NATION AS: description = 'Drift av idrettslag og idrettsklubb for sport og e-sport.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: description = 'Drift av idrettslag og idrettsklubb for sport og e-sport.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -144,91 +153,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: equity = -35243688, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2017-09-25",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"stiftelsesdato\": \"2017-09-25\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "00NATION AS: founded = '2017-09-25', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: founded = '2017-09-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Fritidsvirksomhet ellers",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Fritidsvirksomhet ellers\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "00NATION AS: industry = 'Fritidsvirksomhet ellers', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: industry = 'Fritidsvirksomhet ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "00NATION AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2024",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "00NATION AS: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "00NATION AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "00NATION AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"navn\": \"00NATION AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "00NATION AS: legal_name = '00NATION AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: legal_name = '00NATION AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -242,35 +258,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "00NATION AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "ASKER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kommune\": \"ASKER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "00NATION AS: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "93.292",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"kode\": \"93.292\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "00NATION AS: nace_code = '93.292', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: nace_code = '93.292', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -284,7 +303,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: net_result = -50422230, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -298,49 +318,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: operating_result = -33475608, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "919732725",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "organisasjonsnummer: \"919732725\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "00NATION AS: org_number = '919732725', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1383",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"postnummer\": \"1383\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "00NATION AS: postcode = '1383', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: postcode = '1383', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Å delta i e-sport, herunder organisering av lag og spillere, samt deltagelse i seriespill og turneringer, nasjonalt og internasjonalt. Selskapet skal videre forestå spillerutvikling, salg og kjøp av spillere samt generell drift av idrettsklubb. Selskapet kan også forestå utvikling og salg av audiovisuelt innhold, herunder også apper og programmer. Selskapet kan yte konsulenttjenester.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Å delta i e-sport, herunder organisering av lag og spillere, samt deltagelse i seriespill og turneringer, nasjonalt og internasjonalt. Selskapet skal videre forestå spillerutvikling, salg og kjøp av spillere samt generell drift av idrettsklubb. Selskapet kan også forestå utvikling og salg av audiovisuelt innhold, herunder også apper og programmer. Selskapet kan yte konsulenttjenester.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "00NATION AS: purpose = 'Å delta i e-sport, herunder organisering av lag og spillere, samt deltagelse i seriespi...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: purpose = 'Å delta i e-sport, herunder organisering av lag og spillere, samt deltagelse i seriespi...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2017-10-17",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-10-17\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "00NATION AS: registered = '2017-10-17', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: registered = '2017-10-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -354,21 +393,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: revenue_latest = 20815071, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "00NATION AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "retrieved_at": "2026-10-10T19:32:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "00NATION AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -382,27 +438,196 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "00NATION AS: total_assets = 8928815, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "org_number": "919732725",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.00nation.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
-      "retrieved_at": "2026-10-07T19:14:39Z",
+      "retrieved_at": "2026-10-10T19:32:13Z",
       "evidence": "\"hjemmeside\": \"www.00nation.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "00NATION AS: website = 'www.00nation.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "919732725"
+      "explanation": "00NATION AS: website = 'www.00nation.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919732725",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2024,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 20815071,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": -50422230,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -33475608,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 8928815,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": -35243688,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 44172503,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Tore Sebastian Damhaug Geurts",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Runar Eidsaa",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Dariusz Mioduski, Carlos Eduardo Canellas Da Cunha, David Maurice Williams",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Torvveien 19, 1383 ASKER",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:13Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -432,6 +657,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -442,5 +692,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "12 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

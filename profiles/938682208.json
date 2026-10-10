@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "938682208",
   "legal_name": "ALSAKER & CO BYGGEVARER",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 25,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 27,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: accounting_year = 2022, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Grunnavågsvegen 50, 5410 SAGVÅG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "forretningsadresse: Grunnavågsvegen 50, 5410 SAGVÅG",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: address = 'Grunnavågsvegen 50, 5410 SAGVÅG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: address = 'Grunnavågsvegen 50, 5410 SAGVÅG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
@@ -46,21 +48,23 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: business_locations = 'Grunnavågsvegen 50, 5410 SAGVÅG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "SAGVÅG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"poststed\": \"SAGVÅG\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: city = 'SAGVÅG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: city = 'SAGVÅG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -74,35 +78,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: debt = 159598, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Handel, samt annen virksomhet som naturlig faller inn under dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"aktivitet\": \"Handel, samt annen virksomhet som naturlig faller inn under dette.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: description = 'Handel, samt annen virksomhet som naturlig faller inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: description = 'Handel, samt annen virksomhet som naturlig faller inn under dette.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "knut@alsakereiendom.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"epostadresse\": \"knut@alsakereiendom.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: email = 'knut@alsakereiendom.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: email = 'knut@alsakereiendom.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -116,91 +123,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: equity = 4131036, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1986-04-08",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"stiftelsesdato\": \"1986-04-08\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: founded = '1986-04-08', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: founded = '1986-04-08', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: industry = 'Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: industry = 'Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Nynorsk",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"maalform\": \"Nynorsk\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2022",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2022\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: latest_accounts_year = '2022', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: latest_accounts_year = '2022', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ALSAKER & CO BYGGEVARER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"navn\": \"ALSAKER & CO BYGGEVARER\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: legal_name = 'ALSAKER & CO BYGGEVARER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: legal_name = 'ALSAKER & CO BYGGEVARER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -214,35 +228,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "STORD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kommune\": \"STORD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: municipality = 'STORD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: municipality = 'STORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "46.830",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"46.830\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: nace_code = '46.830', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: nace_code = '46.830', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -256,7 +273,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: net_result = 2777647, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -270,49 +288,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: operating_result = -221911, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "938682208",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "organisasjonsnummer: \"938682208\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ALSAKER & CO BYGGEVARER: org_number = '938682208', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "5410",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"postnummer\": \"5410\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: postcode = '5410', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: postcode = '5410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Handel, samt annen virksomhet som naturlig faller inn under dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Handel, samt annen virksomhet som naturlig faller inn under dette.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: purpose = 'Handel, samt annen virksomhet som naturlig faller inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: purpose = 'Handel, samt annen virksomhet som naturlig faller inn under dette.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -326,21 +363,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: revenue_latest = 69870, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
-      "retrieved_at": "2026-10-07T19:15:22Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ALSAKER & CO BYGGEVARER: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "explanation": "ALSAKER & CO BYGGEVARER: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ALSAKER & CO BYGGEVARER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "938682208",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -354,13 +408,157 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALSAKER & CO BYGGEVARER: total_assets = 4290634, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "938682208"
+      "org_number": "938682208",
+      "freshness": "this_week"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2022,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 69870,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 2777647,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -221911,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 4290634,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 4131036,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 159598,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Grunnavågsvegen 50, 5410 SAGVÅG",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938682208",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -390,6 +588,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -400,5 +623,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "9 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

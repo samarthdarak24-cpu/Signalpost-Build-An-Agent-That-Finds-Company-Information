@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "926756729",
   "legal_name": "1BYGG AS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 25,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 27,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "1BYGG AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Sankt Hallvards vei 3, 3414 LIERSTRANDA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "forretningsadresse: Sankt Hallvards vei 3, 3414 LIERSTRANDA",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "1BYGG AS: address = 'Sankt Hallvards vei 3, 3414 LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: address = 'Sankt Hallvards vei 3, 3414 LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,21 +48,23 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "1BYGG AS: board_chair = 'Adrian Sapota', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "LIERSTRANDA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"poststed\": \"LIERSTRANDA\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "1BYGG AS: city = 'LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: city = 'LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -74,21 +78,23 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: debt = 372245, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"aktivitet\": \"Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "1BYGG AS: description = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: description = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -102,91 +108,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: equity = -60954, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "2021-02-12",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"stiftelsesdato\": \"2021-02-12\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "1BYGG AS: founded = '2021-02-12', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: founded = '2021-02-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "1BYGG AS: industry = 'Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: industry = 'Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "1BYGG AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2024",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "1BYGG AS: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "1BYGG AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "1BYGG AS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"navn\": \"1BYGG AS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "1BYGG AS: legal_name = '1BYGG AS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: legal_name = '1BYGG AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -200,35 +213,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "1BYGG AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "LIER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kommune\": \"LIER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "1BYGG AS: municipality = 'LIER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: municipality = 'LIER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "46.830",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"46.830\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "1BYGG AS: nace_code = '46.830', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: nace_code = '46.830', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -242,7 +258,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: net_result = -18166, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -256,49 +273,68 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: operating_result = -18167, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "926756729",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "organisasjonsnummer: \"926756729\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "1BYGG AS: org_number = '926756729', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "3414",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"postnummer\": \"3414\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "1BYGG AS: postcode = '3414', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: postcode = '3414', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "1BYGG AS: purpose = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: purpose = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2021-03-09",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-03-09\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "1BYGG AS: registered = '2021-03-09', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: registered = '2021-03-09', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -312,21 +348,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: revenue_latest = 0, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "1BYGG AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "1BYGG AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -340,27 +393,172 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "1BYGG AS: total_assets = 311291, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "org_number": "926756729",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "1bygg.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
-      "retrieved_at": "2026-10-07T19:14:57Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"hjemmeside\": \"1bygg.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "1BYGG AS: website = '1bygg.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "926756729"
+      "explanation": "1BYGG AS: website = '1bygg.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926756729",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2024,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 0,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": -18166,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -18167,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 311291,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": -60954,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 372245,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Adrian Sapota",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 1,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -390,6 +588,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -400,5 +623,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "9 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

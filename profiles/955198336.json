@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "955198336",
   "legal_name": "ADVOKATFIRMA SEKSE & CO ANS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 29,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 31,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Jærveien 15, 4319 SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "forretningsadresse: Jærveien 15, 4319 SANDNES",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: address = 'Jærveien 15, 4319 SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: address = 'Jærveien 15, 4319 SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: board_chair = 'Per Trygve Sekse', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: board_members = 'Jan Erik Kullerud', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,21 +78,23 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: business_locations = 'Jærveien 15, 4319 SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"poststed\": \"SANDNES\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: city = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: city = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -102,35 +108,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: debt = 35581, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Drive advokatvirksomhet.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"aktivitet\": \"Drive advokatvirksomhet.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: description = 'Drive advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: description = 'Drive advokatvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@advokatfirmasekse.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"epostadresse\": \"post@advokatfirmasekse.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: email = 'post@advokatfirmasekse.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: email = 'post@advokatfirmasekse.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -144,91 +153,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: equity = -27861, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1989-12-15",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"stiftelsesdato\": \"1989-12-15\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: founded = '1989-12-15', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: founded = '1989-12-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Juridisk tjenesteyting",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Juridisk tjenesteyting\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: industry = 'Juridisk tjenesteyting', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: industry = 'Juridisk tjenesteyting', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ADVOKATFIRMA SEKSE & CO ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"navn\": \"ADVOKATFIRMA SEKSE & CO ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: legal_name = 'ADVOKATFIRMA SEKSE & CO ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: legal_name = 'ADVOKATFIRMA SEKSE & CO ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -242,35 +258,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "SANDNES",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kommune\": \"SANDNES\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: municipality = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: municipality = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "69.100",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"69.100\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: nace_code = '69.100', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: nace_code = '69.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -284,7 +303,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: net_result = -87095, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -298,77 +318,113 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: operating_result = -87095, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "955198336",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "organisasjonsnummer: \"955198336\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: org_number = '955198336', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "51 60 95 70",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"telefon\": \"51 60 95 70\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: phone = '51 60 95 70', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: phone = '51 60 95 70', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "4319",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"postnummer\": \"4319\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: postcode = '4319', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: postcode = '4319', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Utleie av fast eiendom.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Utleie av fast eiendom.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: purpose = 'Utleie av fast eiendom.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: purpose = 'Utleie av fast eiendom.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "winding_up",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "register flag \"underAvvikling\": true",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: status = 'winding_up', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -382,41 +438,195 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ADVOKATFIRMA SEKSE & CO ANS: total_assets = 7720, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "org_number": "955198336",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.sekse.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"hjemmeside\": \"www.sekse.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: website = 'www.sekse.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: website = 'www.sekse.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     },
     {
       "field": "winding_up",
       "value": true,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
-      "retrieved_at": "2026-10-07T19:15:36Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "register flag winding_up is set",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "register status flag",
       "changed_from": null,
-      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: winding_up = True, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "955198336"
+      "explanation": "ADVOKATFIRMA SEKSE & CO ANS: winding_up = True, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "955198336",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": -87095,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": -87095,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 7720,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": -27861,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 35581,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Per Trygve Sekse",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Jan Erik Kullerud",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Jærveien 15, 4319 SANDNES",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/955198336",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -436,6 +646,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -444,12 +679,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "10 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

@@ -2,247 +2,294 @@
   "schema_version": "1.0",
   "org_number": "993288624",
   "legal_name": "BERGEN AIRPORT TAXI SA",
-  "run_date": "2026-10-07",
-  "run_id": "20261007T164537Z",
-  "fact_count": 17,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 19,
   "facts": [
     {
       "field": "address",
       "value": "Kokstadvegen 46, 5257 KOKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "forretningsadresse: Kokstadvegen 46, 5257 KOKSTAD",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: address = 'Kokstadvegen 46, 5257 KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: address = 'Kokstadvegen 46, 5257 KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "KOKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"poststed\": \"KOKSTAD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: city = 'KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: city = 'KOKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Drift av drosjesentral med hertilhørende. Virksomhet, investering i annet/andre selskap.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"aktivitet\": \"Drift av drosjesentral med hertilhørende. Virksomhet, investering i annet/andre selskap.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: description = 'Drift av drosjesentral med hertilhørende. Virksomhet, investering i annet/andre selskap.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: description = 'Drift av drosjesentral med hertilhørende. Virksomhet, investering i annet/andre selskap.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@06061.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"epostadresse\": \"post@06061.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: email = 'post@06061.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: email = 'post@06061.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2008-11-03",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"stiftelsesdato\": \"2008-11-03\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: founded = '2008-11-03', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: founded = '2008-11-03', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Drift av gods- og transportsentraler",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Drift av gods- og transportsentraler\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: industry = 'Drift av gods- og transportsentraler', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: industry = 'Drift av gods- og transportsentraler', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "BERGEN AIRPORT TAXI SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"navn\": \"BERGEN AIRPORT TAXI SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: legal_name = 'BERGEN AIRPORT TAXI SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: legal_name = 'BERGEN AIRPORT TAXI SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "municipality",
       "value": "BERGEN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kommune\": \"BERGEN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "52.211",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"52.211\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: nace_code = '52.211', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: nace_code = '52.211', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "993288624",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "organisasjonsnummer: \"993288624\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BERGEN AIRPORT TAXI SA: org_number = '993288624', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "5257",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"postnummer\": \"5257\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: postcode = '5257', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: postcode = '5257', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Drift av drosjesentral, herunder formidle transportoppdrag innen persontransport med motorvogn utenfor rute, administrere kredittbetaling, utdanne drosjesjåfører og drosjeeiere, markedsføre drosjetjenester, inngå kontrakter med transportkjøpere og utøve, samt delta i andre foretak.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Drift av drosjesentral, herunder formidle transportoppdrag innen persontransport med motorvogn utenfor rute, administrere kredittbetaling, utdanne drosjesjåfører og drosjeeiere, markedsføre drosjetjenester, inngå kontrakter med transportkjøpere og utøve, samt delta i andre foretak.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: purpose = 'Drift av drosjesentral, herunder formidle transportoppdrag innen persontransport med mo...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: purpose = 'Drift av drosjesentral, herunder formidle transportoppdrag innen persontransport med mo...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2009-01-16",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-01-16\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: registered = '2009-01-16', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: registered = '2009-01-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BERGEN AIRPORT TAXI SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.06061.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993288624",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"hjemmeside\": \"www.06061.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "BERGEN AIRPORT TAXI SA: website = 'www.06061.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993288624"
+      "explanation": "BERGEN AIRPORT TAXI SA: website = 'www.06061.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993288624",
+      "freshness": "recent"
     }
   ],
   "changes": [],
@@ -254,6 +301,76 @@
     },
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -273,17 +390,37 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
       "field": "parent_org_number",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }

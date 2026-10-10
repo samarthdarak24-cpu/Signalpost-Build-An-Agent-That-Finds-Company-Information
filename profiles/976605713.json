@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "976605713",
   "legal_name": "KITRON ASA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 32,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 34,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "KITRON ASA: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Olav Brunborgs vei 4, 1396 BILLINGSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: Olav Brunborgs vei 4, 1396 BILLINGSTAD",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "KITRON ASA: address = 'Olav Brunborgs vei 4, 1396 BILLINGSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: address = 'Olav Brunborgs vei 4, 1396 BILLINGSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "KITRON ASA: board_chair = 'Tuomo Juhani Lähdesmäki', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "board_deputies",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role VARA (Deputy board member)",
       "changed_from": null,
       "explanation": "KITRON ASA: board_deputies = 'Mads Bech-Willumstad, Cathrine Søndeland, Jarle Larsen, Henriette Stene, Vidar Hushovd', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -74,7 +78,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "KITRON ASA: board_members = 'Gyrid Skalleberg Ingerø, Ann Petra Carolina Grandinson, Michael Lundgaard Thomsen, Maal...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -88,7 +93,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "KITRON ASA: business_locations = 'Olav Brunborgs vei 4, 1396 BILLINGSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -102,21 +108,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "KITRON ASA: ceo = 'Lars Peter Nilsson', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "BILLINGSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"BILLINGSTAD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "KITRON ASA: city = 'BILLINGSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: city = 'BILLINGSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -130,49 +138,53 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: debt = 427000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Utvikling, produksjon og salg av elektronikk produkter.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Utvikling, produksjon og salg av elektronikk produkter.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "KITRON ASA: description = 'Utvikling, produksjon og salg av elektronikk produkter.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: description = 'Utvikling, produksjon og salg av elektronikk produkter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "info@kitron.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"info@kitron.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "KITRON ASA: email = 'info@kitron.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: email = 'info@kitron.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "employees",
       "value": 11,
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"antallAnsatte\": 11",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field antallAnsatte",
       "changed_from": null,
-      "explanation": "KITRON ASA: employees = 11, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: employees = 11, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -186,91 +198,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: equity = 314000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1996-07-11",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"stiftelsesdato\": \"1996-07-11\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "KITRON ASA: founded = '1996-07-11', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: founded = '1996-07-11', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Produksjon av kretskort",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Produksjon av kretskort\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "KITRON ASA: industry = 'Produksjon av kretskort', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: industry = 'Produksjon av kretskort', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "KITRON ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "KITRON ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "KITRON ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "KITRON ASA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"KITRON ASA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "KITRON ASA: legal_name = 'KITRON ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: legal_name = 'KITRON ASA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -284,35 +303,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "KITRON ASA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "ASKER",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"ASKER\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "KITRON ASA: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "26.120",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"26.120\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "KITRON ASA: nace_code = '26.120', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: nace_code = '26.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -326,7 +348,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: net_result = 44000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -340,63 +363,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: operating_result = 65000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "976605713",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"976605713\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KITRON ASA: org_number = '976605713', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "66 10 00 00",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"telefon\": \"66 10 00 00\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "KITRON ASA: phone = '66 10 00 00', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: phone = '66 10 00 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1396",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"1396\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "KITRON ASA: postcode = '1396', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: postcode = '1396', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Produksjons- og utviklingsvirksomhet forbundet med elektronikk. Virksomheten inkluderer kjøp og salg av aksjer og selskaper i samme eller beslektede bransjer. Virksomheten kan også inkludere beslektede konsulentoppdrag og andre oppdrag fobundet med driften.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Produksjons- og utviklingsvirksomhet forbundet med elektronikk. Virksomheten inkluderer kjøp og salg av aksjer og selskaper i samme eller beslektede bransjer. Virksomheten kan også inkludere beslektede konsulentoppdrag og andre oppdrag fobundet med driften.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "KITRON ASA: purpose = 'Produksjons- og utviklingsvirksomhet forbundet med elektronikk. Virksomheten inkluderer...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: purpose = 'Produksjons- og utviklingsvirksomhet forbundet med elektronikk. Virksomheten inkluderer...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1996-07-29",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-07-29\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "KITRON ASA: registered = '1996-07-29', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: registered = '1996-07-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -410,21 +453,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: revenue_latest = 738000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "KITRON ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KITRON ASA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -438,25 +498,194 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "KITRON ASA: total_assets = 741000000, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "org_number": "976605713",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.kitron.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
-      "retrieved_at": "2026-10-07T19:16:03Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.kitron.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "KITRON ASA: website = 'www.kitron.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "976605713"
+      "explanation": "KITRON ASA: website = 'www.kitron.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976605713",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 738000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 44000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 65000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 741000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 314000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 427000000,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Lars Peter Nilsson",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "board_chair",
+      "old": "Tuomo Juhani Lähdesmäki",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Gyrid Skalleberg Ingerø, Ann Petra Carolina Grandinson, Michael Lundgaard Thomsen, Maalfrid Brath, Ingjerd Livollen, Geir Runge Vedøy, Håkon Ljøstad",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Olav Brunborgs vei 4, 1396 BILLINGSTAD",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976605713",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
     {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
@@ -473,6 +702,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -483,5 +737,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "13 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

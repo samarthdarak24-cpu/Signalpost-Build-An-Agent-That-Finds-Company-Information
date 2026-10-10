@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "883432932",
   "legal_name": "102 OKTAN Christer Lundem",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 17,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 19,
   "facts": [
     {
       "field": "address",
       "value": "Trosvikgata 25, 1610 FREDRIKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "forretningsadresse: Trosvikgata 25, 1610 FREDRIKSTAD",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: address = 'Trosvikgata 25, 1610 FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: address = 'Trosvikgata 25, 1610 FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
@@ -32,105 +33,113 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "102 OKTAN Christer Lundem: business_locations = 'Trosvikgata 25, 1610 FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "org_number": "883432932",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "FREDRIKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"poststed\": \"FREDRIKSTAD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: city = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: city = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Kjøp og salg av bruktbiler samt arrangerering av events. Design, foto, tekst, film og alt som står i naturlig forbindelse med dette.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"aktivitet\": \"Kjøp og salg av bruktbiler samt arrangerering av events. Design, foto, tekst, film og alt som står i naturlig forbindelse med dette.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: description = 'Kjøp og salg av bruktbiler samt arrangerering av events. Design, foto, tekst, film og a...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: description = 'Kjøp og salg av bruktbiler samt arrangerering av events. Design, foto, tekst, film og a...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "christer@98oktan.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"epostadresse\": \"christer@98oktan.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: email = 'christer@98oktan.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: email = 'christer@98oktan.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Detaljhandel med motorvogner",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Detaljhandel med motorvogner\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: industry = 'Detaljhandel med motorvogner', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: industry = 'Detaljhandel med motorvogner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ENK",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"ENK\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "102 OKTAN Christer Lundem",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"navn\": \"102 OKTAN Christer Lundem\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: legal_name = '102 OKTAN Christer Lundem', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: legal_name = '102 OKTAN Christer Lundem', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -144,35 +153,53 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "102 OKTAN Christer Lundem: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "org_number": "883432932",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "FREDRIKSTAD",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kommune\": \"FREDRIKSTAD\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: municipality = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: municipality = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "47.810",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"kode\": \"47.810\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: nace_code = '47.810', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: nace_code = '47.810', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "883432932",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "organisasjonsnummer: \"883432932\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "102 OKTAN Christer Lundem: org_number = '883432932', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "owner",
@@ -186,66 +213,103 @@
       "method": "Enhetsregisteret role INNH (Owner)",
       "changed_from": null,
       "explanation": "102 OKTAN Christer Lundem: owner = 'Christer Lundem', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "org_number": "883432932",
+      "freshness": "this_week"
     },
     {
       "field": "phone",
       "value": "71637161",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"mobil\": \"71637161\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: phone = '71637161', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: phone = '71637161', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1610",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"postnummer\": \"1610\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: postcode = '1610', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: postcode = '1610', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2001-06-12",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2001-06-12\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: registered = '2001-06-12', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: registered = '2001-06-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlig næringsdrivende",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
-      "retrieved_at": "2026-10-07T19:14:00Z",
+      "retrieved_at": "2026-10-10T19:32:12Z",
       "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "102 OKTAN Christer Lundem: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "883432932"
+      "explanation": "102 OKTAN Christer Lundem: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
+      "retrieved_at": "2026-10-10T19:32:12Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "102 OKTAN Christer Lundem: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "883432932",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Trosvikgata 25, 1610 FREDRIKSTAD",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:12Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883432932",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "website",
@@ -259,6 +323,86 @@
     },
     {
       "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -278,6 +422,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -286,17 +455,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "3 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

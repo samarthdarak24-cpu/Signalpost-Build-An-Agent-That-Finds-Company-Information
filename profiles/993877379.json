@@ -2,219 +2,264 @@
   "schema_version": "1.0",
   "org_number": "993877379",
   "legal_name": "2-RAYZ SYNDICATE TOURAY",
-  "run_date": "2026-10-07",
-  "run_id": "20261007T164537Z",
-  "fact_count": 15,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 17,
   "facts": [
     {
       "field": "address",
       "value": "Jordstjerneveien 38E, 1283 OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "forretningsadresse: Jordstjerneveien 38E, 1283 OSLO",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: address = 'Jordstjerneveien 38E, 1283 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: address = 'Jordstjerneveien 38E, 1283 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "city",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"poststed\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Film- og TV-produksjon. Eventbooking og ledelse. Reality TV-show. Manus. Programleder for TV og Radio. Markedsføring, konseptutvikling. Kunst og kulturelle aktiviteter, talentcoach, ungdomsutvikling og karriere. Coach og bedriftsrådgivning og an. Transport av varer og tjenester fra Gambia og Senegal til Norge og omvendt.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"aktivitet\": \"Film- og TV-produksjon. Eventbooking og ledelse. Reality TV-show. Manus. Programleder for TV og Radio. Markedsføring, konseptutvikling. Kunst og kulturelle aktiviteter, talentcoach, ungdomsutvikling og karriere. Coach og bedriftsrådgivning og an. Transport av varer og tjenester fra Gambia og Senegal til Norge og omvendt.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: description = 'Film- og TV-produksjon. Eventbooking og ledelse. Reality TV-show. Manus. Programleder f...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: description = 'Film- og TV-produksjon. Eventbooking og ledelse. Reality TV-show. Manus. Programleder f...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "2rayzonline@gmail.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"epostadresse\": \"2rayzonline@gmail.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: email = '2rayzonline@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: email = '2rayzonline@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Produksjon av film, video og fjernsynsprogrammer",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Produksjon av film, video og fjernsynsprogrammer\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: industry = 'Produksjon av film, video og fjernsynsprogrammer', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: industry = 'Produksjon av film, video og fjernsynsprogrammer', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ENK",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"ENK\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "2-RAYZ SYNDICATE TOURAY",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"navn\": \"2-RAYZ SYNDICATE TOURAY\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: legal_name = '2-RAYZ SYNDICATE TOURAY', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: legal_name = '2-RAYZ SYNDICATE TOURAY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "municipality",
       "value": "OSLO",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kommune\": \"OSLO\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "59.110",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"kode\": \"59.110\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: nace_code = '59.110', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: nace_code = '59.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "993877379",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "organisasjonsnummer: \"993877379\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "2-RAYZ SYNDICATE TOURAY: org_number = '993877379', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "21 39 82 35",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"telefon\": \"21 39 82 35\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: phone = '21 39 82 35', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: phone = '21 39 82 35', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "1283",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"postnummer\": \"1283\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: postcode = '1283', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: postcode = '1283', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2009-03-21",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-03-21\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: registered = '2009-03-21', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: registered = '2009-03-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlig næringsdrivende",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
+      "retrieved_at": "2026-10-10T19:32:17Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "2-RAYZ SYNDICATE TOURAY: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.2-rayz.com",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
-      "retrieved_at": "2026-10-07T16:45:45Z",
+      "retrieved_at": "2026-10-10T19:32:17Z",
       "evidence": "\"hjemmeside\": \"www.2-rayz.com\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "2-RAYZ SYNDICATE TOURAY: website = 'www.2-rayz.com', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "993877379"
+      "explanation": "2-RAYZ SYNDICATE TOURAY: website = 'www.2-rayz.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993877379",
+      "freshness": "recent"
     }
   ],
   "changes": [
@@ -222,7 +267,7 @@
       "field": "website",
       "old": "www.2-rayz.com",
       "new": null,
-      "detected_at": "2026-10-07T16:45:45Z",
+      "detected_at": "2026-10-10T19:32:17Z",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379",
       "kind": "web"
     }
@@ -244,6 +289,86 @@
       "candidates_considered": 0
     },
     {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "facebook",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -259,22 +384,37 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
     {
       "field": "parent_org_number",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     }

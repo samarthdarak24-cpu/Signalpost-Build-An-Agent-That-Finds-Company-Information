@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "org_number": "954840697",
   "legal_name": "ALBINBUSSEN ANS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 27,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 29,
   "facts": [
     {
       "field": "accounting_year",
@@ -18,21 +18,23 @@
       "method": "derived from period end date",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "address",
       "value": "Jernbanegata 66, 8250 ROGNAN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "forretningsadresse: Jernbanegata 66, 8250 ROGNAN",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: address = 'Jernbanegata 66, 8250 ROGNAN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: address = 'Jernbanegata 66, 8250 ROGNAN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "ceo",
@@ -46,21 +48,23 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: ceo = 'Bent-Erik Albinussen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "ROGNAN",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"poststed\": \"ROGNAN\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: city = 'ROGNAN', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: city = 'ROGNAN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "debt",
@@ -74,35 +78,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: debt = 19003, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "description",
       "value": "Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"aktivitet\": \"Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: description = 'Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: description = 'Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "post@albinussen-reiser.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"epostadresse\": \"post@albinussen-reiser.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: email = 'post@albinussen-reiser.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: email = 'post@albinussen-reiser.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "equity",
@@ -116,91 +123,98 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: equity = 506644, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "founded",
       "value": "1981-12-10",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"stiftelsesdato\": \"1981-12-10\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: founded = '1981-12-10', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: founded = '1981-12-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Reisearrangørvirksomhet ellers",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Reisearrangørvirksomhet ellers\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: industry = 'Reisearrangørvirksomhet ellers', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: industry = 'Reisearrangørvirksomhet ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "latest_accounts_year",
       "value": "2025",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
       "match_proof": "registry",
       "confidence": 0.94,
       "layer": "registry",
       "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ALBINBUSSEN ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"navn\": \"ALBINBUSSEN ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: legal_name = 'ALBINBUSSEN ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: legal_name = 'ALBINBUSSEN ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -214,35 +228,38 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "SALTDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kommune\": \"SALTDAL\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: municipality = 'SALTDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: municipality = 'SALTDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "79.122",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"kode\": \"79.122\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: nace_code = '79.122', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: nace_code = '79.122', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "net_result",
@@ -256,7 +273,8 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: net_result = 19738, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "operating_result",
@@ -270,63 +288,83 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: operating_result = 19746, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
+    },
+    {
+      "field": "org_number",
+      "value": "954840697",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "organisasjonsnummer: \"954840697\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ALBINBUSSEN ANS: org_number = '954840697', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "75 69 00 90",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"telefon\": \"75 69 00 90\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field telefon",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: phone = '75 69 00 90', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: phone = '75 69 00 90', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "8250",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"postnummer\": \"8250\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: postcode = '8250', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: postcode = '8250', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: purpose = 'Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: purpose = 'Drive reisebyrå og busselskap, samt hva dermed står i forbindelse.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "1995-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "revenue_latest",
@@ -340,21 +378,38 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: revenue_latest = 67510, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "retrieved_at": "2026-10-10T19:32:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ALBINBUSSEN ANS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     },
     {
       "field": "total_assets",
@@ -368,27 +423,172 @@
       "method": "Regnskapsregisteret",
       "changed_from": null,
       "explanation": "ALBINBUSSEN ANS: total_assets = 525646, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "org_number": "954840697",
+      "freshness": "this_week"
     },
     {
       "field": "website",
       "value": "www.albinussen-reiser.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
-      "retrieved_at": "2026-10-07T19:15:31Z",
+      "retrieved_at": "2026-10-10T19:32:15Z",
       "evidence": "\"hjemmeside\": \"www.albinussen-reiser.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ALBINBUSSEN ANS: website = 'www.albinussen-reiser.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "954840697"
+      "explanation": "ALBINBUSSEN ANS: website = 'www.albinussen-reiser.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "954840697",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "accounting_year",
+      "old": 2025,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "revenue_latest",
+      "old": 67510,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "net_result",
+      "old": 19738,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "operating_result",
+      "old": 19746,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "total_assets",
+      "old": 525646,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "equity",
+      "old": 506644,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "debt",
+      "old": 19003,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "ceo",
+      "old": "Bent-Erik Albinussen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 1,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:15Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/954840697",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -408,6 +608,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -418,5 +643,7 @@
       "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "9 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

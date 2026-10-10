@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "933632296",
   "legal_name": "ATNDALEN NORD VEILAG SA",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 19,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 21,
   "facts": [
     {
       "field": "address",
       "value": "Storgata 120, 2480 KOPPANG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "forretningsadresse: Storgata 120, 2480 KOPPANG",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: address = 'Storgata 120, 2480 KOPPANG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: address = 'Storgata 120, 2480 KOPPANG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "board_chair",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret role LEDE (Board chair)",
       "changed_from": null,
       "explanation": "ATNDALEN NORD VEILAG SA: board_chair = 'Tallak Dieset', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "org_number": "933632296",
+      "freshness": "this_week"
     },
     {
       "field": "board_deputies",
@@ -46,7 +48,8 @@
       "method": "Enhetsregisteret role VARA (Deputy board member)",
       "changed_from": null,
       "explanation": "ATNDALEN NORD VEILAG SA: board_deputies = 'Øyvind Arne Lien', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "org_number": "933632296",
+      "freshness": "this_week"
     },
     {
       "field": "board_members",
@@ -60,7 +63,8 @@
       "method": "Enhetsregisteret role MEDL (Board member)",
       "changed_from": null,
       "explanation": "ATNDALEN NORD VEILAG SA: board_members = 'Ole Sollien, Ole Arne Hagen', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "org_number": "933632296",
+      "freshness": "this_week"
     },
     {
       "field": "business_locations",
@@ -74,105 +78,113 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ATNDALEN NORD VEILAG SA: business_locations = 'Storgata 120, 2480 KOPPANG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "org_number": "933632296",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "KOPPANG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"poststed\": \"KOPPANG\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: city = 'KOPPANG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: city = 'KOPPANG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Skogsbilveglag med vedlikehold og drift av veg.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"aktivitet\": \"Skogsbilveglag med vedlikehold og drift av veg.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: description = 'Skogsbilveglag med vedlikehold og drift av veg.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: description = 'Skogsbilveglag med vedlikehold og drift av veg.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2024-05-16",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"stiftelsesdato\": \"2024-05-16\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: founded = '2024-05-16', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: founded = '2024-05-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Eiendomsforvaltning på oppdrag",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Eiendomsforvaltning på oppdrag\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ATNDALEN NORD VEILAG SA",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"navn\": \"ATNDALEN NORD VEILAG SA\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: legal_name = 'ATNDALEN NORD VEILAG SA', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: legal_name = 'ATNDALEN NORD VEILAG SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -186,97 +198,242 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ATNDALEN NORD VEILAG SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "org_number": "933632296",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "STOR-ELVDAL",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kommune\": \"STOR-ELVDAL\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: municipality = 'STOR-ELVDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: municipality = 'STOR-ELVDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "68.320",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"kode\": \"68.320\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "933632296",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "organisasjonsnummer: \"933632296\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ATNDALEN NORD VEILAG SA: org_number = '933632296', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "2480",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"postnummer\": \"2480\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: postcode = '2480', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: postcode = '2480', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Sørge for tilstrekkelig standard på veien ved vedlikehold og utbedring. Foruten næringsaktivitet så som tømmerdrift, er det ikke normalen at veiene er vinterbrøytet. Veiens standard skal på tidsmessig måte tjene de eiendommer som er medeiere i veilaget og de eiendommer som har bruksrett i veien. Veiene er åpne for allmenn ferdsel mot betaling av bomavgift eller sesongavgift/årsavgift for eksterne brukere.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Sørge for tilstrekkelig standard på veien ved vedlikehold og utbedring. Foruten næringsaktivitet så som tømmerdrift, er det ikke normalen at veiene er vinterbrøytet. Veiens standard skal på tidsmessig måte tjene de eiendommer som er medeiere i veilaget og de eiendommer som har bruksrett i veien. Veiene er åpne for allmenn ferdsel mot betaling av bomavgift eller sesongavgift/årsavgift for eksterne brukere.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: purpose = 'Sørge for tilstrekkelig standard på veien ved vedlikehold og utbedring. Foruten nærings...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: purpose = 'Sørge for tilstrekkelig standard på veien ved vedlikehold og utbedring. Foruten nærings...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2024-08-12",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2024-08-12\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: registered = '2024-08-12', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: registered = '2024-08-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Private aksjeselskaper mv.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
-      "retrieved_at": "2026-10-07T19:15:12Z",
+      "retrieved_at": "2026-10-10T19:32:14Z",
       "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ATNDALEN NORD VEILAG SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "933632296"
+      "explanation": "ATNDALEN NORD VEILAG SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "retrieved_at": "2026-10-10T19:32:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ATNDALEN NORD VEILAG SA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "933632296",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "board_chair",
+      "old": "Tallak Dieset",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "kind": "web"
+    },
+    {
+      "field": "board_members",
+      "old": "Ole Sollien, Ole Arne Hagen",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "Storgata 120, 2480 KOPPANG",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:14Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933632296",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -311,6 +468,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -319,17 +501,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "5 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }

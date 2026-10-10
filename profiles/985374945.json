@@ -2,23 +2,24 @@
   "schema_version": "1.0",
   "org_number": "985374945",
   "legal_name": "ADRENALIN MEDIA ANS",
-  "run_date": "2026-10-08",
-  "run_id": "20261007T191338Z",
-  "fact_count": 20,
+  "run_date": "2026-10-11",
+  "run_id": "20261010T193212Z",
+  "fact_count": 22,
   "facts": [
     {
       "field": "address",
       "value": "c/o Skjølet, Banebakken 33E, 3127 TØNSBERG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "forretningsadresse: c/o Skjølet, Banebakken 33E, 3127 TØNSBERG",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "forretningsadresse composed",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: address = 'c/o Skjølet, Banebakken 33E, 3127 TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: address = 'c/o Skjølet, Banebakken 33E, 3127 TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "business_locations",
@@ -32,7 +33,8 @@
       "method": "Enhetsregisteret underenheter beliggenhetsadresse",
       "changed_from": null,
       "explanation": "ADRENALIN MEDIA ANS: business_locations = 'c/o Skjølet, Banebakken 33E, 3127 TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "org_number": "985374945",
+      "freshness": "this_week"
     },
     {
       "field": "ceo",
@@ -46,119 +48,128 @@
       "method": "Enhetsregisteret role DAGL (Chief executive)",
       "changed_from": null,
       "explanation": "ADRENALIN MEDIA ANS: ceo = 'Pål Rasmus Werner', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "org_number": "985374945",
+      "freshness": "this_week"
     },
     {
       "field": "city",
       "value": "TØNSBERG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"poststed\": \"TØNSBERG\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.poststed",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: city = 'TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: city = 'TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "description",
       "value": "Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av redaksjonelt og kommersielt materiale som foto og tekst, og andre naturlig tilstøtende forretningsområder. Enkel produksjon og salg av profileringsartikler.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"aktivitet\": \"Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av redaksjonelt og kommersielt materiale som foto og tekst, og andre naturlig tilstøtende forretningsområder. Enkel produksjon og salg av profileringsartikler.\"",
       "match_proof": "registry",
       "confidence": 0.9,
       "layer": "registry",
       "method": "Enhetsregisteret field aktivitet",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: description = 'Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av r...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: description = 'Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av r...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "email",
       "value": "gina@adrenalinmedia.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"epostadresse\": \"gina@adrenalinmedia.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field epostadresse",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: email = 'gina@adrenalinmedia.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: email = 'gina@adrenalinmedia.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "founded",
       "value": "2003-01-01",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"stiftelsesdato\": \"2003-01-01\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field stiftelsesdato",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: founded = '2003-01-01', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: founded = '2003-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "industry",
       "value": "Pr og kommunikasjonstjenester",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Pr og kommunikasjonstjenester\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.beskrivelse",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: industry = 'Pr og kommunikasjonstjenester', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: industry = 'Pr og kommunikasjonstjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "language_form",
       "value": "Bokmål",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"maalform\": \"Bokmål\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field maalform",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "legal_form",
       "value": "ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field organisasjonsform.kode",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "legal_name",
       "value": "ADRENALIN MEDIA ANS",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"navn\": \"ADRENALIN MEDIA ANS\"",
       "match_proof": "registry",
       "confidence": 1.0,
       "layer": "registry",
       "method": "Enhetsregisteret field navn",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: legal_name = 'ADRENALIN MEDIA ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: legal_name = 'ADRENALIN MEDIA ANS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "location_count",
@@ -172,125 +183,264 @@
       "method": "Enhetsregisteret underenheter count, plus the head office",
       "changed_from": null,
       "explanation": "ADRENALIN MEDIA ANS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "org_number": "985374945",
+      "freshness": "this_week"
     },
     {
       "field": "municipality",
       "value": "TØNSBERG",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kommune\": \"TØNSBERG\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.kommune",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: municipality = 'TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: municipality = 'TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "nace_code",
       "value": "73.300",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"kode\": \"73.300\"",
       "match_proof": "registry",
       "confidence": 0.99,
       "layer": "registry",
       "method": "Enhetsregisteret field naeringskode1.kode",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: nace_code = '73.300', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: nace_code = '73.300', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "985374945",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "organisasjonsnummer: \"985374945\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ADRENALIN MEDIA ANS: org_number = '985374945', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "phone",
       "value": "412 30 411",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"mobil\": \"412 30 411\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field mobil",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: phone = '412 30 411', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: phone = '412 30 411', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "postcode",
       "value": "3127",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"postnummer\": \"3127\"",
       "match_proof": "registry",
       "confidence": 0.97,
       "layer": "registry",
       "method": "Enhetsregisteret field forretningsadresse.postnummer",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: postcode = '3127', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: postcode = '3127', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "purpose",
       "value": "Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av redaksjonelt og kommersielt materiale som foto og tekst, og andre naturlig tilstøtende forretningsområder.",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"vedtektsfestetFormaal\": \"Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av redaksjonelt og kommersielt materiale som foto og tekst, og andre naturlig tilstøtende forretningsområder.\"",
       "match_proof": "registry",
       "confidence": 0.93,
       "layer": "registry",
       "method": "Enhetsregisteret field vedtektsfestetFormaal",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: purpose = 'Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av r...', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: purpose = 'Konsulentvirksomhet innen reklame, PR og kommunikasjon. Innholdsproduksjon og salg av r...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "registered",
       "value": "2003-02-19",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"registreringsdatoEnhetsregisteret\": \"2003-02-19\"",
       "match_proof": "registry",
       "confidence": 0.98,
       "layer": "registry",
       "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: registered = '2003-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: registered = '2003-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "sector",
       "value": "Personlige foretak",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"beskrivelse\": \"Personlige foretak\"",
       "match_proof": "registry",
       "confidence": 0.96,
       "layer": "registry",
       "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
+      "retrieved_at": "2026-10-10T19:32:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ADRENALIN MEDIA ANS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     },
     {
       "field": "website",
       "value": "www.adrenalinmedia.no",
       "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
-      "retrieved_at": "2026-10-07T19:16:35Z",
+      "retrieved_at": "2026-10-10T19:32:16Z",
       "evidence": "\"hjemmeside\": \"www.adrenalinmedia.no\"",
       "match_proof": "registry",
       "confidence": 0.95,
       "layer": "registry",
       "method": "Enhetsregisteret field hjemmeside",
       "changed_from": null,
-      "explanation": "ADRENALIN MEDIA ANS: website = 'www.adrenalinmedia.no', read directly from the official register. (registry, retrieved 2026-10-07).",
-      "org_number": "985374945"
+      "explanation": "ADRENALIN MEDIA ANS: website = 'www.adrenalinmedia.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "985374945",
+      "freshness": "recent"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "field": "ceo",
+      "old": "Pål Rasmus Werner",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
+      "kind": "web"
+    },
+    {
+      "field": "location_count",
+      "old": 2,
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
+      "kind": "web"
+    },
+    {
+      "field": "business_locations",
+      "old": "c/o Skjølet, Banebakken 33E, 3127 TØNSBERG",
+      "new": null,
+      "detected_at": "2026-10-10T19:32:16Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985374945",
+      "kind": "web"
+    }
+  ],
   "empty_fields": [
     {
       "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "location_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
     },
@@ -310,6 +460,31 @@
       "candidates_considered": 0
     },
     {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
       "field": "lei",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
@@ -318,17 +493,9 @@
       "field": "parent_org_number",
       "reason": "no source produced a value above the confidence threshold",
       "candidates_considered": 0
-    },
-    {
-      "field": "latest_accounts_year",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
-    },
-    {
-      "field": "revenue_latest",
-      "reason": "no source produced a value above the confidence threshold",
-      "candidates_considered": 0
     }
   ],
-  "errors": []
+  "errors": [
+    "3 fact(s) carried forward from the previously published profile: this run's sources did not produce them"
+  ]
 }
