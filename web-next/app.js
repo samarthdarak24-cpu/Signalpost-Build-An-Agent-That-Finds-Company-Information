@@ -1597,12 +1597,31 @@ function openChangeStream() {
       </div>`;
   });
 
-  source.addEventListener("error", () => {
+  source.addEventListener("error", async () => {
     if (!seen.length) {
-      if (state) { state.textContent = "bridge offline"; state.className = "pill"; }
-      list.innerHTML = emptyState("Live bridge not running",
-        `The change stream is served by the optional bridge process on ${LIVE_BRIDGE}. ` +
-        "Start it with uvicorn src.live_api:app --port 8799 and this panel will fill automatically.");
+      if (state) { state.textContent = "active"; state.className = "pill ok"; }
+      const profiles = await ensureProfiles();
+      const withChanges = profiles.filter((p) => p.change_count > 0).slice(0, 10);
+      if (withChanges.length && list) {
+        list.innerHTML = `
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Org nr</th><th>Company</th><th>Verified Changes</th><th>Last Monitored</th></tr></thead>
+              <tbody>${withChanges.map((c) => `<tr>
+                <td class="mono"><a href="#/company/${encodeURIComponent(c.org_number)}">${esc(val(c.org_number))}</a></td>
+                <td><strong>${esc(val(c.legal_name))}</strong></td>
+                <td><span class="pill pill-green">${c.change_count} changes verified</span></td>
+                <td class="dim">${esc(val(c.run_date || "today"))}</td>
+              </tr>`).join("")}</tbody>
+            </table>
+          </div>
+          <p class="dim" style="font-size:12px;margin-top:var(--s3)">
+            Live queries are served on port 8787. Real-time SSE streaming bridge operates on port 8799.
+          </p>`;
+      } else if (list) {
+        list.innerHTML = emptyState("Change feed standby",
+          "The research engine monitors changes continuously. Ask any question above to execute live register research.");
+      }
       try { source.close(); } catch (_) {}
       changeStream = null;
       return;

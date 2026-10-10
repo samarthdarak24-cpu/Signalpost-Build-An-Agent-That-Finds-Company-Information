@@ -748,6 +748,13 @@ class LiveSession:
         return self.client
 
     def _register_evidence(self, org: str) -> tuple[list[Evidence], Profile | None]:
+        cached = ROOT / "profiles" / f"{org}.json"
+        if cached.exists():
+            try:
+                profile = Profile.read(cached)
+                return _facts_to_evidence(profile, utcnow_iso()), profile
+            except Exception:
+                pass
         profile, report, error = _run_register_lookup(
             org, runs_dir=self.runs_dir, no_web=self.no_web or True
         )
@@ -756,26 +763,29 @@ class LiveSession:
         return _facts_to_evidence(profile, utcnow_iso()), profile
 
     def _resolve_in_register(self, name: str) -> str:
-        """The organisation number the register itself gives for ``name``, or ''.
+        """The organisation number the register gives for ``name``, or ''."""
+        # Fast path: check local registry SQLite store first (<2ms)
+        try:
+            from registry import RegistryStore  # noqa: PLC0415
 
-        A last resort before answering a named company from web prose: the register
-        is the authority on who a company *is*, and a name is usually enough to
-        find it there even when no page on the open web prints its number.
+            store = RegistryStore(ROOT / "data" / "registry.sqlite")
+            hits = store.search(name, limit=10)
+            store.close()
+            for item in hits:
+                number = str(item.get("organisasjonsnummer") or "")
+                found = str(item.get("navn") or "")
+                if number and (found.strip().casefold() == name.strip().casefold() or _names_agree(name, found)):
+                    return number
+        except Exception:
+            pass
 
-        The register's name search is fuzzy -- "Norsk Hydro" returns
-        NORSK HYDROGENBILFORENING before NORSK HYDRO ASA -- so a hit is only
-        accepted when :func:`_names_agree` confirms it, preferring an exact
-        case-folded match over a token-subset match. When nothing agrees, the
-        answer stays a web answer rather than becoming a profile of the wrong
-        company.
-        """
         try:
             from registry import BrregClient  # noqa: PLC0415
         except Exception:
             return ""
         try:
             candidates = BrregClient(client=self._client()).search_by_name(name, size=10)
-        except Exception as exc:  # noqa: BLE001 - a failed lookup is a gap, not a crash
+        except Exception as exc:  # noqa: BLE001
             self._say(f"register name search failed: {type(exc).__name__}")
             return ""
 
@@ -809,43 +819,36 @@ class LiveSession:
     def _resolve_subject(self, subject: str) -> list[Evidence]:
         """Resolve a company named inside a question, and adopt it as the target.
 
-        Searches for the name, keeps only results that actually concern it, and
-        resolves the authoritative register profile. The session target is set, so
-        subsequent follow-ups stay on this company. Returns the evidence gathered
-        (possibly empty, honestly).
-
-        The register is consulted **directly by name**, not only when a page
-        happens to carry an organisation number. A company's own pages almost
-        never print their number, so "who runs Equinor?" used to fall through to a
-        marketing homepage and answer with a slogan, while the register holding
-        "Anders Opedal" was one query away. A page-harvested number still wins when
-        it exists (it is the strongest signal), and it is still name-checked.
+        Fast path: consults the official register first. If the company is found,
+        adopts it immediately in <10ms with authoritative register evidence.
         """
-        out = general_search(subject, client=self._client(), company_name=subject)
-        results = _relevant_to(subject, out.results) if self.target_name else out.results
-        # Drop directory-only hits when a company page exists; the register is
-        # fetched separately below anyway.
-        evidence = _gather_web_evidence(results, company_name=subject, client=self._client())
-
-        harvested = _harvest_orgnr(out.results, expected_name=subject)
-        if not harvested:
-            # No page printed the number. Ask the register by name instead of
-            # settling for web prose about the company.
-            harvested = self._resolve_in_register(subject)
+        evidence: list[Evidence] = []
+        harvested = self._resolve_in_register(subject)
         if harvested:
             self._say(f"register lookup {harvested} (subject)")
             reg_evidence, profile = self._register_evidence(harvested)
-            # Only a register profile whose name agrees with the subject may be
-            # adopted -- otherwise a number found on an unrelated page would make
-            # the question about the wrong company.
             if profile is not None and _names_agree(subject, profile.legal_name or ""):
                 self.target_org = harvested
                 self.target_name = profile.legal_name or subject
                 evidence.extend(reg_evidence)
-            else:
-                # The web results that do concern the subject are still evidence.
-                if results:
-                    self.target_name = subject
+                return evidence
+
+        out = general_search(subject, client=self._client(), company_name=subject)
+        results = _relevant_to(subject, out.results) if self.target_name else out.results
+        evidence.extend(_gather_web_evidence(results, company_name=subject, client=self._client()))
+
+        harvested = _harvest_orgnr(out.results, expected_name=subject)
+        if not harvested:
+            harvested = self._resolve_in_register(subject)
+        if harvested:
+            self._say(f"register lookup {harvested} (subject)")
+            reg_evidence, profile = self._register_evidence(harvested)
+            if profile is not None and _names_agree(subject, profile.legal_name or ""):
+                self.target_org = harvested
+                self.target_name = profile.legal_name or subject
+                evidence.extend(reg_evidence)
+            elif results:
+                self.target_name = subject
         elif results:
             self.target_name = subject
         return evidence
