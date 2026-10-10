@@ -271,7 +271,15 @@ def _run_register_lookup(org: str, *, runs_dir: Path, no_web: bool) -> tuple[Pro
     if not path.exists():
         return None, reporter.to_dict() if hasattr(reporter, "to_dict") else {}, \
             "; ".join(reporter.envelopes_by_status and [] or []) or "no profile produced"
-    return Profile.read(path), {"envelopes_by_status": reporter.envelopes_by_status}, ""
+    profile = Profile.read(path)
+    try:
+        (ROOT / "profiles").mkdir(parents=True, exist_ok=True)
+        cached_path = ROOT / "profiles" / f"{org}.json"
+        if not cached_path.exists():
+            cached_path.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+    except Exception:
+        pass
+    return profile, {"envelopes_by_status": reporter.envelopes_by_status}, ""
 
 
 # ------------------------------------------------------------------- web gather
@@ -931,133 +939,120 @@ class LiveSession:
             else:
                 answer.notes.append("no register profile was produced for this number")
 
-        # -- A name or domain: search the open web, read the top pages.
+        # -- A name or domain: search register first for fast exact resolution, then web.
         elif kind in {"name", "domain"}:
-            self._say(f"web search {query!r}")
             wanted_name = self.target_name or query
-            out = general_search(
-                query, client=self._client(),
-                company_name=wanted_name)
-            searched += out.engines_tried
-            answer.engine = out.engine
-            # Keep only results that actually concern the name that was searched.
-            # A search engine answers "VasaTest AS" with VETASSESS in Australia,
-            # Merriam-Webster's entry for "vastest", and Melbourne asbestos
-            # testers; pouring those straight into the pool is how one company's
-            # question gets answered with another page entirely. The same filter
-            # already guards the harvest and the question path -- it was simply
-            # missing here, which is the difference between "found the company"
-            # and "found a page that mentioned a similar word".
-            relevant = _relevant_to(query, out.results)
-            dropped = len(out.results) - len(relevant)
-            if dropped:
-                answer.notes.append(
-                    f"{dropped} of {len(out.results)} results did not mention "
-                    f"{query!r} and were not used")
-            evidence.extend(_gather_web_evidence(
-                relevant, company_name=wanted_name, client=self._client()))
+            clean_name = query
+            if kind == "domain":
+                stripped = query.strip().casefold()
+                if stripped.startswith(("http://", "https://")):
+                    stripped = stripped.split("://", 1)[1]
+                host = stripped.split("/", 1)[0].split("?", 1)[0].removeprefix("www.")
+                clean_name = host.split(".")[0]
 
-            # A bare name rarely states the organisation number on the top page,
-            # but a second query aimed at it usually surfaces a register or
-            # directory page that does. Only worth it when the first pass found
-            # no number -- otherwise the extra request is waste.
-            harvested = _harvest_orgnr(out.results, expected_name=query)
-            if not harvested and kind == "name":
-                self._say(f"web search {query!r} (number)")
-                out2 = general_search(
-                    f"{query} organisasjonsnummer", client=self._client(),
-                    company_name=query)
-                searched += out2.engines_tried
-                relevant2 = _relevant_to(query, out2.results)
-                dropped2 = len(out2.results) - len(relevant2)
-                if dropped2:
+            # Fast register resolution:
+            harvested = self._resolve_in_register(clean_name) if (kind == "name" or clean_name) else ""
+            if harvested:
+                self._say(f"register lookup {harvested} (name match)")
+                reg_evidence, profile = self._register_evidence(harvested)
+                if profile is not None and (_names_agree(clean_name, profile.legal_name or "") or kind == "domain"):
+                    evidence.extend(reg_evidence)
+                    answer.org_number = harvested
+                    self.target_org = harvested
+                    self.target_name = profile.legal_name or clean_name
+                    answer.target = profile.legal_name or clean_name
+                    answer.profile_path = str(self.runs_dir / "profiles" / f"{harvested}.json")
+                    searched.append(f"brreg:{harvested}")
+
+            relevant: list[SearchResult] = []
+            out = SearchOutcome(query=query, engine="register" if evidence else "")
+            if not evidence and not self.no_web:
+                self._say(f"web search {query!r}")
+                out = general_search(
+                    query, client=self._client(),
+                    company_name=wanted_name)
+                searched += out.engines_tried
+                answer.engine = out.engine
+                relevant = _relevant_to(query, out.results)
+                dropped = len(out.results) - len(relevant)
+                if dropped:
                     answer.notes.append(
-                        f"{dropped2} of {len(out2.results)} results did not mention "
+                        f"{dropped} of {len(out.results)} results did not mention "
                         f"{query!r} and were not used")
                 evidence.extend(_gather_web_evidence(
-                    relevant2, company_name=query, client=self._client()))
-                harvested = _harvest_orgnr(out2.results, expected_name=query)
-                if not out.results and out2.results:
-                    out = out2
-                    answer.engine = out2.engine
+                    relevant, company_name=wanted_name, client=self._client()))
 
-            # Still no number? A company's own pages rarely print their
-            # organisation number, so "who runs Equinor?" would otherwise be
-            # answered from a marketing homepage -- while the register that
-            # actually answers it sits one query away. Ask the register by name.
-            # The hit is *not* taken on faith: "Norsk Hydro" returns
-            # NORSK HYDROGENBILFORENING first, so only a candidate whose
-            # registered name genuinely agrees is adopted.
-            if not harvested and kind == "name":
-                by_name = self._resolve_in_register(query)
-                if by_name:
-                    harvested = by_name
-                    searched.append(f"brreg:name:{query}")
+                # A bare name rarely states the organisation number on the top page
+                if not harvested:
+                    harvested = _harvest_orgnr(out.results, expected_name=query)
+                if not harvested and kind == "name":
+                    self._say(f"web search {query!r} (number)")
+                    out2 = general_search(
+                        f"{query} organisasjonsnummer", client=self._client(),
+                        company_name=query)
+                    searched += out2.engines_tried
+                    relevant2 = _relevant_to(query, out2.results)
+                    dropped2 = len(out2.results) - len(relevant2)
+                    if dropped2:
+                        answer.notes.append(
+                            f"{dropped2} of {len(out2.results)} results did not mention "
+                            f"{query!r} and were not used")
+                    evidence.extend(_gather_web_evidence(
+                        relevant2, company_name=query, client=self._client()))
+                    harvested = _harvest_orgnr(out2.results, expected_name=query)
+                    if not out.results and out2.results:
+                        out = out2
+                        answer.engine = out2.engine
 
-            if relevant:
-                named = _identifying_result(query, relevant)
-                if named is not None:
-                    answer.target = self.target_name or named.title or query
-                else:
-                    # Something matched the name, but nothing that could *be* the
-                    # company (a video channel, a dictionary entry, a social page).
-                    # Keep the name we were asked about rather than renaming the
-                    # subject after whatever mentioned the word.
-                    answer.target = self.target_name or query
-            elif out.results:
-                # Results came back, but none of them concerned the searched name.
-                # The name is still the identity we were asked about; adopting an
-                # unrelated page's title as the company would be the wrong-entity
-                # error in its purest form. So the identity stays the query and
-                # the mismatch is reported rather than papered over.
-                answer.target = self.target_name or query
-                answer.notes.append(
-                    f"no result mentioned {query!r}; the pages returned were not "
-                    f"attributed to it")
-            # A harvested number is *provisional*: it is only adopted once the
-            # register confirms the name it belongs to actually matches what was
-            # searched. A number lifted from an unrelated listing is discarded,
-            # which is the difference between "found the company" and "found a
-            # company that happens to be on the same page".
-            if harvested:
-                want_name = query if kind == "name" else (self.target_name or query)
-                # Cheap pre-check against the local mirror first: if the mirror
-                # already knows this number and its name does not match, there is
-                # no point fetching the full profile -- we already know it is the
-                # wrong company. Only when the mirror is silent (a company not in
-                # the seeded universe) do we pay for the live lookup and confirm
-                # against the fetched name.
-                prov_name = _mirror_name(harvested)
-                if prov_name and not _names_agree(want_name, prov_name):
-                    self._say(
-                        f"ignored register number {harvested} ({prov_name}) — "
-                        f"not {want_name!r}")
-                    answer.notes.append(
-                        f"a register number ({harvested}) appeared in the results "
-                        f"but it belongs to {prov_name!r}, not {want_name!r}; it was "
-                        f"not attributed to this query")
-                else:
-                    self._say(f"register lookup {harvested} (from web result)")
-                    reg_evidence, profile = self._register_evidence(harvested)
-                    searched.append(f"brreg:{harvested}")
-                    if profile is not None and _names_agree(
-                            want_name, profile.legal_name or ""):
-                        answer.org_number = harvested
-                        self.target_org = harvested
-                        self.target_name = profile.legal_name or self.target_name
-                        answer.target = profile.legal_name or answer.target
-                        answer.profile_path = str(
-                            self.runs_dir / "profiles" / f"{harvested}.json")
-                        evidence.extend(reg_evidence)
+                if not harvested and kind == "name":
+                    by_name = self._resolve_in_register(query)
+                    if by_name:
+                        harvested = by_name
+                        searched.append(f"brreg:name:{query}")
+
+                if relevant:
+                    named = _identifying_result(query, relevant)
+                    if named is not None:
+                        answer.target = self.target_name or named.title or query
                     else:
-                        # The single most important guard here: never let a register
-                        # profile of a *different* company stand in for this search.
+                        answer.target = self.target_name or query
+                elif out.results:
+                    answer.target = self.target_name or query
+                    answer.notes.append(
+                        f"no result mentioned {query!r}; the pages returned were not "
+                        f"attributed to it")
+
+                if harvested:
+                    want_name = query if kind == "name" else (self.target_name or query)
+                    prov_name = _mirror_name(harvested)
+                    if prov_name and not _names_agree(want_name, prov_name):
+                        self._say(
+                            f"ignored register number {harvested} ({prov_name}) — "
+                            f"not {want_name!r}")
                         answer.notes.append(
                             f"a register number ({harvested}) appeared in the results "
-                            f"but its registered name did not match "
-                            f"{want_name!r}; it was not attributed to this query")
-            if out.error and not out.results:
-                answer.notes.append(f"search: {out.error}")
+                            f"but it belongs to {prov_name!r}, not {want_name!r}; it was "
+                            f"not attributed to this query")
+                    else:
+                        self._say(f"register lookup {harvested} (from web result)")
+                        reg_evidence, profile = self._register_evidence(harvested)
+                        searched.append(f"brreg:{harvested}")
+                        if profile is not None and _names_agree(
+                                want_name, profile.legal_name or ""):
+                            answer.org_number = harvested
+                            self.target_org = harvested
+                            self.target_name = profile.legal_name or self.target_name
+                            answer.target = profile.legal_name or answer.target
+                            answer.profile_path = str(
+                                self.runs_dir / "profiles" / f"{harvested}.json")
+                            evidence.extend(reg_evidence)
+                        else:
+                            answer.notes.append(
+                                f"a register number ({harvested}) appeared in the results "
+                                f"but its registered name did not match "
+                                f"{want_name!r}; it was not attributed to this query")
+                if out.error and not out.results:
+                    answer.notes.append(f"search: {out.error}")
 
         # -- A question: answer from the in-session company first, then the web.
         else:
