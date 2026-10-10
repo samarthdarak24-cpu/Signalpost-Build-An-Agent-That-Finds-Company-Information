@@ -318,16 +318,22 @@ def _load_all() -> list:  # noqa: ANN401
     return out
 
 
+_RECALL_CACHE = None
+
 def _recall() -> dict:
     """The per-domain recall matrix and the highest-value missing fields."""
+    global _RECALL_CACHE
+    if _RECALL_CACHE is not None:
+        return _RECALL_CACHE
     from coverage import missing_high_value_fields, recall_matrix  # noqa: PLC0415
 
-    profiles = _load_all()
-    return {
+    profiles = _load_all()[:200]
+    _RECALL_CACHE = {
         "profiles": len(profiles),
         "matrix": recall_matrix(profiles),
         "missing": missing_high_value_fields(profiles, limit=12),
     }
+    return _RECALL_CACHE
 
 
 def _audit() -> dict:
@@ -414,6 +420,22 @@ def _lookup(number: str) -> dict:
     org = clean(number)
     if org is None:
         return {"error": "invalid organisation number"}
+
+    # Fast path: if already cached in profiles/, return immediately
+    existing = ROOT / "profiles" / f"{org}.json"
+    if existing.exists():
+        try:
+            profile = Profile.read(existing)
+            return {
+                "orgnr": org,
+                "profile": profile.to_dict(),
+                "synthesis": synthesis(profile),
+                "coverage": domain_coverage(profile),
+                "summary": coverage_summary(profile),
+            }
+        except Exception:
+            pass
+
     # Anchor identity offline from the public universe when possible, so a flaky
     # register does not turn a real company into a failure.
     try:
