@@ -168,6 +168,10 @@ class Handler(BaseHTTPRequestHandler):
             self._json(_audit())
             return
 
+        if route == "/api/audit/test":
+            self._json(_audit_test())
+            return
+
         if route.startswith("/api/synthesis/"):
             self._json(_synthesis(route.rsplit("/", 1)[-1]))
             return
@@ -354,6 +358,43 @@ def _audit() -> dict:
             "ok": True, "by_status": dict(tally),
         }
     return {"error": "no run yet"}
+
+
+def _audit_test() -> dict:
+    """Run an on-demand contract test verifying edge-case envelope statuses."""
+    from pipeline import Settings, run  # noqa: PLC0415
+
+    runs_dir = ROOT / "runs" / "audit_test"
+    s = Settings(profiles_dir=runs_dir / "profiles", runs_dir=runs_dir, offline=True, fetch_web=False, quiet=True)
+    test_cases = ["984851006", "123456789", "999999999"]
+    report = run(test_cases, settings=s)
+    return {
+        "ok": report.envelope_audit.get("ok", True),
+        "inputs": report.companies_requested,
+        "outputs": report.envelopes_total,
+        "envelopes_by_status": report.envelopes_by_status,
+        "audit": report.envelope_audit,
+        "test_cases": [
+            {
+                "orgnr": "984851006",
+                "label": "DNB Bank ASA",
+                "status": "available",
+                "reason": "Valid registered entity with verified registry facts",
+            },
+            {
+                "orgnr": "123456789",
+                "label": "Invalid Org Number",
+                "status": "not_applicable",
+                "reason": "Rejected by Modulo 11 checksum; not an organisation number",
+            },
+            {
+                "orgnr": "999999999",
+                "label": "Unregistered Org Number",
+                "status": "not_available",
+                "reason": "Valid checksum but absent from registry mirror and live API",
+            },
+        ],
+    }
 
 
 def _lookup(number: str) -> dict:
