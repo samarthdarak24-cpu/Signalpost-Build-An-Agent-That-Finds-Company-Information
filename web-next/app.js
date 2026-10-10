@@ -1212,9 +1212,11 @@ function factRow(field, value, fact, opts = {}) {
     <div class="right">
       ${fact ? layerTag(fact.layer) : ""}
       ${conf ? `<span class="conf" title="Extraction confidence">${conf}</span>` : ""}
-      ${fact ? `<button class="btn quiet sm" type="button"
-        onclick="openEvidenceByField(${JSON.stringify(field)})"
-        aria-label="Show the evidence for ${esc(FIELD_LABELS[field] || field)}">${icon("eye")}</button>` : ""}
+      <button class="btn quiet sm" type="button"
+        data-field="${esc(field)}"
+        onclick="event.stopPropagation(); openEvidenceByField(${JSON.stringify(field)})"
+        aria-label="Show the evidence for ${esc(FIELD_LABELS[field] || field)}"
+        title="View source evidence">${icon("eye")}</button>
     </div>
   </div>`;
 }
@@ -1265,7 +1267,7 @@ function profileOverview(byField, synth) {
   return `
     <div class="subhead">Observed facts</div>
     ${brief.length
-      ? brief.map((l) => factRow(l.field, l.value, byField[l.field])).join("")
+      ? brief.map((l) => factRow(l.field, l.value, byField[l.field] || (state.profile && (state.profile.facts || []).find(f => f.field === l.field)))).join("")
       : `<p class="muted">Synthesis produced no brief for this run.</p>`}
 
     ${purpose ? `<div class="subhead" style="margin-top:var(--s6)">Objects clause, as filed</div>
@@ -1360,13 +1362,16 @@ function changes(profile) {
 function closeDrawer() {
   const drawer = $("#drawer");
   if (!drawer) return;
+  drawer.setAttribute("hidden", "");
   drawer.hidden = true;
   drawer.style.display = "none";
   drawer.innerHTML = "";
   drawer.removeAttribute("aria-labelledby");
   const bd = $("#drawerBackdrop");
   if (bd) bd.remove();
-  if (window.__lastFocus && window.__lastFocus.focus) window.__lastFocus.focus();
+  if (window.__lastFocus && window.__lastFocus.focus) {
+    try { window.__lastFocus.focus(); } catch (_) {}
+  }
   window.__lastFocus = null;
 }
 window.closeDrawer = closeDrawer;
@@ -1383,8 +1388,11 @@ function openDrawer(html, title) {
   backdrop.addEventListener("click", closeDrawer);
   document.body.appendChild(backdrop);
 
+  drawer.removeAttribute("hidden");
   drawer.hidden = false;
   drawer.style.display = "block";
+  drawer.style.visibility = "visible";
+  drawer.style.zIndex = "1000";
   drawer.innerHTML = `<button class="close" type="button" onclick="closeDrawer()"
       aria-label="Close panel">${icon("close")}</button>
     <div class="eyebrow">Evidence</div>
@@ -1394,18 +1402,31 @@ function openDrawer(html, title) {
   if (btn) btn.focus();
 }
 
+const FIELD_ALIASES = {
+  what_it_does: "description",
+  registered_address: "address",
+  objects_clause: "purpose",
+  managing_director: "ceo",
+};
+
 /* The evidence detail view. Everything shown here is a field the pipeline
  * actually wrote — nothing is inferred for display. */
 window.openEvidenceByField = function (field) {
   let fact = null;
-  if (window.__factsMap && window.__factsMap[field]) {
-    fact = window.__factsMap[field];
+  const alias = FIELD_ALIASES[field] || "";
+  
+  if (window.__factsMap) {
+    fact = window.__factsMap[field] || (alias ? window.__factsMap[alias] : null);
   }
   if (!fact && state.profile && state.profile.facts) {
-    fact = (state.profile.facts || []).find((f) => f.field === field);
+    fact = (state.profile.facts || []).find((f) => f.field === field || (alias && f.field === alias));
   }
   if (!fact && state.lookupResult && state.lookupResult.profile && state.lookupResult.profile.facts) {
-    fact = (state.lookupResult.profile.facts || []).find((f) => f.field === field);
+    fact = (state.lookupResult.profile.facts || []).find((f) => f.field === field || (alias && f.field === alias));
+  }
+  if (!fact && state.profile && state.profile.facts) {
+    // Fuzzy search by field name substring
+    fact = (state.profile.facts || []).find((f) => field.includes(f.field) || f.field.includes(field));
   }
   if (!fact) {
     openDrawer(note("void", `<div>This field has no published fact, so there is nothing to
@@ -1461,6 +1482,14 @@ window.openEvidenceByField = function (field) {
     </dl>`,
     FIELD_LABELS[field] || field);
 };
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-field]");
+  if (btn && btn.dataset.field) {
+    e.stopPropagation();
+    openEvidenceByField(btn.dataset.field);
+  }
+});
 
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") { closeDrawer(); if (window.closeNav) window.closeNav(); }
