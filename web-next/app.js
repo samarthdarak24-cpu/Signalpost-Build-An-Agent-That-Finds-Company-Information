@@ -2211,12 +2211,12 @@ async function viewAuditor() {
   }
   const total = audit.inputs || 1;
   const statuses = [
-    ["available", audit.matched || 0, "A profile was published with evidence.", "Published"],
-    ["not_available", audit.not_available || 0, "Entity absent from registry / no publishable facts.", "Abstained (clean batch)"],
-    ["ambiguous", audit.ambiguous || 0, "More than one candidate entity matched.", "Zero collisions"],
-    ["blocked", audit.blocked || 0, "The register or a site refused access.", "Zero blocks"],
-    ["failed", audit.failed || 0, "An unhandled error stopped the company.", "Zero failures"],
-    ["not_applicable", audit.not_applicable || 0, "Input is not a checksum-valid organisation number.", "Zero malformed"],
+    ["available", audit.matched || 0, "A profile was published with evidence.", "available", "Published"],
+    ["not_available", audit.not_available || 0, "Entity absent from registry / no publishable facts.", "neutral", "0 absent"],
+    ["ambiguous", audit.ambiguous || 0, "More than one candidate entity matched.", "zero_is_good", "0 collisions"],
+    ["blocked", audit.blocked || 0, "The register or a site refused access.", "zero_is_good", "0 blocks"],
+    ["failed", audit.failed || 0, "An unhandled error stopped the company.", "zero_is_good", "0 failures"],
+    ["not_applicable", audit.not_applicable || 0, "Input is not a checksum-valid organisation number.", "neutral", "0 malformed"],
   ];
 
   const wrap = document.createElement("div");
@@ -2234,7 +2234,7 @@ async function viewAuditor() {
             "Exactly one terminal result per input is the contract. More or fewer is a breach.")}
       ${kpi("Matched", fmtNum(audit.matched),
             `${pct((audit.matched || 0) / total)} of inputs published`)}
-      ${kpi("Contract", audit.ok ? "met" : "breached", audit.ok ? "no missing or duplicate output" : "see the lists below",
+      ${kpi("Contract", audit.ok ? "met" : "breached", audit.ok ? "100% compliant (0 missing, 0 duplicates)" : "see the lists below",
             "Fails when an input has no output, has two outputs, or is not a valid organisation number.")}
     </div>
 
@@ -2242,18 +2242,26 @@ async function viewAuditor() {
       <div>
         <section class="panel">
           ${sectionHead("Terminal statuses", "how every input ended", "")}
-          ${statuses.map(([name, n, desc, badge]) => {
+          ${statuses.map(([name, n, desc, kind, badge]) => {
             const ratio = (n || 0) / total;
             const isZero = n === 0;
+            let badgeHtml = "";
+            if (kind === "available") {
+              badgeHtml = pill("ok", isZero ? "0" : `${pct(ratio)} published`, true);
+            } else if (kind === "zero_is_good") {
+              badgeHtml = isZero ? pill("ok", badge, true) : pill("err", `${n} error${n > 1 ? "s" : ""}`, true);
+            } else {
+              badgeHtml = isZero ? pill("ok", badge, true) : pill("void", `${pct(ratio)}`, false);
+            }
             return `<div class="bar-row" style="margin-bottom:var(--s3)">
               <div class="lbl" style="display:flex;align-items:center;gap:6px">
                 <span class="mono" style="font-weight:600">${esc(name)}</span>
                 <span class="dim" style="font-size:12px">· ${esc(desc)}</span>
               </div>
-              <div class="bar ${n > 0 ? "" : "void"}" role="img" aria-label="${esc(name)}: ${fmtNum(n)}"><span style="width:${Math.max(2, Math.round(ratio * 100))}%"></span></div>
+              <div class="bar ${n > 0 ? (name === "failed" || name === "blocked" ? "void" : "") : "void"}" role="img" aria-label="${esc(name)}: ${fmtNum(n)}"><span style="width:${Math.max(isZero ? 0 : 2, Math.round(ratio * 100))}%"></span></div>
               <div class="num" style="display:flex;align-items:center;gap:6px">
                 <span class="mono">${fmtNum(n)}</span>
-                ${isZero ? pill("void", esc(badge), false) : pill("ok", `${pct(ratio)}`, true)}
+                ${badgeHtml}
               </div>
             </div>`;
           }).join("")}
