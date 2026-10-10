@@ -104,9 +104,12 @@ Domain recall (companies % / facts %): company record 100/79 · financials
 - [x] 100-company smoke test (`docs/SMOKE_TEST_REPORT.md`)
 - [x] Measured cost & runtime (`docs/COST_REPORT.md`)
 - [x] Recall gap report (`docs/RECALL_GAPS.md`)
-- [x] ≥1,000 company profiles — **profiles committed under `profiles/`**
+- [x] ≥1,000 company profiles — 3,526+ committed under `profiles/`
 - [ ] Repository URL — _push to your GitHub remote, then paste the URL here_
-- [x] Exact commit hash — `1757a25833d481706ba3baefaae2aca7d912f741` (short `1757a25`)
+- [x] Exact commit hash — tagged **`submission-v1`** = `5c330125c437c6852a3a8bff0b1007b1d9fc15cb`
+      (short `5c33012`). This manifest line was written in the commit that follows it, so the
+      authoritative reference is the git tag, not the text. Resolve it with:
+      `git rev-parse submission-v1`
 - [ ] Contact details — _fill in: name / email_
 
 ## Delivering the repository
