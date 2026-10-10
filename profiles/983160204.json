@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.0",
+  "org_number": "983160204",
+  "legal_name": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T133715Z",
+  "fact_count": 23,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Valkendorfsgaten 1A, 5012 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "forretningsadresse: Valkendorfsgaten 1A, 5012 BERGEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: address = 'Valkendorfsgaten 1A, 5012 BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Lasse Smilden",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"navn\": \"Lasse Smilden\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: board_chair = 'Lasse Smilden', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Asle Solvang, Rolf Ole Kleiven, Håvard Tjore, Kåre Romarheim, Alf Rasmus Drivenes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "roles: Asle Solvang, Rolf Ole Kleiven, Håvard Tjore, Kåre Romarheim, Alf Rasmus Drivenes",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: board_members = 'Asle Solvang, Rolf Ole Kleiven, Håvard Tjore, Kåre Romarheim, Alf Rasmus Drivenes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Valkendorfsgaten 1A, 5012 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"beliggenhetsadresse\": 'Valkendorfsgaten 1A, 5012 BERGEN' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: business_locations = 'Valkendorfsgaten 1A, 5012 BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Vegard Birkeland Vike",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"navn\": \"Vegard Birkeland Vike\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: ceo = 'Vegard Birkeland Vike', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"poststed\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: city = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Bransjeforening for entreprenørbedrifter i Sogn & Fjordane og Hordaland, tilsluttet NHO.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"aktivitet\": \"Bransjeforening for entreprenørbedrifter i Sogn & Fjordane og Hordaland, tilsluttet NHO.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: description = 'Bransjeforening for entreprenørbedrifter i Sogn & Fjordane og Hordaland, tilsluttet NHO.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "linda.belsnes@ebav.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"epostadresse\": \"linda.belsnes@ebav.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: email = 'linda.belsnes@ebav.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1916-12-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"stiftelsesdato\": \"1916-12-02\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: founded = '1916-12-02', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: industry = 'Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"navn\": \"ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: legal_name = 'ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"kommune\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"kode\": \"94.110\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: nace_code = '94.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "983160204",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "organisasjonsnummer: \"983160204\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: org_number = '983160204', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "55 90 72 50",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"telefon\": \"55 90 72 50\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: phone = '55 90 72 50', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5012",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"postnummer\": \"5012\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: postcode = '5012', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2001-03-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2001-03-26\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: registered = '2001-03-26', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private produsentorienterte organisasjoner uten profittformål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"beskrivelse\": \"Private produsentorienterte organisasjoner uten profittformål\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: sector = 'Private produsentorienterte organisasjoner uten profittformål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.ebavest.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983160204",
+      "retrieved_at": "2026-10-10T13:39:52Z",
+      "evidence": "\"hjemmeside\": \"www.ebavest.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ENTREPRENØRFORENINGEN BYGG OG ANLEGG VESTENFJELSKE AVDELING: website = 'www.ebavest.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983160204",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

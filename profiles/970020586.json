@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "970020586",
+  "legal_name": "ASKER HUSFLIDSLAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T132913Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Askerveien 47, 1384 ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "forretningsadresse: Askerveien 47, 1384 ASKER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: address = 'Askerveien 47, 1384 ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Elin Flaaten",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"navn\": \"Elin Flaaten\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: board_chair = 'Elin Flaaten', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Elisabeth Bolstad, Jorunn Saunes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "roles: Elisabeth Bolstad, Jorunn Saunes",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: board_deputies = 'Elisabeth Bolstad, Jorunn Saunes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Anne Marie Tyvold Tyse, Marianne Røed, Marit Brandt-Rasmussen, Anita Skauge, Jennifer Jane Akselsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "roles: Anne Marie Tyvold Tyse, Marianne Røed, Marit Brandt-Rasmussen, Anita Skauge, Jennifer Jane Akselsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: board_members = 'Anne Marie Tyvold Tyse, Marianne Røed, Marit Brandt-Rasmussen, Anita Skauge, Jennifer J...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Askerveien 47, 1384 ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"beliggenhetsadresse\": 'Askerveien 47, 1384 ASKER' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: business_locations = 'Askerveien 47, 1384 ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"poststed\": \"ASKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: city = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Yrkessammenslutninger.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"aktivitet\": \"Yrkessammenslutninger.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: description = 'Yrkessammenslutninger.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@askerhusflid.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"epostadresse\": \"post@askerhusflid.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: email = 'post@askerhusflid.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 27,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"antallAnsatte\": 27",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: employees = 27, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1932-05-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"stiftelsesdato\": \"1932-05-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: founded = '1932-05-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ASKER HUSFLIDSLAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"navn\": \"ASKER HUSFLIDSLAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: legal_name = 'ASKER HUSFLIDSLAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"kommune\": \"ASKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "970020586",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "organisasjonsnummer: \"970020586\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: org_number = '970020586', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "66 78 03 25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"telefon\": \"66 78 03 25\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: phone = '66 78 03 25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1384",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"postnummer\": \"1384\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: postcode = '1384', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.askerhusflidslag.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970020586",
+      "retrieved_at": "2026-10-10T13:31:07Z",
+      "evidence": "\"hjemmeside\": \"www.askerhusflidslag.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ASKER HUSFLIDSLAG: website = 'www.askerhusflidslag.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970020586",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}
