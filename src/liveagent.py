@@ -928,14 +928,16 @@ class LiveSession:
                 answer.target = profile.legal_name or org
                 answer.org_number = org
                 answer.profile_path = str(self.runs_dir / "profiles" / f"{org}.json")
-                # A name/no question about a known company does not need the web.
-                if not self.no_web and not followup:
+                # A known company with register evidence does not need web search latency
+                if not self.no_web and not followup and not reg_evidence:
                     out = search_web(profile.legal_name or query, client=self._client(),
                                      company_name=profile.legal_name)
                     searched += out.engines_tried
                     evidence.extend(_gather_web_evidence(
                         out.results, company_name=profile.legal_name, client=self._client()))
                     answer.engine = out.engine
+                else:
+                    answer.engine = "register"
             else:
                 answer.notes.append("no register profile was produced for this number")
 
