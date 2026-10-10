@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "929367618",
+  "legal_name": "ØVRE FRUDALSRINDANE VEILAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T080424Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "forretningsadresse: c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: address = 'c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Cathrine Sleire Juvsett",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"navn\": \"Cathrine Sleire Juvsett\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: board_chair = 'Cathrine Sleire Juvsett', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Lill Malen Kristiansen, Ørjan Godø",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "roles: Lill Malen Kristiansen, Ørjan Godø",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: board_members = 'Lill Malen Kristiansen, Ørjan Godø', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: business_locations = 'c/o Cathrine Sleire Juvsett, Frudalsrindane 79, 5306 ERDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ERDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"poststed\": \"ERDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: city = 'ERDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drift og vedlikehold av privat vei for husnummer 67 - 87 - oddetall. Dette gjelder betaling av strøm for veilys for alle hus, og betaling av strøm for pumpe for husnummer 77 -87.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"aktivitet\": \"Drift og vedlikehold av privat vei for husnummer 67 - 87 - oddetall. Dette gjelder betaling av strøm for veilys for alle hus, og betaling av strøm for pumpe for husnummer 77 -87.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: description = 'Drift og vedlikehold av privat vei for husnummer 67 - 87 - oddetall. Dette gjelder beta...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2022-04-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"stiftelsesdato\": \"2022-04-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: founded = '2022-04-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Eiendomsforvaltning på oppdrag",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"beskrivelse\": \"Eiendomsforvaltning på oppdrag\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ØVRE FRUDALSRINDANE VEILAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"navn\": \"ØVRE FRUDALSRINDANE VEILAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: legal_name = 'ØVRE FRUDALSRINDANE VEILAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ASKØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"kommune\": \"ASKØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: municipality = 'ASKØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.320",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"kode\": \"68.320\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "929367618",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "organisasjonsnummer: \"929367618\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: org_number = '929367618', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5306",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"postnummer\": \"5306\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: postcode = '5306', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: registered = '2023-03-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929367618",
+      "retrieved_at": "2026-10-10T08:05:41Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ØVRE FRUDALSRINDANE VEILAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "929367618",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

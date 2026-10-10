@@ -1,0 +1,484 @@
+{
+  "schema_version": "1.0",
+  "org_number": "980068617",
+  "legal_name": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T071017Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Frydenlundvegen 2B, 2414 ELVERUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "forretningsadresse: Frydenlundvegen 2B, 2414 ELVERUM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: address = 'Frydenlundvegen 2B, 2414 ELVERUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Hans Peter Bye",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"navn\": \"Hans Peter Bye\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: board_chair = 'Hans Peter Bye', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Ivar Eggestad, Tor Gulbrandsen, Jon Kaatorp Østbye, Emil Bækkevold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "roles: Ivar Eggestad, Tor Gulbrandsen, Jon Kaatorp Østbye, Emil Bækkevold",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: board_members = 'Ivar Eggestad, Tor Gulbrandsen, Jon Kaatorp Østbye, Emil Bækkevold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Frydenlundvegen 2B, 2414 ELVERUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"beliggenhetsadresse\": 'Frydenlundvegen 2B, 2414 ELVERUM' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: business_locations = 'Frydenlundvegen 2B, 2414 ELVERUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Eirik Borgen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"navn\": \"Eirik Borgen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: ceo = 'Eirik Borgen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ELVERUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"poststed\": \"ELVERUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: city = 'ELVERUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Samarbeidsorgan for flere bedrifter som i fellesskap har påtatt seg opplæringsansvar i samarbeid med fagopplæringen på Fylkeskommunen, skoleverket og lærlingen etter lov om fagopplæring i arbeidslivet, etter opplæringslovens §7.12.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"aktivitet\": \"Samarbeidsorgan for flere bedrifter som i fellesskap har påtatt seg opplæringsansvar i samarbeid med fagopplæringen på Fylkeskommunen, skoleverket og lærlingen etter lov om fagopplæring i arbeidslivet, etter opplæringslovens §7.12.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: description = 'Samarbeidsorgan for flere bedrifter som i fellesskap har påtatt seg opplæringsansvar i ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@elektrofag-hedmark.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"epostadresse\": \"post@elektrofag-hedmark.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: email = 'post@elektrofag-hedmark.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 5,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"antallAnsatte\": 5",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: employees = 5, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1998-08-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"stiftelsesdato\": \"1998-08-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: founded = '1998-08-05', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre tjenester tilknyttet undervisning ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"beskrivelse\": \"Andre tjenester tilknyttet undervisning ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: industry = 'Andre tjenester tilknyttet undervisning ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"navn\": \"OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: legal_name = 'OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ELVERUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"kommune\": \"ELVERUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: municipality = 'ELVERUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.699",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"kode\": \"85.699\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: nace_code = '85.699', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "980068617",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "organisasjonsnummer: \"980068617\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: org_number = '980068617', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "62 59 03 01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"telefon\": \"62 59 03 01\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: phone = '62 59 03 01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2414",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"postnummer\": \"2414\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: postcode = '2414', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1998-12-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1998-12-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: registered = '1998-12-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.elektrofag-hedmark.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980068617",
+      "retrieved_at": "2026-10-10T07:11:57Z",
+      "evidence": "\"hjemmeside\": \"www.elektrofag-hedmark.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "OPPLÆRINGSKONTORET FOR ELEKTROFAG I HEDMARK: website = 'www.elektrofag-hedmark.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980068617",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

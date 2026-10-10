@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931249940",
+  "legal_name": "TINDLUND-VIKSTAD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Bjerkelundsveien 23, 1621 GRESSVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "forretningsadresse: Bjerkelundsveien 23, 1621 GRESSVIK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: address = 'Bjerkelundsveien 23, 1621 GRESSVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "GRESSVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"poststed\": \"GRESSVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: city = 'GRESSVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Graving, rydde, bortkjøring.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"aktivitet\": \"Graving, rydde, bortkjøring.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: description = 'Graving, rydde, bortkjøring.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Grunnarbeid",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"beskrivelse\": \"Grunnarbeid\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: industry = 'Grunnarbeid', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "TINDLUND-VIKSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"navn\": \"TINDLUND-VIKSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: legal_name = 'TINDLUND-VIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "FREDRIKSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"kommune\": \"FREDRIKSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: municipality = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "43.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"kode\": \"43.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: nace_code = '43.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931249940",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "organisasjonsnummer: \"931249940\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: org_number = '931249940', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Andreas Tindlund-Vikstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"navn\": \"Andreas Tindlund-Vikstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: owner = 'Andreas Tindlund-Vikstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1621",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"postnummer\": \"1621\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: postcode = '1621', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249940",
+      "retrieved_at": "2026-10-10T09:38:52Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "TINDLUND-VIKSTAD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931249940",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

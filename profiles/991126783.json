@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "991126783",
+  "legal_name": "BALESTRAND SAMDRIFT SA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Jon Asbjørn Målsnes, Målsnes 11, 6899 BALESTRAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "forretningsadresse: c/o Jon Asbjørn Målsnes, Målsnes 11, 6899 BALESTRAND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: address = 'c/o Jon Asbjørn Målsnes, Målsnes 11, 6899 BALESTRAND', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "city",
+      "value": "BALESTRAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"poststed\": \"BALESTRAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: city = 'BALESTRAND', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "description",
+      "value": "Landproduksjon med hagebruk og husdyrhald.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"aktivitet\": \"Landproduksjon med hagebruk og husdyrhald.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: description = 'Landproduksjon med hagebruk og husdyrhald.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "email",
+      "value": "fruktlager@balholm.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"epostadresse\": \"fruktlager@balholm.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: email = 'fruktlager@balholm.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "founded",
+      "value": "2007-02-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"stiftelsesdato\": \"2007-02-13\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: founded = '2007-02-13', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "industry",
+      "value": "Oppdrett av annet storfe til kjøttproduksjon og sædproduksjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Oppdrett av annet storfe til kjøttproduksjon og sædproduksjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: industry = 'Oppdrett av annet storfe til kjøttproduksjon og sædproduksjon', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "legal_form",
+      "value": "SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "legal_name",
+      "value": "BALESTRAND SAMDRIFT SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"navn\": \"BALESTRAND SAMDRIFT SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: legal_name = 'BALESTRAND SAMDRIFT SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "municipality",
+      "value": "SOGNDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kommune\": \"SOGNDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: municipality = 'SOGNDAL', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.420",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"01.420\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: nace_code = '01.420', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "phone",
+      "value": "95161530",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"mobil\": \"95161530\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: phone = '95161530', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "postcode",
+      "value": "6899",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"postnummer\": \"6899\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: postcode = '6899', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "purpose",
+      "value": "Landbruksproduksjon i ei eining for å sikre utnytting av medlemane sine eigne jordbruksareal samt eventuelle eigedomar som vert kjøpt, leigd og/eller forpakta av medlemane. Samdrifta kan utføre all verksemd som er naturleg knytt til landbruket.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Landbruksproduksjon i ei eining for å sikre utnytting av medlemane sine eigne jordbruksareal samt eventuelle eigedomar som vert kjøpt, leigd og/eller forpakta av medlemane. Samdrifta kan utføre all verksemd som er naturleg knytt til landbruket.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: purpose = 'Landbruksproduksjon i ei eining for å sikre utnytting av medlemane sine eigne jordbruks...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "registered",
+      "value": "2007-07-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2007-07-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: registered = '2007-07-21', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991126783",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BALESTRAND SAMDRIFT SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "991126783"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

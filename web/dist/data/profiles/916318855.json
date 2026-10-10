@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "916318855",
+  "legal_name": "1 EIENDOM AS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Bekkhusvegen 31, 3676 NOTODDEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "forretningsadresse: Bekkhusvegen 31, 3676 NOTODDEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: address = 'Bekkhusvegen 31, 3676 NOTODDEN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "city",
+      "value": "NOTODDEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"poststed\": \"NOTODDEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: city = 'NOTODDEN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "description",
+      "value": "Eiendom, eiendomsutvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"aktivitet\": \"Eiendom, eiendomsutvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: description = 'Eiendom, eiendomsutvikling.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "founded",
+      "value": "2015-11-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"stiftelsesdato\": \"2015-11-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: founded = '2015-11-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "industry",
+      "value": "Utleie av egen eller leid fast eiendom",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "legal_name",
+      "value": "1 EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"navn\": \"1 EIENDOM AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: legal_name = '1 EIENDOM AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "municipality",
+      "value": "NOTODDEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kommune\": \"NOTODDEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: municipality = 'NOTODDEN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kode\": \"68.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "phone",
+      "value": "90 12 12 18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"mobil\": \"90 12 12 18\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: phone = '90 12 12 18', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "postcode",
+      "value": "3676",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"postnummer\": \"3676\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: postcode = '3676', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "purpose",
+      "value": "Kjøp og salg av eiendom, eiendomsutvikling, investering, konsulenttjenester og hva som naturlig ligger til bransjen. Selskapet kan gjøre investeringer i verdipapirer, samt eie i andre selskaper.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Kjøp og salg av eiendom, eiendomsutvikling, investering, konsulenttjenester og hva som naturlig ligger til bransjen. Selskapet kan gjøre investeringer i verdipapirer, samt eie i andre selskaper.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: purpose = 'Kjøp og salg av eiendom, eiendomsutvikling, investering, konsulenttjenester og hva som ...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "registered",
+      "value": "2015-12-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-12-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: registered = '2015-12-15', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916318855",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1 EIENDOM AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "916318855"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

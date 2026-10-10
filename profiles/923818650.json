@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923818650",
+  "legal_name": "LEIF HANEVOLD AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T070559Z",
+  "fact_count": 12,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "regnskapsperiode ended 2025-03-21",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 6801,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "Annual accounts for the period ending 2025-03-21: debt 6801 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: debt = 6801, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 891194,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "Annual accounts for the period ending 2025-03-21: equity 891194 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: equity = 891194, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923818650",
+      "retrieved_at": "2026-10-10T07:07:01Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LEIF HANEVOLD AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923818650",
+      "retrieved_at": "2026-10-10T07:07:01Z",
+      "evidence": "\"navn\": \"LEIF HANEVOLD AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: legal_name = 'LEIF HANEVOLD AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923818650",
+      "retrieved_at": "2026-10-10T07:07:01Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 4671,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "Annual accounts for the period ending 2025-03-21: net result 4671 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: net_result = 4671, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -1725,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "Annual accounts for the period ending 2025-03-21: operating result -1725 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: operating_result = -1725, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "923818650",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923818650",
+      "retrieved_at": "2026-10-10T07:07:01Z",
+      "evidence": "organisasjonsnummer: \"923818650\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: org_number = '923818650', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-03-21",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "regnskapsperiode slutt 2025-03-21",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: reporting_period = '2025-03-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923818650",
+      "retrieved_at": "2026-10-10T07:07:01Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 897995,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923818650",
+      "retrieved_at": "2026-10-10T07:07:13Z",
+      "evidence": "Annual accounts for the period ending 2025-03-21: total assets 897995 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "LEIF HANEVOLD AS: total_assets = 897995, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923818650",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

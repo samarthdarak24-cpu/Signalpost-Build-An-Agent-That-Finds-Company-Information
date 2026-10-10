@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "org_number": "986252932",
+  "legal_name": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T082005Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Lørenfaret 1C, 0585 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "forretningsadresse: Lørenfaret 1C, 0585 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: address = 'Lørenfaret 1C, 0585 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Lørenfaret 1C, 0585 OSLO | Verksgata 2, 4013 STAVANGER | Brattørkaia 15A, 7010 TRONDHEIM | Lørenfaret 1C, 0585 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"beliggenhetsadresse\": 'Lørenfaret 1C, 0585 OSLO' (first of 4)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: business_locations = 'Lørenfaret 1C, 0585 OSLO | Verksgata 2, 4013 STAVANGER | Brattørkaia 15A, 7010 TRONDHEI...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Nina Cecilie Kulås",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"navn\": \"Nina Cecilie Kulås\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: ceo = 'Nina Cecilie Kulås', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Forvaltningsorgan med funksjoner og oppgaver innenfor økonomistyring underlagt Finansdepartementet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"aktivitet\": \"Forvaltningsorgan med funksjoner og oppgaver innenfor økonomistyring underlagt Finansdepartementet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: description = 'Forvaltningsorgan med funksjoner og oppgaver innenfor økonomistyring underlagt Finansde...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "postmottak@dfo.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"epostadresse\": \"postmottak@dfo.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: email = 'postmottak@dfo.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 946,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"antallAnsatte\": 946",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: employees = 946, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Generell offentlig administrasjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"beskrivelse\": \"Generell offentlig administrasjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: industry = 'Generell offentlig administrasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"navn\": \"DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: legal_name = 'DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 5,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"underenheter\": 4 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: location_count = 5, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"kode\": \"84.110\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: nace_code = '84.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "986252932",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "organisasjonsnummer: \"986252932\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: org_number = '986252932', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "972417807",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"overordnetEnhet\": \"972417807\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: parent_org_number = '972417807', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "40 00 79 97",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"telefon\": \"40 00 79 97\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: phone = '40 00 79 97', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0585",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"postnummer\": \"0585\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: postcode = '0585', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2003-11-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2003-11-18\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: registered = '2003-11-18', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Statsforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"beskrivelse\": \"Statsforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: sector = 'Statsforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.dfo.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986252932",
+      "retrieved_at": "2026-10-10T08:20:57Z",
+      "evidence": "\"hjemmeside\": \"www.dfo.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING: website = 'www.dfo.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986252932",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

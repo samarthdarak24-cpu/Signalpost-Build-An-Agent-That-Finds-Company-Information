@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "896407872",
+  "legal_name": "ELVIS EIDSVOLD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kleivveien 11B, 1356 BEKKESTUA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "forretningsadresse: Kleivveien 11B, 1356 BEKKESTUA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: address = 'Kleivveien 11B, 1356 BEKKESTUA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BEKKESTUA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"poststed\": \"BEKKESTUA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: city = 'BEKKESTUA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Ingeniør- og prosjektledertjenester innen byggeprosjekter.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"aktivitet\": \"Ingeniør- og prosjektledertjenester innen byggeprosjekter.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: description = 'Ingeniør- og prosjektledertjenester innen byggeprosjekter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Byggeteknisk konsulentvirksomhet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"beskrivelse\": \"Byggeteknisk konsulentvirksomhet\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: industry = 'Byggeteknisk konsulentvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ELVIS EIDSVOLD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"navn\": \"ELVIS EIDSVOLD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: legal_name = 'ELVIS EIDSVOLD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BÆRUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"kommune\": \"BÆRUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "71.121",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"kode\": \"71.121\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: nace_code = '71.121', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "896407872",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "organisasjonsnummer: \"896407872\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: org_number = '896407872', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Elvis Harsheim Eidsvold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"navn\": \"Elvis Harsheim Eidsvold\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: owner = 'Elvis Harsheim Eidsvold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "90774160",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"mobil\": \"90774160\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: phone = '90774160', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1356",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"postnummer\": \"1356\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: postcode = '1356', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2011-03-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2011-03-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: registered = '2011-03-07', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896407872",
+      "retrieved_at": "2026-10-10T10:01:31Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ELVIS EIDSVOLD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "896407872",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

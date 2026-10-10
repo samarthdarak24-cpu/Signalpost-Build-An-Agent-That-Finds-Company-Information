@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "org_number": "948197790",
+  "legal_name": "ANS HUSMANN",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Henckels gate 22, 3613 KONGSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "forretningsadresse: Henckels gate 22, 3613 KONGSBERG",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: address = 'Henckels gate 22, 3613 KONGSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "city",
+      "value": "KONGSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"poststed\": \"KONGSBERG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: city = 'KONGSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "description",
+      "value": "Kjøp/salg av kjøretøy. Eiendom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"aktivitet\": \"Kjøp/salg av kjøretøy. Eiendom.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: description = 'Kjøp/salg av kjøretøy. Eiendom.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "founded",
+      "value": "1988-04-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"stiftelsesdato\": \"1988-04-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: founded = '1988-04-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med motorvogner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med motorvogner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: industry = 'Detaljhandel med motorvogner', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "legal_name",
+      "value": "ANS HUSMANN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"navn\": \"ANS HUSMANN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: legal_name = 'ANS HUSMANN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "municipality",
+      "value": "KONGSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kommune\": \"KONGSBERG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: municipality = 'KONGSBERG', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.810",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kode\": \"47.810\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: nace_code = '47.810', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "phone",
+      "value": "90858897",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"mobil\": \"90858897\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: phone = '90858897', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "postcode",
+      "value": "3613",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"postnummer\": \"3613\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: postcode = '3613', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "purpose",
+      "value": "Detaljhandel med motorvogner. Deltagelse i andre selskaper.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Detaljhandel med motorvogner. Deltagelse i andre selskaper.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: purpose = 'Detaljhandel med motorvogner. Deltagelse i andre selskaper.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/948197790",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ANS HUSMANN: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "948197790"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "995216604",
+  "legal_name": "WALLENIUS WILHELMSEN ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Strandveien 20, 1366 LYSAKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "forretningsadresse: Strandveien 20, 1366 LYSAKER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: address = 'Strandveien 20, 1366 LYSAKER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "city",
+      "value": "LYSAKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"poststed\": \"LYSAKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: city = 'LYSAKER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "description",
+      "value": "Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhet, megling, agenturer og spedisjon, å eie eller drive fast eiendom, samt drive virksomhet beslektet med eller tilknyttet det nevnte. Dette kan skje direkte, eller indirekte ved garanti, aksjetegning eller på annen måte.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"aktivitet\": \"Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhet, megling, agenturer og spedisjon, å eie eller drive fast eiendom, samt drive virksomhet beslektet med eller tilknyttet det nevnte. Dette kan skje direkte, eller indirekte ved garanti, aksjetegning eller på annen måte.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: description = 'Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhe...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "founded",
+      "value": "2010-02-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"stiftelsesdato\": \"2010-02-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: founded = '2010-02-12', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "industry",
+      "value": "Utenriks sjøfart med gods",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Utenriks sjøfart med gods\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: industry = 'Utenriks sjøfart med gods', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "legal_name",
+      "value": "WALLENIUS WILHELMSEN ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"navn\": \"WALLENIUS WILHELMSEN ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: legal_name = 'WALLENIUS WILHELMSEN ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "municipality",
+      "value": "BÆRUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kommune\": \"BÆRUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "nace_code",
+      "value": "50.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"50.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: nace_code = '50.201', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "phone",
+      "value": "67 58 40 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"telefon\": \"67 58 40 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: phone = '67 58 40 00', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "postcode",
+      "value": "1366",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"postnummer\": \"1366\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: postcode = '1366', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "purpose",
+      "value": "Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhet, megling, agenturer og spedisjon, å eie eller drive fast eiendom, samt drive virksomhet beslektet med eller tilknyttet det nevnte. Dette kan skje direkte, eller indirekte ved garanti, aksjetegning eller på annen måte.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhet, megling, agenturer og spedisjon, å eie eller drive fast eiendom, samt drive virksomhet beslektet med eller tilknyttet det nevnte. Dette kan skje direkte, eller indirekte ved garanti, aksjetegning eller på annen måte.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: purpose = 'Drive skipsfart, maritim servicevirksomhet, luftfart, industri, handel, finansvirksomhe...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "registered",
+      "value": "2010-02-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2010-02-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: registered = '2010-02-25', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    },
+    {
+      "field": "website",
+      "value": "www.walleniuswilhelmsen.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995216604",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"hjemmeside\": \"www.walleniuswilhelmsen.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "WALLENIUS WILHELMSEN ASA: website = 'www.walleniuswilhelmsen.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995216604"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

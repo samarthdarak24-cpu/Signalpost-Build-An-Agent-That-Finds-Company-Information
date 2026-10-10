@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "830191852",
+  "legal_name": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T095316Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kråkenesveien 46, 5152 BØNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "forretningsadresse: Kråkenesveien 46, 5152 BØNES",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: address = 'Kråkenesveien 46, 5152 BØNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kråkenesveien 46, 5152 BØNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kråkenesveien 46, 5152 BØNES' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: business_locations = 'Kråkenesveien 46, 5152 BØNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BØNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"poststed\": \"BØNES\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: city = 'BØNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Behandling for bedring av fysisk og psykisk helse.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"aktivitet\": \"Behandling for bedring av fysisk og psykisk helse.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: description = 'Behandling for bedring av fysisk og psykisk helse.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre helsetjenester ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"beskrivelse\": \"Andre helsetjenester ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: industry = 'Andre helsetjenester ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"navn\": \"BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: legal_name = 'BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"kommune\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "86.993",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"kode\": \"86.993\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: nace_code = '86.993', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "830191852",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "organisasjonsnummer: \"830191852\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: org_number = '830191852', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Ingvild Berntzen Himle",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"navn\": \"Ingvild Berntzen Himle\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: owner = 'Ingvild Berntzen Himle', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5152",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"postnummer\": \"5152\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: postcode = '5152', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2022-11-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2022-11-08\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: registered = '2022-11-08', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830191852",
+      "retrieved_at": "2026-10-10T09:54:02Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BØNES POLARITETSTERAPI- INGVILD BERNTZEN HIMLE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "830191852",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "988384135",
+  "legal_name": "KID ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Gilhusveien 1, 3426 GULLAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "forretningsadresse: Gilhusveien 1, 3426 GULLAUG",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KID ASA: address = 'Gilhusveien 1, 3426 GULLAUG', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "city",
+      "value": "GULLAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"poststed\": \"GULLAUG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KID ASA: city = 'GULLAUG', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "description",
+      "value": "Drift av handelsvirksomhet, hovedsakelig basert på kjøp og distribusjon av lavkostnadsvarer i form av import og engros, detaljsalg og franchise, og annen aktivitet som er naturlig i tilknytning til dette, herunder også investeringer i andre foretak og fast eiendom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"aktivitet\": \"Drift av handelsvirksomhet, hovedsakelig basert på kjøp og distribusjon av lavkostnadsvarer i form av import og engros, detaljsalg og franchise, og annen aktivitet som er naturlig i tilknytning til dette, herunder også investeringer i andre foretak og fast eiendom.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KID ASA: description = 'Drift av handelsvirksomhet, hovedsakelig basert på kjøp og distribusjon av lavkostnadsv...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "email",
+      "value": "admin@kid.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"epostadresse\": \"admin@kid.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "KID ASA: email = 'admin@kid.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "founded",
+      "value": "2005-06-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"stiftelsesdato\": \"2005-06-23\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "KID ASA: founded = '2005-06-23', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med tekstiler og utstyrsvarer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med tekstiler og utstyrsvarer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KID ASA: industry = 'Detaljhandel med tekstiler og utstyrsvarer', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KID ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "KID ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KID ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "legal_name",
+      "value": "KID ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"navn\": \"KID ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KID ASA: legal_name = 'KID ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "municipality",
+      "value": "LIER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kommune\": \"LIER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KID ASA: municipality = 'LIER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.510",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kode\": \"47.510\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KID ASA: nace_code = '47.510', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "postcode",
+      "value": "3426",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"postnummer\": \"3426\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KID ASA: postcode = '3426', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "purpose",
+      "value": "Drift av handelsvirksomhet, hovedsaklig basert på kjøp og salg av interiørtekstiler gjennom import, engros- og detaljsalg og franchise, og virksomhet som naturlig er knyttet til dette, herunder også investeringer i andre foretak og relevant fast eiendom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Drift av handelsvirksomhet, hovedsaklig basert på kjøp og salg av interiørtekstiler gjennom import, engros- og detaljsalg og franchise, og virksomhet som naturlig er knyttet til dette, herunder også investeringer i andre foretak og relevant fast eiendom.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "KID ASA: purpose = 'Drift av handelsvirksomhet, hovedsaklig basert på kjøp og salg av interiørtekstiler gje...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "registered",
+      "value": "2005-06-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2005-06-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KID ASA: registered = '2005-06-24', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988384135",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KID ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988384135"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

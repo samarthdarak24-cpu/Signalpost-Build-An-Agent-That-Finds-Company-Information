@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "org_number": "928347265",
+  "legal_name": "SKODJEVEGEN 330 AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T095659Z",
+  "fact_count": 14,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "regnskapsperiode ended 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Skodjevegen 330, 6260 SKODJE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "\"beliggenhetsadresse\": 'Skodjevegen 330, 6260 SKODJE' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: business_locations = 'Skodjevegen 330, 6260 SKODJE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 6005729,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: debt 6005729 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: debt = 6005729, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 641550,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: equity 641550 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: equity = 641550, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SKODJEVEGEN 330 AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "\"navn\": \"SKODJEVEGEN 330 AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: legal_name = 'SKODJEVEGEN 330 AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -292411,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: net result -292411 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: net_result = -292411, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 146309,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: operating result 146309 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: operating_result = 146309, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "928347265",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "organisasjonsnummer: \"928347265\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: org_number = '928347265', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "regnskapsperiode slutt 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: reporting_period = '2024-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 912523,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: revenue latest 912523 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: revenue_latest = 912523, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928347265",
+      "retrieved_at": "2026-10-10T09:59:19Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 6647279,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928347265",
+      "retrieved_at": "2026-10-10T09:59:31Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: total assets 6647279 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SKODJEVEGEN 330 AS: total_assets = 6647279, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "928347265",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

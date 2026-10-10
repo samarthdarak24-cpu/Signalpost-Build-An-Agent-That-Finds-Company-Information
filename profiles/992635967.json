@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "992635967",
+  "legal_name": "SKIBOTN PENSJONISTFORENING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T074300Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Ture Nilsen, Hottiveien 15, 9143 SKIBOTN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "forretningsadresse: c/o Ture Nilsen, Hottiveien 15, 9143 SKIBOTN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: address = 'c/o Ture Nilsen, Hottiveien 15, 9143 SKIBOTN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Ture Nilsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"navn\": \"Ture Nilsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: board_chair = 'Ture Nilsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Odin Arne Odinson, Steinar Furuly, Unni Marie Seppola Brøndbo, Nina Pauline Nilsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "roles: Odin Arne Odinson, Steinar Furuly, Unni Marie Seppola Brøndbo, Nina Pauline Nilsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: board_members = 'Odin Arne Odinson, Steinar Furuly, Unni Marie Seppola Brøndbo, Nina Pauline Nilsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SKIBOTN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"poststed\": \"SKIBOTN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: city = 'SKIBOTN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Pensjonistforening.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"aktivitet\": \"Pensjonistforening.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: description = 'Pensjonistforening.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "tnilsen9@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"epostadresse\": \"tnilsen9@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: email = 'tnilsen9@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1983-07-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"stiftelsesdato\": \"1983-07-02\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: founded = '1983-07-02', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SKIBOTN PENSJONISTFORENING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"navn\": \"SKIBOTN PENSJONISTFORENING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: legal_name = 'SKIBOTN PENSJONISTFORENING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "STORFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"kommune\": \"STORFJORD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: municipality = 'STORFJORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "992635967",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "organisasjonsnummer: \"992635967\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: org_number = '992635967', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "77 71 55 96",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"telefon\": \"77 71 55 96\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: phone = '77 71 55 96', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "9143",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"postnummer\": \"9143\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: postcode = '9143', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2008-06-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2008-06-18\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: registered = '2008-06-18', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992635967",
+      "retrieved_at": "2026-10-10T07:43:36Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SKIBOTN PENSJONISTFORENING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "992635967",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

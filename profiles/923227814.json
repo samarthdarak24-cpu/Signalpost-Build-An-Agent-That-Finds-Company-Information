@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923227814",
+  "legal_name": "FOLKETS PARTI OSLO",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T080424Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "board_chair",
+      "value": "Øyvind Sægrov",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"navn\": \"Øyvind Sægrov\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: board_chair = 'Øyvind Sægrov', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Britt Fossum, Atle Andrei Nybakken, Cecilie Lyngby",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "roles: Britt Fossum, Atle Andrei Nybakken, Cecilie Lyngby",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: board_members = 'Britt Fossum, Atle Andrei Nybakken, Cecilie Lyngby', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "lokallag for politisk parti",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"aktivitet\": \"lokallag for politisk parti\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: description = 'lokallag for politisk parti', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "segrov@me.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"epostadresse\": \"segrov@me.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: email = 'segrov@me.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2019-08-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"stiftelsesdato\": \"2019-08-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: founded = '2019-08-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i partipolitiske organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i partipolitiske organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: industry = 'Aktiviteter i partipolitiske organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FOLKETS PARTI OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"navn\": \"FOLKETS PARTI OSLO\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: legal_name = 'FOLKETS PARTI OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.920",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"kode\": \"94.920\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: nace_code = '94.920', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "923227814",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "organisasjonsnummer: \"923227814\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: org_number = '923227814', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "464 43 465",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"mobil\": \"464 43 465\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: phone = '464 43 465', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2019-08-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-08-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: registered = '2019-08-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923227814",
+      "retrieved_at": "2026-10-10T08:07:46Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FOLKETS PARTI OSLO: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "923227814",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

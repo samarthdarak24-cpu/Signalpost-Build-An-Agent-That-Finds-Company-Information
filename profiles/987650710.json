@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "987650710",
+  "legal_name": "NØTTERØY AMATØRTEATER",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102959Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Kristin Bækkevold, Bekkefaret 5B, 3132 HUSØYSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "forretningsadresse: c/o Kristin Bækkevold, Bekkefaret 5B, 3132 HUSØYSUND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: address = 'c/o Kristin Bækkevold, Bekkefaret 5B, 3132 HUSØYSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Kristin Maria Skoglund Bækkevold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"navn\": \"Kristin Maria Skoglund Bækkevold\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: board_chair = 'Kristin Maria Skoglund Bækkevold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Gry Stensholt, Karoline Bekkedal Andersen, Stina Elling Ekenes, Benedicte Fanebust, Hilde Sundvor Brendalsmo, Teo Gevelt Kjebekk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "roles: Gry Stensholt, Karoline Bekkedal Andersen, Stina Elling Ekenes, Benedicte Fanebust, Hilde Sundvor Brendalsmo, Teo Gevelt Kjebekk",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: board_members = 'Gry Stensholt, Karoline Bekkedal Andersen, Stina Elling Ekenes, Benedicte Fanebust, Hil...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HUSØYSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"poststed\": \"HUSØYSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: city = 'HUSØYSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Amatørteater for barn, ungdom og voksne.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"aktivitet\": \"Amatørteater for barn, ungdom og voksne.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: description = 'Amatørteater for barn, ungdom og voksne.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@namt.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"epostadresse\": \"post@namt.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: email = 'post@namt.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1972-12-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"stiftelsesdato\": \"1972-12-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: founded = '1972-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor scenekunst",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor scenekunst\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor scenekunst', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NØTTERØY AMATØRTEATER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"navn\": \"NØTTERØY AMATØRTEATER\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: legal_name = 'NØTTERØY AMATØRTEATER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TØNSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"kommune\": \"TØNSBERG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: municipality = 'TØNSBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.202",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"kode\": \"90.202\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: nace_code = '90.202', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "987650710",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "organisasjonsnummer: \"987650710\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: org_number = '987650710', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "3132",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"postnummer\": \"3132\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: postcode = '3132', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2009-09-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-09-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: registered = '2009-09-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.namt.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987650710",
+      "retrieved_at": "2026-10-10T10:31:02Z",
+      "evidence": "\"hjemmeside\": \"www.namt.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NØTTERØY AMATØRTEATER: website = 'www.namt.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987650710",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

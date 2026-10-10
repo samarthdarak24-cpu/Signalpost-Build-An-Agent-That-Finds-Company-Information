@@ -1,0 +1,33 @@
+{
+  "org_number": "883432932",
+  "legal_name": "102 OKTAN Christer Lundem",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "email"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Trosvikgata 25, 1610 FREDRIKSTAD",
+    "email": "christer@98oktan.com",
+    "industry": "Detaljhandel med motorvogner",
+    "language_form": "Bokmål",
+    "legal_form": "ENK",
+    "legal_name": "102 OKTAN Christer Lundem",
+    "municipality": "FREDRIKSTAD",
+    "nace_code": "47.810",
+    "postcode": "1610",
+    "registered": "2001-06-12",
+    "sector": "Personlig næringsdrivende"
+  }
+}

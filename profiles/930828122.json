@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930828122",
+  "legal_name": "HEALER SISSEL MYKLEBUST",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T085259Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Elgveien 23D, 1534 MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "forretningsadresse: Elgveien 23D, 1534 MOSS",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: address = 'Elgveien 23D, 1534 MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"poststed\": \"MOSS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: city = 'MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Konsulenttjenester for healing, spirituelt arbeid og alternative behandlingsmetoder. Dette tilbys over telefon via Dinekspert og meditasjon klasser over nett.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"aktivitet\": \"Konsulenttjenester for healing, spirituelt arbeid og alternative behandlingsmetoder. Dette tilbys over telefon via Dinekspert og meditasjon klasser over nett.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: description = 'Konsulenttjenester for healing, spirituelt arbeid og alternative behandlingsmetoder. De...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre personlige tjenester ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"beskrivelse\": \"Andre personlige tjenester ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: industry = 'Andre personlige tjenester ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "HEALER SISSEL MYKLEBUST",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"navn\": \"HEALER SISSEL MYKLEBUST\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: legal_name = 'HEALER SISSEL MYKLEBUST', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"kommune\": \"MOSS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: municipality = 'MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "96.990",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"kode\": \"96.990\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: nace_code = '96.990', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930828122",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "organisasjonsnummer: \"930828122\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: org_number = '930828122', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Sissel Annett Myklebust",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"navn\": \"Sissel Annett Myklebust\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: owner = 'Sissel Annett Myklebust', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1534",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"postnummer\": \"1534\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: postcode = '1534', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-02-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-02-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: registered = '2023-02-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828122",
+      "retrieved_at": "2026-10-10T08:53:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "HEALER SISSEL MYKLEBUST: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930828122",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

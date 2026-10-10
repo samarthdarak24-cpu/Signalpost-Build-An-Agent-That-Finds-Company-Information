@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "org_number": "971335866",
+  "legal_name": "LINDESNES BRASS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102959Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "board_chair",
+      "value": "Anne Reidun Sletten",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"navn\": \"Anne Reidun Sletten\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: board_chair = 'Anne Reidun Sletten', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Kjell Arild Olsen, Målfrid Erna Storaker",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "roles: Kjell Arild Olsen, Målfrid Erna Storaker",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: board_deputies = 'Kjell Arild Olsen, Målfrid Erna Storaker', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Arild Vidar Knutsen, Tove Njerve Stusvik, Grethe Knudegaard, Magnus Midling-Jenssen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "roles: Arild Vidar Knutsen, Tove Njerve Stusvik, Grethe Knudegaard, Magnus Midling-Jenssen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: board_members = 'Arild Vidar Knutsen, Tove Njerve Stusvik, Grethe Knudegaard, Magnus Midling-Jenssen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Skal styrke samhold og kameratskap i korpset og mellom korps. La musikk bli velferd for utøverne og for kommunen og gjennom samarbeid med andre organisasjoner, søke og utvide interessen for saken. Gi musikere, instruktører, dirigenter og tillitsvalgte tilbud om kurs, arrangere og delta på konserter, stevner/festivaler, konkurranser og andre arrangement.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"aktivitet\": \"Skal styrke samhold og kameratskap i korpset og mellom korps. La musikk bli velferd for utøverne og for kommunen og gjennom samarbeid med andre organisasjoner, søke og utvide interessen for saken. Gi musikere, instruktører, dirigenter og tillitsvalgte tilbud om kurs, arrangere og delta på konserter, stevner/festivaler, konkurranser og andre arrangement.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: description = 'Skal styrke samhold og kameratskap i korpset og mellom korps. La musikk bli velferd for...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1983-12-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"stiftelsesdato\": \"1983-12-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: founded = '1983-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LINDESNES BRASS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"navn\": \"LINDESNES BRASS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: legal_name = 'LINDESNES BRASS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "971335866",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "organisasjonsnummer: \"971335866\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: org_number = '971335866', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/971335866",
+      "retrieved_at": "2026-10-10T10:31:19Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LINDESNES BRASS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "971335866",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

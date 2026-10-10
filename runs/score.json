@@ -1,0 +1,161 @@
+{
+  "total": 78.3,
+  "maximum": 100,
+  "qualified": true,
+  "qualification": {
+    "total": 65
+  },
+  "recall_points": 30.28,
+  "precision_points": 30.0,
+  "profiles_scored": 2146,
+  "golden_count": 12,
+  "missing_golden": [],
+  "categories": [
+    {
+      "category": "recall",
+      "points": 30.28,
+      "maximum": 50,
+      "ratio": 0.606,
+      "detail": "36390 of 60088 field slots filled with evidence (60.6%)",
+      "breakdown": {
+        "field_hit_rate": {
+          "legal_name": 1.0,
+          "legal_form": 1.0,
+          "status": 0.946,
+          "industry": 0.73,
+          "nace_code": 0.73,
+          "founded": 0.619,
+          "registered": 0.733,
+          "employees": 0.315,
+          "municipality": 0.723,
+          "postcode": 0.723,
+          "city": 0.729,
+          "address": 0.729,
+          "location_count": 0.991,
+          "business_locations": 0.624,
+          "ceo": 0.508,
+          "board_chair": 0.586,
+          "board_members": 0.376,
+          "revenue_latest": 0.616,
+          "net_result": 0.675,
+          "total_assets": 0.675,
+          "equity": 0.674,
+          "accounting_year": 0.675,
+          "website": 0.174,
+          "email": 0.272,
+          "phone": 0.375,
+          "description": 0.733,
+          "parent_org_number": 0.01,
+          "lei": 0.016
+        },
+        "evidenced": {
+          "legal_name": 2146,
+          "legal_form": 2146,
+          "status": 2031,
+          "industry": 1567,
+          "nace_code": 1567,
+          "founded": 1328,
+          "registered": 1573,
+          "employees": 676,
+          "municipality": 1552,
+          "postcode": 1552,
+          "city": 1564,
+          "address": 1564,
+          "location_count": 2126,
+          "business_locations": 1339,
+          "ceo": 1091,
+          "board_chair": 1258,
+          "board_members": 807,
+          "revenue_latest": 1322,
+          "net_result": 1449,
+          "total_assets": 1449,
+          "equity": 1446,
+          "accounting_year": 1449,
+          "website": 373,
+          "email": 583,
+          "phone": 805,
+          "description": 1572,
+          "parent_org_number": 21,
+          "lei": 34
+        },
+        "present": {
+          "legal_name": 2146,
+          "legal_form": 2146,
+          "status": 2031,
+          "industry": 1567,
+          "nace_code": 1567,
+          "founded": 1328,
+          "registered": 1573,
+          "employees": 676,
+          "municipality": 1552,
+          "postcode": 1552,
+          "city": 1564,
+          "address": 1564,
+          "location_count": 2126,
+          "business_locations": 1339,
+          "ceo": 1091,
+          "board_chair": 1258,
+          "board_members": 807,
+          "revenue_latest": 1322,
+          "net_result": 1449,
+          "total_assets": 1449,
+          "equity": 1446,
+          "accounting_year": 1449,
+          "website": 373,
+          "email": 583,
+          "phone": 805,
+          "description": 1572,
+          "parent_org_number": 21,
+          "lei": 34
+        }
+      }
+    },
+    {
+      "category": "precision",
+      "points": 30.0,
+      "maximum": 30,
+      "ratio": 1.0,
+      "detail": "36390/36390 facts carry a strong proof; 0 profiles contain a foreign org number; 13 change records across 13 profiles",
+      "breakdown": {
+        "facts_scored": 36390,
+        "evidence_complete": 36390,
+        "strong_proof": 36390,
+        "proof_types": {
+          "registry": 36356,
+          "identifier_join": 34
+        },
+        "org_number_integrity": 1.0,
+        "change_records": 13,
+        "profiles_with_changes": 13,
+        "well_formed": 13,
+        "freshness_signals": 4303
+      }
+    },
+    {
+      "category": "synthesis",
+      "points": 10.02,
+      "maximum": 12,
+      "ratio": 0.835,
+      "detail": "84% mean explanation quality across 48892 facts, each naming its proof type",
+      "breakdown": {
+        "mean_quality": 0.835
+      }
+    },
+    {
+      "category": "ease_of_use",
+      "points": 8.0,
+      "maximum": 8,
+      "ratio": 1.0,
+      "detail": "7/7 packaging checks pass",
+      "breakdown": {
+        "makefile_present": true,
+        "env_example": true,
+        "readme": true,
+        "run_report_written": true,
+        "one_command_run": true,
+        "web_console": true,
+        "tests_present": true
+      }
+    }
+  ]
+}

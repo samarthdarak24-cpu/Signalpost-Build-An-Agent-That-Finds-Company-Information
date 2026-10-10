@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931015486",
+  "legal_name": "AID FOR UKRAINA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "forretningsadresse: c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: address = 'c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Mette Krabberød",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"navn\": \"Mette Krabberød\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: board_chair = 'Mette Krabberød', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Helge Gudbrand Ramton",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "roles: Helge Gudbrand Ramton",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: board_members = 'Helge Gudbrand Ramton', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: business_locations = 'c/o Mette Krabberød, Evje terrasse 4, 1338 SANDVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SANDVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"poststed\": \"SANDVIKA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: city = 'SANDVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kjøp av humanitær hjelp (mat, medisiner, klær, varme- energikilder, helseartikler, mat etc.) til personer i Ukraina som er berørt av krigen med Russland og da særlig rettet mot personer som bor i grenseområder/krigssoner og Ukrainske soldater.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"aktivitet\": \"Kjøp av humanitær hjelp (mat, medisiner, klær, varme- energikilder, helseartikler, mat etc.) til personer i Ukraina som er berørt av krigen med Russland og da særlig rettet mot personer som bor i grenseområder/krigssoner og Ukrainske soldater.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: description = 'Kjøp av humanitær hjelp (mat, medisiner, klær, varme- energikilder, helseartikler, mat ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: founded = '2023-03-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "AID FOR UKRAINA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"navn\": \"AID FOR UKRAINA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: legal_name = 'AID FOR UKRAINA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BÆRUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kommune\": \"BÆRUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931015486",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "organisasjonsnummer: \"931015486\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: org_number = '931015486', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1338",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"postnummer\": \"1338\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: postcode = '1338', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931015486",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "AID FOR UKRAINA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931015486",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

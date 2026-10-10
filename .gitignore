@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Local secrets / config ---
+.env
+*.local
+
+# --- Caches and transient run state (regenerable; not part of the submission) ---
+data/cache/
+data/search_cache/
+data/llm_cache/
+data/snapshots.sqlite
+data/snapshots.sqlite-journal
+data/registry.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+runs/audit/_t48_cf_tmp/
+runs/audit/t48_isolated_corpus/
+runs/.live/
+runs/live/
+runs/lookup/
+runs/envelopes.jsonl
+server.log
+*.log
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# NOTE: profiles/ is intentionally COMMITTED (>=1,000 company profiles are a
+# submission requirement). See docs/SUBMISSION_MANIFEST.md.

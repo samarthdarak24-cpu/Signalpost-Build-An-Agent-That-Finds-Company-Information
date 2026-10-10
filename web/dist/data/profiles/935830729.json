@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "org_number": "935830729",
+  "legal_name": "12I EIENDOM AS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kindingstadvegen 31, 4160 FINNØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "forretningsadresse: Kindingstadvegen 31, 4160 FINNØY",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: address = 'Kindingstadvegen 31, 4160 FINNØY', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "city",
+      "value": "FINNØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"poststed\": \"FINNØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: city = 'FINNØY', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "description",
+      "value": "Korttidsutleie av hus, hytte, leilighet eller rom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"aktivitet\": \"Korttidsutleie av hus, hytte, leilighet eller rom.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: description = 'Korttidsutleie av hus, hytte, leilighet eller rom.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "founded",
+      "value": "2025-07-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"stiftelsesdato\": \"2025-07-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: founded = '2025-07-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "industry",
+      "value": "Drift av vandrerhjem og ferieleiligheter",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"beskrivelse\": \"Drift av vandrerhjem og ferieleiligheter\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: industry = 'Drift av vandrerhjem og ferieleiligheter', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "legal_name",
+      "value": "12I EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"navn\": \"12I EIENDOM AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: legal_name = '12I EIENDOM AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "municipality",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kommune\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: municipality = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "nace_code",
+      "value": "55.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"kode\": \"55.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: nace_code = '55.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "postcode",
+      "value": "4160",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"postnummer\": \"4160\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: postcode = '4160', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "purpose",
+      "value": "Drive med korttidsutleie av hus, hytte, leilighet eller rom, inkludert, men ikke begrenset til, forvaltning, markedsføring, og vedlikehold av utleieboliger.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Drive med korttidsutleie av hus, hytte, leilighet eller rom, inkludert, men ikke begrenset til, forvaltning, markedsføring, og vedlikehold av utleieboliger.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: purpose = 'Drive med korttidsutleie av hus, hytte, leilighet eller rom, inkludert, men ikke begren...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "registered",
+      "value": "2025-07-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2025-07-09\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: registered = '2025-07-09', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "retrieved_at": "2026-10-07T16:45:41Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "12I EIENDOM AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935830729"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

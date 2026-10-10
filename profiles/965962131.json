@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "965962131",
+  "legal_name": "T K REFVE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T061437Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Nordsjøvegen 502, 4352 KLEPPE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "forretningsadresse: Nordsjøvegen 502, 4352 KLEPPE",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "T K REFVE: address = 'Nordsjøvegen 502, 4352 KLEPPE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Nordsjøvegen 502, 4352 KLEPPE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"beliggenhetsadresse\": 'Nordsjøvegen 502, 4352 KLEPPE' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "T K REFVE: business_locations = 'Nordsjøvegen 502, 4352 KLEPPE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Trond Kristian Refve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"navn\": \"Trond Kristian Refve\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "T K REFVE: ceo = 'Trond Kristian Refve', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "KLEPPE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"poststed\": \"KLEPPE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "T K REFVE: city = 'KLEPPE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kombinert husdyrhold og planteproduksjon: Svinehold, melkeproduksjon på storfe og fôrproduksjon. Frivillig bortforpakning av bygninger, engrohandel med maskiner og utstyr til jordbruk og maskinentreprenør.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"aktivitet\": \"Kombinert husdyrhold og planteproduksjon: Svinehold, melkeproduksjon på storfe og fôrproduksjon. Frivillig bortforpakning av bygninger, engrohandel med maskiner og utstyr til jordbruk og maskinentreprenør.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "T K REFVE: description = 'Kombinert husdyrhold og planteproduksjon: Svinehold, melkeproduksjon på storfe og fôrpr...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Svinehold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"beskrivelse\": \"Svinehold\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "T K REFVE: industry = 'Svinehold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "T K REFVE: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2014",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2014\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "T K REFVE: latest_accounts_year = '2014', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "T K REFVE: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "T K REFVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"navn\": \"T K REFVE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "T K REFVE: legal_name = 'T K REFVE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "T K REFVE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "KLEPP",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"kommune\": \"KLEPP\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "T K REFVE: municipality = 'KLEPP', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.460",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"kode\": \"01.460\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "T K REFVE: nace_code = '01.460', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "965962131",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "organisasjonsnummer: \"965962131\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "T K REFVE: org_number = '965962131', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Trond Kristian Refve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"navn\": \"Trond Kristian Refve\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "T K REFVE: owner = 'Trond Kristian Refve', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "51 42 22 21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"telefon\": \"51 42 22 21\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "T K REFVE: phone = '51 42 22 21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4352",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"postnummer\": \"4352\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "T K REFVE: postcode = '4352', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "T K REFVE: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "T K REFVE: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965962131",
+      "retrieved_at": "2026-10-10T06:15:28Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "T K REFVE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "965962131",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

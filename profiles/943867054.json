@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "943867054",
+  "legal_name": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T065801Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Mjærumveien 112, 1827 HOBØL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "forretningsadresse: Mjærumveien 112, 1827 HOBØL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: address = 'Mjærumveien 112, 1827 HOBØL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Mjærumveien 112, 1827 HOBØL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"beliggenhetsadresse\": 'Mjærumveien 112, 1827 HOBØL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: business_locations = 'Mjærumveien 112, 1827 HOBØL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HOBØL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"poststed\": \"HOBØL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: city = 'HOBØL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kennel for hunder og kattepensjonat.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"aktivitet\": \"Kennel for hunder og kattepensjonat.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: description = 'Kennel for hunder og kattepensjonat.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 22,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"antallAnsatte\": 22",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: employees = 22, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Tjenester tilknyttet husdyrhold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"beskrivelse\": \"Tjenester tilknyttet husdyrhold\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: industry = 'Tjenester tilknyttet husdyrhold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"navn\": \"PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: legal_name = 'PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "INDRE ØSTFOLD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"kommune\": \"INDRE ØSTFOLD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: municipality = 'INDRE ØSTFOLD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.620",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"kode\": \"01.620\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: nace_code = '01.620', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "943867054",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "organisasjonsnummer: \"943867054\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: org_number = '943867054', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Pernille Backer Lemming",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"navn\": \"Pernille Backer Lemming\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: owner = 'Pernille Backer Lemming', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "69 921510",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"telefon\": \"69 921510\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: phone = '69 921510', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1827",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"postnummer\": \"1827\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: postcode = '1827', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/943867054",
+      "retrieved_at": "2026-10-10T06:58:17Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "PER OG PIAS HUNDE OG KATTEPENSJONAT innehaver Pernille Lemming: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "943867054",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

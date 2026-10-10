@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Signalpost — company intelligence grounded in traceable sources, verifiable claims and transparent research. Norwegian organisation numbers." />
+  <title>Signalpost — Evidence Engine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="sr" href="#main">Skip to content</a>
+
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Primary">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v18" />
+            <path d="M12 6l6.5 2.8L12 11.6" />
+            <path d="M12 6L5.5 8.8 12 11.6" />
+            <path d="M8.6 20h6.8" />
+          </svg>
+        </span>
+        <div>
+          <div class="brand-name">Signalpost</div>
+          <div class="brand-sub">Evidence Engine</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav" aria-label="Sections"></nav>
+      <div class="sidebar-foot" id="health" aria-live="polite"></div>
+    </aside>
+
+    <div class="main-col">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open navigation"
+                aria-expanded="false" aria-controls="sidebar" type="button"></button>
+        <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+        <div class="topbar-search" id="topSearch">
+          <input type="search" id="globalSearch" placeholder="Search companies…"
+                 aria-label="Search companies" autocomplete="off" role="combobox"
+                 aria-expanded="false" aria-controls="searchResults" />
+          <div class="results" id="searchResults" role="listbox" hidden></div>
+        </div>
+        <button class="icon-btn" id="themeBtn" aria-label="Switch to dark theme" type="button"></button>
+      </header>
+
+      <main class="main" id="main" tabindex="-1">
+        <div class="stagger" aria-hidden="true">
+          <div class="skeleton line w-30" style="height:30px;margin-bottom:14px"></div>
+          <div class="skeleton line w-70" style="margin-bottom:30px"></div>
+          <div class="skeleton card"></div>
+          <div class="skeleton card"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Details" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

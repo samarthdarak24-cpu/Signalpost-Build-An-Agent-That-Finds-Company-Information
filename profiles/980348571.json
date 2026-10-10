@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "980348571",
+  "legal_name": "FRISØR SERVICE AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T120559Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "regnskapsperiode ended 2024-12-12",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: debt 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: debt = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 487325,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: equity 487325 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: equity = 487325, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348571",
+      "retrieved_at": "2026-10-10T12:07:46Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FRISØR SERVICE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348571",
+      "retrieved_at": "2026-10-10T12:07:46Z",
+      "evidence": "\"navn\": \"FRISØR SERVICE AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: legal_name = 'FRISØR SERVICE AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348571",
+      "retrieved_at": "2026-10-10T12:07:46Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -513339,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: net result -513339 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: net_result = -513339, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -661690,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: operating result -661690 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: operating_result = -661690, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "980348571",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348571",
+      "retrieved_at": "2026-10-10T12:07:46Z",
+      "evidence": "organisasjonsnummer: \"980348571\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: org_number = '980348571', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-12",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "regnskapsperiode slutt 2024-12-12",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: reporting_period = '2024-12-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 573193,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: revenue latest 573193 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: revenue_latest = 573193, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980348571",
+      "retrieved_at": "2026-10-10T12:07:46Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 487326,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/980348571",
+      "retrieved_at": "2026-10-10T12:08:00Z",
+      "evidence": "Annual accounts for the period ending 2024-12-12: total assets 487326 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FRISØR SERVICE AS: total_assets = 487326, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980348571",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

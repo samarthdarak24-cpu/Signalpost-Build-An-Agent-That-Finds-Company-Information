@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "925918717",
+  "legal_name": "DIDRIK BERG - TJENESTEYTER",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T114558Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Austerbygdvegen 107, 8658 MOSJØEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "forretningsadresse: Austerbygdvegen 107, 8658 MOSJØEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: address = 'Austerbygdvegen 107, 8658 MOSJØEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "MOSJØEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"poststed\": \"MOSJØEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: city = 'MOSJØEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Tjenester innen kunst & kultur, slik som musikkutøving, komponering og undervisning.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"aktivitet\": \"Tjenester innen kunst & kultur, slik som musikkutøving, komponering og undervisning.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: description = 'Tjenester innen kunst & kultur, slik som musikkutøving, komponering og undervisning.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "DIDRIK BERG - TJENESTEYTER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"navn\": \"DIDRIK BERG - TJENESTEYTER\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: legal_name = 'DIDRIK BERG - TJENESTEYTER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VEFSN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"kommune\": \"VEFSN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: municipality = 'VEFSN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "925918717",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "organisasjonsnummer: \"925918717\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: org_number = '925918717', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Didrik Berg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"navn\": \"Didrik Berg\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: owner = 'Didrik Berg', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8658",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"postnummer\": \"8658\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: postcode = '8658', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2020-11-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2020-11-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: registered = '2020-11-05', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925918717",
+      "retrieved_at": "2026-10-10T11:46:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "DIDRIK BERG - TJENESTEYTER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "925918717",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

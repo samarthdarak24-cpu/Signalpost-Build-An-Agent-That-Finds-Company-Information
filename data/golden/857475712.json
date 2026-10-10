@@ -1,0 +1,41 @@
+{
+  "org_number": "857475712",
+  "legal_name": "ANS BASARENE HAMAR",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "founded",
+    "email",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Kornsilovegen 54, 2316 HAMAR",
+    "email": "post@olrud.no",
+    "founded": "1989-12-20",
+    "industry": "Utleie av egen eller leid fast eiendom",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ANS",
+    "legal_name": "ANS BASARENE HAMAR",
+    "municipality": "HAMAR",
+    "nace_code": "68.200",
+    "phone": "95 49 10 00",
+    "postcode": "2316",
+    "purpose": "Eie, videreutvikle, leie ut og drive eiendommene Storhamargaten 12, gnr. 1, bnr. 28 og Lille Strandgate 3, gnr. 1, bnr. 29.",
+    "registered": "1995-02-19",
+    "sector": "Personlige foretak",
+    "website": "www.olrud.no"
+  }
+}

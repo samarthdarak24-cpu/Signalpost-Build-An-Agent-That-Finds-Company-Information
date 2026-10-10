@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "976258428",
+  "legal_name": "INGER LISE SÆTREN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064808Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2021,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "regnskapsperiode ended 2021-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: accounting_year = 2021, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 107564,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: debt 107564 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: debt = 107564, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": -23522,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: equity -23522 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: equity = -23522, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976258428",
+      "retrieved_at": "2026-10-10T06:50:43Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "INGER LISE SÆTREN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976258428",
+      "retrieved_at": "2026-10-10T06:50:43Z",
+      "evidence": "\"navn\": \"INGER LISE SÆTREN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: legal_name = 'INGER LISE SÆTREN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976258428",
+      "retrieved_at": "2026-10-10T06:50:43Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 279374,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: net result 279374 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: net_result = 279374, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 279374,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: operating result 279374 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: operating_result = 279374, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "976258428",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976258428",
+      "retrieved_at": "2026-10-10T06:50:43Z",
+      "evidence": "organisasjonsnummer: \"976258428\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: org_number = '976258428', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2021-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "regnskapsperiode slutt 2021-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: reporting_period = '2021-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 399795,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: revenue latest 399795 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: revenue_latest = 399795, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976258428",
+      "retrieved_at": "2026-10-10T06:50:43Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 84042,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976258428",
+      "retrieved_at": "2026-10-10T06:50:55Z",
+      "evidence": "Annual accounts for the period ending 2021-12-31: total assets 84042 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "INGER LISE SÆTREN: total_assets = 84042, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976258428",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

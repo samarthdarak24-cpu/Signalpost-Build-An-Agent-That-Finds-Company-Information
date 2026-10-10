@@ -1,0 +1,99 @@
+{
+  "run_id": "20261007T191246Z",
+  "started_at": "2026-10-07T19:12:46Z",
+  "finished_at": "2026-10-07T19:12:55Z",
+  "seconds": 9.04,
+  "companies_requested": 1,
+  "companies_written": 1,
+  "companies_failed": 0,
+  "invalid_numbers": [],
+  "not_in_registry": [],
+  "websites_accepted": 0,
+  "websites_rejected": 0,
+  "gate_breakdown": {},
+  "requests": 5,
+  "search_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "changes_detected": 0,
+  "registry_events_applied": 0,
+  "corroborated_fields": 0,
+  "conflicts_resolved": 0,
+  "conflicts_dropped": 0,
+  "invalid_dropped": 0,
+  "field_coverage": {
+    "legal_name": 1,
+    "legal_form": 1,
+    "industry": 1,
+    "nace_code": 1,
+    "employees": 1,
+    "founded": 1,
+    "registered": 1,
+    "municipality": 1,
+    "postcode": 1,
+    "city": 1,
+    "address": 1,
+    "website": 1,
+    "phone": 1,
+    "description": 1,
+    "latest_accounts_year": 1,
+    "revenue_latest": 1
+  },
+  "coverage_ratio": 0.7273,
+  "layer_counts": {
+    "registry": 31
+  },
+  "models": {
+    "gap_filling": "claude-haiku-4-5-20251001",
+    "arbitration": "claude-sonnet-5-5",
+    "search": "brave-web-search"
+  },
+  "budget": {
+    "requests_used": 5,
+    "requests_soft_limit": 1700,
+    "requests_hard_limit": 2000,
+    "search_calls": 0,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0
+  },
+  "cost": {
+    "search_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "search_usd": 0.0,
+    "llm_usd": 0.0,
+    "total_usd": 0.0,
+    "per_1000_profiles_usd": 0.0
+  },
+  "results": [
+    {
+      "org_number": "923609016",
+      "legal_name": "EQUINOR ASA",
+      "ok": true,
+      "facts": 31,
+      "empty_fields": 6,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": ""
+      },
+      "layers_used": [
+        "financials",
+        "identifier",
+        "locations",
+        "people",
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 2.11,
+      "cost_usd": 0.0,
+      "error": ""
+    }
+  ]
+}

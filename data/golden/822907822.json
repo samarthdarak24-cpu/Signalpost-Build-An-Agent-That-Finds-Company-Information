@@ -1,0 +1,37 @@
+{
+  "org_number": "822907822",
+  "legal_name": "OBSERVE MEDICAL ASA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "founded"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Dronning Eufemias gate 16, 0191 OSLO",
+    "founded": "2019-06-13",
+    "industry": "Engroshandel med apotekvarer og medisinske varer",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ASA",
+    "legal_name": "OBSERVE MEDICAL ASA",
+    "municipality": "OSLO",
+    "nace_code": "46.460",
+    "postcode": "0191",
+    "purpose": "Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk utstyr og relaterte produkter, utføre konsulenttjenester i denne sammenheng, samt å investere i relatert virksomhet.",
+    "registered": "2019-06-17",
+    "sector": "Private aksjeselskaper mv.",
+    "website": "www.observemedical.com"
+  }
+}

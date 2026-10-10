@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "994047043",
+  "legal_name": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Husebygata 27A, 3414 LIERSTRANDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "forretningsadresse: Husebygata 27A, 3414 LIERSTRANDA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: address = 'Husebygata 27A, 3414 LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "city",
+      "value": "LIERSTRANDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"poststed\": \"LIERSTRANDA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: city = 'LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "description",
+      "value": "Budbil og varetransport.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"aktivitet\": \"Budbil og varetransport.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: description = 'Budbil og varetransport.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "email",
+      "value": "kundeservice@24ttransport.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"epostadresse\": \"kundeservice@24ttransport.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: email = 'kundeservice@24ttransport.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "industry",
+      "value": "Andre post- og budtjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Andre post- og budtjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: industry = 'Andre post- og budtjenester', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "legal_name",
+      "value": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"navn\": \"24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: legal_name = '24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "municipality",
+      "value": "LIER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kommune\": \"LIER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: municipality = 'LIER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "nace_code",
+      "value": "53.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"53.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: nace_code = '53.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "phone",
+      "value": "41720887",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"mobil\": \"41720887\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: phone = '41720887', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "postcode",
+      "value": "3414",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"postnummer\": \"3414\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: postcode = '3414', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "registered",
+      "value": "2009-05-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-05-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: registered = '2009-05-07', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    },
+    {
+      "field": "website",
+      "value": "www.24ttransport.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"hjemmeside\": \"www.24ttransport.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "24 TIMERS TRANSPORT V/AMANJ MASOUD MOSTAFA: website = 'www.24ttransport.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "994047043"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.24ttransport.no",
+      "new": null,
+      "detected_at": "2026-10-07T16:45:45Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994047043",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

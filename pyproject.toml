@@ -1,0 +1,30 @@
+[project]
+name = "signalpost"
+version = "1.0.0"
+description = "Evidence-backed company-profile agent for Norwegian organisation numbers."
+readme = "docs/README.md"
+requires-python = ">=3.11"
+license = { text = "See LICENSE" }
+# The core agent is Python standard library only. Nothing to install.
+dependencies = []
+
+[project.optional-dependencies]
+# The live-data layer: FastAPI + SSE bridge, DuckDB analytics, Redis pub/sub.
+# Install with:  pip install -e ".[live]"
+live = [
+    "fastapi==0.142.3",
+    "uvicorn>=0.30",
+    "sse-starlette>=2.1",
+    "httpx==0.28.1",
+    "aiolimiter>=1.2",
+    "apscheduler==3.11.3",
+    "duckdb==1.5.6",
+    "redis>=5",
+    "faststream>=0.5",
+]
+
+[project.scripts]
+signalpost = "cli:main"
+
+[tool.setuptools]
+py-modules = []

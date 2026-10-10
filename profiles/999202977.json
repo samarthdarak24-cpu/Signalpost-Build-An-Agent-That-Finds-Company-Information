@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.0",
+  "org_number": "999202977",
+  "legal_name": "NJIE GROUP NORGE NUF",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084004Z",
+  "fact_count": 23,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "Krokslätts fabriker 30, SE-431 37 MÖLNDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "forretningsadresse: Krokslätts fabriker 30, SE-431 37 MÖLNDA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: address = 'Krokslätts fabriker 30, SE-431 37 MÖLNDA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Wadmansgatan 6, 412 53 Göteborg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"beliggenhetsadresse\": 'Wadmansgatan 6, 412 53 Göteborg' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: business_locations = 'Wadmansgatan 6, 412 53 Göteborg', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SE-431 37 MÖLNDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"poststed\": \"SE-431 37 MÖLNDA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: city = 'SE-431 37 MÖLNDA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 4438277,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 4438277 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: debt = 4438277, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Import og salg av drikker samt dermed forenlig virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"aktivitet\": \"Import og salg av drikker samt dermed forenlig virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: description = 'Import og salg av drikker samt dermed forenlig virksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "info@aloeveradrikken.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"epostadresse\": \"info@aloeveradrikken.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: email = 'info@aloeveradrikken.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 7734771,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 7734771 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: equity = 7734771, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med bredt utvalg av nærings- og nytelsesmidler",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med bredt utvalg av nærings- og nytelsesmidler\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: industry = 'Engroshandel med bredt utvalg av nærings- og nytelsesmidler', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NJIE GROUP NORGE NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"navn\": \"NJIE GROUP NORGE NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: legal_name = 'NJIE GROUP NORGE NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.390",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"kode\": \"46.390\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: nace_code = '46.390', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 5500810,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 5500810 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: net_result = 5500810, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 7085553,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result 7085553 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: operating_result = 7085553, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "999202977",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "organisasjonsnummer: \"999202977\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: org_number = '999202977', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2012-12-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2012-12-17\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: registered = '2012-12-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 58197418,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: revenue latest 58197418 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: revenue_latest = 58197418, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999202977",
+      "retrieved_at": "2026-10-10T08:41:58Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 12173048,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999202977",
+      "retrieved_at": "2026-10-10T08:42:11Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 12173048 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "NJIE GROUP NORGE NUF: total_assets = 12173048, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999202977",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "phone",
+      "reason": "not an 8-digit Norwegian number: '0046313802090'",
+      "candidates_considered": 1
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

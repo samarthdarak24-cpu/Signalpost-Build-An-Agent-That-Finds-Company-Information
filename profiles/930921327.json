@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930921327",
+  "legal_name": "PLUSSEV ROMUNDSTAD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093337Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Dalheimvegen 19E, 7059 JAKOBSLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "forretningsadresse: Dalheimvegen 19E, 7059 JAKOBSLI",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: address = 'Dalheimvegen 19E, 7059 JAKOBSLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Dalheimvegen 19E, 7059 JAKOBSLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"beliggenhetsadresse\": 'Dalheimvegen 19E, 7059 JAKOBSLI' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: business_locations = 'Dalheimvegen 19E, 7059 JAKOBSLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Lars Myklegard Romundstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"navn\": \"Lars Myklegard Romundstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: ceo = 'Lars Myklegard Romundstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "JAKOBSLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"poststed\": \"JAKOBSLI\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: city = 'JAKOBSLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Profesjonell pokerspiller.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"aktivitet\": \"Profesjonell pokerspiller.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: description = 'Profesjonell pokerspiller.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Sportsaktiviteter ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"beskrivelse\": \"Sportsaktiviteter ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: industry = 'Sportsaktiviteter ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "PLUSSEV ROMUNDSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"navn\": \"PLUSSEV ROMUNDSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: legal_name = 'PLUSSEV ROMUNDSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.190",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"kode\": \"93.190\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: nace_code = '93.190', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930921327",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "organisasjonsnummer: \"930921327\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: org_number = '930921327', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Lars Myklegard Romundstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"navn\": \"Lars Myklegard Romundstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: owner = 'Lars Myklegard Romundstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7059",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"postnummer\": \"7059\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: postcode = '7059', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: registered = '2023-03-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930921327",
+      "retrieved_at": "2026-10-10T09:35:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "PLUSSEV ROMUNDSTAD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930921327",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "org_number": "987995262",
+  "legal_name": "LISE OLDEN AAGREN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084900Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Amalienlyst 1A, 7047 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "forretningsadresse: Amalienlyst 1A, 7047 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: address = 'Amalienlyst 1A, 7047 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Freelance artist, komponist og produsent.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"aktivitet\": \"Freelance artist, komponist og produsent.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: description = 'Freelance artist, komponist og produsent.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "liseolden@mac.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"epostadresse\": \"liseolden@mac.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: email = 'liseolden@mac.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Skapende kunstnerisk virksomhet innenfor komposisjon av musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"beskrivelse\": \"Skapende kunstnerisk virksomhet innenfor komposisjon av musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: industry = 'Skapende kunstnerisk virksomhet innenfor komposisjon av musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LISE OLDEN AAGREN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"navn\": \"LISE OLDEN AAGREN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: legal_name = 'LISE OLDEN AAGREN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.112",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"kode\": \"90.112\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: nace_code = '90.112', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "987995262",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "organisasjonsnummer: \"987995262\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: org_number = '987995262', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Lise Olden Aagren",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"navn\": \"Lise Olden Aagren\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: owner = 'Lise Olden Aagren', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "72 52 83 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"telefon\": \"72 52 83 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: phone = '72 52 83 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7047",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"postnummer\": \"7047\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: postcode = '7047', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2005-03-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2005-03-16\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: registered = '2005-03-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987995262",
+      "retrieved_at": "2026-10-10T08:49:14Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LISE OLDEN AAGREN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "987995262",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

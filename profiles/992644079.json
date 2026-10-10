@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "992644079",
+  "legal_name": "MC TUNING AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T083501Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "regnskapsperiode ended 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 7256858,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: debt 7256858 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: debt = 7256858, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 5385856,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: equity 5385856 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: equity = 5385856, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992644079",
+      "retrieved_at": "2026-10-10T08:35:39Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MC TUNING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992644079",
+      "retrieved_at": "2026-10-10T08:35:39Z",
+      "evidence": "\"navn\": \"MC TUNING AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: legal_name = 'MC TUNING AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992644079",
+      "retrieved_at": "2026-10-10T08:35:39Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 403599,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: net result 403599 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: net_result = 403599, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 691375,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: operating result 691375 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: operating_result = 691375, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "992644079",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992644079",
+      "retrieved_at": "2026-10-10T08:35:39Z",
+      "evidence": "organisasjonsnummer: \"992644079\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: org_number = '992644079', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "regnskapsperiode slutt 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: reporting_period = '2024-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 38376146,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: revenue latest 38376146 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: revenue_latest = 38376146, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992644079",
+      "retrieved_at": "2026-10-10T08:35:39Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 12642715,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/992644079",
+      "retrieved_at": "2026-10-10T08:35:51Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: total assets 12642715 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "MC TUNING AS: total_assets = 12642715, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "992644079",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

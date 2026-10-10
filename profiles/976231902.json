@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "976231902",
+  "legal_name": "STJØRDAL SOKN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T062903Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Sandgata 15, 7500 STJØRDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "forretningsadresse: Sandgata 15, 7500 STJØRDAL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: address = 'Sandgata 15, 7500 STJØRDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Sandgata 15, 7500 STJØRDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"beliggenhetsadresse\": 'Sandgata 15, 7500 STJØRDAL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: business_locations = 'Sandgata 15, 7500 STJØRDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Hilde Kristine Grønbeck",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"navn\": \"Hilde Kristine Grønbeck\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: ceo = 'Hilde Kristine Grønbeck', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "STJØRDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"poststed\": \"STJØRDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: city = 'STJØRDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drift av menighetsarbeid.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"aktivitet\": \"Drift av menighetsarbeid.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: description = 'Drift av menighetsarbeid.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "kirkekontoret@stjordal.kommune.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"epostadresse\": \"kirkekontoret@stjordal.kommune.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: email = 'kirkekontoret@stjordal.kommune.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i religiøse organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i religiøse organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: industry = 'Aktiviteter i religiøse organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "KIRK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"kode\": \"KIRK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: legal_form = 'KIRK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STJØRDAL SOKN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"navn\": \"STJØRDAL SOKN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: legal_name = 'STJØRDAL SOKN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "STJØRDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"kommune\": \"STJØRDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: municipality = 'STJØRDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.910",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"kode\": \"94.910\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: nace_code = '94.910', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "976231902",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "organisasjonsnummer: \"976231902\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: org_number = '976231902', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "74 83 42 20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"telefon\": \"74 83 42 20\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: phone = '74 83 42 20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7500",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"postnummer\": \"7500\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: postcode = '7500', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1996-03-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-03-26\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: registered = '1996-03-26', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.kirken.no/stjordal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976231902",
+      "retrieved_at": "2026-10-10T06:29:18Z",
+      "evidence": "\"hjemmeside\": \"www.kirken.no/stjordal\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "STJØRDAL SOKN: website = 'www.kirken.no/stjordal', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976231902",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

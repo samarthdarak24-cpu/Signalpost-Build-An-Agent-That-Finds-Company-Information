@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "914297915",
+  "legal_name": "ROBERTS TRANSPORT DARIUSZ PAZERA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T075825Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Skåralia 1, 1623 GRESSVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "forretningsadresse: Skåralia 1, 1623 GRESSVIK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: address = 'Skåralia 1, 1623 GRESSVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Skåralia 1, 1623 GRESSVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"beliggenhetsadresse\": 'Skåralia 1, 1623 GRESSVIK' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: business_locations = 'Skåralia 1, 1623 GRESSVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "GRESSVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"poststed\": \"GRESSVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: city = 'GRESSVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Godstransport på vei.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"aktivitet\": \"Godstransport på vei.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: description = 'Godstransport på vei.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "asiapazera1@o2.pl",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"epostadresse\": \"asiapazera1@o2.pl\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: email = 'asiapazera1@o2.pl', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 15,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"antallAnsatte\": 15",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: employees = 15, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Godstransport på vei",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"beskrivelse\": \"Godstransport på vei\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: industry = 'Godstransport på vei', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ROBERTS TRANSPORT DARIUSZ PAZERA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"navn\": \"ROBERTS TRANSPORT DARIUSZ PAZERA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: legal_name = 'ROBERTS TRANSPORT DARIUSZ PAZERA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "FREDRIKSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"kommune\": \"FREDRIKSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: municipality = 'FREDRIKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "49.410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"kode\": \"49.410\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: nace_code = '49.410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "914297915",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "organisasjonsnummer: \"914297915\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: org_number = '914297915', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Robert Dariusz Pazera",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"navn\": \"Robert Dariusz Pazera\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: owner = 'Robert Dariusz Pazera', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "463 94 138",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"mobil\": \"463 94 138\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: phone = '463 94 138', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1623",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"postnummer\": \"1623\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: postcode = '1623', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2014-10-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2014-10-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: registered = '2014-10-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914297915",
+      "retrieved_at": "2026-10-10T08:01:33Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ROBERTS TRANSPORT DARIUSZ PAZERA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "914297915",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

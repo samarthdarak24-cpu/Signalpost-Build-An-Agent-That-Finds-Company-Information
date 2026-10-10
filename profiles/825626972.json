@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "825626972",
+  "legal_name": "SENIL INVEST AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T095659Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 37002,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 37002 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: debt = 37002, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 6056028,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 6056028 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: equity = 6056028, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825626972",
+      "retrieved_at": "2026-10-10T09:57:31Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SENIL INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825626972",
+      "retrieved_at": "2026-10-10T09:57:31Z",
+      "evidence": "\"navn\": \"SENIL INVEST AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: legal_name = 'SENIL INVEST AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825626972",
+      "retrieved_at": "2026-10-10T09:57:31Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 1695889,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 1695889 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: net_result = 1695889, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 1587064,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result 1587064 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: operating_result = 1587064, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "825626972",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825626972",
+      "retrieved_at": "2026-10-10T09:57:31Z",
+      "evidence": "organisasjonsnummer: \"825626972\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: org_number = '825626972', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 1629507,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: revenue latest 1629507 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: revenue_latest = 1629507, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825626972",
+      "retrieved_at": "2026-10-10T09:57:31Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 6093030,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/825626972",
+      "retrieved_at": "2026-10-10T09:57:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 6093030 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SENIL INVEST AS: total_assets = 6093030, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825626972",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

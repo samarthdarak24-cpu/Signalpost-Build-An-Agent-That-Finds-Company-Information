@@ -1,0 +1,51 @@
+{
+  "org_number": "986587098",
+  "legal_name": "2CARE BPA AS",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "employees",
+    "founded",
+    "email",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest",
+    "lei",
+    "parent_org_number"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Brobekkveien 80, 0582 OSLO",
+    "description": "Vi tilbyr skreddersydde BPA-ordninger for barn og voksne med assistansebehov, sånn at alle mennesker får de samme mulighetene. Bli kjent med oss her!",
+    "email": "hav@havas.no",
+    "employees": 244,
+    "facebook": "https://www.facebook.com/BPANORGE/",
+    "founded": "2004-02-02",
+    "industry": "Brukerstyrt personlig assistanse (bpa)",
+    "instagram": "https://www.instagram.com/havbpa/",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "AS",
+    "legal_name": "2CARE BPA AS",
+    "linkedin": "https://no.linkedin.com/in/hav-as-1a8728b9",
+    "municipality": "OSLO",
+    "nace_code": "88.104",
+    "phone": "45 22 22 88",
+    "postcode": "0582",
+    "purpose": "Gi et faglig tilbud på Brukerstyrt Personlig Assistanse (BPA) er en ordning der dem med nedsatt funksjonsevne/foresatte selv styrer egen hverdag, og har et lederansvar for assistentene som skal bistå med praktiske ting i hverdagen. BPA er et frigjørings- og antidiskrimineringsverktøy som gir langt større fleksibilitet og selvstendighet, og muligheten til å leve et aktivt og likeverdig liv. Samt det som står i naturlig forbindelse med dette. Independent Living er grunnregel i 2Care BPA AS.",
+    "registered": "2004-02-23",
+    "sector": "Private aksjeselskaper mv.",
+    "website": "havas.no",
+    "website_orgnr_proof": "986 587 098",
+    "youtube": "https://www.youtube.com/channel/UCX3FnM2tzx89yvuJNF9pimg/featured"
+  }
+}

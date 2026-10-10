@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930828807",
+  "legal_name": "LASHSTUDIO TETIANA KULYK",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T085259Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Falsens gate 8, 4307 SANDNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "forretningsadresse: Falsens gate 8, 4307 SANDNES",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: address = 'Falsens gate 8, 4307 SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Falsens gate 8, 4307 SANDNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"beliggenhetsadresse\": 'Falsens gate 8, 4307 SANDNES' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: business_locations = 'Falsens gate 8, 4307 SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SANDNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"poststed\": \"SANDNES\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: city = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Salg av tjenester i forbindelse med skjønnhetspleie, vippe extensions, vippe- og brynlaminering.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"aktivitet\": \"Salg av tjenester i forbindelse med skjønnhetspleie, vippe extensions, vippe- og brynlaminering.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: description = 'Salg av tjenester i forbindelse med skjønnhetspleie, vippe extensions, vippe- og brynla...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Skjønnhetspleie",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"beskrivelse\": \"Skjønnhetspleie\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: industry = 'Skjønnhetspleie', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LASHSTUDIO TETIANA KULYK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"navn\": \"LASHSTUDIO TETIANA KULYK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: legal_name = 'LASHSTUDIO TETIANA KULYK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SANDNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"kommune\": \"SANDNES\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: municipality = 'SANDNES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "96.220",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"kode\": \"96.220\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: nace_code = '96.220', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930828807",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "organisasjonsnummer: \"930828807\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: org_number = '930828807', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Tetiana Kulyk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"navn\": \"Tetiana Kulyk\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: owner = 'Tetiana Kulyk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4307",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"postnummer\": \"4307\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: postcode = '4307', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-02-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-02-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: registered = '2023-02-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828807",
+      "retrieved_at": "2026-10-10T08:55:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LASHSTUDIO TETIANA KULYK: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930828807",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

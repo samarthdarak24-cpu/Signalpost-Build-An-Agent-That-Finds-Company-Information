@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "919270802",
+  "legal_name": "POWERHEAD.NO VESTRHEIM MOTOR",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Mebakken 82, 4645 NODELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "forretningsadresse: Mebakken 82, 4645 NODELAND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: address = 'Mebakken 82, 4645 NODELAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "NODELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"poststed\": \"NODELAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: city = 'NODELAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Vedlikehold, reparasjon, restaurering, modifikasjon og montering av motorer, båter og kjøretøy.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"aktivitet\": \"Vedlikehold, reparasjon, restaurering, modifikasjon og montering av motorer, båter og kjøretøy.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: description = 'Vedlikehold, reparasjon, restaurering, modifikasjon og montering av motorer, båter og k...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Reparasjon og vedlikehold av motorvogner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"beskrivelse\": \"Reparasjon og vedlikehold av motorvogner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: industry = 'Reparasjon og vedlikehold av motorvogner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "POWERHEAD.NO VESTRHEIM MOTOR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"navn\": \"POWERHEAD.NO VESTRHEIM MOTOR\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: legal_name = 'POWERHEAD.NO VESTRHEIM MOTOR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "KRISTIANSAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"kommune\": \"KRISTIANSAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: municipality = 'KRISTIANSAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "95.310",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"kode\": \"95.310\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: nace_code = '95.310', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "919270802",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "organisasjonsnummer: \"919270802\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: org_number = '919270802', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Eirik Vestrheim",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"navn\": \"Eirik Vestrheim\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: owner = 'Eirik Vestrheim', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4645",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"postnummer\": \"4645\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: postcode = '4645', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2017-08-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-08-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: registered = '2017-08-07', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919270802",
+      "retrieved_at": "2026-10-10T10:03:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "POWERHEAD.NO VESTRHEIM MOTOR: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "919270802",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

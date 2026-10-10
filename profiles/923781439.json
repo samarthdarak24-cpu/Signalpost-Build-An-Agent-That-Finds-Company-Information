@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923781439",
+  "legal_name": "BISS SENTRUM FAU",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Tanke Svilands gate 73, 4007 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "forretningsadresse: Tanke Svilands gate 73, 4007 STAVANGER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: address = 'Tanke Svilands gate 73, 4007 STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Megan Elisabeth Brunswig",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"navn\": \"Megan Elisabeth Brunswig\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: board_chair = 'Megan Elisabeth Brunswig', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Marianne Andrea Husøy, Øyvind Gjærevoll Schanke, Christian Andreas Rosnes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "roles: Marianne Andrea Husøy, Øyvind Gjærevoll Schanke, Christian Andreas Rosnes",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: board_members = 'Marianne Andrea Husøy, Øyvind Gjærevoll Schanke, Christian Andreas Rosnes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Tanke Svilands gate 73, 4007 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"beliggenhetsadresse\": 'Tanke Svilands gate 73, 4007 STAVANGER' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: business_locations = 'Tanke Svilands gate 73, 4007 STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"poststed\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: city = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "FAU for British International School of Stavanger Sentrum. Skal fremme foreldrenes felles interesser, være et bindeledd mellom foreldre og skolen, hjelpe skolen å sikre et trygt læringsmiljø, bidra til skolens kvalitetssikringssystem, hjelpe skolen med å sikre et miljø fritt for mobbing, arrangere og bidra til sosiale aktiviteter for elevene, arrangere og bidra til møter og positive relasjoner mellom lærere og foreldre og hjelpe skolen med å kommunisere informasjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"aktivitet\": \"FAU for British International School of Stavanger Sentrum. Skal fremme foreldrenes felles interesser, være et bindeledd mellom foreldre og skolen, hjelpe skolen å sikre et trygt læringsmiljø, bidra til skolens kvalitetssikringssystem, hjelpe skolen med å sikre et miljø fritt for mobbing, arrangere og bidra til sosiale aktiviteter for elevene, arrangere og bidra til møter og positive relasjoner mellom lærere og foreldre og hjelpe skolen med å kommunisere informasjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: description = 'FAU for British International School of Stavanger Sentrum. Skal fremme foreldrenes fell...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2019-09-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"stiftelsesdato\": \"2019-09-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: founded = '2019-09-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "BISS SENTRUM FAU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"navn\": \"BISS SENTRUM FAU\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: legal_name = 'BISS SENTRUM FAU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"kommune\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: municipality = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "923781439",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "organisasjonsnummer: \"923781439\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: org_number = '923781439', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4007",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"postnummer\": \"4007\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: postcode = '4007', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2020-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2020-03-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: registered = '2020-03-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923781439",
+      "retrieved_at": "2026-10-10T08:45:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BISS SENTRUM FAU: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "923781439",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

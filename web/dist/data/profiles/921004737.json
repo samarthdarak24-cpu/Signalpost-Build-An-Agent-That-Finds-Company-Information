@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "921004737",
+  "legal_name": "13 HUMLER AS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Torget 7, 4280 SKUDENESHAVN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "forretningsadresse: Torget 7, 4280 SKUDENESHAVN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: address = 'Torget 7, 4280 SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "city",
+      "value": "SKUDENESHAVN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"poststed\": \"SKUDENESHAVN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: city = 'SKUDENESHAVN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "description",
+      "value": "Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbransjen.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"aktivitet\": \"Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbransjen.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: description = 'Drift av serveringssted samt eventbooking og diverse andre formål knyttet mot utelivsbr...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "employees",
+      "value": 9,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"antallAnsatte\": 9",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: employees = 9, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "founded",
+      "value": "2018-04-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"stiftelsesdato\": \"2018-04-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: founded = '2018-04-24', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "industry",
+      "value": "Drift av restauranter",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"beskrivelse\": \"Drift av restauranter\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: industry = 'Drift av restauranter', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "legal_name",
+      "value": "13 HUMLER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"navn\": \"13 HUMLER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: legal_name = '13 HUMLER AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "municipality",
+      "value": "KARMØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kommune\": \"KARMØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: municipality = 'KARMØY', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "nace_code",
+      "value": "56.110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"kode\": \"56.110\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: nace_code = '56.110', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "postcode",
+      "value": "4280",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"postnummer\": \"4280\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: postcode = '4280', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "purpose",
+      "value": "Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: purpose = 'Drift av serveringssted samt tjenester knyttet til underholdningsvirksomhet.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "registered",
+      "value": "2018-06-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-06-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: registered = '2018-06-14', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737",
+      "retrieved_at": "2026-10-07T16:45:39Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "13 HUMLER AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "921004737"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

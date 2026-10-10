@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930828203",
+  "legal_name": "SUSTECH DA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T085259Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Dueveien 10, 1554 SON",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "forretningsadresse: Dueveien 10, 1554 SON",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: address = 'Dueveien 10, 1554 SON', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Dueveien 10, 1554 SON",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"beliggenhetsadresse\": 'Dueveien 10, 1554 SON' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: business_locations = 'Dueveien 10, 1554 SON', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SON",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"poststed\": \"SON\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: city = 'SON', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Konsulenttjenester innen IT og miljøsertifiseringer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"aktivitet\": \"Konsulenttjenester innen IT og miljøsertifiseringer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: description = 'Konsulenttjenester innen IT og miljøsertifiseringer.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-01-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"stiftelsesdato\": \"2023-01-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: founded = '2023-01-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"kode\": \"DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: legal_form = 'DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SUSTECH DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"navn\": \"SUSTECH DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: legal_name = 'SUSTECH DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VESTBY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"kommune\": \"VESTBY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: municipality = 'VESTBY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"kode\": \"62.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930828203",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "organisasjonsnummer: \"930828203\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: org_number = '930828203', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "partners",
+      "value": "Glen Fosseng, Kjell-Roger Fosseng",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "roles: Glen Fosseng, Kjell-Roger Fosseng",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DTPR (Partner)",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: partners = 'Glen Fosseng, Kjell-Roger Fosseng', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1554",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"postnummer\": \"1554\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: postcode = '1554', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Konsulentvirksomhet innen bærekraft og IT.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Konsulentvirksomhet innen bærekraft og IT.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: purpose = 'Konsulentvirksomhet innen bærekraft og IT.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-02-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-02-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: registered = '2023-02-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828203",
+      "retrieved_at": "2026-10-10T08:53:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SUSTECH DA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930828203",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

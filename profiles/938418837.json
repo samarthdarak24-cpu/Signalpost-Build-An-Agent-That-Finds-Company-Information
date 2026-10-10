@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "org_number": "938418837",
+  "legal_name": "NORGES NATURVERNFORBUND",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100900Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Mariboes gate 8, 0183 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "forretningsadresse: Mariboes gate 8, 0183 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: address = 'Mariboes gate 8, 0183 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Pernille Bonnevie Hansen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"navn\": \"Pernille Bonnevie Hansen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: board_chair = 'Pernille Bonnevie Hansen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Helene Mathilde Ødven, Øyunn Hasvik, Mattis Danielsen, Brage Bøe Ulstein, Kjell Magne Derås",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "roles: Helene Mathilde Ødven, Øyunn Hasvik, Mattis Danielsen, Brage Bøe Ulstein, Kjell Magne Derås",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: board_members = 'Helene Mathilde Ødven, Øyunn Hasvik, Mattis Danielsen, Brage Bøe Ulstein, Kjell Magne D...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Mariboes gate 8, 0183 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"beliggenhetsadresse\": 'Mariboes gate 8, 0183 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: business_locations = 'Mariboes gate 8, 0183 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Sahar Alwand Azari",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"navn\": \"Sahar Alwand Azari\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: ceo = 'Sahar Alwand Azari', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Miljøorganisasjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"aktivitet\": \"Miljøorganisasjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: description = 'Miljøorganisasjon.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "naturvern@naturvern.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"epostadresse\": \"naturvern@naturvern.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: email = 'naturvern@naturvern.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 41,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"antallAnsatte\": 41",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: employees = 41, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1914-01-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"stiftelsesdato\": \"1914-01-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: founded = '1914-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NORGES NATURVERNFORBUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"navn\": \"NORGES NATURVERNFORBUND\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: legal_name = 'NORGES NATURVERNFORBUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "938418837",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "organisasjonsnummer: \"938418837\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: org_number = '938418837', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "23 10 96 10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"telefon\": \"23 10 96 10\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: phone = '23 10 96 10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0183",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"postnummer\": \"0183\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: postcode = '0183', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.naturvernforbundet.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938418837",
+      "retrieved_at": "2026-10-10T10:11:41Z",
+      "evidence": "\"hjemmeside\": \"www.naturvernforbundet.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NORGES NATURVERNFORBUND: website = 'www.naturvernforbundet.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938418837",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

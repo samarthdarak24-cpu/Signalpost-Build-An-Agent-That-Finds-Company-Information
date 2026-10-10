@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "879331722",
+  "legal_name": "KI EIENDOMMER AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T063457Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "regnskapsperiode ended 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 85458450,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: debt 85458450 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: debt = 85458450, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 886560,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: equity 886560 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: equity = 886560, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/879331722",
+      "retrieved_at": "2026-10-10T06:36:52Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KI EIENDOMMER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/879331722",
+      "retrieved_at": "2026-10-10T06:36:52Z",
+      "evidence": "\"navn\": \"KI EIENDOMMER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: legal_name = 'KI EIENDOMMER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/879331722",
+      "retrieved_at": "2026-10-10T06:36:52Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -1401269,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: net result -1401269 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: net_result = -1401269, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 1541093,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: operating result 1541093 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: operating_result = 1541093, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "879331722",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/879331722",
+      "retrieved_at": "2026-10-10T06:36:52Z",
+      "evidence": "organisasjonsnummer: \"879331722\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: org_number = '879331722', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "regnskapsperiode slutt 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: reporting_period = '2024-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 18966667,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: revenue latest 18966667 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: revenue_latest = 18966667, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/879331722",
+      "retrieved_at": "2026-10-10T06:36:52Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 86345009,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/879331722",
+      "retrieved_at": "2026-10-10T06:37:05Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: total assets 86345009 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "KI EIENDOMMER AS: total_assets = 86345009, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "879331722",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

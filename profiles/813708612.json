@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "813708612",
+  "legal_name": "TUR & TRANSPORT AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T122701Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2022,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "regnskapsperiode ended 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: accounting_year = 2022, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 2164660,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: debt 2164660 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: debt = 2164660, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": -2144461,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: equity -2144461 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: equity = -2144461, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/813708612",
+      "retrieved_at": "2026-10-10T12:27:16Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "TUR & TRANSPORT AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/813708612",
+      "retrieved_at": "2026-10-10T12:27:16Z",
+      "evidence": "\"navn\": \"TUR & TRANSPORT AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: legal_name = 'TUR & TRANSPORT AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/813708612",
+      "retrieved_at": "2026-10-10T12:27:16Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -1866097,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: net result -1866097 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: net_result = -1866097, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -1851323,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: operating result -1851323 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: operating_result = -1851323, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "813708612",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/813708612",
+      "retrieved_at": "2026-10-10T12:27:16Z",
+      "evidence": "organisasjonsnummer: \"813708612\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: org_number = '813708612', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2022-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "regnskapsperiode slutt 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: reporting_period = '2022-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 1543730,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: revenue latest 1543730 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: revenue_latest = 1543730, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/813708612",
+      "retrieved_at": "2026-10-10T12:27:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 20199,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/813708612",
+      "retrieved_at": "2026-10-10T12:27:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: total assets 20199 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "TUR & TRANSPORT AS: total_assets = 20199, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "813708612",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "org_number": "944350675",
+  "legal_name": "OSEN KOMMUNE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T071459Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Rådhusveien 13, 7740 STEINSDALEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "forretningsadresse: Rådhusveien 13, 7740 STEINSDALEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: address = 'Rådhusveien 13, 7740 STEINSDALEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Vingsandveien 12, 7740 STEINSDALEN | Rådhusveien 17, 7740 STEINSDALEN | Vingsandveien 6, 7740 STEINSDALEN | Rådhusveien 13, 7740 STEINSDALEN | 7740 STEINSDALEN | Rådhusveien 13, 7740 STEINSDALEN | Rådhusveien 13, 7740 STEINSDALEN | 7740 STEINSDALEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"beliggenhetsadresse\": 'Vingsandveien 12, 7740 STEINSDALEN' (first of 22)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: business_locations = 'Vingsandveien 12, 7740 STEINSDALEN | Rådhusveien 17, 7740 STEINSDALEN | Vingsandveien 6...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Øystein Granamo Iversen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"navn\": \"Øystein Granamo Iversen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: ceo = 'Øystein Granamo Iversen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "STEINSDALEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"poststed\": \"STEINSDALEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: city = 'STEINSDALEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kommune",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"aktivitet\": \"Kommune\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: description = 'Kommune', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "postmottak@osen.kommune.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"epostadresse\": \"postmottak@osen.kommune.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: email = 'postmottak@osen.kommune.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 229,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"antallAnsatte\": 229",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: employees = 229, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Generell offentlig administrasjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"beskrivelse\": \"Generell offentlig administrasjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: industry = 'Generell offentlig administrasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "KOMM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"kode\": \"KOMM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: legal_form = 'KOMM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "OSEN KOMMUNE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"navn\": \"OSEN KOMMUNE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: legal_name = 'OSEN KOMMUNE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 23,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"underenheter\": 22 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: location_count = 23, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"kommune\": \"OSEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: municipality = 'OSEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"kode\": \"84.110\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: nace_code = '84.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "944350675",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "organisasjonsnummer: \"944350675\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: org_number = '944350675', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "72 57 82 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"telefon\": \"72 57 82 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: phone = '72\\xa057\\xa082\\xa000', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7740",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"postnummer\": \"7740\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: postcode = '7740', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-06-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-06-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: registered = '1995-06-07', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.osen.kommune.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/944350675",
+      "retrieved_at": "2026-10-10T07:18:23Z",
+      "evidence": "\"hjemmeside\": \"www.osen.kommune.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "OSEN KOMMUNE: website = 'www.osen.kommune.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "944350675",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

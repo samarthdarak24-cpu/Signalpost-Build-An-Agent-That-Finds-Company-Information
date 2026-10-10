@@ -1,0 +1,43 @@
+{
+  "org_number": "982463718",
+  "legal_name": "TELENOR ASA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "employees",
+    "founded",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest",
+    "lei",
+    "parent_org_number"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Snarøyveien 30, 1360 FORNEBU",
+    "employees": 374,
+    "founded": "2000-07-21",
+    "industry": "Kabelbasert, satellittbasert og trådløs telekommunikasjon",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ASA",
+    "legal_name": "TELENOR ASA",
+    "municipality": "BÆRUM",
+    "nace_code": "61.100",
+    "phone": "67 89 00 00",
+    "postcode": "1360",
+    "purpose": "Telekommunikasjonsvirksomhet og annen virksomhet som har sammenheng med dette. Virksomheten kan utøves av selskapet selv, av datterselskaper, eller gjennom deltakelse i andre selskaper eller i samarbeid med andre.",
+    "registered": "2000-10-06",
+    "sector": "Statlig eide aksjeselskaper mv.",
+    "website": "www.telenor.no/"
+  }
+}

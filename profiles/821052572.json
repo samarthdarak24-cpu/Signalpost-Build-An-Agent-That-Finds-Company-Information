@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "821052572",
+  "legal_name": "HEDDA KVERNDALEN HEDDART",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Herregårdsveien 15, 1168 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "forretningsadresse: Herregårdsveien 15, 1168 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: address = 'Herregårdsveien 15, 1168 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Selvstendig kunstnerisk virksomhet innen visuell kunst.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"aktivitet\": \"Selvstendig kunstnerisk virksomhet innen visuell kunst.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: description = 'Selvstendig kunstnerisk virksomhet innen visuell kunst.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Skapende kunstnerisk virksomhet innenfor visuell kunst",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"beskrivelse\": \"Skapende kunstnerisk virksomhet innenfor visuell kunst\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: industry = 'Skapende kunstnerisk virksomhet innenfor visuell kunst', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "HEDDA KVERNDALEN HEDDART",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"navn\": \"HEDDA KVERNDALEN HEDDART\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: legal_name = 'HEDDA KVERNDALEN HEDDART', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"kode\": \"90.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: nace_code = '90.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "821052572",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "organisasjonsnummer: \"821052572\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: org_number = '821052572', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Hedda Kverndalen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"navn\": \"Hedda Kverndalen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: owner = 'Hedda Kverndalen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1168",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"postnummer\": \"1168\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: postcode = '1168', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-06-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-06-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: registered = '2018-06-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821052572",
+      "retrieved_at": "2026-10-10T10:01:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "HEDDA KVERNDALEN HEDDART: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "821052572",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931074334",
+  "legal_name": "MINDING THE MIND BY AGNETHE FESTE WERSLAND",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Makrellveien 5A, 4083 HUNDVÅG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "forretningsadresse: Makrellveien 5A, 4083 HUNDVÅG",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: address = 'Makrellveien 5A, 4083 HUNDVÅG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Makrellveien 5A, 4083 HUNDVÅG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"beliggenhetsadresse\": 'Makrellveien 5A, 4083 HUNDVÅG' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: business_locations = 'Makrellveien 5A, 4083 HUNDVÅG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Agnethe Feste Wersland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"navn\": \"Agnethe Feste Wersland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: ceo = 'Agnethe Feste Wersland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HUNDVÅG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"poststed\": \"HUNDVÅG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: city = 'HUNDVÅG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Sykepleier.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"aktivitet\": \"Sykepleier.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: description = 'Sykepleier.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "agnethe.wersland@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"epostadresse\": \"agnethe.wersland@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: email = 'agnethe.wersland@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre helsetjenester ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"beskrivelse\": \"Andre helsetjenester ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: industry = 'Andre helsetjenester ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MINDING THE MIND BY AGNETHE FESTE WERSLAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"navn\": \"MINDING THE MIND BY AGNETHE FESTE WERSLAND\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: legal_name = 'MINDING THE MIND BY AGNETHE FESTE WERSLAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"kommune\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: municipality = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "86.993",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"kode\": \"86.993\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: nace_code = '86.993', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931074334",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "organisasjonsnummer: \"931074334\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: org_number = '931074334', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Agnethe Feste Wersland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"navn\": \"Agnethe Feste Wersland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: owner = 'Agnethe Feste Wersland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "993 62 197",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"mobil\": \"993 62 197\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: phone = '993 62 197', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4083",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"postnummer\": \"4083\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: postcode = '4083', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: registered = '2023-03-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931074334",
+      "retrieved_at": "2026-10-10T08:46:11Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MINDING THE MIND BY AGNETHE FESTE WERSLAND: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931074334",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

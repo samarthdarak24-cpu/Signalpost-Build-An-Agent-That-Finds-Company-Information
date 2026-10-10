@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "976244834",
+  "legal_name": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T062903Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Lars Hilles gate 22, 5008 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "forretningsadresse: Lars Hilles gate 22, 5008 BERGEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: address = 'Lars Hilles gate 22, 5008 BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Lars Hilles gate 22, 5008 BERGEN | Magnus Thingnesgate 1, 6905 FLORØ | Storehagen 1B, 6800 FØRDE | Krånavegen 5, 6823 SANDANE | Askedalen 2, 6863 LEIKANGER | Firdavegen 21, 6823 SANDANE | Vabakkjen 6, 5411 STORD | Gurid Almenningens plass 1, 5704 VOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"beliggenhetsadresse\": 'Lars Hilles gate 22, 5008 BERGEN' (first of 8)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: business_locations = 'Lars Hilles gate 22, 5008 BERGEN | Magnus Thingnesgate 1, 6905 FLORØ | Storehagen 1B, 6...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Robert Sverre Rastad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"navn\": \"Robert Sverre Rastad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: ceo = 'Robert Sverre Rastad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"poststed\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: city = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Bidra til bærekraftig omstilling i næringslivet og forvalting av naturressursar, nye arbeidsplassar og sysselsetting i Vestland fylkeskommune, nyskaping/innovasjon, verdiskaping og nærings- og lokalsamfunnsutvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"aktivitet\": \"Bidra til bærekraftig omstilling i næringslivet og forvalting av naturressursar, nye arbeidsplassar og sysselsetting i Vestland fylkeskommune, nyskaping/innovasjon, verdiskaping og nærings- og lokalsamfunnsutvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: description = 'Bidra til bærekraftig omstilling i næringslivet og forvalting av naturressursar, nye ar...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "Postmottak.S@post.hfk.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"epostadresse\": \"Postmottak.S@post.hfk.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: email = 'Postmottak.S@post.hfk.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 110,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"antallAnsatte\": 110",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: employees = 110, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1995-01-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"stiftelsesdato\": \"1995-01-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: founded = '1995-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"beskrivelse\": \"Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: industry = 'Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"navn\": \"VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: legal_name = 'VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 9,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"underenheter\": 8 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: location_count = 9, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"kommune\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.130",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"kode\": \"84.130\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: nace_code = '84.130', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "976244834",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "organisasjonsnummer: \"976244834\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: org_number = '976244834', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "821311632",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"overordnetEnhet\": \"821311632\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: parent_org_number = '821311632', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5008",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"postnummer\": \"5008\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: postcode = '5008', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1996-05-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-05-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: registered = '1996-05-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976244834",
+      "retrieved_at": "2026-10-10T06:29:33Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VESTLAND FYLKESKOMMUNE NÆRING, PLAN OG INNOVASJON: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976244834",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

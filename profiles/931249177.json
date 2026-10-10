@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931249177",
+  "legal_name": "EGERSUND INNEBANDYKLUBB",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "forretningsadresse: c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: address = 'c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Birgitte Haugland Voll",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"navn\": \"Birgitte Haugland Voll\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: board_chair = 'Birgitte Haugland Voll', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Aleksander Klungland, Trine Junker Faude, Børge Rogstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "roles: Aleksander Klungland, Trine Junker Faude, Børge Rogstad",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: board_members = 'Aleksander Klungland, Trine Junker Faude, Børge Rogstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: business_locations = 'c/o Birgitte Haugland Voll, Fjellstedveien 5, 4371 EGERSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "EGERSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"poststed\": \"EGERSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: city = 'EGERSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Klubben driver med innebandy, primært trening. Er for tiden ikke aktiv i seriespill, men deltar sporadisk på turneringer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"aktivitet\": \"Klubben driver med innebandy, primært trening. Er for tiden ikke aktiv i seriespill, men deltar sporadisk på turneringer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: description = 'Klubben driver med innebandy, primært trening. Er for tiden ikke aktiv i seriespill, me...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "styretegersundibk@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"epostadresse\": \"styretegersundibk@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: email = 'styretegersundibk@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1992-08-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"stiftelsesdato\": \"1992-08-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: founded = '1992-08-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "EGERSUND INNEBANDYKLUBB",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"navn\": \"EGERSUND INNEBANDYKLUBB\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: legal_name = 'EGERSUND INNEBANDYKLUBB', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "EIGERSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"kommune\": \"EIGERSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: municipality = 'EIGERSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931249177",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "organisasjonsnummer: \"931249177\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: org_number = '931249177', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "970 46 595",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"mobil\": \"970 46 595\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: phone = '970 46 595', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4371",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"postnummer\": \"4371\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: postcode = '4371', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.facebook.com/groups/144942928988432/",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931249177",
+      "retrieved_at": "2026-10-10T09:38:54Z",
+      "evidence": "\"hjemmeside\": \"www.facebook.com/groups/144942928988432/\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "EGERSUND INNEBANDYKLUBB: website = 'www.facebook.com/groups/144942928988432/', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931249177",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

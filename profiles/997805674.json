@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "997805674",
+  "legal_name": "LUNDENE UTSIKT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "forretningsadresse: c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: address = 'c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Ivar Refsdal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"navn\": \"Ivar Refsdal\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: board_chair = 'Ivar Refsdal', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Merete Kristin Frøysa Råsberg, Johannes Mollan Breisnes, Mathias Melheim, Liv Kristin Veum, Sigrid Borlaug, Renate Sæle, Geir Offerdal Jakobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "roles: Merete Kristin Frøysa Råsberg, Johannes Mollan Breisnes, Mathias Melheim, Liv Kristin Veum, Sigrid Borlaug, Renate Sæle, Geir Offerdal Jakobsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: board_members = 'Merete Kristin Frøysa Råsberg, Johannes Mollan Breisnes, Mathias Melheim, Liv Kristin V...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: business_locations = 'c/o Ivar Refsdal, Seljadalsvegen 144, 6893 VIK I SOGN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VIK I SOGN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"poststed\": \"VIK I SOGN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: city = 'VIK I SOGN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Eierseksjonssameie",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"aktivitet\": \"Eierseksjonssameie\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: description = 'Eierseksjonssameie', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2011-11-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"stiftelsesdato\": \"2011-11-27\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: founded = '2011-11-27', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i borettslag og boligsameier",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i borettslag og boligsameier\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: industry = 'Aktiviteter i borettslag og boligsameier', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ESEK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"kode\": \"ESEK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: legal_form = 'ESEK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LUNDENE UTSIKT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"navn\": \"LUNDENE UTSIKT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: legal_name = 'LUNDENE UTSIKT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"kommune\": \"VIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: municipality = 'VIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "97.001",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"kode\": \"97.001\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: nace_code = '97.001', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "997805674",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "organisasjonsnummer: \"997805674\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: org_number = '997805674', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6893",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"postnummer\": \"6893\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: postcode = '6893', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2012-01-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2012-01-11\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: registered = '2012-01-11', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.lundeneutsikt.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997805674",
+      "retrieved_at": "2026-10-10T09:40:35Z",
+      "evidence": "\"hjemmeside\": \"www.lundeneutsikt.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "LUNDENE UTSIKT: website = 'www.lundeneutsikt.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "997805674",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

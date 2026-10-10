@@ -1,0 +1,27 @@
+# Optional live layer for Signalpost (Phase 1).
+#
+# These are NOT needed by the competition agent itself. `python run.py run`,
+# `run.py score` and `run.py web` all stay standard-library only, so the judged
+# artifact keeps its zero-install property. This file is only for the separate
+# real-time bridge described in docs/LIVE_DATA_STACK.md.
+#
+# Verified working end to end on 2026-10-10:
+#
+#   python -m venv .venv-live
+#   .venv-live/Scripts/python.exe -m pip install -r requirements-live.txt
+#   .venv-live/Scripts/python.exe -m uvicorn src.live_api:app --port 8799
+#
+# Then open the console (`python run.py web`, port 8787) and go to
+# Live Research -> "Live registry changes". The panel streams from the bridge.
+#
+# If the bridge is not running the panel says so; it does not silently show
+# "no changes", which would be a lie about the world rather than about the setup.
+
+# Pinned to the versions actually installed and exercised on 2026-10-10.
+# All six are permissively licensed (MIT / BSD-3-Clause / Apache-2.0).
+fastapi==0.142.2          # MIT
+uvicorn==0.54.0           # BSD-3-Clause
+sse-starlette==3.5.0      # BSD-3-Clause
+httpx==0.28.1             # BSD-3-Clause
+aiolimiter==1.3.0         # MIT
+apscheduler==3.11.3       # MIT

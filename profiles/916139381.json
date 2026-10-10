@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "916139381",
+  "legal_name": "PASHA MUSIC PASHA NADJAFI",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Oskar Braatens gate 8C, 0474 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "forretningsadresse: Oskar Braatens gate 8C, 0474 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: address = 'Oskar Braatens gate 8C, 0474 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Oskar Braatens gate 8C, 0474 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"beliggenhetsadresse\": 'Oskar Braatens gate 8C, 0474 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: business_locations = 'Oskar Braatens gate 8C, 0474 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Komponist og musikkproduksjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"aktivitet\": \"Komponist og musikkproduksjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: description = 'Komponist og musikkproduksjon.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Skapende kunstnerisk virksomhet innenfor komposisjon av musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"beskrivelse\": \"Skapende kunstnerisk virksomhet innenfor komposisjon av musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: industry = 'Skapende kunstnerisk virksomhet innenfor komposisjon av musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "PASHA MUSIC PASHA NADJAFI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"navn\": \"PASHA MUSIC PASHA NADJAFI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: legal_name = 'PASHA MUSIC PASHA NADJAFI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.112",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"kode\": \"90.112\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: nace_code = '90.112', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "916139381",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "organisasjonsnummer: \"916139381\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: org_number = '916139381', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Pasha Nadjafi",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"navn\": \"Pasha Nadjafi\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: owner = 'Pasha Nadjafi', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0474",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"postnummer\": \"0474\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: postcode = '0474', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2015-10-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-10-27\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: registered = '2015-10-27', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916139381",
+      "retrieved_at": "2026-10-10T10:02:44Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "PASHA MUSIC PASHA NADJAFI: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "916139381",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

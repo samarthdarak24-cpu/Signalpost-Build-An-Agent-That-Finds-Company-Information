@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "org_number": "919708255",
+  "legal_name": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Bergveien 2, 9802 VESTRE JAKOBSELV",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "forretningsadresse: Bergveien 2, 9802 VESTRE JAKOBSELV",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: address = 'Bergveien 2, 9802 VESTRE JAKOBSELV', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Tord Erlend Skardal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"navn\": \"Tord Erlend Skardal\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: board_chair = 'Tord Erlend Skardal', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Kenneth Brandser",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "roles: Kenneth Brandser",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: board_members = 'Kenneth Brandser', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VESTRE JAKOBSELV",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"poststed\": \"VESTRE JAKOBSELV\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: city = 'VESTRE JAKOBSELV', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Foreningsaktivitet for muskelsyke.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"aktivitet\": \"Foreningsaktivitet for muskelsyke.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: description = 'Foreningsaktivitet for muskelsyke.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "tord.skardal@ffm.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"epostadresse\": \"tord.skardal@ffm.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: email = 'tord.skardal@ffm.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2017-09-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"stiftelsesdato\": \"2017-09-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: founded = '2017-09-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"navn\": \"FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: legal_name = 'FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VADSØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"kommune\": \"VADSØ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: municipality = 'VADSØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "919708255",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "organisasjonsnummer: \"919708255\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: org_number = '919708255', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "411 00 292",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"mobil\": \"411 00 292\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: phone = '411 00 292', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "9802",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"postnummer\": \"9802\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: postcode = '9802', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2017-10-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-10-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: registered = '2017-10-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "ffm.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919708255",
+      "retrieved_at": "2026-10-10T09:40:45Z",
+      "evidence": "\"hjemmeside\": \"ffm.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "FORENINGEN FOR MUSKELSYKE I TROMS OG FINNMARK: website = 'ffm.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919708255",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

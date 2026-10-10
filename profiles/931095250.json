@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931095250",
+  "legal_name": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Dronningens gate 19, 1530 MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "forretningsadresse: Dronningens gate 19, 1530 MOSS",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: address = 'Dronningens gate 19, 1530 MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Morten James Torp",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"navn\": \"Morten James Torp\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: board_chair = 'Morten James Torp', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Helene Thorkildsen Grøndahl",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "roles: Helene Thorkildsen Grøndahl",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: board_members = 'Helene Thorkildsen Grøndahl', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Dronningens gate 19, 1530 MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"beliggenhetsadresse\": 'Dronningens gate 19, 1530 MOSS' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: business_locations = 'Dronningens gate 19, 1530 MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"poststed\": \"MOSS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: city = 'MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Arrangere ulike aktiviteter for barn og unge i tilknytning til Vannsportfestivalen AS i Moss.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"aktivitet\": \"Arrangere ulike aktiviteter for barn og unge i tilknytning til Vannsportfestivalen AS i Moss.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: description = 'Arrangere ulike aktiviteter for barn og unge i tilknytning til Vannsportfestivalen AS i...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: founded = '2023-03-03', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"navn\": \"VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: legal_name = 'VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"kommune\": \"MOSS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: municipality = 'MOSS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931095250",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "organisasjonsnummer: \"931095250\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: org_number = '931095250', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1530",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"postnummer\": \"1530\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: postcode = '1530', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931095250",
+      "retrieved_at": "2026-10-10T09:44:28Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VANNSPORTFESTIVALENS BARNE - OG UNGDOMSUKE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931095250",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

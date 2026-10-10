@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "822907822",
+  "legal_name": "OBSERVE MEDICAL ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Dronning Eufemias gate 16, 0191 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "forretningsadresse: Dronning Eufemias gate 16, 0191 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: address = 'Dronning Eufemias gate 16, 0191 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "description",
+      "value": "Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk utstyr og relaterte produkter, utføre konsulenttjenester i denne sammenheng, samt å investere i relatert virksomhet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"aktivitet\": \"Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk utstyr og relaterte produkter, utføre konsulenttjenester i denne sammenheng, samt å investere i relatert virksomhet\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: description = 'Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk u...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "founded",
+      "value": "2019-06-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"stiftelsesdato\": \"2019-06-13\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: founded = '2019-06-13', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med apotekvarer og medisinske varer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med apotekvarer og medisinske varer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: industry = 'Engroshandel med apotekvarer og medisinske varer', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "legal_name",
+      "value": "OBSERVE MEDICAL ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"navn\": \"OBSERVE MEDICAL ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: legal_name = 'OBSERVE MEDICAL ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.460",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"46.460\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: nace_code = '46.460', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "phone",
+      "value": "41104345",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"mobil\": \"41104345\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: phone = '41104345', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "postcode",
+      "value": "0191",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"postnummer\": \"0191\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: postcode = '0191', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "purpose",
+      "value": "Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk utstyr og relaterte produkter, utføre konsulenttjenester i denne sammenheng, samt å investere i relatert virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk utstyr og relaterte produkter, utføre konsulenttjenester i denne sammenheng, samt å investere i relatert virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: purpose = 'Selskapets virksomhet er å utvikle, produsere, markedsføre og selge medisinsk teknisk u...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "registered",
+      "value": "2019-06-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-06-17\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: registered = '2019-06-17', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    },
+    {
+      "field": "website",
+      "value": "www.observemedical.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822907822",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"hjemmeside\": \"www.observemedical.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "OBSERVE MEDICAL ASA: website = 'www.observemedical.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "822907822"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

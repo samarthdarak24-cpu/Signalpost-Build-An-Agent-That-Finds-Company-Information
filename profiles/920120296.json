@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920120296",
+  "legal_name": "IDA G. FOSTAD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064404Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Slemdalsveien 97J, 0373 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "forretningsadresse: Slemdalsveien 97J, 0373 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: address = 'Slemdalsveien 97J, 0373 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Slemdalsveien 97J, 0373 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"beliggenhetsadresse\": 'Slemdalsveien 97J, 0373 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: business_locations = 'Slemdalsveien 97J, 0373 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Tannlege.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"aktivitet\": \"Tannlege.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: description = 'Tannlege.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Tannlegetjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"beskrivelse\": \"Tannlegetjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: industry = 'Tannlegetjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "IDA G. FOSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"navn\": \"IDA G. FOSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: legal_name = 'IDA G. FOSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "86.230",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"kode\": \"86.230\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: nace_code = '86.230', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920120296",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "organisasjonsnummer: \"920120296\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: org_number = '920120296', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Ida Grunnan Fostad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"navn\": \"Ida Grunnan Fostad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: owner = 'Ida Grunnan Fostad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0373",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"postnummer\": \"0373\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: postcode = '0373', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2017-12-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-12-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: registered = '2017-12-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920120296",
+      "retrieved_at": "2026-10-10T06:45:35Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "IDA G. FOSTAD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920120296",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

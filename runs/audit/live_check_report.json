@@ -1,0 +1,372 @@
+[
+ {
+  "org": "986897321",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-TEAM RENHOLD V/ALISE SLETTEDAL",
+    "register": "A-TEAM RENHOLD V/ALISE SLETTEDAL",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "SKATVAL",
+    "register": "SKATVAL",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "STJØRDAL",
+    "register": "STJØRDAL",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Rengjøring av bygninger",
+    "register": "Rengjøring av bygninger",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 5,
+  "answered": true,
+  "seconds": 25.87,
+  "answer": "A-TEAM RENHOLD V/ALISE SLETTEDAL: Name — A-TEAM RENHOLD V/ALISE SLETTEDAL; What it does — Rengjøring av bygninger, bolighus, kontorer og lignende. Ingeniørtjenester.; Industry — Rengjøring av bygninger; City — SKATVAL; Municipality — STJØRDAL.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ },
+ {
+  "org": "917585202",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-ROOM BEAUTY STUDIO ANASTASSIA RASTROGINA",
+    "register": "A-ROOM BEAUTY STUDIO ANASTASSIA RASTROGINA",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "OSLO",
+    "register": "OSLO",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "OSLO",
+    "register": "OSLO",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Skjønnhetspleie",
+    "register": "Skjønnhetspleie",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 5,
+  "answered": true,
+  "seconds": 24.83,
+  "answer": "A-ROOM BEAUTY STUDIO ANASTASSIA RASTROGINA: Name — A-ROOM BEAUTY STUDIO ANASTASSIA RASTROGINA; What it does — Virksomhetens formål er å drive med sminke, neglepleie, manikyr, skjønnhetspleie, vippeextention og tilsvarende, samt danser/artist.; Industry — Skjønnhetspleie; City — OSLO; Municipality — OSLO.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ },
+ {
+  "org": "926336088",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-TEC HOLDING AS",
+    "register": "A-TEC HOLDING AS",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "SON",
+    "register": "SON",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "VESTBY",
+    "register": "VESTBY",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Utleie av egen eller leid fast eiendom",
+    "register": "Utleie av egen eller leid fast eiendom",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 6,
+  "answered": true,
+  "seconds": 17.64,
+  "answer": "A-TEC HOLDING AS: Name — A-TEC HOLDING AS; What it does — Investering i aksjer og andeler, eie, utvikle og drive fast eiendom og mekanisk verksted og produksjon, samt beslektet virksomhet.; Industry — Utleie av egen eller leid fast eiendom; City — SON; Municipality — VESTBY; Revenue — 22 445 570.",
+  "engine": "",
+  "notes": [],
+  "sources": 2
+ },
+ {
+  "org": "866339902",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-SIGN AS",
+    "register": "A-SIGN AS",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "STAVANGER",
+    "register": "STAVANGER",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "STAVANGER",
+    "register": "STAVANGER",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Ferdiggjøring før trykking og publisering",
+    "register": "Ferdiggjøring før trykking og publisering",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 7,
+  "answered": true,
+  "seconds": 15.35,
+  "answer": "A-SIGN AS: Name — A-SIGN AS; What it does — Grafisk produksjonsbyrå.; Industry — Ferdiggjøring før trykking og publisering; City — STAVANGER; Municipality — STAVANGER; CEO / managing director — Harald Roalsø; Revenue — 3 850 620.",
+  "engine": "",
+  "notes": [],
+  "sources": 2
+ },
+ {
+  "org": "825544682",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-PRODUKTER NOTØ",
+    "register": "A-PRODUKTER NOTØ",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "HALDEN",
+    "register": "HALDEN",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "HALDEN",
+    "register": "HALDEN",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Utleie og leasing av biler og andre lette motorvogner",
+    "register": "Utleie og leasing av biler og andre lette motorvogner",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 5,
+  "answered": true,
+  "seconds": 28.89,
+  "answer": "A-PRODUKTER NOTØ: Name — A-PRODUKTER NOTØ; What it does — Drifting og utleie av moped, mc og materiell til trafikkskole.; Industry — Utleie og leasing av biler og andre lette motorvogner; City — HALDEN; Municipality — HALDEN.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ },
+ {
+  "org": "824774692",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-N-B BYGG AS",
+    "register": "A-N-B BYGG AS",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "OLSVIK",
+    "register": "OLSVIK",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "BERGEN",
+    "register": "BERGEN",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Oppføring av bygninger",
+    "register": "Oppføring av bygninger",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 7,
+  "answered": true,
+  "seconds": 14.89,
+  "answer": "A-N-B BYGG AS: Name — A-N-B BYGG AS; What it does — Oppføring av bygninger, tømrervirksomhet, malerarbeid, murerarbeid, renovering, oppussing, rehabilitering, snekker og byggetjenester.; Industry — Oppføring av bygninger; City — OLSVIK; Municipality — BERGEN; CEO / managing director — Nerijus Nauncikas; Revenue — 374 940.",
+  "engine": "",
+  "notes": [],
+  "sources": 2
+ },
+ {
+  "org": "915299512",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-TECH AS",
+    "register": "A-TECH AS",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "STATHELLE",
+    "register": "STATHELLE",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "BAMBLE",
+    "register": "BAMBLE",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Annen ferdiggjøring av bygninger",
+    "register": "Annen ferdiggjøring av bygninger",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 7,
+  "answered": true,
+  "seconds": 15.16,
+  "answer": "A-TECH AS: Name — A-TECH AS; What it does — Prosjektarbeid og produksjon innenfor bygg og anlegg, samt landbasert industri.; Industry — Annen ferdiggjøring av bygninger; City — STATHELLE; Municipality — BAMBLE; CEO / managing director — Ove Johannes Almås; Revenue — 18 247 990.",
+  "engine": "",
+  "notes": [],
+  "sources": 2
+ },
+ {
+  "org": "921421095",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-RENHOLD BOSNJAKOVIC",
+    "register": "A-RENHOLD BOSNJAKOVIC",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "OSLO",
+    "register": "OSLO",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "OSLO",
+    "register": "OSLO",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Rengjøring av bygninger",
+    "register": "Rengjøring av bygninger",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 5,
+  "answered": true,
+  "seconds": 23.37,
+  "answer": "A-RENHOLD BOSNJAKOVIC: Name — A-RENHOLD BOSNJAKOVIC; What it does — Renhold og rengjøringsvirksomhet.; Industry — Rengjøring av bygninger; City — OSLO; Municipality — OSLO.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ },
+ {
+  "org": "917834725",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-MUSE AXELSEN",
+    "register": "A-MUSE AXELSEN",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "HAFRSFJORD",
+    "register": "HAFRSFJORD",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "STAVANGER",
+    "register": "STAVANGER",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted",
+    "register": "Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 6,
+  "answered": true,
+  "seconds": 23.24,
+  "answer": "A-MUSE AXELSEN: Name — A-MUSE AXELSEN; What it does — Male store veggmaleri på bestilling. Konseptet vil være at kunsten skal speile og tilpasses kundens ønsker, behov, personlighet, rom og hjem. Maleriene skal inspirere eierens hjerte, hjerne og sjel med positiv, historisk og spirituell energi.; Industry — Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted; City — HAFRSFJORD; Municipality — STAVANGER; Website — A-Muse.no.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ },
+ {
+  "org": "934250877",
+  "checks": [
+   {
+    "field": "legal_name",
+    "agent": "A-SERVICE NORDBY",
+    "register": "A-SERVICE NORDBY",
+    "ok": true
+   },
+   {
+    "field": "city",
+    "agent": "ÅRNES",
+    "register": "ÅRNES",
+    "ok": true
+   },
+   {
+    "field": "municipality",
+    "agent": "NES",
+    "register": "NES",
+    "ok": true
+   },
+   {
+    "field": "industry",
+    "agent": "Kombinerte tjenester tilknyttet eiendomsdrift",
+    "register": "Kombinerte tjenester tilknyttet eiendomsdrift",
+    "ok": true
+   }
+  ],
+  "wrong": [],
+  "fact_count": 5,
+  "answered": true,
+  "seconds": 23.41,
+  "answer": "A-SERVICE NORDBY: Name — A-SERVICE NORDBY; What it does — Vaktmestertjenester.; Industry — Kombinerte tjenester tilknyttet eiendomsdrift; City — ÅRNES; Municipality — NES.",
+  "engine": "",
+  "notes": [],
+  "sources": 1
+ }
+]

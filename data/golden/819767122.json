@@ -1,0 +1,43 @@
+{
+  "org_number": "819767122",
+  "legal_name": "10FOLD AS",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "founded",
+    "email",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Hausmanns gate 17, 0182 OSLO",
+    "email": "audun.berg@10fold.no",
+    "founded": "2017-10-04",
+    "industry": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "AS",
+    "legal_name": "10FOLD AS",
+    "linkedin": "https://www.linkedin.com/in/audun-berg-3249421/",
+    "municipality": "OSLO",
+    "nace_code": "70.200",
+    "phone": "95 10 17 51",
+    "postcode": "0182",
+    "purpose": "Rekruttering, bedriftsrådgivning og annet som naturlig faller sammen med dette.",
+    "registered": "2017-10-23",
+    "sector": "Private aksjeselskaper mv.",
+    "website": "www.10fold.no",
+    "website_orgnr_proof": "819 767 122"
+  }
+}

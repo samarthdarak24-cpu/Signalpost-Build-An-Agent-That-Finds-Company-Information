@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "927227886",
+  "legal_name": "THU CONSULT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T075259Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Vikesåbakkane 9, 4389 VIKESÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "forretningsadresse: Vikesåbakkane 9, 4389 VIKESÅ",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "THU CONSULT: address = 'Vikesåbakkane 9, 4389 VIKESÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VIKESÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"poststed\": \"VIKESÅ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "THU CONSULT: city = 'VIKESÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "WEB-design. Grafisk design. Konsulenttjenester innen IT. Markedsføring og reklame. Fotograf.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"aktivitet\": \"WEB-design. Grafisk design. Konsulenttjenester innen IT. Markedsføring og reklame. Fotograf.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "THU CONSULT: description = 'WEB-design. Grafisk design. Konsulenttjenester innen IT. Markedsføring og reklame. Foto...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@thur.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"epostadresse\": \"post@thur.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "THU CONSULT: email = 'post@thur.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Dataprogrammeringstjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"beskrivelse\": \"Dataprogrammeringstjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "THU CONSULT: industry = 'Dataprogrammeringstjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "THU CONSULT: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "THU CONSULT: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "THU CONSULT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"navn\": \"THU CONSULT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "THU CONSULT: legal_name = 'THU CONSULT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "THU CONSULT: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BJERKREIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"kommune\": \"BJERKREIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "THU CONSULT: municipality = 'BJERKREIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.100",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"kode\": \"62.100\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "THU CONSULT: nace_code = '62.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "927227886",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "organisasjonsnummer: \"927227886\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "THU CONSULT: org_number = '927227886', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Aleksander Meihack Thu",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"navn\": \"Aleksander Meihack Thu\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "THU CONSULT: owner = 'Aleksander Meihack Thu', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "477 58 755",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"mobil\": \"477 58 755\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "THU CONSULT: phone = '477 58 755', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4389",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"postnummer\": \"4389\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "THU CONSULT: postcode = '4389', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2021-06-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-06-09\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "THU CONSULT: registered = '2021-06-09', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "THU CONSULT: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "THU CONSULT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "thur.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927227886",
+      "retrieved_at": "2026-10-10T07:56:39Z",
+      "evidence": "\"hjemmeside\": \"thur.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "THU CONSULT: website = 'thur.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927227886",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

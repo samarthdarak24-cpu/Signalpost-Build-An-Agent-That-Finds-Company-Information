@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "org_number": "810324562",
+  "legal_name": "SERVI GROUP AS",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T211828Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 121802755,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 121802755 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: debt = 121802755, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 91753473,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 91753473 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: equity = 91753473, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med maskiner og utstyr ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med maskiner og utstyr ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: industry = 'Engroshandel med maskiner og utstyr ellers', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SERVI GROUP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"navn\": \"SERVI GROUP AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: legal_name = 'SERVI GROUP AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ÅS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"kommune\": \"ÅS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: municipality = 'ÅS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.640",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"kode\": \"46.640\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: nace_code = '46.640', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -2070569,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result -2070569 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: net_result = -2070569, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -2475870,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -2475870 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: operating_result = -2475870, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "810324562",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "organisasjonsnummer: \"810324562\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: org_number = '810324562', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 213556228,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/810324562",
+      "retrieved_at": "2026-10-07T21:18:58Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 213556228 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: total_assets = 213556228, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.servi.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "retrieved_at": "2026-10-07T21:18:50Z",
+      "evidence": "\"hjemmeside\": \"www.servi.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "SERVI GROUP AS: website = 'www.servi.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "810324562",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.servi.no",
+      "new": null,
+      "detected_at": "2026-10-07T21:19:22Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/810324562",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "ownership gate found no page carrying the organisation number or a name with matching address",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

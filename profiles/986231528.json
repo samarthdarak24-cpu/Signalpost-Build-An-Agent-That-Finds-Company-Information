@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "org_number": "986231528",
+  "legal_name": "LYN FOTBALL",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T082005Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Olav M. Troviks vei 13, 0864 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "forretningsadresse: Olav M. Troviks vei 13, 0864 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: address = 'Olav M. Troviks vei 13, 0864 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Tom André Svenning-Gultvedt",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"navn\": \"Tom André Svenning-Gultvedt\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: board_chair = 'Tom André Svenning-Gultvedt', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Line Fiskerstrand Blekeli, Mass Anders Hus, Joachim Bentserud Wingerei, Karianne Weyergang Marcussen, Luuk Wilhelmus Maria Op Het Veld, Gøril Wahl-Olsen Tvedt, Mathis Junker Gran",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "roles: Line Fiskerstrand Blekeli, Mass Anders Hus, Joachim Bentserud Wingerei, Karianne Weyergang Marcussen, Luuk Wilhelmus Maria Op Het Veld, Gøril Wahl-Olsen Tvedt, Mathis Junker Gran",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: board_members = 'Line Fiskerstrand Blekeli, Mass Anders Hus, Joachim Bentserud Wingerei, Karianne Weyerg...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Olav M. Troviks vei 13, 0864 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"beliggenhetsadresse\": 'Olav M. Troviks vei 13, 0864 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: business_locations = 'Olav M. Troviks vei 13, 0864 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Kyrre Falch-Hennum",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"navn\": \"Kyrre Falch-Hennum\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: ceo = 'Kyrre Falch-Hennum', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Generell fotballklubb.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"aktivitet\": \"Generell fotballklubb.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: description = 'Generell fotballklubb.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "kyrre@lyn.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"epostadresse\": \"kyrre@lyn.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: email = 'kyrre@lyn.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 120,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"antallAnsatte\": 120",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: employees = 120, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2003-06-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"stiftelsesdato\": \"2003-06-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: founded = '2003-06-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2014",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2014\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: latest_accounts_year = '2014', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LYN FOTBALL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"navn\": \"LYN FOTBALL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: legal_name = 'LYN FOTBALL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "986231528",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "organisasjonsnummer: \"986231528\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: org_number = '986231528', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "41020875",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"mobil\": \"41020875\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: phone = '41020875', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0864",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"postnummer\": \"0864\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: postcode = '0864', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2004-01-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2004-01-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: registered = '2004-01-22', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.lynfotball.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986231528",
+      "retrieved_at": "2026-10-10T08:20:47Z",
+      "evidence": "\"hjemmeside\": \"www.lynfotball.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "LYN FOTBALL: website = 'www.lynfotball.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986231528",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

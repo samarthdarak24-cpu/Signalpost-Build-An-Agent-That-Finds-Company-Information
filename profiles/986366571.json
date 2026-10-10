@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "986366571",
+  "legal_name": "SØYLANDSDAL SAMDRIFT DA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T082005Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Søyland, 4330 ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "forretningsadresse: Søyland, 4330 ÅLGÅRD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: address = 'Søyland, 4330 ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Søyland, 4330 ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"beliggenhetsadresse\": 'Søyland, 4330 ÅLGÅRD' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: business_locations = 'Søyland, 4330 ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"poststed\": \"ÅLGÅRD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: city = 'ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Melk/kjøttproduksjon storfe.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"aktivitet\": \"Melk/kjøttproduksjon storfe.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: description = 'Melk/kjøttproduksjon storfe.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2003-02-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"stiftelsesdato\": \"2003-02-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: founded = '2003-02-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Melkeproduksjon på storfe og oppdrett av melkekyr",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"beskrivelse\": \"Melkeproduksjon på storfe og oppdrett av melkekyr\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: industry = 'Melkeproduksjon på storfe og oppdrett av melkekyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"kode\": \"DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: legal_form = 'DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SØYLANDSDAL SAMDRIFT DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"navn\": \"SØYLANDSDAL SAMDRIFT DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: legal_name = 'SØYLANDSDAL SAMDRIFT DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "GJESDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"kommune\": \"GJESDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: municipality = 'GJESDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"kode\": \"01.410\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: nace_code = '01.410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "986366571",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "organisasjonsnummer: \"986366571\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: org_number = '986366571', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "partners",
+      "value": "Magnus Søyland, Olav Vegard Søyland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "roles: Magnus Søyland, Olav Vegard Søyland",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DTPR (Partner)",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: partners = 'Magnus Søyland, Olav Vegard Søyland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "51 61 59 59",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"telefon\": \"51 61 59 59\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: phone = '51 61 59 59', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4330",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"postnummer\": \"4330\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: postcode = '4330', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Drive felles for-, mjølke- og kjøtproduksjon på storfe for best mogeleg rasjonell og økonomisk utnytting av deltakarane sine jordbruksareal samt eventuelle eigedomar som blir forpakta av samdrifta. Samdrifta skal gje høve til ordna arbeidstilhøve, fritid og ferie for medlemmene. Samdrifta kan utføre verksemd som er naturleg knyta til landbruksnæringa.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Drive felles for-, mjølke- og kjøtproduksjon på storfe for best mogeleg rasjonell og økonomisk utnytting av deltakarane sine jordbruksareal samt eventuelle eigedomar som blir forpakta av samdrifta. Samdrifta skal gje høve til ordna arbeidstilhøve, fritid og ferie for medlemmene. Samdrifta kan utføre verksemd som er naturleg knyta til landbruksnæringa.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: purpose = 'Drive felles for-, mjølke- og kjøtproduksjon på storfe for best mogeleg rasjonell og øk...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2004-01-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2004-01-17\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: registered = '2004-01-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986366571",
+      "retrieved_at": "2026-10-10T08:21:42Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SØYLANDSDAL SAMDRIFT DA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "986366571",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

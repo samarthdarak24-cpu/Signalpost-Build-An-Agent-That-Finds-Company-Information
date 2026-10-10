@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920678041",
+  "legal_name": "PLANTER FOR TANTER AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T122701Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2022,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "regnskapsperiode ended 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: accounting_year = 2022, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 6470972,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: debt 6470972 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: debt = 6470972, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": -4448190,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: equity -4448190 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: equity = -4448190, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920678041",
+      "retrieved_at": "2026-10-10T12:28:28Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "PLANTER FOR TANTER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920678041",
+      "retrieved_at": "2026-10-10T12:28:28Z",
+      "evidence": "\"navn\": \"PLANTER FOR TANTER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: legal_name = 'PLANTER FOR TANTER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920678041",
+      "retrieved_at": "2026-10-10T12:28:28Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -4478555,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: net result -4478555 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: net_result = -4478555, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -2914997,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: operating result -2914997 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: operating_result = -2914997, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920678041",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920678041",
+      "retrieved_at": "2026-10-10T12:28:28Z",
+      "evidence": "organisasjonsnummer: \"920678041\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: org_number = '920678041', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2022-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "regnskapsperiode slutt 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: reporting_period = '2022-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 21506838,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: revenue latest 21506838 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: revenue_latest = 21506838, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920678041",
+      "retrieved_at": "2026-10-10T12:28:28Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 2022782,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920678041",
+      "retrieved_at": "2026-10-10T12:28:41Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: total assets 2022782 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "PLANTER FOR TANTER AS: total_assets = 2022782, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920678041",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

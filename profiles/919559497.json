@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "org_number": "919559497",
+  "legal_name": "FJORDTUNET FRIVILLIGSENTRAL",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Bekkelagstunet, Ormsundveien 16A, 0198 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "forretningsadresse: Bekkelagstunet, Ormsundveien 16A, 0198 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: address = 'Bekkelagstunet, Ormsundveien 16A, 0198 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Mari Møll Frengstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"navn\": \"Mari Møll Frengstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: board_chair = 'Mari Møll Frengstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Maarten Cornelis Sleeuwits, Mona Lisbeth Verdich, Kristina Sund Tuhus",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "roles: Maarten Cornelis Sleeuwits, Mona Lisbeth Verdich, Kristina Sund Tuhus",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: board_members = 'Maarten Cornelis Sleeuwits, Mona Lisbeth Verdich, Kristina Sund Tuhus', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Bekkelagstunet, Ormsundveien 16A, 0198 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"beliggenhetsadresse\": 'Bekkelagstunet, Ormsundveien 16A, 0198 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: business_locations = 'Bekkelagstunet, Ormsundveien 16A, 0198 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Tillik Margrete Motzfeldt Haustveit",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"navn\": \"Tillik Margrete Motzfeldt Haustveit\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: ceo = 'Tillik Margrete Motzfeldt Haustveit', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drive aktivitetskafe, tilby kurs, holde arrangementer, reparere og selge gjenbruksgjenstander, drifte kjøkkenhage, organisere ressurspool og frivillige og ha unge på arbeidstrening.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"aktivitet\": \"Drive aktivitetskafe, tilby kurs, holde arrangementer, reparere og selge gjenbruksgjenstander, drifte kjøkkenhage, organisere ressurspool og frivillige og ha unge på arbeidstrening.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: description = 'Drive aktivitetskafe, tilby kurs, holde arrangementer, reparere og selge gjenbruksgjens...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "tillik81@hotmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"epostadresse\": \"tillik81@hotmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: email = 'tillik81@hotmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 12,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"antallAnsatte\": 12",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: employees = 12, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2017-08-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"stiftelsesdato\": \"2017-08-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: founded = '2017-08-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FJORDTUNET FRIVILLIGSENTRAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"navn\": \"FJORDTUNET FRIVILLIGSENTRAL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: legal_name = 'FJORDTUNET FRIVILLIGSENTRAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "919559497",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "organisasjonsnummer: \"919559497\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: org_number = '919559497', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "416 81 709",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"mobil\": \"416 81 709\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: phone = '416 81 709', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0198",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"postnummer\": \"0198\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: postcode = '0198', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Er en åpen møteplass for alle. Fungerer som tilrettelegger av aktiviteter og samarbeid for inkludering, mestring, læring, glede og samvær på tvers av generasjoner. Initierer, mobiliserer og samordner frivillighet, og er et naturlig bindeledd mellom de som ønsker å være frivillig og de som ønsker å motta frivillig innsats. Fungerer også som en brobygger og verdiskaper mellom nærmiljø, frivillige og andre organisasjoner, næringsliv og det offentlige, så vel som mellom eksisterende og nye sambrukere på området. Er en støtte og et supplement til offentlig tilbud.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Er en åpen møteplass for alle. Fungerer som tilrettelegger av aktiviteter og samarbeid for inkludering, mestring, læring, glede og samvær på tvers av generasjoner. Initierer, mobiliserer og samordner frivillighet, og er et naturlig bindeledd mellom de som ønsker å være frivillig og de som ønsker å motta frivillig innsats. Fungerer også som en brobygger og verdiskaper mellom nærmiljø, frivillige og andre organisasjoner, næringsliv og det offentlige, så vel som mellom eksisterende og nye sambrukere på området. Er en støtte og et supplement til offentlig tilbud.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: purpose = 'Er en åpen møteplass for alle. Fungerer som tilrettelegger av aktiviteter og samarbeid ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2017-09-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-09-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: registered = '2017-09-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919559497",
+      "retrieved_at": "2026-10-10T08:46:33Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FJORDTUNET FRIVILLIGSENTRAL: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "919559497",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

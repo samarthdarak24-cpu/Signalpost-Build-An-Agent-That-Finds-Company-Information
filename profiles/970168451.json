@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "org_number": "970168451",
+  "legal_name": "NATURVITERNE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100900Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kongens gate 11, 0153 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "forretningsadresse: Kongens gate 11, 0153 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: address = 'Kongens gate 11, 0153 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Morten Ingebrigtsen Wedege",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"navn\": \"Morten Ingebrigtsen Wedege\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: board_chair = 'Morten Ingebrigtsen Wedege', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Hoa Lisa Kieu Vo, Thorbjørn Thyrum, Janne Fossum, Else Mari Espseth Nilsen, Jostein Berger Meisdalen, Alvhild Hedstein",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "roles: Hoa Lisa Kieu Vo, Thorbjørn Thyrum, Janne Fossum, Else Mari Espseth Nilsen, Jostein Berger Meisdalen, Alvhild Hedstein",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: board_members = 'Hoa Lisa Kieu Vo, Thorbjørn Thyrum, Janne Fossum, Else Mari Espseth Nilsen, Jostein Ber...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kongens gate 11, 0153 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kongens gate 11, 0153 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: business_locations = 'Kongens gate 11, 0153 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Merete Skaug",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"navn\": \"Merete Skaug\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: ceo = 'Merete Skaug', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Fagorganisasjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"aktivitet\": \"Fagorganisasjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: description = 'Fagorganisasjon.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@naturviterne.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"epostadresse\": \"post@naturviterne.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: email = 'post@naturviterne.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 20,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"antallAnsatte\": 20",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: employees = 20, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1961-01-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"stiftelsesdato\": \"1961-01-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: founded = '1961-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i yrkessammenslutninger",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i yrkessammenslutninger\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: industry = 'Aktiviteter i yrkessammenslutninger', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NATURVITERNE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"navn\": \"NATURVITERNE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: legal_name = 'NATURVITERNE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"kode\": \"94.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: nace_code = '94.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "970168451",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "organisasjonsnummer: \"970168451\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: org_number = '970168451', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "22 03 34 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"telefon\": \"22 03 34 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: phone = '22 03 34 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0153",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"postnummer\": \"0153\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: postcode = '0153', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-03-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: registered = '1995-03-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.naturviterne.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970168451",
+      "retrieved_at": "2026-10-10T10:11:37Z",
+      "evidence": "\"hjemmeside\": \"www.naturviterne.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NATURVITERNE: website = 'www.naturviterne.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970168451",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

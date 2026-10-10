@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "831267062",
+  "legal_name": "FAU HEIMDAL FRISKOLE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Søbstadvegen 65, 7088 HEIMDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "forretningsadresse: Søbstadvegen 65, 7088 HEIMDAL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: address = 'Søbstadvegen 65, 7088 HEIMDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Jens Gunnar Solem Gunnestad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"navn\": \"Jens Gunnar Solem Gunnestad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: board_chair = 'Jens Gunnar Solem Gunnestad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Harald Anzjøn, Tanja Lenita Klemets",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "roles: Harald Anzjøn, Tanja Lenita Klemets",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: board_members = 'Harald Anzjøn, Tanja Lenita Klemets', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Søbstadvegen 65, 7088 HEIMDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"beliggenhetsadresse\": 'Søbstadvegen 65, 7088 HEIMDAL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: business_locations = 'Søbstadvegen 65, 7088 HEIMDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HEIMDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"poststed\": \"HEIMDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: city = 'HEIMDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Tilbyr aktiviteter og treffpunkt utover den ordinære skolehverdagen som bidrar til å styrke de sosiale båndene både i elevgruppa og i foreldregruppa. FAU har ansvaret for å organisere slike aktiviteter, både i egen regi og i samarbeid med skolens ledelse.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"aktivitet\": \"Tilbyr aktiviteter og treffpunkt utover den ordinære skolehverdagen som bidrar til å styrke de sosiale båndene både i elevgruppa og i foreldregruppa. FAU har ansvaret for å organisere slike aktiviteter, både i egen regi og i samarbeid med skolens ledelse.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: description = 'Tilbyr aktiviteter og treffpunkt utover den ordinære skolehverdagen som bidrar til å st...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-29",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-29\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: founded = '2023-03-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FAU HEIMDAL FRISKOLE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"navn\": \"FAU HEIMDAL FRISKOLE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: legal_name = 'FAU HEIMDAL FRISKOLE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "831267062",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "organisasjonsnummer: \"831267062\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: org_number = '831267062', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7088",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"postnummer\": \"7088\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: postcode = '7088', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831267062",
+      "retrieved_at": "2026-10-10T09:45:10Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FAU HEIMDAL FRISKOLE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "831267062",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

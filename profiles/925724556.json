@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "org_number": "925724556",
+  "legal_name": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T095316Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "forretningsadresse: c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: address = 'c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Erlend Angelsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"navn\": \"Erlend Angelsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: board_chair = 'Erlend Angelsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: business_locations = 'c/o Erlend angelsen, Gravdalstunet 9C, 8372 GRAVDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_manager",
+      "value": "Erlend Angelsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"navn\": \"Erlend Angelsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role FFØR (Business manager)",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: business_manager = 'Erlend Angelsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "GRAVDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"poststed\": \"GRAVDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: city = 'GRAVDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Eierseksjonssameie.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"aktivitet\": \"Eierseksjonssameie.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: description = 'Eierseksjonssameie.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2020-09-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"stiftelsesdato\": \"2020-09-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: founded = '2020-09-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i borettslag og boligsameier",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i borettslag og boligsameier\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: industry = 'Aktiviteter i borettslag og boligsameier', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ESEK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"kode\": \"ESEK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: legal_form = 'ESEK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"navn\": \"GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: legal_name = 'GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VESTVÅGØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"kommune\": \"VESTVÅGØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: municipality = 'VESTVÅGØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "97.001",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"kode\": \"97.001\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: nace_code = '97.001', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "925724556",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "organisasjonsnummer: \"925724556\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: org_number = '925724556', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8372",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"postnummer\": \"8372\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: postcode = '8372', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2020-10-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2020-10-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: registered = '2020-10-22', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925724556",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "GRAVDALSTUNET 7 OG 9 EIERSEKSJONSSAMEIE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "925724556",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

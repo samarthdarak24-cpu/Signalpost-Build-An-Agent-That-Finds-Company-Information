@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930908118",
+  "legal_name": "JØRGENSEN INDUSTRIAL MAGIC",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093337Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Brattbakken 4, 4330 ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "forretningsadresse: Brattbakken 4, 4330 ÅLGÅRD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: address = 'Brattbakken 4, 4330 ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Brattbakken 4, 4330 ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"beliggenhetsadresse\": 'Brattbakken 4, 4330 ÅLGÅRD' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: business_locations = 'Brattbakken 4, 4330 ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ÅLGÅRD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"poststed\": \"ÅLGÅRD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: city = 'ÅLGÅRD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Ingeniørtjenester innenfor miljøteknologi og teknologiutvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"aktivitet\": \"Ingeniørtjenester innenfor miljøteknologi og teknologiutvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: description = 'Ingeniørtjenester innenfor miljøteknologi og teknologiutvikling.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Annen teknisk konsulentvirksomhet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"beskrivelse\": \"Annen teknisk konsulentvirksomhet\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: industry = 'Annen teknisk konsulentvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "JØRGENSEN INDUSTRIAL MAGIC",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"navn\": \"JØRGENSEN INDUSTRIAL MAGIC\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: legal_name = 'JØRGENSEN INDUSTRIAL MAGIC', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "GJESDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"kommune\": \"GJESDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: municipality = 'GJESDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "71.129",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"kode\": \"71.129\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: nace_code = '71.129', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930908118",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "organisasjonsnummer: \"930908118\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: org_number = '930908118', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Espen Andre Jørgensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"navn\": \"Espen Andre Jørgensen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: owner = 'Espen Andre Jørgensen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4330",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"postnummer\": \"4330\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: postcode = '4330', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: registered = '2023-03-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930908118",
+      "retrieved_at": "2026-10-10T09:34:55Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "JØRGENSEN INDUSTRIAL MAGIC: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930908118",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

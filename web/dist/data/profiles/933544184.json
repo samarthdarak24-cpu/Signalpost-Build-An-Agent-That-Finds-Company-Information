@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "org_number": "933544184",
+  "legal_name": "2511 SOLHEIM",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Austre Ortneset 17, 5961 BREKKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "forretningsadresse: Austre Ortneset 17, 5961 BREKKE",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: address = 'Austre Ortneset 17, 5961 BREKKE', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "city",
+      "value": "BREKKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"poststed\": \"BREKKE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: city = 'BREKKE', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "description",
+      "value": "Utleie av båt.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"aktivitet\": \"Utleie av båt.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: description = 'Utleie av båt.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "industry",
+      "value": "Utleie og leasing av sjøtransportmateriell",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Utleie og leasing av sjøtransportmateriell\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: industry = 'Utleie og leasing av sjøtransportmateriell', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "legal_name",
+      "value": "2511 SOLHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"navn\": \"2511 SOLHEIM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: legal_name = '2511 SOLHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "municipality",
+      "value": "GULEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kommune\": \"GULEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: municipality = 'GULEN', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "nace_code",
+      "value": "77.340",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"77.340\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: nace_code = '77.340', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "postcode",
+      "value": "5961",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"postnummer\": \"5961\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: postcode = '5961', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "registered",
+      "value": "2024-06-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2024-06-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: registered = '2024-06-03', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933544184",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "2511 SOLHEIM: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "933544184"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

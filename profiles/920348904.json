@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920348904",
+  "legal_name": "GOOSEDUMP SIVERTSEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Gammel-lina 39A, 7028 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "forretningsadresse: Gammel-lina 39A, 7028 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: address = 'Gammel-lina 39A, 7028 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Spillutvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"aktivitet\": \"Spillutvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: description = 'Spillutvikling.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Dataprogrammeringstjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"beskrivelse\": \"Dataprogrammeringstjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: industry = 'Dataprogrammeringstjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "GOOSEDUMP SIVERTSEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"navn\": \"GOOSEDUMP SIVERTSEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: legal_name = 'GOOSEDUMP SIVERTSEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.100",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"kode\": \"62.100\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: nace_code = '62.100', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920348904",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "organisasjonsnummer: \"920348904\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: org_number = '920348904', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Espen Sivertsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"navn\": \"Espen Sivertsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: owner = 'Espen Sivertsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7028",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"postnummer\": \"7028\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: postcode = '7028', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-01-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-01-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: registered = '2018-01-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920348904",
+      "retrieved_at": "2026-10-10T10:03:45Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "GOOSEDUMP SIVERTSEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920348904",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

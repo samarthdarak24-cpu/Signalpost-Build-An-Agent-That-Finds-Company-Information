@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "org_number": "913630777",
+  "legal_name": "LIMARK INSIGHT LISBETH MARKUSSEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Østregate 14, 2317 HAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "forretningsadresse: Østregate 14, 2317 HAMAR",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: address = 'Østregate 14, 2317 HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"poststed\": \"HAMAR\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: city = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Undervisning/veiledning innen økonomi, regnskap og lønn.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"aktivitet\": \"Undervisning/veiledning innen økonomi, regnskap og lønn.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: description = 'Undervisning/veiledning innen økonomi, regnskap og lønn.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "lisb.mark@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"epostadresse\": \"lisb.mark@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: email = 'lisb.mark@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Annen undervisning ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"beskrivelse\": \"Annen undervisning ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: industry = 'Annen undervisning ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LIMARK INSIGHT LISBETH MARKUSSEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"navn\": \"LIMARK INSIGHT LISBETH MARKUSSEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: legal_name = 'LIMARK INSIGHT LISBETH MARKUSSEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "HAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"kommune\": \"HAMAR\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: municipality = 'HAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.597",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"kode\": \"85.597\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: nace_code = '85.597', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "913630777",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "organisasjonsnummer: \"913630777\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: org_number = '913630777', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Lisbeth Markussen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"navn\": \"Lisbeth Markussen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: owner = 'Lisbeth Markussen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "959 72 294",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"mobil\": \"959 72 294\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: phone = '959 72 294', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2317",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"postnummer\": \"2317\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: postcode = '2317', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2014-05-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2014-05-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: registered = '2014-05-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913630777",
+      "retrieved_at": "2026-10-10T10:02:05Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LIMARK INSIGHT LISBETH MARKUSSEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "913630777",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

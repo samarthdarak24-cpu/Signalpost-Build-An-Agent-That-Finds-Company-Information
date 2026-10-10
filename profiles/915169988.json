@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "org_number": "915169988",
+  "legal_name": "KONSERVATIVT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 23,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Dan Olav Svalland, Bevervegen 34, 4707 VENNESLA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "forretningsadresse: c/o Dan Olav Svalland, Bevervegen 34, 4707 VENNESLA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: address = 'c/o Dan Olav Svalland, Bevervegen 34, 4707 VENNESLA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Dan Olav Svalland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"navn\": \"Dan Olav Svalland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: board_chair = 'Dan Olav Svalland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Monica Brennevann",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "roles: Monica Brennevann",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: board_deputies = 'Monica Brennevann', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Jan Vidar Mattingsdal, Grethe Løvlien Gundersen, Ruth Grøndahl, Svein Grøndahl, Nancy Veronica Brennevann Solbakken",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "roles: Jan Vidar Mattingsdal, Grethe Løvlien Gundersen, Ruth Grøndahl, Svein Grøndahl, Nancy Veronica Brennevann Solbakken",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: board_members = 'Jan Vidar Mattingsdal, Grethe Løvlien Gundersen, Ruth Grøndahl, Svein Grøndahl, Nancy V...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Dan Olav Svalland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"navn\": \"Dan Olav Svalland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: ceo = 'Dan Olav Svalland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VENNESLA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"poststed\": \"VENNESLA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: city = 'VENNESLA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Foreningen skal arbeide for politisk innflytelse ved innvalgte mandater til kommunestyre, fylkesting og storting ved deltakelse i offentlig debatt, medlemstegning og på andre måter. Partiet er et lokallag av Partiet De Kristne og arbeider med basis i dette partiets engasjement for å fremme de kristne holdninger i samfunnet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"aktivitet\": \"Foreningen skal arbeide for politisk innflytelse ved innvalgte mandater til kommunestyre, fylkesting og storting ved deltakelse i offentlig debatt, medlemstegning og på andre måter. Partiet er et lokallag av Partiet De Kristne og arbeider med basis i dette partiets engasjement for å fremme de kristne holdninger i samfunnet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: description = 'Foreningen skal arbeide for politisk innflytelse ved innvalgte mandater til kommunestyr...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "Dan_olav@hotmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"epostadresse\": \"Dan_olav@hotmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: email = 'Dan_olav@hotmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2015-02-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"stiftelsesdato\": \"2015-02-19\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: founded = '2015-02-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i partipolitiske organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i partipolitiske organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: industry = 'Aktiviteter i partipolitiske organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KONSERVATIVT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"navn\": \"KONSERVATIVT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: legal_name = 'KONSERVATIVT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VENNESLA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"kommune\": \"VENNESLA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: municipality = 'VENNESLA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.920",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"kode\": \"94.920\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: nace_code = '94.920', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "915169988",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "organisasjonsnummer: \"915169988\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: org_number = '915169988', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "+4797794691",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"mobil\": \"+4797794691\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: phone = '+4797794691', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4707",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"postnummer\": \"4707\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: postcode = '4707', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2015-03-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-03-26\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: registered = '2015-03-26', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.konservativt.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915169988",
+      "retrieved_at": "2026-10-10T08:45:55Z",
+      "evidence": "\"hjemmeside\": \"www.konservativt.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "KONSERVATIVT: website = 'www.konservativt.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915169988",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

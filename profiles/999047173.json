@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "org_number": "999047173",
+  "legal_name": "STAR-LENS NORGE NUF",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T085259Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "regnskapsperiode ended 2025-08-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "c/o Star-Lens AB, Box 170, 662 24 ÅMÅL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "forretningsadresse: c/o Star-Lens AB, Box 170, 662 24 ÅMÅL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: address = 'c/o Star-Lens AB, Box 170, 662 24 ÅMÅL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Star-Lens AB, Box 170, 662 24 ÅMÅL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Star-Lens AB, Box 170, 662 24 ÅMÅL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: business_locations = 'c/o Star-Lens AB, Box 170, 662 24 ÅMÅL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Margot Irene Albér",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"navn\": \"Margot Irene Albér\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: ceo = 'Margot Irene Albér', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "662 24 ÅMÅL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"poststed\": \"662 24 ÅMÅL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: city = '662 24 ÅMÅL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 848543,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: debt 848543 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: debt = 848543, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Salg av kontaktlinser.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"aktivitet\": \"Salg av kontaktlinser.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: description = 'Salg av kontaktlinser.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 74972,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: equity 74972 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: equity = 74972, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med medisinske og ortopediske artikler",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med medisinske og ortopediske artikler\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: industry = 'Detaljhandel med medisinske og ortopediske artikler', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STAR-LENS NORGE NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"navn\": \"STAR-LENS NORGE NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: legal_name = 'STAR-LENS NORGE NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.740",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"kode\": \"47.740\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: nace_code = '47.740', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 78,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: net result 78 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: net_result = 78, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -36,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: operating result -36 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: operating_result = -36, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "999047173",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "organisasjonsnummer: \"999047173\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: org_number = '999047173', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2012-11-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2012-11-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: registered = '2012-11-22', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-08-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "regnskapsperiode slutt 2025-08-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: reporting_period = '2025-08-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 837369,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: revenue latest 837369 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: revenue_latest = 837369, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/999047173",
+      "retrieved_at": "2026-10-10T08:56:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 923515,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/999047173",
+      "retrieved_at": "2026-10-10T08:56:30Z",
+      "evidence": "Annual accounts for the period ending 2025-08-31: total assets 923515 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STAR-LENS NORGE NUF: total_assets = 923515, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "999047173",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

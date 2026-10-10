@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "org_number": "989470728",
+  "legal_name": "ALLBRUKSHUSET SA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T101259Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Finnmyrvegen 41, 7350 BUVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "forretningsadresse: Finnmyrvegen 41, 7350 BUVIKA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: address = 'Finnmyrvegen 41, 7350 BUVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Oddbjørn Sandø",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"navn\": \"Oddbjørn Sandø\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: board_chair = 'Oddbjørn Sandø', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Rune Vitsøe, Magnus Arnøy",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "roles: Rune Vitsøe, Magnus Arnøy",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: board_members = 'Rune Vitsøe, Magnus Arnøy', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Finnmyrvegen 41, 7350 BUVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"beliggenhetsadresse\": 'Finnmyrvegen 41, 7350 BUVIKA' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: business_locations = 'Finnmyrvegen 41, 7350 BUVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BUVIKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"poststed\": \"BUVIKA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: city = 'BUVIKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drift og utleie av lokaler.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"aktivitet\": \"Drift og utleie av lokaler.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: description = 'Drift og utleie av lokaler.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "oddbjorn.sando@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"epostadresse\": \"oddbjorn.sando@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: email = 'oddbjorn.sando@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1994-02-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"stiftelsesdato\": \"1994-02-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: founded = '1994-02-03', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utleie av egen eller leid fast eiendom",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"kode\": \"SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ALLBRUKSHUSET SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"navn\": \"ALLBRUKSHUSET SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: legal_name = 'ALLBRUKSHUSET SA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SKAUN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"kommune\": \"SKAUN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: municipality = 'SKAUN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"kode\": \"68.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "989470728",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "organisasjonsnummer: \"989470728\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: org_number = '989470728', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "900 57 286",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"mobil\": \"900 57 286\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: phone = '900 57 286', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7350",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"postnummer\": \"7350\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: postcode = '7350', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Eie og å drive Allbrukshuset SA, for derved å skaffe beboerne og aktuelle lag og foreninger på Ilhaugen, og naturlig tilstøtende områder, et aktivitetshus. Allbrukshuset SA vil også i den grad det er fornuftig drive framleie av lokalene til barnehage- eller annen nærings drift. Da Allbrukshuset er plassert i nær tilknytning til et boligområde, skal det legges vekt på at aktivitetene i huset tar hensyn til naboer. Det vil således ikke være tillatt å arrangere offentlige dansefester, men begrense dette til fester for bestemte målgrupper, samt sosiale og kulturelle sammenkomster, bryllup, konfirmasjoner, jubileer og lignende.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Eie og å drive Allbrukshuset SA, for derved å skaffe beboerne og aktuelle lag og foreninger på Ilhaugen, og naturlig tilstøtende områder, et aktivitetshus. Allbrukshuset SA vil også i den grad det er fornuftig drive framleie av lokalene til barnehage- eller annen nærings drift. Da Allbrukshuset er plassert i nær tilknytning til et boligområde, skal det legges vekt på at aktivitetene i huset tar hensyn til naboer. Det vil således ikke være tillatt å arrangere offentlige dansefester, men begrense dette til fester for bestemte målgrupper, samt sosiale og kulturelle sammenkomster, bryllup, konfirmasjoner, jubileer og lignende.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: purpose = 'Eie og å drive Allbrukshuset SA, for derved å skaffe beboerne og aktuelle lag og foreni...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2008-05-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2008-05-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: registered = '2008-05-05', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "winding_up",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "register flag \"underAvvikling\": true",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: status = 'winding_up', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.allbrukshuset.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "\"hjemmeside\": \"www.allbrukshuset.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: website = 'www.allbrukshuset.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    },
+    {
+      "field": "winding_up",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989470728",
+      "retrieved_at": "2026-10-10T10:15:54Z",
+      "evidence": "register flag winding_up is set",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "register status flag",
+      "changed_from": null,
+      "explanation": "ALLBRUKSHUSET SA: winding_up = True, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "989470728",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

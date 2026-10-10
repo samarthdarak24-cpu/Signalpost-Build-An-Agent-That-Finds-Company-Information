@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931264249",
+  "legal_name": "GURISKOGEN VEST VELFORENING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Guriskogen 6, 3261 LARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "forretningsadresse: Guriskogen 6, 3261 LARVIK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: address = 'Guriskogen 6, 3261 LARVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Fritz Bugge",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"navn\": \"Fritz Bugge\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: board_chair = 'Fritz Bugge', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Henrik Svindal, Trond Are Thorstensen, Joakim Berge",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "roles: Henrik Svindal, Trond Are Thorstensen, Joakim Berge",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: board_members = 'Henrik Svindal, Trond Are Thorstensen, Joakim Berge', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Guriskogen 6, 3261 LARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"beliggenhetsadresse\": 'Guriskogen 6, 3261 LARVIK' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: business_locations = 'Guriskogen 6, 3261 LARVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "LARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"poststed\": \"LARVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: city = 'LARVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Velforeningens formål er å fremme medlemmenes overordnede felles interesser i området og virke for stedets sosiale og fysiske miljø, og medlemmenes trivsel og sikkerhet. Foreningen skal organisere bruk, drift og vedlikehold av fellesarealer og felles installasjoner til beste for beboerne, og kan ta opp alle saker som kan fremme disse formål.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"aktivitet\": \"Velforeningens formål er å fremme medlemmenes overordnede felles interesser i området og virke for stedets sosiale og fysiske miljø, og medlemmenes trivsel og sikkerhet. Foreningen skal organisere bruk, drift og vedlikehold av fellesarealer og felles installasjoner til beste for beboerne, og kan ta opp alle saker som kan fremme disse formål.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: description = 'Velforeningens formål er å fremme medlemmenes overordnede felles interesser i området o...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-01-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"stiftelsesdato\": \"2023-01-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: founded = '2023-01-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "GURISKOGEN VEST VELFORENING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"navn\": \"GURISKOGEN VEST VELFORENING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: legal_name = 'GURISKOGEN VEST VELFORENING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"kommune\": \"LARVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: municipality = 'LARVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931264249",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "organisasjonsnummer: \"931264249\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: org_number = '931264249', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "+4791826617",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"mobil\": \"+4791826617\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: phone = '+4791826617', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "3261",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"postnummer\": \"3261\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: postcode = '3261', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931264249",
+      "retrieved_at": "2026-10-10T09:44:20Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "GURISKOGEN VEST VELFORENING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931264249",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "org_number": "922993742",
+  "legal_name": "ASKSETERVEIEN SKOGSBILVEGLAG SA",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Askveien 147, 3519 HØNEFOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "forretningsadresse: Askveien 147, 3519 HØNEFOSS",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: address = 'Askveien 147, 3519 HØNEFOSS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "board_chair",
+      "value": "Fredrik Clarin Løvenskiold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"navn\": \"Fredrik Clarin Løvenskiold\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: board_chair = 'Fredrik Clarin Løvenskiold', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "board_members",
+      "value": "Sverre Bergli, Grethe Marie Bang Skaug",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "roles: Sverre Bergli, Grethe Marie Bang Skaug",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: board_members = 'Sverre Bergli, Grethe Marie Bang Skaug', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "business_locations",
+      "value": "Askveien 147, 3519 HØNEFOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"beliggenhetsadresse\": 'Askveien 147, 3519 HØNEFOSS' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: business_locations = 'Askveien 147, 3519 HØNEFOSS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "city",
+      "value": "HØNEFOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"poststed\": \"HØNEFOSS\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: city = 'HØNEFOSS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "description",
+      "value": "Holde skogsbilvegen i god stand til enhver tid i form av riktig utført vedlikehold av vegen. Aktiviteten går ut på å drifte skogsbilvegen slik at denne er fremkommelig året rundt.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"aktivitet\": \"Holde skogsbilvegen i god stand til enhver tid i form av riktig utført vedlikehold av vegen. Aktiviteten går ut på å drifte skogsbilvegen slik at denne er fremkommelig året rundt.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: description = 'Holde skogsbilvegen i god stand til enhver tid i form av riktig utført vedlikehold av v...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "founded",
+      "value": "2019-07-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"stiftelsesdato\": \"2019-07-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: founded = '2019-07-03', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "industry",
+      "value": "Eiendomsforvaltning på oppdrag",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"beskrivelse\": \"Eiendomsforvaltning på oppdrag\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: industry = 'Eiendomsforvaltning på oppdrag', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "legal_form",
+      "value": "SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"kode\": \"SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "legal_name",
+      "value": "ASKSETERVEIEN SKOGSBILVEGLAG SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"navn\": \"ASKSETERVEIEN SKOGSBILVEGLAG SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: legal_name = 'ASKSETERVEIEN SKOGSBILVEGLAG SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "municipality",
+      "value": "RINGERIKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"kommune\": \"RINGERIKE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: municipality = 'RINGERIKE', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.320",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"kode\": \"68.320\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: nace_code = '68.320', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "postcode",
+      "value": "3519",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"postnummer\": \"3519\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: postcode = '3519', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "purpose",
+      "value": "Bygge og vedlikeholde en skogsbilveg fra Hjellebråten til Askseter. Veglaget har som formål å redusere andelseiernes kostnader til uttransport av tømmer og å gjøre skog i vegens nytteområde tilgjengelig for aktiv skogforvaltning.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Bygge og vedlikeholde en skogsbilveg fra Hjellebråten til Askseter. Veglaget har som formål å redusere andelseiernes kostnader til uttransport av tømmer og å gjøre skog i vegens nytteområde tilgjengelig for aktiv skogforvaltning.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: purpose = 'Bygge og vedlikeholde en skogsbilveg fra Hjellebråten til Askseter. Veglaget har som fo...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "registered",
+      "value": "2019-07-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-07-11\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: registered = '2019-07-11', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922993742",
+      "retrieved_at": "2026-10-07T19:14:48Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ASKSETERVEIEN SKOGSBILVEGLAG SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "922993742"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

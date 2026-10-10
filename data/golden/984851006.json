@@ -1,0 +1,45 @@
+{
+  "org_number": "984851006",
+  "legal_name": "DNB BANK ASA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "employees",
+    "founded"
+  ],
+  "expect_absent": [
+    "revenue_latest",
+    "lei",
+    "parent_org_number"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Dronning Eufemias gate 30, 0191 OSLO",
+    "description": "DNB - Norges største bank. Samle alle dine banktjenester hos oss og få våre beste råd tilpasset din økonomi.",
+    "employees": 7353,
+    "facebook": "https://www.facebook.com/dnb/",
+    "founded": "2002-09-10",
+    "industry": "Banker og kredittforetak",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ASA",
+    "legal_name": "DNB BANK ASA",
+    "municipality": "OSLO",
+    "nace_code": "64.190",
+    "postcode": "0191",
+    "purpose": "Å drive bank-, finansierings- og investeringstjenestevirksomhet, samt virksomhet som har en naturlig tilknytning til dette, og å inneha eierinteresser eller være deltaker i andre foretak innenfor rammen av den til enhver tid gjeldende lovgivning.",
+    "registered": "2002-09-12",
+    "sector": "Banker",
+    "website": "www.dnb.no",
+    "website_orgnr_proof": "984 851 006",
+    "youtube": "https://www.youtube.com/user/DNB"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "org_number": "935446449",
+  "legal_name": "· JYNEX MIROZADA",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Røysumvegen 45A, 3801 BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "forretningsadresse: Røysumvegen 45A, 3801 BØ I TELEMARK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: address = 'Røysumvegen 45A, 3801 BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "business_locations",
+      "value": "Røysumvegen 45A, 3801 BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"beliggenhetsadresse\": 'Røysumvegen 45A, 3801 BØ I TELEMARK' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: business_locations = 'Røysumvegen 45A, 3801 BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "city",
+      "value": "BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"poststed\": \"BØ I TELEMARK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: city = 'BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "description",
+      "value": "Netthandel med klær.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"aktivitet\": \"Netthandel med klær.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: description = 'Netthandel med klær.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med klær",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med klær\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: industry = 'Detaljhandel med klær', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "legal_name",
+      "value": "· JYNEX MIROZADA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"navn\": \"· JYNEX MIROZADA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: legal_name = '· JYNEX MIROZADA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "municipality",
+      "value": "MIDT-TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"kommune\": \"MIDT-TELEMARK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: municipality = 'MIDT-TELEMARK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.710",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"kode\": \"47.710\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: nace_code = '47.710', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "owner",
+      "value": "Rohat Mirozada",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"navn\": \"Rohat Mirozada\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: owner = 'Rohat Mirozada', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "postcode",
+      "value": "3801",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"postnummer\": \"3801\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: postcode = '3801', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "registered",
+      "value": "2025-05-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2025-05-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: registered = '2025-05-05', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449",
+      "retrieved_at": "2026-10-07T19:15:13Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "· JYNEX MIROZADA: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "935446449"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

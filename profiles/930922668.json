@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930922668",
+  "legal_name": "STERKERE MED CECILIE AJER VERPE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093337Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kåsinvegen 5, 3801 BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "forretningsadresse: Kåsinvegen 5, 3801 BØ I TELEMARK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: address = 'Kåsinvegen 5, 3801 BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kåsinvegen 5, 3801 BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kåsinvegen 5, 3801 BØ I TELEMARK' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: business_locations = 'Kåsinvegen 5, 3801 BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Cecilie Ajer Verpe",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"navn\": \"Cecilie Ajer Verpe\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: ceo = 'Cecilie Ajer Verpe', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BØ I TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"poststed\": \"BØ I TELEMARK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: city = 'BØ I TELEMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Online trening, gruppetimer, personlig trening og mental trening. Personlig trener. Mental trener. Foredragsholder.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"aktivitet\": \"Online trening, gruppetimer, personlig trening og mental trening. Personlig trener. Mental trener. Foredragsholder.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: description = 'Online trening, gruppetimer, personlig trening og mental trening. Personlig trener. Men...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Undervisning innenfor idrett og rekreasjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"beskrivelse\": \"Undervisning innenfor idrett og rekreasjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: industry = 'Undervisning innenfor idrett og rekreasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STERKERE MED CECILIE AJER VERPE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"navn\": \"STERKERE MED CECILIE AJER VERPE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: legal_name = 'STERKERE MED CECILIE AJER VERPE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "MIDT-TELEMARK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"kommune\": \"MIDT-TELEMARK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: municipality = 'MIDT-TELEMARK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.510",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"kode\": \"85.510\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: nace_code = '85.510', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930922668",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "organisasjonsnummer: \"930922668\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: org_number = '930922668', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Cecilie Ajer Verpe",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"navn\": \"Cecilie Ajer Verpe\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: owner = 'Cecilie Ajer Verpe', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "3801",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"postnummer\": \"3801\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: postcode = '3801', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: registered = '2023-03-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930922668",
+      "retrieved_at": "2026-10-10T09:36:45Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STERKERE MED CECILIE AJER VERPE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930922668",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

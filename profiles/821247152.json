@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "821247152",
+  "legal_name": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T095316Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "regnskapsperiode ended 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "7th floor North Block, 55 Baker Street, LONDON W1U 7EU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "forretningsadresse: 7th floor North Block, 55 Baker Street, LONDON W1U 7EU",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: address = '7th floor North Block, 55 Baker Street, LONDON W1U 7EU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Ian Walter Dickinson",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"navn\": \"Ian Walter Dickinson\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: board_chair = 'Ian Walter Dickinson', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Marek Piotr Szafirski, Ricky Lee Weller, Daniel James Marland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "roles: Marek Piotr Szafirski, Ricky Lee Weller, Daniel James Marland",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: board_members = 'Marek Piotr Szafirski, Ricky Lee Weller, Daniel James Marland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "7th floor North Block, 55 Baker Street, LONDON W1U 7EU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"beliggenhetsadresse\": '7th floor North Block, 55 Baker Street, LONDON W1U 7EU' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: business_locations = '7th floor North Block, 55 Baker Street, LONDON W1U 7EU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "LONDON W1U 7EU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"poststed\": \"LONDON W1U 7EU\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: city = 'LONDON W1U 7EU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 393405000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: debt 393405000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: debt = 393405000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drive alle typer virksomhet relatert til minibanker, betalingsterminaler, mottak og resirkulering av sedler og mynter, brukerstedssystemer, IT-relatert utstyr, kreditt-, debet- og forhåndsbetalte kort, internettbankvirksomhet, og enhver annen kommersiell virksomhet som har sammenheng med dette, inkludert outsourcing mv., samt all andre aktiviteter som direkte eller indirekte fremmer formålet til Euronet 360 Finance Limited.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"aktivitet\": \"Drive alle typer virksomhet relatert til minibanker, betalingsterminaler, mottak og resirkulering av sedler og mynter, brukerstedssystemer, IT-relatert utstyr, kreditt-, debet- og forhåndsbetalte kort, internettbankvirksomhet, og enhver annen kommersiell virksomhet som har sammenheng med dette, inkludert outsourcing mv., samt all andre aktiviteter som direkte eller indirekte fremmer formålet til Euronet 360 Finance Limited.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: description = 'Drive alle typer virksomhet relatert til minibanker, betalingsterminaler, mottak og res...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 132693000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: equity 132693000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: equity = 132693000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre tjenester tilknyttet informasjonsteknologi",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"beskrivelse\": \"Andre tjenester tilknyttet informasjonsteknologi\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: industry = 'Andre tjenester tilknyttet informasjonsteknologi', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"navn\": \"EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: legal_name = 'EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.900",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"kode\": \"62.900\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: nace_code = '62.900', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 14149000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: net result 14149000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: net_result = 14149000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 57322000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: operating result 57322000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: operating_result = 57322000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "821247152",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "organisasjonsnummer: \"821247152\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: org_number = '821247152', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-08-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-08-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: registered = '2018-08-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "regnskapsperiode slutt 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: reporting_period = '2024-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 279762000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: revenue latest 279762000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: revenue_latest = 279762000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/821247152",
+      "retrieved_at": "2026-10-10T09:53:32Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 526098000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/821247152",
+      "retrieved_at": "2026-10-10T09:53:44Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: total assets 526098000 EUR",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "EURONET 360 FINANCE LIMITED NORWEGIAN BRANCH NUF: total_assets = 526098000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "821247152",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "phone",
+      "reason": "not an 8-digit Norwegian number: '+442070793804'",
+      "candidates_considered": 1
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

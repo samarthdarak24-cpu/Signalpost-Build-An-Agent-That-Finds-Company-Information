@@ -1,0 +1,36 @@
+{
+  "org_number": "815680022",
+  "legal_name": "BIGSET SKOGSVEGLAG SA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "founded",
+    "email"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "v/Dag Audun Eliassen, Kvitnesvegen 11, 6062 BRANDAL",
+    "email": "da-elias@online.no",
+    "founded": "1984-01-20",
+    "industry": "Avvirkning",
+    "language_form": "Nynorsk",
+    "legal_form": "SA",
+    "legal_name": "BIGSET SKOGSVEGLAG SA",
+    "municipality": "HAREID",
+    "nace_code": "02.200",
+    "postcode": "6062",
+    "purpose": "Veglaget skal halde eksisterande skogsvegar i god stand, og utføre naudsynt vedlikehald. Veglaget skal bygge nye vegar, ruste opp eksisterande vegar, bygge snuplassar, lunneplassar og møteplassar i den grad det er turvande. Veglaget har som føremål å lette tilhøva for uttransport av tømmer, og gjere skogen tilgjengeleg for aktiv skogforvalting med minst mogleg skade i terrenget etter store skogsmaskinar.",
+    "registered": "2015-08-03",
+    "sector": "Private aksjeselskaper mv."
+  }
+}

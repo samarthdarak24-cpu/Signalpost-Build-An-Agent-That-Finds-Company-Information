@@ -1,0 +1,484 @@
+{
+  "schema_version": "1.0",
+  "org_number": "976238281",
+  "legal_name": "VELDEDIGHETSLEGATET I ÅSNES STI",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T073301Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Mathis Briskerud",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"navn\": \"Mathis Briskerud\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: board_chair = 'Mathis Briskerud', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Einar Ottesen Toverud, Olav Nordermoen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "roles: Einar Ottesen Toverud, Olav Nordermoen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: board_members = 'Einar Ottesen Toverud, Olav Nordermoen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_manager",
+      "value": "Olav Nordermoen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"navn\": \"Olav Nordermoen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role FFØR (Business manager)",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: business_manager = 'Olav Nordermoen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Støtte/hjelp til trengende i tidl Hof Kommune.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"aktivitet\": \"Støtte/hjelp til trengende i tidl Hof Kommune.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: description = 'Støtte/hjelp til trengende i tidl Hof Kommune.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 266691,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 266691 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: equity = 266691, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1992-12-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"stiftelsesdato\": \"1992-12-17\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: founded = '1992-12-17', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: industry = 'Aktiviteter i fond/legat som støtter veldedige og allmennyttige formål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"kode\": \"STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: legal_form = 'STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VELDEDIGHETSLEGATET I ÅSNES STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"navn\": \"VELDEDIGHETSLEGATET I ÅSNES STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: legal_name = 'VELDEDIGHETSLEGATET I ÅSNES STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.991",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"kode\": \"94.991\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: nace_code = '94.991', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 3131,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 3131 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: net_result = 3131, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -6360,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -6360 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: operating_result = -6360, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "976238281",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "organisasjonsnummer: \"976238281\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: org_number = '976238281', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "90 57 51 64",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"telefon\": \"90 57 51 64\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: phone = '90 57 51 64', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1996-03-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-03-27\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: registered = '1996-03-27', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: revenue latest 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: revenue_latest = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976238281",
+      "retrieved_at": "2026-10-10T07:35:34Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 266691,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976238281",
+      "retrieved_at": "2026-10-10T07:35:48Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 266691 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VELDEDIGHETSLEGATET I ÅSNES STI: total_assets = 266691, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976238281",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

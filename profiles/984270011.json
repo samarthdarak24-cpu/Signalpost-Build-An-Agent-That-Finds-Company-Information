@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "org_number": "984270011",
+  "legal_name": "AKKSANG ANS",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Frydenbergvegen 20E, 7050 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "forretningsadresse: Frydenbergvegen 20E, 7050 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: address = 'Frydenbergvegen 20E, 7050 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "description",
+      "value": "A cappella kvintett. Vokalgruppe bestående av fem medlemmer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"aktivitet\": \"A cappella kvintett. Vokalgruppe bestående av fem medlemmer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: description = 'A cappella kvintett. Vokalgruppe bestående av fem medlemmer.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "founded",
+      "value": "2002-04-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"stiftelsesdato\": \"2002-04-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: founded = '2002-04-22', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "legal_name",
+      "value": "AKKSANG ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"navn\": \"AKKSANG ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: legal_name = 'AKKSANG ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "phone",
+      "value": "95938557",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"mobil\": \"95938557\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: phone = '95938557', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "postcode",
+      "value": "7050",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"postnummer\": \"7050\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: postcode = '7050', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "purpose",
+      "value": "Vokalgruppe bestående av fem medlemmer. Opptredener ved ulike arrangementer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Vokalgruppe bestående av fem medlemmer. Opptredener ved ulike arrangementer.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: purpose = 'Vokalgruppe bestående av fem medlemmer. Opptredener ved ulike arrangementer.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "registered",
+      "value": "2002-04-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2002-04-27\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: registered = '2002-04-27', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "website",
+      "value": "www.akksang.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "\"hjemmeside\": \"www.akksang.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: website = 'www.akksang.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    },
+    {
+      "field": "winding_up",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984270011",
+      "retrieved_at": "2026-10-07T19:16:27Z",
+      "evidence": "register flag winding_up is set",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "register status flag",
+      "changed_from": null,
+      "explanation": "AKKSANG ANS: winding_up = True, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984270011"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

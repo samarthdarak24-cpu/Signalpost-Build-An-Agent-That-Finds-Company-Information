@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "org_number": "912569527",
+  "legal_name": "NORSK CRPS-FORENING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084900Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "board_members",
+      "value": "Anita Kristiansen Varberg, Kjetil Enlien",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "roles: Anita Kristiansen Varberg, Kjetil Enlien",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: board_members = 'Anita Kristiansen Varberg, Kjetil Enlien', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Foreningen skal jobbe for og ivareta interessen for CRPS-rammede og deres familier slik at de får en bedre hverdag. Norsk CRPS-forening ønsker å spre informasjon om diagnosen, øke kunnskapsnivået blant helsepersonell og oppmuntre til forskning.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"aktivitet\": \"Foreningen skal jobbe for og ivareta interessen for CRPS-rammede og deres familier slik at de får en bedre hverdag. Norsk CRPS-forening ønsker å spre informasjon om diagnosen, øke kunnskapsnivået blant helsepersonell og oppmuntre til forskning.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: description = 'Foreningen skal jobbe for og ivareta interessen for CRPS-rammede og deres familier slik...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@crps.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"epostadresse\": \"post@crps.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: email = 'post@crps.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2013-09-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"stiftelsesdato\": \"2013-09-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: founded = '2013-09-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NORSK CRPS-FORENING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"navn\": \"NORSK CRPS-FORENING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: legal_name = 'NORSK CRPS-FORENING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "912569527",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "organisasjonsnummer: \"912569527\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: org_number = '912569527', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2013-10-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2013-10-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: registered = '2013-10-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.crps.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912569527",
+      "retrieved_at": "2026-10-10T08:51:56Z",
+      "evidence": "\"hjemmeside\": \"www.crps.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NORSK CRPS-FORENING: website = 'www.crps.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912569527",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "995359774",
+  "legal_name": "SAGA PURE ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Ferncliff TIH AS, Sjølyst plass 2, 0278 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "forretningsadresse: c/o Ferncliff TIH AS, Sjølyst plass 2, 0278 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: address = 'c/o Ferncliff TIH AS, Sjølyst plass 2, 0278 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "description",
+      "value": "Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor industri, energi, eiendom og lignende virksomhet, herunder ved eierskap og investering i annen virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"aktivitet\": \"Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor industri, energi, eiendom og lignende virksomhet, herunder ved eierskap og investering i annen virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: description = 'Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor indus...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "founded",
+      "value": "2010-03-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"stiftelsesdato\": \"2010-03-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: founded = '2010-03-24', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "industry",
+      "value": "Drift av hoteller",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Drift av hoteller\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: industry = 'Drift av hoteller', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "legal_name",
+      "value": "SAGA PURE ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"navn\": \"SAGA PURE ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: legal_name = 'SAGA PURE ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "nace_code",
+      "value": "55.100",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"55.100\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: nace_code = '55.100', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "phone",
+      "value": "23 11 82 70",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"telefon\": \"23 11 82 70\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: phone = '23 11 82 70', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "postcode",
+      "value": "0278",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"postnummer\": \"0278\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: postcode = '0278', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "purpose",
+      "value": "Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor industri, energi, eiendom og lignende virksomhet, herunder ved eierskap og investering i annen virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor industri, energi, eiendom og lignende virksomhet, herunder ved eierskap og investering i annen virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: purpose = 'Investeringer, forvaltning, drift og rådgivning samt annen tjenesteyting innenfor indus...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "registered",
+      "value": "2010-04-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2010-04-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: registered = '2010-04-06', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995359774",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SAGA PURE ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "995359774"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

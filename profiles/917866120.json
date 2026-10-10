@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "917866120",
+  "legal_name": "DISTRITA DA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102159Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2023,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "regnskapsperiode ended 2023-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: accounting_year = 2023, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: debt 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: debt = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: equity 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: equity = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917866120",
+      "retrieved_at": "2026-10-10T10:22:46Z",
+      "evidence": "\"kode\": \"DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: legal_form = 'DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "DISTRITA DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917866120",
+      "retrieved_at": "2026-10-10T10:22:46Z",
+      "evidence": "\"navn\": \"DISTRITA DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: legal_name = 'DISTRITA DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917866120",
+      "retrieved_at": "2026-10-10T10:22:46Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: net result 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: net_result = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: operating result 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: operating_result = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "917866120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917866120",
+      "retrieved_at": "2026-10-10T10:22:46Z",
+      "evidence": "organisasjonsnummer: \"917866120\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: org_number = '917866120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2023-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "regnskapsperiode slutt 2023-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: reporting_period = '2023-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: revenue latest 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: revenue_latest = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917866120",
+      "retrieved_at": "2026-10-10T10:22:46Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917866120",
+      "retrieved_at": "2026-10-10T10:22:58Z",
+      "evidence": "Annual accounts for the period ending 2023-12-31: total assets 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "DISTRITA DA: total_assets = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917866120",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

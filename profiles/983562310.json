@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "org_number": "983562310",
+  "legal_name": "VERDAL OG INDERØY REVMATIKERFORENING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "board_chair",
+      "value": "Egil Brenne",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"navn\": \"Egil Brenne\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: board_chair = 'Egil Brenne', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Gunvor Ness Bjerke, Gretha Kristin Jermstad Hojem, Anette Heisholt Lien, Mette Gudrun Karlgård",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "roles: Gunvor Ness Bjerke, Gretha Kristin Jermstad Hojem, Anette Heisholt Lien, Mette Gudrun Karlgård",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: board_members = 'Gunvor Ness Bjerke, Gretha Kristin Jermstad Hojem, Anette Heisholt Lien, Mette Gudrun K...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Lokallag Norsk revmatikerforbund",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"aktivitet\": \"Lokallag Norsk revmatikerforbund\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: description = 'Lokallag Norsk revmatikerforbund', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1984-02-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"stiftelsesdato\": \"1984-02-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: founded = '1984-02-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VERDAL OG INDERØY REVMATIKERFORENING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"navn\": \"VERDAL OG INDERØY REVMATIKERFORENING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: legal_name = 'VERDAL OG INDERØY REVMATIKERFORENING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "983562310",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "organisasjonsnummer: \"983562310\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: org_number = '983562310', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2001-10-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2001-10-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: registered = '2001-10-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.revmatiker.no/lag/nord-trøndelag/lag-foreninger-og-grupper/verdal-og-inderøy",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983562310",
+      "retrieved_at": "2026-10-10T08:45:34Z",
+      "evidence": "\"hjemmeside\": \"www.revmatiker.no/lag/nord-trøndelag/lag-foreninger-og-grupper/verdal-og-inderøy\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "VERDAL OG INDERØY REVMATIKERFORENING: website = 'www.revmatiker.no/lag/nord-trøndelag/lag-foreninger-og-grupper/verdal-og-inderøy', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "983562310",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "not a well-formed email address: 'verdalinderoy.nt(@)revmatiker.org'",
+      "candidates_considered": 1
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

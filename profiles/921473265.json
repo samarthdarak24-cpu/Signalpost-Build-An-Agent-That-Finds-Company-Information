@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "921473265",
+  "legal_name": "JØRGEN ANDRISSON KVAM",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094803Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kvamsronvegen 11, 2975 VANG I VALDRES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "forretningsadresse: Kvamsronvegen 11, 2975 VANG I VALDRES",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: address = 'Kvamsronvegen 11, 2975 VANG I VALDRES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kvamsronvegen 11, 2975 VANG I VALDRES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kvamsronvegen 11, 2975 VANG I VALDRES' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: business_locations = 'Kvamsronvegen 11, 2975 VANG I VALDRES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VANG I VALDRES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"poststed\": \"VANG I VALDRES\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: city = 'VANG I VALDRES', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Jordbruksvirksomheit med kjøt- og mjølkeproduksjon. Leigekøyring innan jordbruk og anlegg, samt brøyting. Avløysing i mjølk- og kjøtproduksjon. Skogrydding. Leieskjæring av tømmer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"aktivitet\": \"Jordbruksvirksomheit med kjøt- og mjølkeproduksjon. Leigekøyring innan jordbruk og anlegg, samt brøyting. Avløysing i mjølk- og kjøtproduksjon. Skogrydding. Leieskjæring av tømmer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: description = 'Jordbruksvirksomheit med kjøt- og mjølkeproduksjon. Leigekøyring innan jordbruk og anle...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "jorankva@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"epostadresse\": \"jorankva@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: email = 'jorankva@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Melkeproduksjon på storfe og oppdrett av melkekyr",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"beskrivelse\": \"Melkeproduksjon på storfe og oppdrett av melkekyr\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: industry = 'Melkeproduksjon på storfe og oppdrett av melkekyr', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "JØRGEN ANDRISSON KVAM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"navn\": \"JØRGEN ANDRISSON KVAM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: legal_name = 'JØRGEN ANDRISSON KVAM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "VANG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"kommune\": \"VANG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: municipality = 'VANG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"kode\": \"01.410\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: nace_code = '01.410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "921473265",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "organisasjonsnummer: \"921473265\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: org_number = '921473265', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Jørgen Andrisson Kvam",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"navn\": \"Jørgen Andrisson Kvam\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: owner = 'Jørgen Andrisson Kvam', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "454 16 782",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"mobil\": \"454 16 782\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: phone = '454 16 782', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2975",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"postnummer\": \"2975\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: postcode = '2975', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-10-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-10-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: registered = '2018-10-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921473265",
+      "retrieved_at": "2026-10-10T09:49:06Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "JØRGEN ANDRISSON KVAM: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921473265",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

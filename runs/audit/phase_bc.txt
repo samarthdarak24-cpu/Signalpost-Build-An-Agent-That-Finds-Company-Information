@@ -1,0 +1,41 @@
+========================================================================
+PHASE B/C - BACKEND AND KEYLESS AUDIT
+========================================================================
+
+1. INVALID INPUT (server must answer, not crash)
+   OK  empty          HTTP 200  answered=True
+       answer starts: 'About A. BERG DESIGN: Name — A. BERG DESIGN; What it does — Industride'
+   OK  whitespace     HTTP 200  answered=True
+       answer starts: 'About A. BERG DESIGN: Name — A. BERG DESIGN; What it does — Industride'
+   OK  bad checksum   HTTP 200  answered=False
+       answer starts: 'I could not find a sourced answer for "123456789". What was searched: '
+   OK  non-numeric    HTTP 200  answered=False
+       answer starts: 'I could not find a sourced answer for "not-a-company-%%%". What was se'
+   OK  very long      HTTP 200  answered=False
+       answer starts: 'I could not find a sourced answer for "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+   server alive after invalid input: HTTP 200
+
+2. VALID BUT UNREGISTERED NUMBER (must not fabricate)
+   HTTP 200 answered=False sources=0
+   answer: 'I could not find a sourced answer for "999999999". What was searched: brreg:999999999. Rather than guess, I am'
+
+3. SECRET LEAKAGE CHECK
+   secrets present in this shell: none
+   leaked secrets in responses: none
+
+4. KEYLESS SEARCH (no BRAVE_API_KEY)
+   BRAVE_API_KEY set: False
+   engine='duckduckgo' ok=True results=10 error=''
+   first title: 'Equinor. Providing reliable energy for a world in transition.'
+
+5. HEALTH REPORTS KEY PRESENCE TRUTHFULLY
+   llm_key_present   : False  (env set: False)
+   search_key_present: False  (env set: False)
+
+6. OPTIONAL DEPENDENCY DEGRADATION (absent duckdb/redis/faststream)
+   analytics._duckdb_ok() -> False (falls back to stdlib)
+   analytics.status_counts() works without duckdb -> {'available': 845, 'not_available': 5, 'blocked': 2}
+   eventbus imports with no broker set; app is None
+   fanout imports without redis
+
+========================================================================

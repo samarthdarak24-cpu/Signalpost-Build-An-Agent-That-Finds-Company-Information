@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "927066939",
+  "legal_name": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T072803Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Trondheimsveien 76, 2019 SKEDSMOKORSET",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "forretningsadresse: Trondheimsveien 76, 2019 SKEDSMOKORSET",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: address = 'Trondheimsveien 76, 2019 SKEDSMOKORSET', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Trondheimsveien 76, 2019 SKEDSMOKORSET",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"beliggenhetsadresse\": 'Trondheimsveien 76, 2019 SKEDSMOKORSET' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: business_locations = 'Trondheimsveien 76, 2019 SKEDSMOKORSET', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SKEDSMOKORSET",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"poststed\": \"SKEDSMOKORSET\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: city = 'SKEDSMOKORSET', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Budbiltransport.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"aktivitet\": \"Budbiltransport.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: description = 'Budbiltransport.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre post- og budtjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"beskrivelse\": \"Andre post- og budtjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: industry = 'Andre post- og budtjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"navn\": \"KARLIS TRANSPORT V/ KARLIS DAVIDSONS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: legal_name = 'KARLIS TRANSPORT V/ KARLIS DAVIDSONS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"kommune\": \"LILLESTRØM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: municipality = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "53.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"kode\": \"53.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: nace_code = '53.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "927066939",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "organisasjonsnummer: \"927066939\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: org_number = '927066939', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Karlis Davidsons",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"navn\": \"Karlis Davidsons\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: owner = 'Karlis Davidsons', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2019",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"postnummer\": \"2019\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: postcode = '2019', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2021-05-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-05-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: registered = '2021-05-05', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927066939",
+      "retrieved_at": "2026-10-10T07:29:54Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KARLIS TRANSPORT V/ KARLIS DAVIDSONS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "927066939",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "922563047",
+  "legal_name": "HÅVARD LOENG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064404Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Håvard Loeng, Dragvoll alle 20B, 7049 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "forretningsadresse: c/o Håvard Loeng, Dragvoll alle 20B, 7049 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: address = 'c/o Håvard Loeng, Dragvoll alle 20B, 7049 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Innspillinger og konsertvirksomhet som utøvende musiker og låtskriver/komponist. Produksjon av skjønnlitterære tekster.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"aktivitet\": \"Innspillinger og konsertvirksomhet som utøvende musiker og låtskriver/komponist. Produksjon av skjønnlitterære tekster.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: description = 'Innspillinger og konsertvirksomhet som utøvende musiker og låtskriver/komponist. Produk...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "HÅVARD LOENG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"navn\": \"HÅVARD LOENG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: legal_name = 'HÅVARD LOENG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "922563047",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "organisasjonsnummer: \"922563047\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: org_number = '922563047', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Håvard Loeng",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"navn\": \"Håvard Loeng\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: owner = 'Håvard Loeng', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7049",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"postnummer\": \"7049\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: postcode = '7049', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2019-03-29",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-03-29\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: registered = '2019-03-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922563047",
+      "retrieved_at": "2026-10-10T06:46:49Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "HÅVARD LOENG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "922563047",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

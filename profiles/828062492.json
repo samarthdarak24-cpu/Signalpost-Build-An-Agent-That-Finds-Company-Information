@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "828062492",
+  "legal_name": "KASPER FALCH ENTERTAINMENT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T101716Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Opplandsveien 152A, 4885 GRIMSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "forretningsadresse: Opplandsveien 152A, 4885 GRIMSTAD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: address = 'Opplandsveien 152A, 4885 GRIMSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Kasper Falch",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"navn\": \"Kasper Falch\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: ceo = 'Kasper Falch', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "GRIMSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"poststed\": \"GRIMSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: city = 'GRIMSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Artistvirksomhet, musikkproduksjon og andre produkter og tjenester som hører sammen med dette.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"aktivitet\": \"Artistvirksomhet, musikkproduksjon og andre produkter og tjenester som hører sammen med dette.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: description = 'Artistvirksomhet, musikkproduksjon og andre produkter og tjenester som hører sammen med...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KASPER FALCH ENTERTAINMENT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"navn\": \"KASPER FALCH ENTERTAINMENT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: legal_name = 'KASPER FALCH ENTERTAINMENT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "GRIMSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"kommune\": \"GRIMSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: municipality = 'GRIMSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "828062492",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "organisasjonsnummer: \"828062492\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: org_number = '828062492', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Kasper Falch",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"navn\": \"Kasper Falch\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: owner = 'Kasper Falch', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4885",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"postnummer\": \"4885\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: postcode = '4885', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2021-11-04",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-11-04\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: registered = '2021-11-04', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/828062492",
+      "retrieved_at": "2026-10-10T10:20:21Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KASPER FALCH ENTERTAINMENT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "828062492",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

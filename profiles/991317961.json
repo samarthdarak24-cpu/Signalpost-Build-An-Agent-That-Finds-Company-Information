@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "org_number": "991317961",
+  "legal_name": "ORKLA UNDERVANNSKLUBB",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T074300Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Langbrua, 7300 ORKANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "forretningsadresse: Langbrua, 7300 ORKANGER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: address = 'Langbrua, 7300 ORKANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Martin Hoston Einan",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"navn\": \"Martin Hoston Einan\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: board_chair = 'Martin Hoston Einan', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Thomas Ophaug Skogås, Magnus Stene, Mona Svee Eriksen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "roles: Thomas Ophaug Skogås, Magnus Stene, Mona Svee Eriksen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: board_members = 'Thomas Ophaug Skogås, Magnus Stene, Mona Svee Eriksen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ORKANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"poststed\": \"ORKANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: city = 'ORKANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Dykkeklubb.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"aktivitet\": \"Dykkeklubb.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: description = 'Dykkeklubb.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@orklauk.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"epostadresse\": \"post@orklauk.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: email = 'post@orklauk.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1974-05-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"stiftelsesdato\": \"1974-05-08\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: founded = '1974-05-08', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ORKLA UNDERVANNSKLUBB",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"navn\": \"ORKLA UNDERVANNSKLUBB\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: legal_name = 'ORKLA UNDERVANNSKLUBB', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ORKLAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"kommune\": \"ORKLAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: municipality = 'ORKLAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "991317961",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "organisasjonsnummer: \"991317961\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: org_number = '991317961', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "90642476",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"telefon\": \"90642476\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: phone = '90642476', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7300",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"postnummer\": \"7300\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: postcode = '7300', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2007-07-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2007-07-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: registered = '2007-07-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.orklauk.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991317961",
+      "retrieved_at": "2026-10-10T07:45:35Z",
+      "evidence": "\"hjemmeside\": \"www.orklauk.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ORKLA UNDERVANNSKLUBB: website = 'www.orklauk.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991317961",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

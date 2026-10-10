@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "org_number": "967732311",
+  "legal_name": "LILLESTRØM SPORTSKLUBB",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T061437Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "C.J. Hansens vei 7, 2007 KJELLER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "forretningsadresse: C.J. Hansens vei 7, 2007 KJELLER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: address = 'C.J. Hansens vei 7, 2007 KJELLER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Stian Thomassen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"navn\": \"Stian Thomassen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: board_chair = 'Stian Thomassen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Hanne Kristin Nordhagen, Bjørnar Sollie, Raymond Gabrielsen, Karl Martin Dolvik, Nasra Abdullah Reinsberg, Per Christian Eidevik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "roles: Hanne Kristin Nordhagen, Bjørnar Sollie, Raymond Gabrielsen, Karl Martin Dolvik, Nasra Abdullah Reinsberg, Per Christian Eidevik",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: board_members = 'Hanne Kristin Nordhagen, Bjørnar Sollie, Raymond Gabrielsen, Karl Martin Dolvik, Nasra ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "C.J. Hansens vei 7, 2007 KJELLER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"beliggenhetsadresse\": 'C.J. Hansens vei 7, 2007 KJELLER' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: business_locations = 'C.J. Hansens vei 7, 2007 KJELLER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Robert Lauritsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"navn\": \"Robert Lauritsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: ceo = 'Robert Lauritsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "KJELLER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"poststed\": \"KJELLER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: city = 'KJELLER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Sport og idrett.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"aktivitet\": \"Sport og idrett.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: description = 'Sport og idrett.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "robert@lsk.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"epostadresse\": \"robert@lsk.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: email = 'robert@lsk.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 128,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"antallAnsatte\": 128",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: employees = 128, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1917-04-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"stiftelsesdato\": \"1917-04-02\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: founded = '1917-04-02', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2011",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2011\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: latest_accounts_year = '2011', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LILLESTRØM SPORTSKLUBB",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"navn\": \"LILLESTRØM SPORTSKLUBB\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: legal_name = 'LILLESTRØM SPORTSKLUBB', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"kommune\": \"LILLESTRØM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: municipality = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "967732311",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "organisasjonsnummer: \"967732311\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: org_number = '967732311', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "63 80 56 60",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"telefon\": \"63 80 56 60\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: phone = '63 80 56 60', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2007",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"postnummer\": \"2007\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: postcode = '2007', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.lsk.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/967732311",
+      "retrieved_at": "2026-10-10T06:16:23Z",
+      "evidence": "\"hjemmeside\": \"www.lsk.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "LILLESTRØM SPORTSKLUBB: website = 'www.lsk.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "967732311",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

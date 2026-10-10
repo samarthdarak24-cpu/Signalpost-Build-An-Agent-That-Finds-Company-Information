@@ -1,0 +1,43 @@
+{
+  "org_number": "923609016",
+  "legal_name": "EQUINOR ASA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "employees",
+    "founded",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest",
+    "lei",
+    "parent_org_number"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Forusbeen 50, 4035 STAVANGER",
+    "employees": 21272,
+    "founded": "1972-09-18",
+    "industry": "Utvinning av råolje",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ASA",
+    "legal_name": "EQUINOR ASA",
+    "municipality": "STAVANGER",
+    "nace_code": "06.100",
+    "phone": "51 99 00 00",
+    "postcode": "4035",
+    "purpose": "Å utvikle, produsere og markedsføre ulike former for energi, avledede produkter og tjenester, samt annen virksomhet. Virksomheten kan også drives gjennom deltakelse i eller i samarbeid med andre selskaper.",
+    "registered": "1995-03-12",
+    "sector": "Statlig eide aksjeselskaper mv.",
+    "website": "www.equinor.com"
+  }
+}

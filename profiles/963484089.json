@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "963484089",
+  "legal_name": "DRÅPEN BAR Paulo Lopes",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T061437Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Segalstadsetervegen 62B, 2652 SVINGVOLL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "forretningsadresse: Segalstadsetervegen 62B, 2652 SVINGVOLL",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: address = 'Segalstadsetervegen 62B, 2652 SVINGVOLL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Segalstadsetervegen 62B, 2652 SVINGVOLL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"beliggenhetsadresse\": 'Segalstadsetervegen 62B, 2652 SVINGVOLL' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: business_locations = 'Segalstadsetervegen 62B, 2652 SVINGVOLL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Paulo Jorge Gameiro Lopes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"navn\": \"Paulo Jorge Gameiro Lopes\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: ceo = 'Paulo Jorge Gameiro Lopes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SVINGVOLL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"poststed\": \"SVINGVOLL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: city = 'SVINGVOLL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Bar, pub, restaurant og utleie av karaokeanlegg.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"aktivitet\": \"Bar, pub, restaurant og utleie av karaokeanlegg.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: description = 'Bar, pub, restaurant og utleie av karaokeanlegg.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 5,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"antallAnsatte\": 5",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: employees = 5, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Drift av barer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"beskrivelse\": \"Drift av barer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: industry = 'Drift av barer', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "DRÅPEN BAR Paulo Lopes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"navn\": \"DRÅPEN BAR Paulo Lopes\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: legal_name = 'DRÅPEN BAR Paulo Lopes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "GAUSDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"kommune\": \"GAUSDAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: municipality = 'GAUSDAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "56.300",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"kode\": \"56.300\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: nace_code = '56.300', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "963484089",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "organisasjonsnummer: \"963484089\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: org_number = '963484089', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Paulo Jorge Gameiro Lopes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"navn\": \"Paulo Jorge Gameiro Lopes\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: owner = 'Paulo Jorge Gameiro Lopes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2652",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"postnummer\": \"2652\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: postcode = '2652', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/963484089",
+      "retrieved_at": "2026-10-10T06:14:56Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "DRÅPEN BAR Paulo Lopes: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "963484089",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "912467996",
+  "legal_name": "FORENINGEN LITTERATURHUSET I TRONDHEIM",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T115559Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kongens gate 2, 7011 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "forretningsadresse: Kongens gate 2, 7011 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: address = 'Kongens gate 2, 7011 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Cathrine Stadsvik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"navn\": \"Cathrine Stadsvik\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: board_chair = 'Cathrine Stadsvik', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Rune Fånes Hjemås, Christian Fossen, Inger Helen Hommefoss Johnsen, Arne Blix, Siri Aurland Bredesen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "roles: Rune Fånes Hjemås, Christian Fossen, Inger Helen Hommefoss Johnsen, Arne Blix, Siri Aurland Bredesen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: board_members = 'Rune Fånes Hjemås, Christian Fossen, Inger Helen Hommefoss Johnsen, Arne Blix, Siri Aur...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kongens gate 2, 7011 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kongens gate 2, 7011 TRONDHEIM' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: business_locations = 'Kongens gate 2, 7011 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Aja Kristine Bugge",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"navn\": \"Aja Kristine Bugge\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: ceo = 'Aja Kristine Bugge', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Formålet er å arbeide for å etablere et litteraturhus i Trondheim.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"aktivitet\": \"Formålet er å arbeide for å etablere et litteraturhus i Trondheim.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: description = 'Formålet er å arbeide for å etablere et litteraturhus i Trondheim.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 34,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"antallAnsatte\": 34",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: employees = 34, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2013-09-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"stiftelsesdato\": \"2013-09-16\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: founded = '2013-09-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Drift av lokaler tilknyttet kunstnerisk virksomhet og underholdningsvirksomhet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"beskrivelse\": \"Drift av lokaler tilknyttet kunstnerisk virksomhet og underholdningsvirksomhet\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: industry = 'Drift av lokaler tilknyttet kunstnerisk virksomhet og underholdningsvirksomhet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FORENINGEN LITTERATURHUSET I TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"navn\": \"FORENINGEN LITTERATURHUSET I TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: legal_name = 'FORENINGEN LITTERATURHUSET I TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.310",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"kode\": \"90.310\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: nace_code = '90.310', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "912467996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "organisasjonsnummer: \"912467996\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: org_number = '912467996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7011",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"postnummer\": \"7011\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: postcode = '7011', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2013-09-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2013-09-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: registered = '2013-09-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912467996",
+      "retrieved_at": "2026-10-10T11:58:01Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FORENINGEN LITTERATURHUSET I TRONDHEIM: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "912467996",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

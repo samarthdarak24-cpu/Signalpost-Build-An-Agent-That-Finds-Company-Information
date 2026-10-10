@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "992104228",
+  "legal_name": "1969 TATTOO ART-IAM",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Toftes gate 68A, 0552 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "forretningsadresse: Toftes gate 68A, 0552 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: address = 'Toftes gate 68A, 0552 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "description",
+      "value": "Kunstnerisk virksomhet innen kroppskunst og annen kunst.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"aktivitet\": \"Kunstnerisk virksomhet innen kroppskunst og annen kunst.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: description = 'Kunstnerisk virksomhet innen kroppskunst og annen kunst.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "email",
+      "value": "info@1969tattoo.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"epostadresse\": \"info@1969tattoo.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: email = 'info@1969tattoo.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "industry",
+      "value": "Andre personlige tjenester ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Andre personlige tjenester ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: industry = 'Andre personlige tjenester ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "legal_name",
+      "value": "1969 TATTOO ART-IAM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"navn\": \"1969 TATTOO ART-IAM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: legal_name = '1969 TATTOO ART-IAM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "nace_code",
+      "value": "96.990",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"kode\": \"96.990\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: nace_code = '96.990', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "phone",
+      "value": "92061992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"mobil\": \"92061992\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: phone = '92061992', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "postcode",
+      "value": "0552",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"postnummer\": \"0552\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: postcode = '0552', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "registered",
+      "value": "2008-01-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2008-01-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: registered = '2008-01-10', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    },
+    {
+      "field": "website",
+      "value": "www.1969tattoo.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "retrieved_at": "2026-10-07T16:45:45Z",
+      "evidence": "\"hjemmeside\": \"www.1969tattoo.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "1969 TATTOO ART-IAM: website = 'www.1969tattoo.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "992104228"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.1969tattoo.no",
+      "new": null,
+      "detected_at": "2026-10-07T16:45:45Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931019570",
+  "legal_name": "KJELDSBERG LANDBRUK OG TRANSPORT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T080424Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Eibyveien 14, 9518 ALTA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "forretningsadresse: Eibyveien 14, 9518 ALTA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: address = 'Eibyveien 14, 9518 ALTA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Eibyveien 14, 9518 ALTA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"beliggenhetsadresse\": 'Eibyveien 14, 9518 ALTA' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: business_locations = 'Eibyveien 14, 9518 ALTA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ALTA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"poststed\": \"ALTA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: city = 'ALTA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Hestehold og oppdrett av hester. Lastebiltransport.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"aktivitet\": \"Hestehold og oppdrett av hester. Lastebiltransport.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: description = 'Hestehold og oppdrett av hester. Lastebiltransport.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Hestehold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"beskrivelse\": \"Hestehold\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: industry = 'Hestehold', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KJELDSBERG LANDBRUK OG TRANSPORT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"navn\": \"KJELDSBERG LANDBRUK OG TRANSPORT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: legal_name = 'KJELDSBERG LANDBRUK OG TRANSPORT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ALTA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"kommune\": \"ALTA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: municipality = 'ALTA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.430",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"kode\": \"01.430\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: nace_code = '01.430', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931019570",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "organisasjonsnummer: \"931019570\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: org_number = '931019570', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Andrine Helén Andersen Kjeldsberg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"navn\": \"Andrine Helén Andersen Kjeldsberg\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: owner = 'Andrine Helén Andersen Kjeldsberg', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "9518",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"postnummer\": \"9518\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: postcode = '9518', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: registered = '2023-03-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931019570",
+      "retrieved_at": "2026-10-10T08:05:39Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KJELDSBERG LANDBRUK OG TRANSPORT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931019570",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

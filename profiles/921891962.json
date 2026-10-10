@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "921891962",
+  "legal_name": "ØSTLANDSKE EIENDOMMER AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064404Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Kvadratera AS, Industriveien 11, 3610 KONGSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Kvadratera AS, Industriveien 11, 3610 KONGSBERG' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: business_locations = 'c/o Kvadratera AS, Industriveien 11, 3610 KONGSBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 6773313,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 6773313 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: debt = 6773313, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 8172377,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 8172377 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: equity = 8172377, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ØSTLANDSKE EIENDOMMER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "\"navn\": \"ØSTLANDSKE EIENDOMMER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: legal_name = 'ØSTLANDSKE EIENDOMMER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 802428,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 802428 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: net_result = 802428, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -85018,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -85018 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: operating_result = -85018, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "921891962",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "organisasjonsnummer: \"921891962\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: org_number = '921891962', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921891962",
+      "retrieved_at": "2026-10-10T06:46:24Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 14945690,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921891962",
+      "retrieved_at": "2026-10-10T06:46:36Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 14945690 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "ØSTLANDSKE EIENDOMMER AS: total_assets = 14945690, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921891962",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

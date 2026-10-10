@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930674133",
+  "legal_name": "AUSTIN BURKE SUBSEA LTD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T063457Z",
+  "fact_count": 12,
+  "facts": [
+    {
+      "field": "address",
+      "value": "19B Percy Gardens,, NORTH SHILDS NE30 4HQ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "forretningsadresse: 19B Percy Gardens,, NORTH SHILDS NE30 4HQ",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: address = '19B Percy Gardens,, NORTH SHILDS NE30 4HQ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "NORTH SHILDS NE30 4HQ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"poststed\": \"NORTH SHILDS NE30 4HQ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: city = 'NORTH SHILDS NE30 4HQ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Utenlandsk enhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"aktivitet\": \"Utenlandsk enhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: description = 'Utenlandsk enhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "norway@nicolsonaccountancy.co.uk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"epostadresse\": \"norway@nicolsonaccountancy.co.uk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: email = 'norway@nicolsonaccountancy.co.uk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2022-11-29",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"stiftelsesdato\": \"2022-11-29\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: founded = '2022-11-29', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "UTLA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"kode\": \"UTLA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: legal_form = 'UTLA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "AUSTIN BURKE SUBSEA LTD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"navn\": \"AUSTIN BURKE SUBSEA LTD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: legal_name = 'AUSTIN BURKE SUBSEA LTD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930674133",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "organisasjonsnummer: \"930674133\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: org_number = '930674133', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-01-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-01-18\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: registered = '2023-01-18', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930674133",
+      "retrieved_at": "2026-10-10T06:38:20Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "AUSTIN BURKE SUBSEA LTD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930674133",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

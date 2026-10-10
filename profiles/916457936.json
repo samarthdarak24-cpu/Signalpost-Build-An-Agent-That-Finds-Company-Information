@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "org_number": "916457936",
+  "legal_name": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094803Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "C/o Lidiya Abraham Teclu, Bjørndalslia 33, 8029 BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "forretningsadresse: C/o Lidiya Abraham Teclu, Bjørndalslia 33, 8029 BODØ",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: address = 'C/o Lidiya Abraham Teclu, Bjørndalslia 33, 8029 BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Tabetu Habte Tesfagergis",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"navn\": \"Tabetu Habte Tesfagergis\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: board_chair = 'Tabetu Habte Tesfagergis', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Azeb Kidane Abraham",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "roles: Azeb Kidane Abraham",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: board_deputies = 'Azeb Kidane Abraham', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Yonas Asefaw Teklu, Tecle Tesfay, Semira Berhanu Jehar",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "roles: Yonas Asefaw Teklu, Tecle Tesfay, Semira Berhanu Jehar",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: board_members = 'Yonas Asefaw Teklu, Tecle Tesfay, Semira Berhanu Jehar', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"poststed\": \"BODØ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: city = 'BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Vi hjelper unge med morsmål og kultur. Vi feirer eritreisk høytider. Vi hjelper unger med beskyttelse fra narkotika. For å være organisert siden vi sender mors (dødsfall) til hjemlandet (Eritrea). Vi hjelper familie med konflikt og de som trenger hjelp (på våres tradisjon).",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"aktivitet\": \"Vi hjelper unge med morsmål og kultur. Vi feirer eritreisk høytider. Vi hjelper unger med beskyttelse fra narkotika. For å være organisert siden vi sender mors (dødsfall) til hjemlandet (Eritrea). Vi hjelper familie med konflikt og de som trenger hjelp (på våres tradisjon).\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: description = 'Vi hjelper unge med morsmål og kultur. Vi feirer eritreisk høytider. Vi hjelper unger m...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "Tabya100@yahoo.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"epostadresse\": \"Tabya100@yahoo.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: email = 'Tabya100@yahoo.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2015-05-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"stiftelsesdato\": \"2015-05-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: founded = '2015-05-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"navn\": \"ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: legal_name = 'ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"kommune\": \"BODØ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: municipality = 'BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "916457936",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "organisasjonsnummer: \"916457936\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: org_number = '916457936', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "+4745128703",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"telefon\": \"+4745128703\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: phone = '+4745128703', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8029",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"postnummer\": \"8029\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: postcode = '8029', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2016-02-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2016-02-11\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: registered = '2016-02-11', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916457936",
+      "retrieved_at": "2026-10-10T09:48:50Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ERITREISKE KULTURFORENING I BODØ OG RUNDT BODØ: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "916457936",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

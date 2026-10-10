@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.0",
+  "org_number": "993518948",
+  "legal_name": "VAADAN HESTESPORTSKLUBB",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Vestmarkvegen 2A, 7025 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "forretningsadresse: Vestmarkvegen 2A, 7025 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: address = 'Vestmarkvegen 2A, 7025 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Marie Mellegård Guslund",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"navn\": \"Marie Mellegård Guslund\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: board_chair = 'Marie Mellegård Guslund', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Nina Santi, Kristin Vaadan, Elisabeth Opheim Anderssen, Knut Erik Sundsvold, Ingrid Myrnes Hansen, Jana Poplsteinova Jakobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "roles: Nina Santi, Kristin Vaadan, Elisabeth Opheim Anderssen, Knut Erik Sundsvold, Ingrid Myrnes Hansen, Jana Poplsteinova Jakobsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: board_members = 'Nina Santi, Kristin Vaadan, Elisabeth Opheim Anderssen, Knut Erik Sundsvold, Ingrid Myr...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_manager",
+      "value": "Nina Santi",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"navn\": \"Nina Santi\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role FFØR (Business manager)",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: business_manager = 'Nina Santi', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Idrettslag",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"aktivitet\": \"Idrettslag\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: description = 'Idrettslag', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "vaadan.hsk@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"epostadresse\": \"vaadan.hsk@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: email = 'vaadan.hsk@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1987-08-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"stiftelsesdato\": \"1987-08-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: founded = '1987-08-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VAADAN HESTESPORTSKLUBB",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"navn\": \"VAADAN HESTESPORTSKLUBB\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: legal_name = 'VAADAN HESTESPORTSKLUBB', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "993518948",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "organisasjonsnummer: \"993518948\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: org_number = '993518948', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "93 08 33 53",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"telefon\": \"93 08 33 53\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: phone = '93 08 33 53', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"postnummer\": \"7025\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: postcode = '7025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2009-01-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-01-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: registered = '2009-01-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.vaadanhestesportsklubb.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993518948",
+      "retrieved_at": "2026-10-10T09:38:37Z",
+      "evidence": "\"hjemmeside\": \"www.vaadanhestesportsklubb.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "VAADAN HESTESPORTSKLUBB: website = 'www.vaadanhestesportsklubb.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "993518948",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

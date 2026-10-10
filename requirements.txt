@@ -1,0 +1,11 @@
+# Signalpost core agent — Python 3 standard library only.
+#
+# There is intentionally nothing to install to run:
+#     python run.py setup
+#     python run.py run ORGNR_FILE=orgnrs.txt
+#     python run.py score
+#     python run.py web
+#
+# The optional live-data layer (FastAPI + SSE bridge, DuckDB analytics, Redis
+# pub/sub) is pinned separately in requirements-live.txt and is never imported
+# by the core agent.

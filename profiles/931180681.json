@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931180681",
+  "legal_name": "SAFE I TIDEWATER",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "forretningsadresse: c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: address = 'c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Tor-Arne Jakobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"navn\": \"Tor-Arne Jakobsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: board_chair = 'Tor-Arne Jakobsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Klaus Drabløs, Jimmy Åke Waterloo Thorne, Henrik Lauvrak Espenes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "roles: Klaus Drabløs, Jimmy Åke Waterloo Thorne, Henrik Lauvrak Espenes",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: board_members = 'Klaus Drabløs, Jimmy Åke Waterloo Thorne, Henrik Lauvrak Espenes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: business_locations = 'c/o Tor-Arne Jakobsen, Svartdalsveien 8, 9407 HARSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HARSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"poststed\": \"HARSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: city = 'HARSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "SAFE i Tidewater er en fagforeningsklubb i rederiet Tidewater Marine. SAFE er en fagforening som skal organisere yrkesgrupper på tvers for å sikre samhold og stå på for et rettferdig arbeidsliv i bransjen.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"aktivitet\": \"SAFE i Tidewater er en fagforeningsklubb i rederiet Tidewater Marine. SAFE er en fagforening som skal organisere yrkesgrupper på tvers for å sikre samhold og stå på for et rettferdig arbeidsliv i bransjen.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: description = 'SAFE i Tidewater er en fagforeningsklubb i rederiet Tidewater Marine. SAFE er en fagfor...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: founded = '2023-03-22', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i arbeidstakerorganisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i arbeidstakerorganisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: industry = 'Aktiviteter i arbeidstakerorganisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SAFE I TIDEWATER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"navn\": \"SAFE I TIDEWATER\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: legal_name = 'SAFE I TIDEWATER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "HARSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"kommune\": \"HARSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: municipality = 'HARSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"kode\": \"94.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: nace_code = '94.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931180681",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "organisasjonsnummer: \"931180681\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: org_number = '931180681', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "9407",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"postnummer\": \"9407\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: postcode = '9407', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931180681",
+      "retrieved_at": "2026-10-10T09:45:46Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SAFE I TIDEWATER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931180681",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

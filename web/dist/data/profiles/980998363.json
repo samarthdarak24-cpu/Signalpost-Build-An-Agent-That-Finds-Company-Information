@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "org_number": "980998363",
+  "legal_name": "AKERSHUS VARE DISTRIBUSJON ANS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Karl Norbecks veg 5, 2067 JESSHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "forretningsadresse: Karl Norbecks veg 5, 2067 JESSHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: address = 'Karl Norbecks veg 5, 2067 JESSHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "city",
+      "value": "JESSHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"poststed\": \"JESSHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: city = 'JESSHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "description",
+      "value": "Varedistribusjon, lager.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"aktivitet\": \"Varedistribusjon, lager.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: description = 'Varedistribusjon, lager.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "founded",
+      "value": "1999-08-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"stiftelsesdato\": \"1999-08-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: founded = '1999-08-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "industry",
+      "value": "Godstransport på vei",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Godstransport på vei\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: industry = 'Godstransport på vei', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "legal_name",
+      "value": "AKERSHUS VARE DISTRIBUSJON ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"navn\": \"AKERSHUS VARE DISTRIBUSJON ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: legal_name = 'AKERSHUS VARE DISTRIBUSJON ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "municipality",
+      "value": "ULLENSAKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kommune\": \"ULLENSAKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: municipality = 'ULLENSAKER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "nace_code",
+      "value": "49.410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"49.410\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: nace_code = '49.410', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "phone",
+      "value": "92 46 55 21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"telefon\": \"92 46 55 21\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: phone = '92 46 55 21', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "postcode",
+      "value": "2067",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"postnummer\": \"2067\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: postcode = '2067', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "purpose",
+      "value": "Distribusjon av varer i Østlandsområdet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Distribusjon av varer i Østlandsområdet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: purpose = 'Distribusjon av varer i Østlandsområdet.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "registered",
+      "value": "1999-09-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1999-09-08\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: registered = '1999-09-08', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980998363",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "AKERSHUS VARE DISTRIBUSJON ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980998363"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

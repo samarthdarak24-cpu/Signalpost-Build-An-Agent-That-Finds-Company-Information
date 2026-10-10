@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "965019324",
+  "legal_name": "FEDER AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T073301Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "FEDER AS: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "Vækerøveien 207, 0751 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "forretningsadresse: Vækerøveien 207, 0751 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FEDER AS: address = 'Vækerøveien 207, 0751 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Sjur Ivar Langslet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"navn\": \"Sjur Ivar Langslet\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FEDER AS: board_chair = 'Sjur Ivar Langslet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Sjur Ivar Langslet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"navn\": \"Sjur Ivar Langslet\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "FEDER AS: ceo = 'Sjur Ivar Langslet', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FEDER AS: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 3880192,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: debt 3880192 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: debt = 3880192, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen tilhørende virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"aktivitet\": \"Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen tilhørende virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FEDER AS: description = 'Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen t...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": -3880192,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity -3880192 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: equity = -3880192, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1992-07-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"stiftelsesdato\": \"1992-07-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FEDER AS: founded = '1992-07-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FEDER AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "FEDER AS: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FEDER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FEDER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"navn\": \"FEDER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FEDER AS: legal_name = 'FEDER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FEDER AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FEDER AS: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -11250,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result -11250 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: net_result = -11250, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -11250,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -11250 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: operating_result = -11250, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "965019324",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "organisasjonsnummer: \"965019324\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FEDER AS: org_number = '965019324', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0751",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"postnummer\": \"0751\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FEDER AS: postcode = '0751', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen tilhørende virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen tilhørende virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "FEDER AS: purpose = 'Handel, herunder investeringsvirksomhet og del- tagelse i andre selskaper, samt annen t...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "FEDER AS: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FEDER AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/965019324",
+      "retrieved_at": "2026-10-10T07:35:59Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FEDER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/965019324",
+      "retrieved_at": "2026-10-10T07:36:12Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "FEDER AS: total_assets = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "965019324",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

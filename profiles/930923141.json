@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930923141",
+  "legal_name": "VIKEBLADET VESTPOSTEN EIGEDOM AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T083008Z",
+  "fact_count": 12,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "regnskapsperiode ended 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 4000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: debt 4000 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: debt = 4000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 579000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: equity 579000 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: equity = 579000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930923141",
+      "retrieved_at": "2026-10-10T08:33:12Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VIKEBLADET VESTPOSTEN EIGEDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930923141",
+      "retrieved_at": "2026-10-10T08:33:12Z",
+      "evidence": "\"navn\": \"VIKEBLADET VESTPOSTEN EIGEDOM AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: legal_name = 'VIKEBLADET VESTPOSTEN EIGEDOM AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930923141",
+      "retrieved_at": "2026-10-10T08:33:12Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -177000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: net result -177000 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: net_result = -177000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -232000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: operating result -232000 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: operating_result = -232000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930923141",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930923141",
+      "retrieved_at": "2026-10-10T08:33:12Z",
+      "evidence": "organisasjonsnummer: \"930923141\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: org_number = '930923141', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "regnskapsperiode slutt 2024-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: reporting_period = '2024-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930923141",
+      "retrieved_at": "2026-10-10T08:33:12Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 583000,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930923141",
+      "retrieved_at": "2026-10-10T08:33:28Z",
+      "evidence": "Annual accounts for the period ending 2024-12-31: total assets 583000 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "VIKEBLADET VESTPOSTEN EIGEDOM AS: total_assets = 583000, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930923141",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

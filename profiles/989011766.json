@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "org_number": "989011766",
+  "legal_name": "1001 ROM Kathrine Sørgård",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Eilert Sundts gate 28, 0259 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "forretningsadresse: Eilert Sundts gate 28, 0259 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: address = 'Eilert Sundts gate 28, 0259 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "business_locations",
+      "value": "Eilert Sundts gate 28, 0259 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"beliggenhetsadresse\": 'Eilert Sundts gate 28, 0259 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: business_locations = 'Eilert Sundts gate 28, 0259 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "description",
+      "value": "Journalist, skribent. Leverer artikler til ledende magasiner. Bakgrunn som interiørarkitekt og påtar seg design og produksjon av interiør.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"aktivitet\": \"Journalist, skribent. Leverer artikler til ledende magasiner. Bakgrunn som interiørarkitekt og påtar seg design og produksjon av interiør.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: description = 'Journalist, skribent. Leverer artikler til ledende magasiner. Bakgrunn som interiørarki...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "email",
+      "value": "brevdue@1001rom.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"epostadresse\": \"brevdue@1001rom.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: email = 'brevdue@1001rom.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "industry",
+      "value": "Skapende kunstnerisk virksomhet innenfor litteratur",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"beskrivelse\": \"Skapende kunstnerisk virksomhet innenfor litteratur\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: industry = 'Skapende kunstnerisk virksomhet innenfor litteratur', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "legal_name",
+      "value": "1001 ROM Kathrine Sørgård",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"navn\": \"1001 ROM Kathrine Sørgård\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: legal_name = '1001 ROM Kathrine Sørgård', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.111",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"kode\": \"90.111\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: nace_code = '90.111', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "owner",
+      "value": "Kathrine Renate Sørgård",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"navn\": \"Kathrine Renate Sørgård\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: owner = 'Kathrine Renate Sørgård', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "phone",
+      "value": "92809757",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"mobil\": \"92809757\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: phone = '92809757', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "postcode",
+      "value": "0259",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"postnummer\": \"0259\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: postcode = '0259', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "registered",
+      "value": "2005-12-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2005-12-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: registered = '2005-12-03', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    },
+    {
+      "field": "website",
+      "value": "www.1001rom.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "retrieved_at": "2026-10-07T19:16:52Z",
+      "evidence": "\"hjemmeside\": \"www.1001rom.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "1001 ROM Kathrine Sørgård: website = 'www.1001rom.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "989011766"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.1001rom.no",
+      "new": null,
+      "detected_at": "2026-10-07T19:16:58Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

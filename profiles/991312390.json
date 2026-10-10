@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "991312390",
+  "legal_name": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T074300Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Skogholtveien 17C, 1178 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "forretningsadresse: Skogholtveien 17C, 1178 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: address = 'Skogholtveien 17C, 1178 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Mari Anne Øyan",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"navn\": \"Mari Anne Øyan\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: ceo = 'Mari Anne Øyan', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Akupunktør og utøvelse av TKM , tradisjonell kinesisk medisin. Utvikling av læremidler innen akupunktur og TKM-undervisning.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"aktivitet\": \"Akupunktør og utøvelse av TKM , tradisjonell kinesisk medisin. Utvikling av læremidler innen akupunktur og TKM-undervisning.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: description = 'Akupunktør og utøvelse av TKM , tradisjonell kinesisk medisin. Utvikling av læremidler ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "litjmor@yahoo.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"epostadresse\": \"litjmor@yahoo.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: email = 'litjmor@yahoo.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter innenfor tradisjonell, komplementær og alternativ medisin",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter innenfor tradisjonell, komplementær og alternativ medisin\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: industry = 'Aktiviteter innenfor tradisjonell, komplementær og alternativ medisin', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"navn\": \"BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: legal_name = 'BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "86.960",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"kode\": \"86.960\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: nace_code = '86.960', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "991312390",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "organisasjonsnummer: \"991312390\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: org_number = '991312390', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Mari Anne Øyan",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"navn\": \"Mari Anne Øyan\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: owner = 'Mari Anne Øyan', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "46924410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"mobil\": \"46924410\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: phone = '46924410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1178",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"postnummer\": \"1178\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: postcode = '1178', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2007-05-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2007-05-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: registered = '2007-05-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991312390",
+      "retrieved_at": "2026-10-10T07:46:22Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BEKKELAGET AKUPUNKTUR MARI ANNE ØYAN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "991312390",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

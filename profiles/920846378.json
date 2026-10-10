@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920846378",
+  "legal_name": "ULF OMAR GJERSØYEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Åkrokvegen 255, 2114 DISENÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "forretningsadresse: Åkrokvegen 255, 2114 DISENÅ",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: address = 'Åkrokvegen 255, 2114 DISENÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "2114 DISENÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"beliggenhetsadresse\": '2114 DISENÅ' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: business_locations = '2114 DISENÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "DISENÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"poststed\": \"DISENÅ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: city = 'DISENÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Skogbruk, herunder tømmerhogst, planting av skog og ungskogpleie samt det som naturlig faller inn under drift av skog- og utmarkseiendom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"aktivitet\": \"Skogbruk, herunder tømmerhogst, planting av skog og ungskogpleie samt det som naturlig faller inn under drift av skog- og utmarkseiendom.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: description = 'Skogbruk, herunder tømmerhogst, planting av skog og ungskogpleie samt det som naturlig ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Avvirkning",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"beskrivelse\": \"Avvirkning\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: industry = 'Avvirkning', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ULF OMAR GJERSØYEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"navn\": \"ULF OMAR GJERSØYEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: legal_name = 'ULF OMAR GJERSØYEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SØR-ODAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"kommune\": \"SØR-ODAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: municipality = 'SØR-ODAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "02.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"kode\": \"02.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: nace_code = '02.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920846378",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "organisasjonsnummer: \"920846378\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: org_number = '920846378', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Ulf Omar Gjersøyen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"navn\": \"Ulf Omar Gjersøyen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: owner = 'Ulf Omar Gjersøyen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2114",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"postnummer\": \"2114\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: postcode = '2114', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-05-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-05-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: registered = '2018-05-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920846378",
+      "retrieved_at": "2026-10-10T10:03:52Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ULF OMAR GJERSØYEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920846378",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

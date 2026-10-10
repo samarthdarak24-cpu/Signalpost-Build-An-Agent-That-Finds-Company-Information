@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.0",
+  "org_number": "926565915",
+  "legal_name": "JURIDISK SKIFORENING",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102959Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "board_chair",
+      "value": "Ingerid Vadder",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"navn\": \"Ingerid Vadder\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: board_chair = 'Ingerid Vadder', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Emilie Mæle Wæthing, Tuva Røkeberg Bygrave, Herman Møller Gløersen, Stella Kval, Hedda Magnussen, Emilie Marie Moland Krogsrud",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "roles: Emilie Mæle Wæthing, Tuva Røkeberg Bygrave, Herman Møller Gløersen, Stella Kval, Hedda Magnussen, Emilie Marie Moland Krogsrud",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: board_members = 'Emilie Mæle Wæthing, Tuva Røkeberg Bygrave, Herman Møller Gløersen, Stella Kval, Hedda ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Studentforening som driver med vinteridrett og vinteraktiviteter.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"aktivitet\": \"Studentforening som driver med vinteridrett og vinteraktiviteter.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: description = 'Studentforening som driver med vinteridrett og vinteraktiviteter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "juridiskskiforening@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"epostadresse\": \"juridiskskiforening@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: email = 'juridiskskiforening@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2021-01-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"stiftelsesdato\": \"2021-01-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: founded = '2021-01-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "JURIDISK SKIFORENING",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"navn\": \"JURIDISK SKIFORENING\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: legal_name = 'JURIDISK SKIFORENING', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "926565915",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "organisasjonsnummer: \"926565915\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: org_number = '926565915', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2021-03-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-03-03\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: registered = '2021-03-03', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926565915",
+      "retrieved_at": "2026-10-10T10:30:15Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "JURIDISK SKIFORENING: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "926565915",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

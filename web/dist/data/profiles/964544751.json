@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "964544751",
+  "legal_name": "AMBROSIA NORGE ANS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Granveien 11, 1394 NESBRU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "forretningsadresse: Granveien 11, 1394 NESBRU",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: address = 'Granveien 11, 1394 NESBRU', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "city",
+      "value": "NESBRU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"poststed\": \"NESBRU\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: city = 'NESBRU', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "description",
+      "value": "Utvikling og salg av kurs, studier, læremidler og andre kompetansegivende produkter.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"aktivitet\": \"Utvikling og salg av kurs, studier, læremidler og andre kompetansegivende produkter.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: description = 'Utvikling og salg av kurs, studier, læremidler og andre kompetansegivende produkter.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "founded",
+      "value": "1992-07-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"stiftelsesdato\": \"1992-07-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: founded = '1992-07-22', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "industry",
+      "value": "Annen undervisning ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"beskrivelse\": \"Annen undervisning ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: industry = 'Annen undervisning ellers', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "legal_name",
+      "value": "AMBROSIA NORGE ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"navn\": \"AMBROSIA NORGE ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: legal_name = 'AMBROSIA NORGE ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "municipality",
+      "value": "ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"kommune\": \"ASKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.597",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"kode\": \"85.597\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: nace_code = '85.597', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "phone",
+      "value": "66 85 01 15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"telefon\": \"66 85 01 15\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: phone = '66 85 01 15', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "postcode",
+      "value": "1394",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"postnummer\": \"1394\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: postcode = '1394', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "purpose",
+      "value": "Å dekke behov innenfor kunnskaps- og kompetanseheving. Selskapet vil drive opplæring, konsulentvirksomhet, produksjon og handel.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Å dekke behov innenfor kunnskaps- og kompetanseheving. Selskapet vil drive opplæring, konsulentvirksomhet, produksjon og handel.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: purpose = 'Å dekke behov innenfor kunnskaps- og kompetanseheving. Selskapet vil drive opplæring, k...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "registered",
+      "value": "1995-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-03-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: registered = '1995-03-12', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    },
+    {
+      "field": "website",
+      "value": "www.ambrosianorge.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/964544751",
+      "retrieved_at": "2026-10-07T16:45:42Z",
+      "evidence": "\"hjemmeside\": \"www.ambrosianorge.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "AMBROSIA NORGE ANS: website = 'www.ambrosianorge.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "964544751"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923950648",
+  "legal_name": "INDRE SALTEN MOTORHISTORISKE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094803Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "forretningsadresse: c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: address = 'c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Anita Jørgensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"navn\": \"Anita Jørgensen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: board_chair = 'Anita Jørgensen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Jørn Henry Jakobsen, Per Arild Sivertsen, Rune Olsen, Børge Imingen, Nine Therese Pedersen-Jørgensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "roles: Jørn Henry Jakobsen, Per Arild Sivertsen, Rune Olsen, Børge Imingen, Nine Therese Pedersen-Jørgensen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: board_members = 'Jørn Henry Jakobsen, Per Arild Sivertsen, Rune Olsen, Børge Imingen, Nine Therese Peder...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: business_locations = 'c/o Børge Imingen, Kvitlyngveien 1, 8209 FAUSKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "FAUSKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"poststed\": \"FAUSKE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: city = 'FAUSKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kulturhistorisk forening for å fremme motorhistoriske interesser.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"aktivitet\": \"Kulturhistorisk forening for å fremme motorhistoriske interesser.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: description = 'Kulturhistorisk forening for å fremme motorhistoriske interesser.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "borge.imingen@elkem.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"epostadresse\": \"borge.imingen@elkem.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: email = 'borge.imingen@elkem.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2019-10-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"stiftelsesdato\": \"2019-10-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: founded = '2019-10-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "INDRE SALTEN MOTORHISTORISKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"navn\": \"INDRE SALTEN MOTORHISTORISKE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: legal_name = 'INDRE SALTEN MOTORHISTORISKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "FAUSKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"kommune\": \"FAUSKE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: municipality = 'FAUSKE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "923950648",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "organisasjonsnummer: \"923950648\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: org_number = '923950648', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8209",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"postnummer\": \"8209\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: postcode = '8209', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2019-11-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-11-27\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: registered = '2019-11-27', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923950648",
+      "retrieved_at": "2026-10-10T09:49:21Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "INDRE SALTEN MOTORHISTORISKE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "923950648",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "994582666",
+  "legal_name": "CINEMARINE KJETIL CHAMOREL ASTRUP",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T113249Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Myrens verksted 6B, 0473 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "forretningsadresse: Myrens verksted 6B, 0473 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: address = 'Myrens verksted 6B, 0473 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Myrens verksted 6B, 0473 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"beliggenhetsadresse\": 'Myrens verksted 6B, 0473 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: business_locations = 'Myrens verksted 6B, 0473 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Hovedaktivitet: Undervisning og opplæring innen dykking og sikkerhet. Biaktiviteter: Formidling av utstyr og tjenester innen dykking og ferie/dykkereiser og medieoppdrag som foto og video.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"aktivitet\": \"Hovedaktivitet: Undervisning og opplæring innen dykking og sikkerhet. Biaktiviteter: Formidling av utstyr og tjenester innen dykking og ferie/dykkereiser og medieoppdrag som foto og video.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: description = 'Hovedaktivitet: Undervisning og opplæring innen dykking og sikkerhet. Biaktiviteter: Fo...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@cinemarine.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"epostadresse\": \"post@cinemarine.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: email = 'post@cinemarine.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Annen undervisning ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"beskrivelse\": \"Annen undervisning ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: industry = 'Annen undervisning ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "CINEMARINE KJETIL CHAMOREL ASTRUP",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"navn\": \"CINEMARINE KJETIL CHAMOREL ASTRUP\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: legal_name = 'CINEMARINE KJETIL CHAMOREL ASTRUP', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.597",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"kode\": \"85.597\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: nace_code = '85.597', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "994582666",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "organisasjonsnummer: \"994582666\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: org_number = '994582666', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Kjetil Chamorel Astrup",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"navn\": \"Kjetil Chamorel Astrup\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: owner = 'Kjetil Chamorel Astrup', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "918 14 244",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"mobil\": \"918 14 244\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: phone = '918 14 244', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0473",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"postnummer\": \"0473\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: postcode = '0473', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2009-10-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-10-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: registered = '2009-10-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.cinemarine.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994582666",
+      "retrieved_at": "2026-10-10T11:34:42Z",
+      "evidence": "\"hjemmeside\": \"www.cinemarine.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "CINEMARINE KJETIL CHAMOREL ASTRUP: website = 'www.cinemarine.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994582666",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931268090",
+  "legal_name": "FAU VESLEFRIKK BARNEHAGE",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "forretningsadresse: c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: address = 'c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Ane Martine Høghaug Rosvoll",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"navn\": \"Ane Martine Høghaug Rosvoll\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: board_chair = 'Ane Martine Høghaug Rosvoll', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Kristina Sandøy Ringstad, Ina Terese Pettersen Fugelsnes, Karoline Hanem Tømmervåg, Sindre Sæther",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "roles: Kristina Sandøy Ringstad, Ina Terese Pettersen Fugelsnes, Karoline Hanem Tømmervåg, Sindre Sæther",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: board_members = 'Kristina Sandøy Ringstad, Ina Terese Pettersen Fugelsnes, Karoline Hanem Tømmervåg, Sin...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: business_locations = 'c/o Veslefrikk barnehage, Tyrihaugen 3, 6522 FREI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "FREI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"poststed\": \"FREI\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: city = 'FREI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Arrangement og aktiviteter i barnehage. Loddsalg, mat- og kakesalg. Dugnadsarbeid.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"aktivitet\": \"Arrangement og aktiviteter i barnehage. Loddsalg, mat- og kakesalg. Dugnadsarbeid.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: description = 'Arrangement og aktiviteter i barnehage. Loddsalg, mat- og kakesalg. Dugnadsarbeid.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-08\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: founded = '2023-03-08', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "FAU VESLEFRIKK BARNEHAGE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"navn\": \"FAU VESLEFRIKK BARNEHAGE\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: legal_name = 'FAU VESLEFRIKK BARNEHAGE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "KRISTIANSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"kommune\": \"KRISTIANSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: municipality = 'KRISTIANSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931268090",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "organisasjonsnummer: \"931268090\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: org_number = '931268090', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6522",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"postnummer\": \"6522\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: postcode = '6522', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931268090",
+      "retrieved_at": "2026-10-10T09:45:42Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "FAU VESLEFRIKK BARNEHAGE: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931268090",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

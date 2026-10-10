@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "825202552",
+  "legal_name": "INVICTUS CONSULTING BY MALIK",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102959Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Døliringen 41, 2050 JESSHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "forretningsadresse: Døliringen 41, 2050 JESSHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: address = 'Døliringen 41, 2050 JESSHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "JESSHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"poststed\": \"JESSHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: city = 'JESSHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Konsulenttjenester innen bedriftsrådgivning, grafisk og markedsføring.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"aktivitet\": \"Konsulenttjenester innen bedriftsrådgivning, grafisk og markedsføring.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: description = 'Konsulenttjenester innen bedriftsrådgivning, grafisk og markedsføring.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Bedriftsrådgivning og annen administrativ rådgivning",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"beskrivelse\": \"Bedriftsrådgivning og annen administrativ rådgivning\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: industry = 'Bedriftsrådgivning og annen administrativ rådgivning', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "INVICTUS CONSULTING BY MALIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"navn\": \"INVICTUS CONSULTING BY MALIK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: legal_name = 'INVICTUS CONSULTING BY MALIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "ULLENSAKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"kommune\": \"ULLENSAKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: municipality = 'ULLENSAKER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "70.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"kode\": \"70.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: nace_code = '70.200', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "825202552",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "organisasjonsnummer: \"825202552\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: org_number = '825202552', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Danial Malik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"navn\": \"Danial Malik\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: owner = 'Danial Malik', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2050",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"postnummer\": \"2050\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: postcode = '2050', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2020-06-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2020-06-16\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: registered = '2020-06-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/825202552",
+      "retrieved_at": "2026-10-10T10:31:47Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "INVICTUS CONSULTING BY MALIK: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "825202552",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

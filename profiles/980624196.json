@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "org_number": "980624196",
+  "legal_name": "1 2 EXCELLENCE Morten Kaspar Gudmundseth",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 18,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Øygardveien 113C, 1357 BEKKESTUA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "forretningsadresse: Øygardveien 113C, 1357 BEKKESTUA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: address = 'Øygardveien 113C, 1357 BEKKESTUA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "business_locations",
+      "value": "Øygardveien 113C, 1357 BEKKESTUA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"beliggenhetsadresse\": 'Øygardveien 113C, 1357 BEKKESTUA' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: business_locations = 'Øygardveien 113C, 1357 BEKKESTUA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "city",
+      "value": "BEKKESTUA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"poststed\": \"BEKKESTUA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: city = 'BEKKESTUA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "description",
+      "value": "Strategisk rådgivning- og coaching i digital virksomhetsutvikling. Trening og kurs i trampoline og ski.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"aktivitet\": \"Strategisk rådgivning- og coaching i digital virksomhetsutvikling. Trening og kurs i trampoline og ski.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: description = 'Strategisk rådgivning- og coaching i digital virksomhetsutvikling. Trening og kurs i tr...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "email",
+      "value": "morten@12x.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"epostadresse\": \"morten@12x.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: email = 'morten@12x.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "industry",
+      "value": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "legal_name",
+      "value": "1 2 EXCELLENCE Morten Kaspar Gudmundseth",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"navn\": \"1 2 EXCELLENCE Morten Kaspar Gudmundseth\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: legal_name = '1 2 EXCELLENCE Morten Kaspar Gudmundseth', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "municipality",
+      "value": "BÆRUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"kommune\": \"BÆRUM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: municipality = 'BÆRUM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"kode\": \"62.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "owner",
+      "value": "Morten Kaspar Gudmundseth",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"navn\": \"Morten Kaspar Gudmundseth\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: owner = 'Morten Kaspar Gudmundseth', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "phone",
+      "value": "906 73 101",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"mobil\": \"906 73 101\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: phone = '906 73 101', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "postcode",
+      "value": "1357",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"postnummer\": \"1357\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: postcode = '1357', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "registered",
+      "value": "1999-06-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1999-06-09\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: registered = '1999-06-09', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    },
+    {
+      "field": "website",
+      "value": "www.12x.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "retrieved_at": "2026-10-07T19:16:12Z",
+      "evidence": "\"hjemmeside\": \"www.12x.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "1 2 EXCELLENCE Morten Kaspar Gudmundseth: website = 'www.12x.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "980624196"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.12x.no",
+      "new": null,
+      "detected_at": "2026-10-07T19:16:19Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

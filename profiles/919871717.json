@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "919871717",
+  "legal_name": "OLE SAGVOLD AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084004Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2024,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "regnskapsperiode ended 2024-08-26",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: accounting_year = 2024, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 110185,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: debt 110185 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: debt = 110185, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 1742952,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: equity 1742952 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: equity = 1742952, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919871717",
+      "retrieved_at": "2026-10-10T08:40:37Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "OLE SAGVOLD AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919871717",
+      "retrieved_at": "2026-10-10T08:40:37Z",
+      "evidence": "\"navn\": \"OLE SAGVOLD AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: legal_name = 'OLE SAGVOLD AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919871717",
+      "retrieved_at": "2026-10-10T08:40:37Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 231507,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: net result 231507 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: net_result = 231507, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": 229313,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: operating result 229313 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: operating_result = 229313, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "919871717",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919871717",
+      "retrieved_at": "2026-10-10T08:40:37Z",
+      "evidence": "organisasjonsnummer: \"919871717\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: org_number = '919871717', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2024-08-26",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "regnskapsperiode slutt 2024-08-26",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: reporting_period = '2024-08-26', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 4204423,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: revenue latest 4204423 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: revenue_latest = 4204423, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919871717",
+      "retrieved_at": "2026-10-10T08:40:37Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 1853137,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919871717",
+      "retrieved_at": "2026-10-10T08:40:57Z",
+      "evidence": "Annual accounts for the period ending 2024-08-26: total assets 1853137 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "OLE SAGVOLD AS: total_assets = 1853137, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "919871717",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

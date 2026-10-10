@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931021907",
+  "legal_name": "JAPE PRODUKTER AB",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T080424Z",
+  "fact_count": 11,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Helsingborgsvägen 14, 28149 Hässleholm",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "forretningsadresse: Helsingborgsvägen 14, 28149 Hässleholm",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: address = 'Helsingborgsvägen 14, 28149 Hässleholm', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "28149 Hässleholm",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"poststed\": \"28149 Hässleholm\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: city = '28149 Hässleholm', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "mor i konsern",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"aktivitet\": \"mor i konsern\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: description = 'mor i konsern', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1984-01-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"stiftelsesdato\": \"1984-01-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: founded = '1984-01-10', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "UTLA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"kode\": \"UTLA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: legal_form = 'UTLA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "JAPE PRODUKTER AB",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"navn\": \"JAPE PRODUKTER AB\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: legal_name = 'JAPE PRODUKTER AB', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931021907",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "organisasjonsnummer: \"931021907\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: org_number = '931021907', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: registered = '2023-03-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931021907",
+      "retrieved_at": "2026-10-10T08:04:41Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "JAPE PRODUKTER AB: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931021907",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

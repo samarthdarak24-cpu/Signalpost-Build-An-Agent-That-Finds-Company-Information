@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930828718",
+  "legal_name": "MAAMA TAXI",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T085259Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Dr Werrings gate 2, 6509 KRISTIANSUND N",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "forretningsadresse: Dr Werrings gate 2, 6509 KRISTIANSUND N",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: address = 'Dr Werrings gate 2, 6509 KRISTIANSUND N', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_manager",
+      "value": "Ilyaas Maxamed Nuur Maama",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"navn\": \"Ilyaas Maxamed Nuur Maama\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role FFØR (Business manager)",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: business_manager = 'Ilyaas Maxamed Nuur Maama', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "KRISTIANSUND N",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"poststed\": \"KRISTIANSUND N\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: city = 'KRISTIANSUND N', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Taxi.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"aktivitet\": \"Taxi.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: description = 'Taxi.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Passasjertransport på forespørsel utført av fører med kjøretøy",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"beskrivelse\": \"Passasjertransport på forespørsel utført av fører med kjøretøy\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: industry = 'Passasjertransport på forespørsel utført av fører med kjøretøy', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MAAMA TAXI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"navn\": \"MAAMA TAXI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: legal_name = 'MAAMA TAXI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "KRISTIANSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"kommune\": \"KRISTIANSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: municipality = 'KRISTIANSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "49.330",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"kode\": \"49.330\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: nace_code = '49.330', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930828718",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "organisasjonsnummer: \"930828718\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: org_number = '930828718', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Ilyaas Maxamed Nuur Maama",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"navn\": \"Ilyaas Maxamed Nuur Maama\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: owner = 'Ilyaas Maxamed Nuur Maama', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6509",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"postnummer\": \"6509\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: postcode = '6509', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-02-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-02-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: registered = '2023-02-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930828718",
+      "retrieved_at": "2026-10-10T08:54:20Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MAAMA TAXI: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930828718",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

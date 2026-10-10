@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "976662032",
+  "legal_name": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T062903Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Jakup B. Klukstads veg 32, 2665 LESJA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "forretningsadresse: Jakup B. Klukstads veg 32, 2665 LESJA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: address = 'Jakup B. Klukstads veg 32, 2665 LESJA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Jakup B. Klukstads veg 32, 2665 LESJA | Strandvegen 105, 2668 LESJASKOG | Romsdalsvegen 1382, 2665 LESJA | Romsdalsvegen 1382, 2665 LESJA | Romsdalsvegen 1382, 2665 LESJA | Kyrkjevegen 93, 2665 LESJA | Romsdalsvegen 1382, 2665 LESJA | Furuvegen 16, 2668 LESJASKOG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"beliggenhetsadresse\": 'Jakup B. Klukstads veg 32, 2665 LESJA' (first of 10)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: business_locations = 'Jakup B. Klukstads veg 32, 2665 LESJA | Strandvegen 105, 2668 LESJASKOG | Romsdalsvegen...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Per Dag Hole",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"navn\": \"Per Dag Hole\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: ceo = 'Per Dag Hole', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "LESJA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"poststed\": \"LESJA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: city = 'LESJA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Off.administrasjon tilknyttet helsestell, sosial virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"aktivitet\": \"Off.administrasjon tilknyttet helsestell, sosial virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: description = 'Off.administrasjon tilknyttet helsestell, sosial virksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 203,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"antallAnsatte\": 203",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: employees = 203, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1988-04-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"stiftelsesdato\": \"1988-04-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: founded = '1988-04-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Offentlig administrasjon tilknyttet helsestell, undervisning, kultur og annen sosial virksomhet",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"beskrivelse\": \"Offentlig administrasjon tilknyttet helsestell, undervisning, kultur og annen sosial virksomhet\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: industry = 'Offentlig administrasjon tilknyttet helsestell, undervisning, kultur og annen sosial vi...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"navn\": \"LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: legal_name = 'LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 11,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"underenheter\": 10 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: location_count = 11, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LESJA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"kommune\": \"LESJA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: municipality = 'LESJA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"kode\": \"84.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: nace_code = '84.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "976662032",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "organisasjonsnummer: \"976662032\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: org_number = '976662032', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "964949204",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"overordnetEnhet\": \"964949204\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: parent_org_number = '964949204', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "61 24 41 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"telefon\": \"61 24 41 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: phone = '61 24 41 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2665",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"postnummer\": \"2665\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: postcode = '2665', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1996-09-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-09-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: registered = '1996-09-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976662032",
+      "retrieved_at": "2026-10-10T06:31:36Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LESJA KOMMUNE HELSE- OG SOSIALSEKTOREN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "976662032",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

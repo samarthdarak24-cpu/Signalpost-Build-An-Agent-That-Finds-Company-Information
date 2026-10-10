@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "org_number": "938429863",
+  "legal_name": "NASJONALFORENINGEN FOR FOLKEHELSEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T065300Z",
+  "fact_count": 26,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Oscars gate 36 A, 0307 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "forretningsadresse: Oscars gate 36 A, 0307 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: address = 'Oscars gate 36 A, 0307 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Dag Steinar Thelle",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"navn\": \"Dag Steinar Thelle\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: board_chair = 'Dag Steinar Thelle', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Bernt Løvstad, Hallfrid Kronheim",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "roles: Bernt Løvstad, Hallfrid Kronheim",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: board_deputies = 'Bernt Løvstad, Hallfrid Kronheim', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Asborg Leirdal Kjærvik, Espen Løftingsmo, Åshild Janny Nordnes, Lilly Gunn Nyheim, Anne Grethe Sirevåg, Inger-Lise Viljugrein, Pauline Gundersen Nordbø, Lene Marie Haugerud, Marit Dille",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "roles: Asborg Leirdal Kjærvik, Espen Løftingsmo, Åshild Janny Nordnes, Lilly Gunn Nyheim, Anne Grethe Sirevåg, Inger-Lise Viljugrein, Pauline Gundersen Nordbø, Lene Marie Haugerud, Marit Dille",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: board_members = 'Asborg Leirdal Kjærvik, Espen Løftingsmo, Åshild Janny Nordnes, Lilly Gunn Nyheim, Anne...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Oscarsg 36 A, 0258 OSLO | Langbryggen 1, 4841 ARENDAL | Bankgata 13, 8005 BODØ | Rektor Jørgensens gate 3, 2318 HAMAR | Kong Oscars gate 54, 5017 BERGEN | Idrettsvegen 2, 6413 MOLDE | Nordre gate 6, 7011 TRONDHEIM | Torgveien 15A, 4016 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"beliggenhetsadresse\": 'Oscarsg 36 A, 0258 OSLO' (first of 8)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: business_locations = 'Oscarsg 36 A, 0258 OSLO | Langbryggen 1, 4841 ARENDAL | Bankgata 13, 8005 BODØ | Rektor...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Bo Alexander Burden Gleditsch",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"navn\": \"Bo Alexander Burden Gleditsch\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: ceo = 'Bo Alexander Burden Gleditsch', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Humanitær landsomfattende organisasjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"aktivitet\": \"Humanitær landsomfattende organisasjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: description = 'Humanitær landsomfattende organisasjon.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 73,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"antallAnsatte\": 73",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: employees = 73, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"stiftelsesdato\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: founded = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NASJONALFORENINGEN FOR FOLKEHELSEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"navn\": \"NASJONALFORENINGEN FOR FOLKEHELSEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: legal_name = 'NASJONALFORENINGEN FOR FOLKEHELSEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "lei",
+      "value": "894500KB7YCQLCJMVH92",
+      "source_url": "https://api.gleif.org/api/v1/lei-records/894500KB7YCQLCJMVH92",
+      "retrieved_at": "2026-10-10T06:54:28Z",
+      "evidence": "GLEIF record for registration 938429863: legal name \"NASJONALFORENINGEN FOR FOLKEHELSEN\", status ACTIVE",
+      "match_proof": "identifier_join",
+      "confidence": 0.93,
+      "layer": "identifier",
+      "method": "GLEIF registeredAs join",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: lei = '894500KB7YCQLCJMVH92', joined on a shared register identifier. (GLEIF/Wikidata, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 9,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"underenheter\": 8 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: location_count = 9, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "938429863",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "organisasjonsnummer: \"938429863\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: org_number = '938429863', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "23 12 00 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"telefon\": \"23 12 00 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: phone = '23 12 00 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0307",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"postnummer\": \"0307\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: postcode = '0307', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.nasjonalforeningen.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938429863",
+      "retrieved_at": "2026-10-10T06:54:24Z",
+      "evidence": "\"hjemmeside\": \"www.nasjonalforeningen.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NASJONALFORENINGEN FOR FOLKEHELSEN: website = 'www.nasjonalforeningen.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "938429863",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

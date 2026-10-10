@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "922706670",
+  "legal_name": "SCA PROSJEKTER AS",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064808Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2020,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "regnskapsperiode ended 2020-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: accounting_year = 2020, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 363328,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: debt 363328 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: debt = 363328, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": -228565,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: equity -228565 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: equity = -228565, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922706670",
+      "retrieved_at": "2026-10-10T06:49:09Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SCA PROSJEKTER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922706670",
+      "retrieved_at": "2026-10-10T06:49:09Z",
+      "evidence": "\"navn\": \"SCA PROSJEKTER AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: legal_name = 'SCA PROSJEKTER AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922706670",
+      "retrieved_at": "2026-10-10T06:49:09Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -268659,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: net result -268659 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: net_result = -268659, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -240242,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: operating result -240242 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: operating_result = -240242, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "922706670",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922706670",
+      "retrieved_at": "2026-10-10T06:49:09Z",
+      "evidence": "organisasjonsnummer: \"922706670\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: org_number = '922706670', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2020-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "regnskapsperiode slutt 2020-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: reporting_period = '2020-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 1017015,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: revenue latest 1017015 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: revenue_latest = 1017015, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922706670",
+      "retrieved_at": "2026-10-10T06:49:09Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 134763,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/922706670",
+      "retrieved_at": "2026-10-10T06:49:21Z",
+      "evidence": "Annual accounts for the period ending 2020-12-31: total assets 134763 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "SCA PROSJEKTER AS: total_assets = 134763, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "922706670",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

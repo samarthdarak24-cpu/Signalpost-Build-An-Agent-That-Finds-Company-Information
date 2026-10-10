@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0",
+  "org_number": "923936343",
+  "legal_name": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 14,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Storåsveien 33, 8516 NARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "forretningsadresse: Storåsveien 33, 8516 NARVIK",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: address = 'Storåsveien 33, 8516 NARVIK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "city",
+      "value": "NARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"poststed\": \"NARVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: city = 'NARVIK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "description",
+      "value": "Generell IT hjelp, pc bygging, grunnleggende IT konsultasjon, webdesign og utvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"aktivitet\": \"Generell IT hjelp, pc bygging, grunnleggende IT konsultasjon, webdesign og utvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: description = 'Generell IT hjelp, pc bygging, grunnleggende IT konsultasjon, webdesign og utvikling.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "email",
+      "value": "karlamundbolstad@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"epostadresse\": \"karlamundbolstad@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: email = 'karlamundbolstad@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "industry",
+      "value": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "legal_name",
+      "value": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"navn\": \"1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: legal_name = '1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "municipality",
+      "value": "NARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kommune\": \"NARVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: municipality = 'NARVIK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"62.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "phone",
+      "value": "416 47 227",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"mobil\": \"416 47 227\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: phone = '416 47 227', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "postcode",
+      "value": "8516",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"postnummer\": \"8516\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: postcode = '8516', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "registered",
+      "value": "2019-11-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-11-26\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: registered = '2019-11-26', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "923936343"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

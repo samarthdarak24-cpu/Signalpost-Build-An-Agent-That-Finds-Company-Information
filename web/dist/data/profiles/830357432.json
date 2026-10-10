@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "830357432",
+  "legal_name": "Bonheur ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Fred. Olsens gate 2, 0152 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "forretningsadresse: Fred. Olsens gate 2, 0152 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: address = 'Fred. Olsens gate 2, 0152 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "description",
+      "value": "Å drive skipsrederi og hva dermed står i forbind- else, derunder også deltagelse i andre foretag- ender til fremme av rederibedriften.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"aktivitet\": \"Å drive skipsrederi og hva dermed står i forbind- else, derunder også deltagelse i andre foretag- ender til fremme av rederibedriften.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: description = 'Å drive skipsrederi og hva dermed står i forbind- else, derunder også deltagelse i andr...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "email",
+      "value": "post@fredolsen.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"epostadresse\": \"post@fredolsen.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: email = 'post@fredolsen.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "founded",
+      "value": "1897-10-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"stiftelsesdato\": \"1897-10-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: founded = '1897-10-20', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "industry",
+      "value": "Utleie av egen eller leid fast eiendom",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "legal_name",
+      "value": "Bonheur ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"navn\": \"Bonheur ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: legal_name = 'Bonheur ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"68.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "phone",
+      "value": "22 34 10 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"telefon\": \"22 34 10 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: phone = '22 34 10 00', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "postcode",
+      "value": "0152",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"postnummer\": \"0152\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: postcode = '0152', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "purpose",
+      "value": "Engasjement i maritim- og energirelaterte aktiviteter, transport, teknologi og eiendom, investering innen finans og handel så vel som deltakelse i andre foretagender.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Engasjement i maritim- og energirelaterte aktiviteter, transport, teknologi og eiendom, investering innen finans og handel så vel som deltakelse i andre foretagender.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: purpose = 'Engasjement i maritim- og energirelaterte aktiviteter, transport, teknologi og eiendom,...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-19\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: registered = '1995-02-19', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830357432",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "Bonheur ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "830357432"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

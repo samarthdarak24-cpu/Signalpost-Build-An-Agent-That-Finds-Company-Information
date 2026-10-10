@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "994801406",
+  "legal_name": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084900Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Kristin Lie Slagaard, Jektvollvegen 65, 7670 INDERØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "forretningsadresse: c/o Kristin Lie Slagaard, Jektvollvegen 65, 7670 INDERØY",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: address = 'c/o Kristin Lie Slagaard, Jektvollvegen 65, 7670 INDERØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Kristin Lie Slapgaard",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"navn\": \"Kristin Lie Slapgaard\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: board_chair = 'Kristin Lie Slapgaard', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Per Jensen, Jens Martin Ulvin, Sven Magne Brækkan, Siv Berg Aune",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "roles: Per Jensen, Jens Martin Ulvin, Sven Magne Brækkan, Siv Berg Aune",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: board_members = 'Per Jensen, Jens Martin Ulvin, Sven Magne Brækkan, Siv Berg Aune', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Kristin Lie Slapgaard",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"navn\": \"Kristin Lie Slapgaard\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: ceo = 'Kristin Lie Slapgaard', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "INDERØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"poststed\": \"INDERØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: city = 'INDERØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Inderøy lokallag har til formål å arbeide for å tilrettelegge og arrangere sosiale tilstelninger for å sikre den enkeltes muligheter for å ha individuelle aktiviteter. Utover dette skal foreningen arbeide for at samfunnet yter mennesker med utviklingshemning full rettferd på linje med enhver borger i det norske samfunnet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"aktivitet\": \"Inderøy lokallag har til formål å arbeide for å tilrettelegge og arrangere sosiale tilstelninger for å sikre den enkeltes muligheter for å ha individuelle aktiviteter. Utover dette skal foreningen arbeide for at samfunnet yter mennesker med utviklingshemning full rettferd på linje med enhver borger i det norske samfunnet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: description = 'Inderøy lokallag har til formål å arbeide for å tilrettelegge og arrangere sosiale tils...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "kristin.slapgaard@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"epostadresse\": \"kristin.slapgaard@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: email = 'kristin.slapgaard@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1988-08-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"stiftelsesdato\": \"1988-08-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: founded = '1988-08-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre sosialtjenester uten botilbud ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"beskrivelse\": \"Andre sosialtjenester uten botilbud ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: industry = 'Andre sosialtjenester uten botilbud ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"navn\": \"NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: legal_name = 'NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "INDERØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"kommune\": \"INDERØY\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: municipality = 'INDERØY', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.996",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"kode\": \"88.996\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: nace_code = '88.996', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "994801406",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "organisasjonsnummer: \"994801406\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: org_number = '994801406', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "971 69 615",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"mobil\": \"971 69 615\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: phone = '971 69 615', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "7670",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"postnummer\": \"7670\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: postcode = '7670', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2009-12-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2009-12-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: registered = '2009-12-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994801406",
+      "retrieved_at": "2026-10-10T08:52:10Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NORSK FORBUND FOR UTVIKLINGSHEMMEDE INDERØY LOKALLAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "994801406",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

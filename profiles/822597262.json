@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "822597262",
+  "legal_name": "ELISE CAROLINE RØISLAND",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Mellombølgen 8, 1157 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "forretningsadresse: Mellombølgen 8, 1157 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: address = 'Mellombølgen 8, 1157 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Mellombølgen 8, 1157 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"beliggenhetsadresse\": 'Mellombølgen 8, 1157 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: business_locations = 'Mellombølgen 8, 1157 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Artist og virksomhet innen produksjon av musikk, låter og lyder til bruk i reklame, TV, radio, teater, film og spill. Virksomheten tilbyr også innspillingsmuligheter for artister i studio, og utleie av artister til underholdning og eventer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"aktivitet\": \"Artist og virksomhet innen produksjon av musikk, låter og lyder til bruk i reklame, TV, radio, teater, film og spill. Virksomheten tilbyr også innspillingsmuligheter for artister i studio, og utleie av artister til underholdning og eventer.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: description = 'Artist og virksomhet innen produksjon av musikk, låter og lyder til bruk i reklame, TV,...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"beskrivelse\": \"Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: industry = 'Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ELISE CAROLINE RØISLAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"navn\": \"ELISE CAROLINE RØISLAND\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: legal_name = 'ELISE CAROLINE RØISLAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.201",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"kode\": \"90.201\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: nace_code = '90.201', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "822597262",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "organisasjonsnummer: \"822597262\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: org_number = '822597262', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Elise Caroline Røisland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"navn\": \"Elise Caroline Røisland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: owner = 'Elise Caroline Røisland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1157",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"postnummer\": \"1157\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: postcode = '1157', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2019-04-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2019-04-05\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: registered = '2019-04-05', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/822597262",
+      "retrieved_at": "2026-10-10T10:01:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ELISE CAROLINE RØISLAND: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "822597262",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

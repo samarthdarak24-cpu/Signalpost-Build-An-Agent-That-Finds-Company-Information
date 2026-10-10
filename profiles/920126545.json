@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920126545",
+  "legal_name": "AS CLAUSEN ØL OG SPASER",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T103859Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2025,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "regnskapsperiode ended 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: accounting_year = 2025, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "address",
+      "value": "Schweigaards gate 74C, 0656 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "forretningsadresse: Schweigaards gate 74C, 0656 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: address = 'Schweigaards gate 74C, 0656 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Espen Clausen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"navn\": \"Espen Clausen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: board_chair = 'Espen Clausen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"aktivitet\": \"Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: description = 'Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 1811011,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: equity 1811011 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: equity = 1811011, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2017-11-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"stiftelsesdato\": \"2017-11-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: founded = '2017-11-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre egeninvesteringsselskaper",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"beskrivelse\": \"Andre egeninvesteringsselskaper\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: industry = 'Andre egeninvesteringsselskaper', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "AS CLAUSEN ØL OG SPASER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"navn\": \"AS CLAUSEN ØL OG SPASER\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: legal_name = 'AS CLAUSEN ØL OG SPASER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "64.323",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"kode\": \"64.323\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: nace_code = '64.323', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": 310491,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: net result 310491 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: net_result = 310491, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -15756,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: operating result -15756 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: operating_result = -15756, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920126545",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "organisasjonsnummer: \"920126545\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: org_number = '920126545', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0656",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"postnummer\": \"0656\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: postcode = '0656', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter, samt annen virksomhet som naturlig står i forbindelse med dette.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter, samt annen virksomhet som naturlig står i forbindelse med dette.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: purpose = 'Formuesforvaltning, herunder investering i aksjer og andre formuesobjekter, samt annen ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2017-12-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2017-12-14\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: registered = '2017-12-14', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2025-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "regnskapsperiode slutt 2025-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: reporting_period = '2025-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Øvrige finansielle foretak unntatt forsikring",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "\"beskrivelse\": \"Øvrige finansielle foretak unntatt forsikring\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: sector = 'Øvrige finansielle foretak unntatt forsikring', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920126545",
+      "retrieved_at": "2026-10-10T10:39:31Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 1811011,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/920126545",
+      "retrieved_at": "2026-10-10T10:39:43Z",
+      "evidence": "Annual accounts for the period ending 2025-12-31: total assets 1811011 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "AS CLAUSEN ØL OG SPASER: total_assets = 1811011, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920126545",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

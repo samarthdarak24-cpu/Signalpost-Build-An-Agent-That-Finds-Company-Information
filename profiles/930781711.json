@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930781711",
+  "legal_name": "TRIVSELSGRUPPA SØBAKKEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Lundesvingen 4C, 3295 HELGEROA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "forretningsadresse: Lundesvingen 4C, 3295 HELGEROA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: address = 'Lundesvingen 4C, 3295 HELGEROA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Reidun Omlid Johannessen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"navn\": \"Reidun Omlid Johannessen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: board_chair = 'Reidun Omlid Johannessen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Wenche Kleven Sollund, Bjørg Solfrid Strand Johansen, Inger Johanne Bjørkevoll Kjuul",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "roles: Wenche Kleven Sollund, Bjørg Solfrid Strand Johansen, Inger Johanne Bjørkevoll Kjuul",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: board_members = 'Wenche Kleven Sollund, Bjørg Solfrid Strand Johansen, Inger Johanne Bjørkevoll Kjuul', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Lundesvingen 4C, 3295 HELGEROA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"beliggenhetsadresse\": 'Lundesvingen 4C, 3295 HELGEROA' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: business_locations = 'Lundesvingen 4C, 3295 HELGEROA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Reidun Omlid Johannessen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"navn\": \"Reidun Omlid Johannessen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: ceo = 'Reidun Omlid Johannessen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HELGEROA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"poststed\": \"HELGEROA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: city = 'HELGEROA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Vi er en forening av frivillige hvis formål vederlagsfritt, og i samarbeid med ansatte, gjennomfører velferdstiltak for pasienter på Søbakken sykehjem i Helgeroa.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"aktivitet\": \"Vi er en forening av frivillige hvis formål vederlagsfritt, og i samarbeid med ansatte, gjennomfører velferdstiltak for pasienter på Søbakken sykehjem i Helgeroa.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: description = 'Vi er en forening av frivillige hvis formål vederlagsfritt, og i samarbeid med ansatte,...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "reidun.omlid@hotmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"epostadresse\": \"reidun.omlid@hotmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: email = 'reidun.omlid@hotmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-01-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"stiftelsesdato\": \"2023-01-23\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: founded = '2023-01-23', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "TRIVSELSGRUPPA SØBAKKEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"navn\": \"TRIVSELSGRUPPA SØBAKKEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: legal_name = 'TRIVSELSGRUPPA SØBAKKEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LARVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"kommune\": \"LARVIK\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: municipality = 'LARVIK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930781711",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "organisasjonsnummer: \"930781711\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: org_number = '930781711', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "944 35 910",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"mobil\": \"944 35 910\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: phone = '944 35 910', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "3295",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"postnummer\": \"3295\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: postcode = '3295', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: registered = '2023-04-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930781711",
+      "retrieved_at": "2026-10-10T09:44:56Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "TRIVSELSGRUPPA SØBAKKEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930781711",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

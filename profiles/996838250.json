@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "org_number": "996838250",
+  "legal_name": "STIFTELSEN GAUSTADKLUBBENS FOND",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093337Z",
+  "fact_count": 13,
+  "facts": [
+    {
+      "field": "accounting_year",
+      "value": 2022,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "regnskapsperiode ended 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "derived from period end date",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: accounting_year = 2022, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "debt",
+      "value": 0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: debt 0 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: debt = 0, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "equity",
+      "value": 12431,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: equity 12431 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: equity = 12431, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "STI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996838250",
+      "retrieved_at": "2026-10-10T09:34:18Z",
+      "evidence": "\"kode\": \"STI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: legal_form = 'STI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STIFTELSEN GAUSTADKLUBBENS FOND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996838250",
+      "retrieved_at": "2026-10-10T09:34:18Z",
+      "evidence": "\"navn\": \"STIFTELSEN GAUSTADKLUBBENS FOND\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: legal_name = 'STIFTELSEN GAUSTADKLUBBENS FOND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996838250",
+      "retrieved_at": "2026-10-10T09:34:18Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "net_result",
+      "value": -20296,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: net result -20296 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: net_result = -20296, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "operating_result",
+      "value": -20604,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: operating result -20604 NOK",
+      "match_proof": "registry",
+      "confidence": 0.92,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: operating_result = -20604, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "996838250",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996838250",
+      "retrieved_at": "2026-10-10T09:34:18Z",
+      "evidence": "organisasjonsnummer: \"996838250\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: org_number = '996838250', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "reporting_period",
+      "value": "2022-12-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "regnskapsperiode slutt 2022-12-31",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Regnskapsregisteret period end",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: reporting_period = '2022-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "revenue_latest",
+      "value": 2014,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: revenue latest 2014 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: revenue_latest = 2014, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996838250",
+      "retrieved_at": "2026-10-10T09:34:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    },
+    {
+      "field": "total_assets",
+      "value": 12431,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/996838250",
+      "retrieved_at": "2026-10-10T09:34:31Z",
+      "evidence": "Annual accounts for the period ending 2022-12-31: total assets 12431 NOK",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Regnskapsregisteret",
+      "changed_from": null,
+      "explanation": "STIFTELSEN GAUSTADKLUBBENS FOND: total_assets = 12431, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "996838250",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "industry",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "nace_code",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "registered",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "language_form",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "description",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

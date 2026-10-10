@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "984371926",
+  "legal_name": "ADVANCED MEDIA ANS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Lianvegen 21, 7025 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "forretningsadresse: Lianvegen 21, 7025 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: address = 'Lianvegen 21, 7025 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "description",
+      "value": "Salg av webløsninger/webdesign. Reklamebyrå, markedsføring.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"aktivitet\": \"Salg av webløsninger/webdesign. Reklamebyrå, markedsføring.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: description = 'Salg av webløsninger/webdesign. Reklamebyrå, markedsføring.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "email",
+      "value": "post@2a.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"epostadresse\": \"post@2a.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: email = 'post@2a.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "founded",
+      "value": "2002-04-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"stiftelsesdato\": \"2002-04-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: founded = '2002-04-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "industry",
+      "value": "Dataprogrammeringstjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Dataprogrammeringstjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: industry = 'Dataprogrammeringstjenester', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "legal_name",
+      "value": "ADVANCED MEDIA ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"navn\": \"ADVANCED MEDIA ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: legal_name = 'ADVANCED MEDIA ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.100",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"62.100\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: nace_code = '62.100', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "phone",
+      "value": "95287636",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"mobil\": \"95287636\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: phone = '95287636', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "postcode",
+      "value": "7025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"postnummer\": \"7025\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: postcode = '7025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "purpose",
+      "value": "Selge reklame, webdesign, web utvikling.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Selge reklame, webdesign, web utvikling.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: purpose = 'Selge reklame, webdesign, web utvikling.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "registered",
+      "value": "2002-04-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2002-04-23\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: registered = '2002-04-23', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    },
+    {
+      "field": "website",
+      "value": "www.2a.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984371926",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"hjemmeside\": \"www.2a.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ADVANCED MEDIA ANS: website = 'www.2a.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "984371926"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

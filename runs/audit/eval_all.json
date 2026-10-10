@@ -1,0 +1,79 @@
+{
+  "companies": 1130,
+  "coverage": 0.9985,
+  "coverage_detail": {
+    "slots": 1368,
+    "filled": 1366,
+    "unavailable_not_counted_as_miss": 0
+  },
+  "per_field": {
+    "legal_name": {
+      "offered": 120,
+      "present": 120
+    },
+    "industry": {
+      "offered": 120,
+      "present": 120
+    },
+    "nace_code": {
+      "offered": 120,
+      "present": 120
+    },
+    "founded": {
+      "offered": 105,
+      "present": 105
+    },
+    "registered": {
+      "offered": 120,
+      "present": 120
+    },
+    "municipality": {
+      "offered": 120,
+      "present": 120
+    },
+    "city": {
+      "offered": 120,
+      "present": 120
+    },
+    "postcode": {
+      "offered": 120,
+      "present": 120
+    },
+    "email": {
+      "offered": 86,
+      "present": 86
+    },
+    "phone": {
+      "offered": 93,
+      "present": 91
+    },
+    "legal_form": {
+      "offered": 120,
+      "present": 120
+    },
+    "website": {
+      "offered": 85,
+      "present": 85
+    },
+    "employees": {
+      "offered": 39,
+      "present": 39
+    }
+  },
+  "supported_fact_rate": 1.0,
+  "facts": 26406,
+  "identity_accuracy": 1.0,
+  "identity_checked": 120,
+  "identity_uncheckable": 1010,
+  "web_only_coverage": 0.0,
+  "web_only_detail": {
+    "slots": 96,
+    "filled": 0
+  },
+  "identity_mismatches": [],
+  "wrong_company_contamination": [],
+  "requests_used": 0,
+  "search_failures": 1,
+  "seconds": 2.18,
+  "notes": []
+}

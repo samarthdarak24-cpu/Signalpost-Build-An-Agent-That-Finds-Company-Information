@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "org_number": "874781932",
+  "legal_name": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T121100Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kaibakken 2, 6509 KRISTIANSUND N",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "forretningsadresse: Kaibakken 2, 6509 KRISTIANSUND N",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: address = 'Kaibakken 2, 6509 KRISTIANSUND N', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Kongens plass 5, 6509 KRISTIANSUND N | Kaibakken 2, 6509 KRISTIANSUND N",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"beliggenhetsadresse\": 'Kongens plass 5, 6509 KRISTIANSUND N' (first of 2)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: business_locations = 'Kongens plass 5, 6509 KRISTIANSUND N | Kaibakken 2, 6509 KRISTIANSUND N', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Synnøve Tangen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"navn\": \"Synnøve Tangen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: ceo = 'Synnøve Tangen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "KRISTIANSUND N",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"poststed\": \"KRISTIANSUND N\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: city = 'KRISTIANSUND N', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Offentlig forvaltning",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"aktivitet\": \"Offentlig forvaltning\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: description = 'Offentlig forvaltning', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "postmottak@kristiansund.kommune.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"epostadresse\": \"postmottak@kristiansund.kommune.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: email = 'postmottak@kristiansund.kommune.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 132,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"antallAnsatte\": 132",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: employees = 132, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1995-01-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"stiftelsesdato\": \"1995-01-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: founded = '1995-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Generell offentlig administrasjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"beskrivelse\": \"Generell offentlig administrasjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: industry = 'Generell offentlig administrasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"navn\": \"KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: legal_name = 'KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 3,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"underenheter\": 2 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: location_count = 3, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "KRISTIANSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"kommune\": \"KRISTIANSUND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: municipality = 'KRISTIANSUND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"kode\": \"84.110\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: nace_code = '84.110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "874781932",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "organisasjonsnummer: \"874781932\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: org_number = '874781932', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "991891919",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"overordnetEnhet\": \"991891919\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: parent_org_number = '991891919', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "71 57 40 38",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"telefon\": \"71 57 40 38\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: phone = '71 57 40 38', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6509",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"postnummer\": \"6509\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: postcode = '6509', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1997-11-04",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1997-11-04\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: registered = '1997-11-04', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/874781932",
+      "retrieved_at": "2026-10-10T12:14:25Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KRISTIANSUND KOMMUNE SENTRALADMINISTRASJON: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "874781932",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

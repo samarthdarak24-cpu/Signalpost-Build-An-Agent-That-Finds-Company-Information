@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "983085644",
+  "legal_name": "ALPACA FOR YOU ANS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Elisenbergveien 18, 0265 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "forretningsadresse: Elisenbergveien 18, 0265 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: address = 'Elisenbergveien 18, 0265 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "description",
+      "value": "Import av produkter i alpakkaull fra Peru. Skjerf, gensere, luer, putevar, tepper samt diverse tekstiler.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"aktivitet\": \"Import av produkter i alpakkaull fra Peru. Skjerf, gensere, luer, putevar, tepper samt diverse tekstiler.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: description = 'Import av produkter i alpakkaull fra Peru. Skjerf, gensere, luer, putevar, tepper samt ...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "email",
+      "value": "vibeke@simplyalpaca.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"epostadresse\": \"vibeke@simplyalpaca.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: email = 'vibeke@simplyalpaca.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "founded",
+      "value": "2001-06-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"stiftelsesdato\": \"2001-06-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: founded = '2001-06-07', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med klær og skotøy",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med klær og skotøy\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: industry = 'Engroshandel med klær og skotøy', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "legal_form",
+      "value": "ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: legal_form = 'ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "legal_name",
+      "value": "ALPACA FOR YOU ANS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"navn\": \"ALPACA FOR YOU ANS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: legal_name = 'ALPACA FOR YOU ANS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.420",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"kode\": \"46.420\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: nace_code = '46.420', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "phone",
+      "value": "47 91 15 20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"telefon\": \"47 91 15 20\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: phone = '47 91 15 20', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "postcode",
+      "value": "0265",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"postnummer\": \"0265\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: postcode = '0265', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "purpose",
+      "value": "Import av produkter i alpakkaull fra Peru for salg i det norske markedet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Import av produkter i alpakkaull fra Peru for salg i det norske markedet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: purpose = 'Import av produkter i alpakkaull fra Peru for salg i det norske markedet.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "registered",
+      "value": "2001-06-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2001-06-11\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: registered = '2001-06-11', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    },
+    {
+      "field": "website",
+      "value": "www.simplyalpaca.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983085644",
+      "retrieved_at": "2026-10-07T16:45:43Z",
+      "evidence": "\"hjemmeside\": \"www.simplyalpaca.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ALPACA FOR YOU ANS: website = 'www.simplyalpaca.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "983085644"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

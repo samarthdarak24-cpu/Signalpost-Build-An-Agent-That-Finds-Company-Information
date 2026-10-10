@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "930708356",
+  "legal_name": "SPECSHIPS DA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T064404Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Isak Abelsen, Sandhorngata 9B, 8008 BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "forretningsadresse: c/o Isak Abelsen, Sandhorngata 9B, 8008 BODØ",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: address = 'c/o Isak Abelsen, Sandhorngata 9B, 8008 BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Isak Abelsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"navn\": \"Isak Abelsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: ceo = 'Isak Abelsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"poststed\": \"BODØ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: city = 'BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Dropshipping er en forretningsmodell som kan brukes innen mange forskjellige bransjer og aktiviteter. Det kan være alt fra klær og sko, til elektronikk, hjemmeinnredning og sportutstyr.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"aktivitet\": \"Dropshipping er en forretningsmodell som kan brukes innen mange forskjellige bransjer og aktiviteter. Det kan være alt fra klær og sko, til elektronikk, hjemmeinnredning og sportutstyr.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: description = 'Dropshipping er en forretningsmodell som kan brukes innen mange forskjellige bransjer o...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-01-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"stiftelsesdato\": \"2023-01-11\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: founded = '2023-01-11', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Detaljhandel med bredt vareutvalg ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"beskrivelse\": \"Detaljhandel med bredt vareutvalg ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: industry = 'Detaljhandel med bredt vareutvalg ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"kode\": \"DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: legal_form = 'DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SPECSHIPS DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"navn\": \"SPECSHIPS DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: legal_name = 'SPECSHIPS DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"kommune\": \"BODØ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: municipality = 'BODØ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "47.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"kode\": \"47.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: nace_code = '47.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "930708356",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "organisasjonsnummer: \"930708356\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: org_number = '930708356', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "partners",
+      "value": "Astrid Lysvold Gårdvik, Isak Abelsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "roles: Astrid Lysvold Gårdvik, Isak Abelsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DTPR (Partner)",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: partners = 'Astrid Lysvold Gårdvik, Isak Abelsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8008",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"postnummer\": \"8008\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: postcode = '8008', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Tilby et bredt utvalg av varer til kundene sine, uten å måtte investere i eget lager eller lagerplass. Dette kan føre til flere fordeler for selskapet og kundene. For selskapet kan dette innebære: Økt konkurransekraft ved å kunne tilby lavere priser enn konkurrentene. Mulighet for å tilby et større utvalg av produkter. Redusert kapitalbinding og mindre risiko ved å ikke ha å ha store investeringer i lager. For kundene kan dette innebære: Lavere priser. Flere valgmuligheter og flere leverandører. Rask levering og god service. På denne måten kan et dropshipping selskap skape en win-win situasjon for både seg selv og sine kunder.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Tilby et bredt utvalg av varer til kundene sine, uten å måtte investere i eget lager eller lagerplass. Dette kan føre til flere fordeler for selskapet og kundene. For selskapet kan dette innebære: Økt konkurransekraft ved å kunne tilby lavere priser enn konkurrentene. Mulighet for å tilby et større utvalg av produkter. Redusert kapitalbinding og mindre risiko ved å ikke ha å ha store investeringer i lager. For kundene kan dette innebære: Lavere priser. Flere valgmuligheter og flere leverandører. Rask levering og god service. På denne måten kan et dropshipping selskap skape en win-win situasjon for både seg selv og sine kunder.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: purpose = 'Tilby et bredt utvalg av varer til kundene sine, uten å måtte investere i eget lager el...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-01-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-01-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: registered = '2023-01-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930708356",
+      "retrieved_at": "2026-10-10T06:44:50Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SPECSHIPS DA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "930708356",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

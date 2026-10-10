@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "org_number": "980440834",
+  "legal_name": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T120559Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Jonas Lies gate 20, 2000 LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "forretningsadresse: Jonas Lies gate 20, 2000 LILLESTRØM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: address = 'Jonas Lies gate 20, 2000 LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Jonas Lies gate 20, 2000 LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"beliggenhetsadresse\": 'Jonas Lies gate 20, 2000 LILLESTRØM' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: business_locations = 'Jonas Lies gate 20, 2000 LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Børge Tomter",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"navn\": \"Børge Tomter\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: ceo = 'Børge Tomter', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"poststed\": \"LILLESTRØM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: city = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Barnevernsvakt",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"aktivitet\": \"Barnevernsvakt\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: description = 'Barnevernsvakt', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "bvvakt@lorenskog.kommune.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"epostadresse\": \"bvvakt@lorenskog.kommune.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: email = 'bvvakt@lorenskog.kommune.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 39,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"antallAnsatte\": 39",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: employees = 39, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1998-01-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"stiftelsesdato\": \"1998-01-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: founded = '1998-01-01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Barneverntjenester",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"beskrivelse\": \"Barneverntjenester\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: industry = 'Barneverntjenester', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"navn\": \"BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: legal_name = 'BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"kommune\": \"LILLESTRØM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: municipality = 'LILLESTRØM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "88.991",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"kode\": \"88.991\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: nace_code = '88.991', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "980440834",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "organisasjonsnummer: \"980440834\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: org_number = '980440834', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "842566142",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"overordnetEnhet\": \"842566142\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: parent_org_number = '842566142', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2000",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"postnummer\": \"2000\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: postcode = '2000', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1999-01-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1999-01-13\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: registered = '1999-01-13', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "barnevernvakten.no/",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/980440834",
+      "retrieved_at": "2026-10-10T12:08:38Z",
+      "evidence": "\"hjemmeside\": \"barnevernvakten.no/\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "BARNEVERNVAKTEN ROMERIKE - ØST POLITIDISTRIKT: website = 'barnevernvakten.no/', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "980440834",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

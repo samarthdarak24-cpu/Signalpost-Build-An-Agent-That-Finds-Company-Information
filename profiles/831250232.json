@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "831250232",
+  "legal_name": "ELITE SKIN CLINIC AHMED",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Per Sivles vei 24A, 1462 FJELLHAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "forretningsadresse: Per Sivles vei 24A, 1462 FJELLHAMAR",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: address = 'Per Sivles vei 24A, 1462 FJELLHAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Per Sivles vei 24A, 1462 FJELLHAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"beliggenhetsadresse\": 'Per Sivles vei 24A, 1462 FJELLHAMAR' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: business_locations = 'Per Sivles vei 24A, 1462 FJELLHAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "FJELLHAMAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"poststed\": \"FJELLHAMAR\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: city = 'FJELLHAMAR', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Hud- og hårbehandlinger, PRP-behandlinger, mesoterapi, fillers, laser, microneedling og Botox.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"aktivitet\": \"Hud- og hårbehandlinger, PRP-behandlinger, mesoterapi, fillers, laser, microneedling og Botox.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: description = 'Hud- og hårbehandlinger, PRP-behandlinger, mesoterapi, fillers, laser, microneedling og...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre helsetjenester ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"beskrivelse\": \"Andre helsetjenester ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: industry = 'Andre helsetjenester ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "ELITE SKIN CLINIC AHMED",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"navn\": \"ELITE SKIN CLINIC AHMED\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: legal_name = 'ELITE SKIN CLINIC AHMED', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LØRENSKOG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"kommune\": \"LØRENSKOG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: municipality = 'LØRENSKOG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "86.993",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"kode\": \"86.993\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: nace_code = '86.993', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "831250232",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "organisasjonsnummer: \"831250232\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: org_number = '831250232', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Rana Ahmed",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"navn\": \"Rana Ahmed\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: owner = 'Rana Ahmed', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1462",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"postnummer\": \"1462\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: postcode = '1462', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/831250232",
+      "retrieved_at": "2026-10-10T09:39:50Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "ELITE SKIN CLINIC AHMED: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "831250232",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

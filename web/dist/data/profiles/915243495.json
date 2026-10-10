@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "915243495",
+  "legal_name": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Liervegen 143, 5555 FØRDE I HORDALAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "forretningsadresse: Liervegen 143, 5555 FØRDE I HORDALAND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: address = 'Liervegen 143, 5555 FØRDE I HORDALAND', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "city",
+      "value": "FØRDE I HORDALAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"poststed\": \"FØRDE I HORDALAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: city = 'FØRDE I HORDALAND', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "description",
+      "value": "Kristelig forkynning.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"aktivitet\": \"Kristelig forkynning.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: description = 'Kristelig forkynning.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "email",
+      "value": "agaasbu@frisurf.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"epostadresse\": \"agaasbu@frisurf.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: email = 'agaasbu@frisurf.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "founded",
+      "value": "2016-03-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"stiftelsesdato\": \"2016-03-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: founded = '2016-03-10', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i religiøse organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i religiøse organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: industry = 'Aktiviteter i religiøse organisasjoner', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "legal_form",
+      "value": "SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"kode\": \"SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "legal_name",
+      "value": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"navn\": \"7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: legal_name = '7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "municipality",
+      "value": "SVEIO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"kommune\": \"SVEIO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: municipality = 'SVEIO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.910",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"kode\": \"94.910\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: nace_code = '94.910', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "phone",
+      "value": "91778044",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"mobil\": \"91778044\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: phone = '91778044', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "postcode",
+      "value": "5555",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"postnummer\": \"5555\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: postcode = '5555', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "purpose",
+      "value": "Kristen forkynning gjennom bibelundervisning, samt innsamling av midlar til misjonsorganisasjonar som held talar.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Kristen forkynning gjennom bibelundervisning, samt innsamling av midlar til misjonsorganisasjonar som held talar.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: purpose = 'Kristen forkynning gjennom bibelundervisning, samt innsamling av midlar til misjonsorga...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "registered",
+      "value": "2016-08-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2016-08-18\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: registered = '2016-08-18', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915243495",
+      "retrieved_at": "2026-10-07T16:45:38Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "7-STJERNA, SAMARBEIDET FOR BEDEHUSA I SVEIO SA: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "915243495"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

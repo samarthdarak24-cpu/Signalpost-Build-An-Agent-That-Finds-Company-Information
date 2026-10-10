@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "990962545",
+  "legal_name": "ATELIER ILSVIKA SA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Mellomila 56, 7018 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "forretningsadresse: Mellomila 56, 7018 TRONDHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: address = 'Mellomila 56, 7018 TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "city",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"poststed\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: city = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "description",
+      "value": "Primæroppgave for AI SA er å drive og utvikle kontor- og aterlierfellesskapet på en måte som tjener medlemsforetakene på en god måte. AI SA har ingen ansatte, og drives i all hovedsak dugnadsbasert gjennom at alle medlemsforetakene bidrar i arbeidet med å utvikle den felles arbeidsplassen til det beste for fellesskapet. Som del av dette er bidrar medlemsforetakene i arbeidet med tilrettelegging for utleie av fellesareal/temporære plasser, gjennomføre aktiviteter og arrangement knyttet til medlemmenes virksomhet og kompetanse. Drive salg av mat og drikke i sammenheng med utleie og arrangement i egen regi.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"aktivitet\": \"Primæroppgave for AI SA er å drive og utvikle kontor- og aterlierfellesskapet på en måte som tjener medlemsforetakene på en god måte. AI SA har ingen ansatte, og drives i all hovedsak dugnadsbasert gjennom at alle medlemsforetakene bidrar i arbeidet med å utvikle den felles arbeidsplassen til det beste for fellesskapet. Som del av dette er bidrar medlemsforetakene i arbeidet med tilrettelegging for utleie av fellesareal/temporære plasser, gjennomføre aktiviteter og arrangement knyttet til medlemmenes virksomhet og kompetanse. Drive salg av mat og drikke i sammenheng med utleie og arrangement i egen regi.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: description = 'Primæroppgave for AI SA er å drive og utvikle kontor- og aterlierfellesskapet på en måt...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "founded",
+      "value": "2007-01-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"stiftelsesdato\": \"2007-01-10\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: founded = '2007-01-10', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "industry",
+      "value": "Utleie av egen eller leid fast eiendom",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"beskrivelse\": \"Utleie av egen eller leid fast eiendom\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: industry = 'Utleie av egen eller leid fast eiendom', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "legal_form",
+      "value": "SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kode\": \"SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: legal_form = 'SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "legal_name",
+      "value": "ATELIER ILSVIKA SA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"navn\": \"ATELIER ILSVIKA SA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: legal_name = 'ATELIER ILSVIKA SA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "municipality",
+      "value": "TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kommune\": \"TRONDHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: municipality = 'TRONDHEIM', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "nace_code",
+      "value": "68.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"kode\": \"68.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: nace_code = '68.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "postcode",
+      "value": "7018",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"postnummer\": \"7018\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: postcode = '7018', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "purpose",
+      "value": "Ai SA leier lokaler som har som mål å være arbeidsplass, og et skapende nettverk for profesjonelle små foretak med inntil 5 ansatte. Ved flere enn 5 ansatte, skal dette styrebehandles. AI SA drives som et ideelt foretak, og aktørene skal i hovedsak være innen kunst, design, arkitektur, medier, foto, tekst eller andre skapende næringer. AI SA skal legge til rette for faglig utveksling, nyskaping og formidling i samarbeid mellom de enkelte foretakene, skape inntjening nok til sunn drift med mål om lavest mulig leiekostnader for sine medlemmer.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Ai SA leier lokaler som har som mål å være arbeidsplass, og et skapende nettverk for profesjonelle små foretak med inntil 5 ansatte. Ved flere enn 5 ansatte, skal dette styrebehandles. AI SA drives som et ideelt foretak, og aktørene skal i hovedsak være innen kunst, design, arkitektur, medier, foto, tekst eller andre skapende næringer. AI SA skal legge til rette for faglig utveksling, nyskaping og formidling i samarbeid mellom de enkelte foretakene, skape inntjening nok til sunn drift med mål om lavest mulig leiekostnader for sine medlemmer.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: purpose = 'Ai SA leier lokaler som har som mål å være arbeidsplass, og et skapende nettverk for pr...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "registered",
+      "value": "2007-03-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2007-03-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: registered = '2007-03-07', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    },
+    {
+      "field": "website",
+      "value": "www.atelierilsvika.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990962545",
+      "retrieved_at": "2026-10-07T16:45:44Z",
+      "evidence": "\"hjemmeside\": \"www.atelierilsvika.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "ATELIER ILSVIKA SA: website = 'www.atelierilsvika.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "990962545"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

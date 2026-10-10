@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "org_number": "998804949",
+  "legal_name": "DOF MANAGEMENT PTE LTD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T092223Z",
+  "fact_count": 12,
+  "facts": [
+    {
+      "field": "ceo",
+      "value": "Narve Andre Våge",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"navn\": \"Narve Andre Våge\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: ceo = 'Narve Andre Våge', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Rederidrift/managementvirksomhet knyttet til drift av offshore skip, herunder teknisk drift, bemanning mv. av offshore skip, samt hva hermed står i forbindelse.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"aktivitet\": \"Rederidrift/managementvirksomhet knyttet til drift av offshore skip, herunder teknisk drift, bemanning mv. av offshore skip, samt hva hermed står i forbindelse.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: description = 'Rederidrift/managementvirksomhet knyttet til drift av offshore skip, herunder teknisk d...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Utenriks sjøfart med passasjerer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"beskrivelse\": \"Utenriks sjøfart med passasjerer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: industry = 'Utenriks sjøfart med passasjerer', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "DOF MANAGEMENT PTE LTD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"navn\": \"DOF MANAGEMENT PTE LTD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: legal_name = 'DOF MANAGEMENT PTE LTD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "50.101",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"kode\": \"50.101\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: nace_code = '50.101', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "998804949",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "organisasjonsnummer: \"998804949\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: org_number = '998804949', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "56 18 10 00",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"telefon\": \"56 18 10 00\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: phone = '56 18 10 00', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2012-09-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2012-09-19\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: registered = '2012-09-19', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998804949",
+      "retrieved_at": "2026-10-10T09:23:11Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "DOF MANAGEMENT PTE LTD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "998804949",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "city",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "address",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "850719942",
+  "legal_name": "24 CHILLOUT MUSIC Helge Krabye",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 15,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Lillogata 14, 0484 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "forretningsadresse: Lillogata 14, 0484 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: address = 'Lillogata 14, 0484 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "description",
+      "value": "Produksjon av musikk for film, TV, multimedia og plater, samt produksjon av multimedia-applikasjoner for internett, CD-ROM og DVD.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"aktivitet\": \"Produksjon av musikk for film, TV, multimedia og plater, samt produksjon av multimedia-applikasjoner for internett, CD-ROM og DVD.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: description = 'Produksjon av musikk for film, TV, multimedia og plater, samt produksjon av multimedia-...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "email",
+      "value": "hkrabye@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"epostadresse\": \"hkrabye@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: email = 'hkrabye@gmail.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "industry",
+      "value": "Produksjon og utgivelse av musikk- og lydopptak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Produksjon og utgivelse av musikk- og lydopptak\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: industry = 'Produksjon og utgivelse av musikk- og lydopptak', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "legal_name",
+      "value": "24 CHILLOUT MUSIC Helge Krabye",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"navn\": \"24 CHILLOUT MUSIC Helge Krabye\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: legal_name = '24 CHILLOUT MUSIC Helge Krabye', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "nace_code",
+      "value": "59.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"59.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: nace_code = '59.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "phone",
+      "value": "22 37 67 65",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"telefon\": \"22 37 67 65\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: phone = '22 37 67 65', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "postcode",
+      "value": "0484",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"postnummer\": \"0484\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: postcode = '0484', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "registered",
+      "value": "1995-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-03-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: registered = '1995-03-12', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    },
+    {
+      "field": "website",
+      "value": "www.homelessballoon.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"hjemmeside\": \"www.homelessballoon.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "24 CHILLOUT MUSIC Helge Krabye: website = 'www.homelessballoon.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "850719942"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.homelessballoon.com",
+      "new": null,
+      "detected_at": "2026-10-07T16:45:37Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/850719942",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

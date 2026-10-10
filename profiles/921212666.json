@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "org_number": "921212666",
+  "legal_name": "NES - MASKIN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Veitastrondsvegen 2244, 6878 VEITASTROND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "forretningsadresse: Veitastrondsvegen 2244, 6878 VEITASTROND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: address = 'Veitastrondsvegen 2244, 6878 VEITASTROND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Veitastrondsvegen 2244, 6878 VEITASTROND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"beliggenhetsadresse\": 'Veitastrondsvegen 2244, 6878 VEITASTROND' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: business_locations = 'Veitastrondsvegen 2244, 6878 VEITASTROND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VEITASTROND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"poststed\": \"VEITASTROND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: city = 'VEITASTROND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Grunnarbeid (graving, drenering, sprengning, planering). Fôrproduksjon, grasproduksjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"aktivitet\": \"Grunnarbeid (graving, drenering, sprengning, planering). Fôrproduksjon, grasproduksjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: description = 'Grunnarbeid (graving, drenering, sprengning, planering). Fôrproduksjon, grasproduksjon.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Grunnarbeid",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"beskrivelse\": \"Grunnarbeid\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: industry = 'Grunnarbeid', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NES - MASKIN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"navn\": \"NES - MASKIN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: legal_name = 'NES - MASKIN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LUSTER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"kommune\": \"LUSTER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: municipality = 'LUSTER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "43.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"kode\": \"43.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: nace_code = '43.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "921212666",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "organisasjonsnummer: \"921212666\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: org_number = '921212666', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Ole Jørgen Herlofsen Nes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"navn\": \"Ole Jørgen Herlofsen Nes\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: owner = 'Ole Jørgen Herlofsen Nes', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6878",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"postnummer\": \"6878\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: postcode = '6878', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-08-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-08-02\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: registered = '2018-08-02', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921212666",
+      "retrieved_at": "2026-10-10T10:04:03Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NES - MASKIN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921212666",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

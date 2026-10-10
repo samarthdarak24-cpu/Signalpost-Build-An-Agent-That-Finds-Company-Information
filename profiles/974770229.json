@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "974770229",
+  "legal_name": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T121100Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Julsundvegen 9, 6412 MOLDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "forretningsadresse: Julsundvegen 9, 6412 MOLDE",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: address = 'Julsundvegen 9, 6412 MOLDE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Fosnagata 13, 6509 KRISTIANSUND N | Julsundvegen 9, 6412 MOLDE | Vestre Olsvikveg 13, 6019 ÅLESUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"beliggenhetsadresse\": 'Fosnagata 13, 6509 KRISTIANSUND N' (first of 3)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: business_locations = 'Fosnagata 13, 6509 KRISTIANSUND N | Julsundvegen 9, 6412 MOLDE | Vestre Olsvikveg 13, 6...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Gunn Randi Seime",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"navn\": \"Gunn Randi Seime\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: ceo = 'Gunn Randi Seime', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "MOLDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"poststed\": \"MOLDE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: city = 'MOLDE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Samferdselstenester innan veg og kollektivtrafikk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"aktivitet\": \"Samferdselstenester innan veg og kollektivtrafikk\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: description = 'Samferdselstenester innan veg og kollektivtrafikk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 179,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"antallAnsatte\": 179",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: employees = 179, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1970-12-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"stiftelsesdato\": \"1970-12-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: founded = '1970-12-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"beskrivelse\": \"Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: industry = 'Offentlig administrasjon tilknyttet næringsvirksomhet og arbeidsmarked', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ORGL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"kode\": \"ORGL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: legal_form = 'ORGL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"navn\": \"MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: legal_name = 'MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 4,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"underenheter\": 3 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: location_count = 4, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "MOLDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"kommune\": \"MOLDE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: municipality = 'MOLDE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "84.130",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"kode\": \"84.130\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: nace_code = '84.130', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "974770229",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "organisasjonsnummer: \"974770229\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: org_number = '974770229', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "parent_org_number",
+      "value": "944183779",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"overordnetEnhet\": \"944183779\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret overordnetEnhet",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: parent_org_number = '944183779', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "71 25 87 50",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"telefon\": \"71 25 87 50\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: phone = '71 25 87 50', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6412",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"postnummer\": \"6412\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: postcode = '6412', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1996-05-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1996-05-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: registered = '1996-05-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Kommuneforvaltningen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "\"beskrivelse\": \"Kommuneforvaltningen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: sector = 'Kommuneforvaltningen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/974770229",
+      "retrieved_at": "2026-10-10T12:11:17Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MØRE OG ROMSDAL FYLKESKOMMUNE SAMFERDSELSOMRÅDET: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "974770229",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

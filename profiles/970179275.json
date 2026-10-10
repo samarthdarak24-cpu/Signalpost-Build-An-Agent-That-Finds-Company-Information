@@ -1,0 +1,499 @@
+{
+  "schema_version": "1.0",
+  "org_number": "970179275",
+  "legal_name": "VARHAUG IDRETTSLAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100900Z",
+  "fact_count": 25,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Opstadvegen 583, 4360 VARHAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "forretningsadresse: Opstadvegen 583, 4360 VARHAUG",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: address = 'Opstadvegen 583, 4360 VARHAUG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Christopher Forsmo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"navn\": \"Christopher Forsmo\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: board_chair = 'Christopher Forsmo', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Jane Helen Jelsa, Christian Grove",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "roles: Jane Helen Jelsa, Christian Grove",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: board_deputies = 'Jane Helen Jelsa, Christian Grove', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Kenneth Skrettingland, Geir Egil Rosland, Gunn Berit Frøyland, Monica Mørk Aase, Birte Varhaug",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "roles: Kenneth Skrettingland, Geir Egil Rosland, Gunn Berit Frøyland, Monica Mørk Aase, Birte Varhaug",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: board_members = 'Kenneth Skrettingland, Geir Egil Rosland, Gunn Berit Frøyland, Monica Mørk Aase, Birte ...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Opstadvegen 583, 4360 VARHAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"beliggenhetsadresse\": 'Opstadvegen 583, 4360 VARHAUG' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: business_locations = 'Opstadvegen 583, 4360 VARHAUG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Sigrid Lode-Knutsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"navn\": \"Sigrid Lode-Knutsen\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: ceo = 'Sigrid Lode-Knutsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "VARHAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"poststed\": \"VARHAUG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: city = 'VARHAUG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Idrettslag.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"aktivitet\": \"Idrettslag.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: description = 'Idrettslag.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@vil.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"epostadresse\": \"post@vil.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: email = 'post@vil.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "employees",
+      "value": 31,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"antallAnsatte\": 31",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field antallAnsatte",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: employees = 31, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1932-08-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"stiftelsesdato\": \"1932-08-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: founded = '1932-08-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "VARHAUG IDRETTSLAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"navn\": \"VARHAUG IDRETTSLAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: legal_name = 'VARHAUG IDRETTSLAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "HÅ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"kommune\": \"HÅ\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: municipality = 'HÅ', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "970179275",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "organisasjonsnummer: \"970179275\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: org_number = '970179275', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "51 43 04 01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"telefon\": \"51 43 04 01\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: phone = '51 43 04 01', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4360",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"postnummer\": \"4360\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: postcode = '4360', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1995-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1995-02-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: registered = '1995-02-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.vil.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/970179275",
+      "retrieved_at": "2026-10-10T10:09:31Z",
+      "evidence": "\"hjemmeside\": \"www.vil.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "VARHAUG IDRETTSLAG: website = 'www.vil.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "970179275",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

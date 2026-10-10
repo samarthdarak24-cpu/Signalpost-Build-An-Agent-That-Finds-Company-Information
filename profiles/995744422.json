@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "org_number": "995744422",
+  "legal_name": "STAVANGER SJAKKLUBB UNGDOM",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T102959Z",
+  "fact_count": 22,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "forretningsadresse: c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: address = 'c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Lasse Østebø Løvik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"navn\": \"Lasse Østebø Løvik\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: board_chair = 'Lasse Østebø Løvik', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Gaute Ljones, Johnny Nilsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "roles: Gaute Ljones, Johnny Nilsen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: board_members = 'Gaute Ljones, Johnny Nilsen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"beliggenhetsadresse\": 'c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: business_locations = 'c/o Lasse Østebø Løvik, Bruvikveien 21, 4017 STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"poststed\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: city = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Undervise sjakk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"aktivitet\": \"Undervise sjakk\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: description = 'Undervise sjakk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "loviklasse@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"epostadresse\": \"loviklasse@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: email = 'loviklasse@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2011-01-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"stiftelsesdato\": \"2011-01-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: founded = '2011-01-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Undervisning innenfor idrett og rekreasjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"beskrivelse\": \"Undervisning innenfor idrett og rekreasjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: industry = 'Undervisning innenfor idrett og rekreasjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STAVANGER SJAKKLUBB UNGDOM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"navn\": \"STAVANGER SJAKKLUBB UNGDOM\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: legal_name = 'STAVANGER SJAKKLUBB UNGDOM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"kommune\": \"STAVANGER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: municipality = 'STAVANGER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.510",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"kode\": \"85.510\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: nace_code = '85.510', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "995744422",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "organisasjonsnummer: \"995744422\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: org_number = '995744422', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "994 34 677",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"mobil\": \"994 34 677\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: phone = '994 34 677', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4017",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"postnummer\": \"4017\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: postcode = '4017', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2011-01-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2011-01-28\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: registered = '2011-01-28', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.stavangersku.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995744422",
+      "retrieved_at": "2026-10-10T10:31:18Z",
+      "evidence": "\"hjemmeside\": \"www.stavangersku.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "STAVANGER SJAKKLUBB UNGDOM: website = 'www.stavangersku.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "995744422",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

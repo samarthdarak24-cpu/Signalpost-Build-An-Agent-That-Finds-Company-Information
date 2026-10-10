@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "915143431",
+  "legal_name": "SUNNFJORD IDRETTSLAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084502Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Solvang 3, 6810 FØRDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "forretningsadresse: Solvang 3, 6810 FØRDE",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: address = 'Solvang 3, 6810 FØRDE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "John Sverre Aarseth, Tor Emil Olsen Foslid, Anders Alvaro Gjengedal Nydal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "roles: John Sverre Aarseth, Tor Emil Olsen Foslid, Anders Alvaro Gjengedal Nydal",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: board_members = 'John Sverre Aarseth, Tor Emil Olsen Foslid, Anders Alvaro Gjengedal Nydal', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "FØRDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"poststed\": \"FØRDE\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: city = 'FØRDE', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Formål er å drive idrett organisert i Norges idrettsforbund og olympiske og paralympiske komité. Arbeidet skal pregast av frivilligheit, demokrati, lojalitet og likeverd. All idrettsleg aktivitet skal byggje på grunnverdiar som idrettsglede, fellesskap, helse og ærlegdom.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"aktivitet\": \"Formål er å drive idrett organisert i Norges idrettsforbund og olympiske og paralympiske komité. Arbeidet skal pregast av frivilligheit, demokrati, lojalitet og likeverd. All idrettsleg aktivitet skal byggje på grunnverdiar som idrettsglede, fellesskap, helse og ærlegdom.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: description = 'Formål er å drive idrett organisert i Norges idrettsforbund og olympiske og paralympisk...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "otelie@sunnfjord.fhs.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"epostadresse\": \"otelie@sunnfjord.fhs.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: email = 'otelie@sunnfjord.fhs.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2014-05-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"stiftelsesdato\": \"2014-05-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: founded = '2014-05-12', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SUNNFJORD IDRETTSLAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"navn\": \"SUNNFJORD IDRETTSLAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: legal_name = 'SUNNFJORD IDRETTSLAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SUNNFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"kommune\": \"SUNNFJORD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: municipality = 'SUNNFJORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "915143431",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "organisasjonsnummer: \"915143431\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: org_number = '915143431', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "47456074",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"mobil\": \"47456074\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: phone = '47456074', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6810",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"postnummer\": \"6810\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: postcode = '6810', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2015-03-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2015-03-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: registered = '2015-03-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.facebook.com/sunnfjordil",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915143431",
+      "retrieved_at": "2026-10-10T08:48:01Z",
+      "evidence": "\"hjemmeside\": \"www.facebook.com/sunnfjordil\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "SUNNFJORD IDRETTSLAG: website = 'www.facebook.com/sunnfjordil', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "915143431",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

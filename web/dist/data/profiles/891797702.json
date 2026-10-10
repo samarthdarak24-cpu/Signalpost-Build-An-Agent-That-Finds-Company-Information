@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "org_number": "891797702",
+  "legal_name": "NORTH ENERGY ASA",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Tjuvholmen allé 19, 0252 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "forretningsadresse: Tjuvholmen allé 19, 0252 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: address = 'Tjuvholmen allé 19, 0252 OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "description",
+      "value": "Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet olje- og gassindustrien, og andre industrier der selskapet har relevant kunnskap.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"aktivitet\": \"Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet olje- og gassindustrien, og andre industrier der selskapet har relevant kunnskap.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: description = 'Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet ...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "email",
+      "value": "post@northenergy.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"epostadresse\": \"post@northenergy.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: email = 'post@northenergy.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "founded",
+      "value": "2007-09-04",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"stiftelsesdato\": \"2007-09-04\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: founded = '2007-09-04', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "industry",
+      "value": "Uoppgitt",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Uoppgitt\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: industry = 'Uoppgitt', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2025",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: latest_accounts_year = '2025', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "legal_form",
+      "value": "ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: legal_form = 'ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "legal_name",
+      "value": "NORTH ENERGY ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"navn\": \"NORTH ENERGY ASA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: legal_name = 'NORTH ENERGY ASA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "nace_code",
+      "value": "00.000",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"kode\": \"00.000\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: nace_code = '00.000', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "postcode",
+      "value": "0252",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"postnummer\": \"0252\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: postcode = '0252', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "purpose",
+      "value": "Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet olje- og gassindustrien, og andre industrier der selskapet har relevant kunnskap.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet olje- og gassindustrien, og andre industrier der selskapet har relevant kunnskap.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: purpose = 'Selskapet skal, direkte eller indirekte eie, drive og finansiere virksomhet tilknyttet ...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "registered",
+      "value": "2007-11-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2007-11-01\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: registered = '2007-11-01', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    },
+    {
+      "field": "website",
+      "value": "www.northenergy.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/891797702",
+      "retrieved_at": "2026-10-07T16:45:37Z",
+      "evidence": "\"hjemmeside\": \"www.northenergy.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "NORTH ENERGY ASA: website = 'www.northenergy.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "891797702"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

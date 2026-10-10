@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "org_number": "926756729",
+  "legal_name": "1BYGG AS",
+  "run_date": "2026-10-07",
+  "run_id": "20261007T164537Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Sankt Hallvards vei 3, 3414 LIERSTRANDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "forretningsadresse: Sankt Hallvards vei 3, 3414 LIERSTRANDA",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "1BYGG AS: address = 'Sankt Hallvards vei 3, 3414 LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "city",
+      "value": "LIERSTRANDA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"poststed\": \"LIERSTRANDA\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "1BYGG AS: city = 'LIERSTRANDA', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "description",
+      "value": "Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"aktivitet\": \"Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "1BYGG AS: description = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "founded",
+      "value": "2021-02-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"stiftelsesdato\": \"2021-02-12\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "1BYGG AS: founded = '2021-02-12', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "1BYGG AS: industry = 'Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "1BYGG AS: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "latest_accounts_year",
+      "value": "2024",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"sisteInnsendteAarsregnskap\": \"2024\"",
+      "match_proof": "registry",
+      "confidence": 0.94,
+      "layer": "registry",
+      "method": "Enhetsregisteret field sisteInnsendteAarsregnskap",
+      "changed_from": null,
+      "explanation": "1BYGG AS: latest_accounts_year = '2024', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "legal_form",
+      "value": "AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "1BYGG AS: legal_form = 'AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "legal_name",
+      "value": "1BYGG AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"navn\": \"1BYGG AS\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "1BYGG AS: legal_name = '1BYGG AS', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "municipality",
+      "value": "LIER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kommune\": \"LIER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "1BYGG AS: municipality = 'LIER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.830",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"kode\": \"46.830\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "1BYGG AS: nace_code = '46.830', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "postcode",
+      "value": "3414",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"postnummer\": \"3414\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "1BYGG AS: postcode = '3414', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "purpose",
+      "value": "Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "1BYGG AS: purpose = 'Handel med byggevarer samt annen virksomhet som naturlig hører inn under dette.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "registered",
+      "value": "2021-03-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2021-03-09\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "1BYGG AS: registered = '2021-03-09', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "1BYGG AS: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    },
+    {
+      "field": "website",
+      "value": "1bygg.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729",
+      "retrieved_at": "2026-10-07T16:45:40Z",
+      "evidence": "\"hjemmeside\": \"1bygg.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "1BYGG AS: website = '1bygg.no', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "926756729"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

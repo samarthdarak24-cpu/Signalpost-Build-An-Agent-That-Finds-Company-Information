@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931250531",
+  "legal_name": "KW BYGG WALICKI",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Amund Sjøbrends veg 7, 2110 SLÅSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "forretningsadresse: Amund Sjøbrends veg 7, 2110 SLÅSTAD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: address = 'Amund Sjøbrends veg 7, 2110 SLÅSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Amund Sjøbrends veg 7, 2110 SLÅSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"beliggenhetsadresse\": 'Amund Sjøbrends veg 7, 2110 SLÅSTAD' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: business_locations = 'Amund Sjøbrends veg 7, 2110 SLÅSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "SLÅSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"poststed\": \"SLÅSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: city = 'SLÅSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Snekkerarbeid, montering av dører, vinduer, kjøkken med mer. Malertjenester. Tømrer, oppføring og vedlikehold av bygninger.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"aktivitet\": \"Snekkerarbeid, montering av dører, vinduer, kjøkken med mer. Malertjenester. Tømrer, oppføring og vedlikehold av bygninger.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: description = 'Snekkerarbeid, montering av dører, vinduer, kjøkken med mer. Malertjenester. Tømrer, op...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "kwbygg@yahoo.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"epostadresse\": \"kwbygg@yahoo.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: email = 'kwbygg@yahoo.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Snekkerarbeid",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"beskrivelse\": \"Snekkerarbeid\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: industry = 'Snekkerarbeid', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "KW BYGG WALICKI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"navn\": \"KW BYGG WALICKI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: legal_name = 'KW BYGG WALICKI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SØR-ODAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"kommune\": \"SØR-ODAL\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: municipality = 'SØR-ODAL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "43.320",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"kode\": \"43.320\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: nace_code = '43.320', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931250531",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "organisasjonsnummer: \"931250531\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: org_number = '931250531', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Krzysztof Stanislaw Walicki",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"navn\": \"Krzysztof Stanislaw Walicki\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: owner = 'Krzysztof Stanislaw Walicki', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "96716826",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"mobil\": \"96716826\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: phone = '96716826', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2110",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"postnummer\": \"2110\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: postcode = '2110', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250531",
+      "retrieved_at": "2026-10-10T09:40:29Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "KW BYGG WALICKI: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931250531",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

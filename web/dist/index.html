@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signalpost Evidence Engine</title>
+<meta name="description" content="Company profiles from Norwegian open registers, where every fact carries its receipt.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2317161a'/><path d='M10 22V10h4.6a4.4 4.4 0 010 8.8H10' stroke='%23f7f6f3' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>">
+</head>
+<body>
+<h2 class="sr-only">Signalpost Evidence Engine console: browse company profiles in which every published value carries a source, a retrieval date and a confidence score.</h2>
+
+<div class="shell">
+  <aside class="rail" aria-label="Company list">
+    <div class="rail__head">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true">S</div>
+        <div class="brand__text">
+          <div class="brand__title">Signalpost</div>
+          <div class="brand__sub">evidence engine</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rail__search">
+      <label class="field">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4 14 14" stroke-linecap="round"/>
+        </svg>
+        <input id="q" type="search" placeholder="name or organisation number" autocomplete="off" spellcheck="false" aria-label="Search companies">
+      </label>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter companies">
+      <button class="chip" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip" data-filter="proven" aria-pressed="false">Ownership proven</button>
+      <button class="chip" data-filter="weak" aria-pressed="false">Weak match</button>
+      <button class="chip" data-filter="changed" aria-pressed="false">Changed</button>
+    </div>
+
+    <div class="rail__list" id="list" role="listbox" aria-label="Companies"></div>
+
+    <div class="rail__foot">
+      <span id="listmeta">loading</span>
+      <span id="livestate" class="tiny"></span>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="placeholder">
+      <div class="placeholder__inner">
+        <div class="placeholder__mark" aria-hidden="true">
+          <div class="spinner"></div>
+        </div>
+        <h2>Reading the profiles</h2>
+        <p>Loading the run output from the engine.</p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+<script>
+/* An in-browser walkthrough of the two claims that matter: the cost cascade, and
+ * the evidence on every fact. Runs against whatever data the page loaded, so it
+ * shows real output rather than a scripted fixture. */
+(function () {
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function walkthrough() {
+    // 1. Pick the company with the most web-proven facts.
+    const rows = Array.from(document.querySelectorAll('.row'));
+    const withWeb = rows.filter((r) => {
+      const card = document.querySelector(`.row[data-orgnr="${r.dataset.orgnr}"]`);
+      return card && card.querySelector('.dot--strong');
+    });
+    const target = (withWeb[0] || rows[0]);
+    if (!target) return;
+    target.click();
+    await sleep(1400);
+
+    // 2. Let the cascade settle, then move through the layers in order.
+    const stages = Array.from(document.querySelectorAll('.stage'));
+    for (const stage of stages) {
+      stage.style.transition = 'box-shadow .3s ease';
+      stage.style.borderRadius = '8px';
+      stage.style.boxShadow = '0 0 0 2px var(--rules)';
+      await sleep(420);
+      stage.style.boxShadow = '';
+    }
+
+    // 3. Open the first fact that carries the organisation number as proof.
+    await sleep(300);
+    const proven = document.querySelector('.fact .tag--orgnr_on_page');
+    const fact = proven ? proven.closest('.fact') : document.querySelector('.fact');
+    if (fact) {
+      fact.querySelector('.fact__head').click();
+      await sleep(500);
+      fact.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  if (new URLSearchParams(location.search).get('walkthrough') === '1') {
+    const started = Date.now();
+    const timer = setInterval(() => {
+      if (document.querySelector('.row')) {
+        clearInterval(timer);
+        walkthrough();
+      } else if (Date.now() - started > 8000) {
+        clearInterval(timer);
+      }
+    }, 250);
+  }
+})();
+</script>
+</body>
+</html>

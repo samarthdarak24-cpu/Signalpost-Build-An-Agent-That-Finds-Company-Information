@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.0",
+  "org_number": "979388306",
+  "legal_name": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T115559Z",
+  "fact_count": 23,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Torggata 15, 0181 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "forretningsadresse: Torggata 15, 0181 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: address = 'Torggata 15, 0181 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Rannveig Bærheim",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"navn\": \"Rannveig Bærheim\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: board_chair = 'Rannveig Bærheim', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Berit Lånke, Åge Ronald Rosnes, Sylvia Eldbjørg Labugt, Ingjerd Hovdenakk, Odd Arne Aadneram, Karin Ståhl Woldseth",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "roles: Berit Lånke, Åge Ronald Rosnes, Sylvia Eldbjørg Labugt, Ingjerd Hovdenakk, Odd Arne Aadneram, Karin Ståhl Woldseth",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: board_members = 'Berit Lånke, Åge Ronald Rosnes, Sylvia Eldbjørg Labugt, Ingjerd Hovdenakk, Odd Arne Aad...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Torggata 15, 0181 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"beliggenhetsadresse\": 'Torggata 15, 0181 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: business_locations = 'Torggata 15, 0181 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Wenche Sandlie",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"navn\": \"Wenche Sandlie\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: ceo = 'Wenche Sandlie', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Pensjonist-forening",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"aktivitet\": \"Pensjonist-forening\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: description = 'Pensjonist-forening', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "post@lop.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"epostadresse\": \"post@lop.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: email = 'post@lop.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1939-02-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"stiftelsesdato\": \"1939-02-15\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: founded = '1939-02-15', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"navn\": \"LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: legal_name = 'LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "979388306",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "organisasjonsnummer: \"979388306\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: org_number = '979388306', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "22 42 22 55",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"telefon\": \"22 42 22 55\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: phone = '22 42 22 55', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0181",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"postnummer\": \"0181\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: postcode = '0181', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1997-12-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1997-12-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: registered = '1997-12-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.lop.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979388306",
+      "retrieved_at": "2026-10-10T11:56:13Z",
+      "evidence": "\"hjemmeside\": \"www.lop.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "LOP LANDSFORBUNDET FOR OFFENTLIGE PENSJONISTER: website = 'www.lop.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "979388306",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

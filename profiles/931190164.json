@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931190164",
+  "legal_name": "NERLAND GÅRD DA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Vadsetvegen 41, 6264 TENNFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "forretningsadresse: Vadsetvegen 41, 6264 TENNFJORD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: address = 'Vadsetvegen 41, 6264 TENNFJORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "TENNFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"poststed\": \"TENNFJORD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: city = 'TENNFJORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Småskala landbruksvirksomhet med produksjon av grovfôr/høy i Rundball. Inn på tunet aktivitet-ta imot små grupper med mennesker/barn som har en utfordrende hverdag f.eks. skole, demens, arbeidsavklaring o.l., til å delta i arbeidet med dyrene og livet på gården. Produksjon av ved, ved hogst og skoging for salg av ved. Sau/geit for beiting og vedlikehold av skogsområder, og kjøttproduksjon.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"aktivitet\": \"Småskala landbruksvirksomhet med produksjon av grovfôr/høy i Rundball. Inn på tunet aktivitet-ta imot små grupper med mennesker/barn som har en utfordrende hverdag f.eks. skole, demens, arbeidsavklaring o.l., til å delta i arbeidet med dyrene og livet på gården. Produksjon av ved, ved hogst og skoging for salg av ved. Sau/geit for beiting og vedlikehold av skogsområder, og kjøttproduksjon.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: description = 'Småskala landbruksvirksomhet med produksjon av grovfôr/høy i Rundball. Inn på tunet akt...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "evalinnringdal@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"epostadresse\": \"evalinnringdal@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: email = 'evalinnringdal@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2023-03-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"stiftelsesdato\": \"2023-03-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: founded = '2023-03-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Dyrking av ettårige vekster ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"beskrivelse\": \"Dyrking av ettårige vekster ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: industry = 'Dyrking av ettårige vekster ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kode\": \"DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: legal_form = 'DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "NERLAND GÅRD DA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"navn\": \"NERLAND GÅRD DA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: legal_name = 'NERLAND GÅRD DA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "HARAM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kommune\": \"HARAM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: municipality = 'HARAM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.190",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"kode\": \"01.190\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: nace_code = '01.190', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931190164",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "organisasjonsnummer: \"931190164\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: org_number = '931190164', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "partners",
+      "value": "Eva-Linn Ringdal, Gerhard Nerhus Andersen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "roles: Eva-Linn Ringdal, Gerhard Nerhus Andersen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DTPR (Partner)",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: partners = 'Eva-Linn Ringdal, Gerhard Nerhus Andersen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "+4791130086",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"mobil\": \"+4791130086\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: phone = '+4791130086', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "6264",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"postnummer\": \"6264\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: postcode = '6264', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "purpose",
+      "value": "Gårdsdrift og Inn på tunet virksomhet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"vedtektsfestetFormaal\": \"Gårdsdrift og Inn på tunet virksomhet.\"",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret field vedtektsfestetFormaal",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: purpose = 'Gårdsdrift og Inn på tunet virksomhet.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlige foretak",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "\"beskrivelse\": \"Personlige foretak\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: sector = 'Personlige foretak', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931190164",
+      "retrieved_at": "2026-10-10T09:38:21Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "NERLAND GÅRD DA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931190164",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

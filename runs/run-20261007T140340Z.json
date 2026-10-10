@@ -1,0 +1,180 @@
+{
+  "run_id": "20261007T140340Z",
+  "started_at": "2026-10-07T14:03:40Z",
+  "finished_at": "2026-10-07T14:08:32Z",
+  "seconds": 291.69,
+  "companies_requested": 4,
+  "companies_written": 4,
+  "companies_failed": 0,
+  "invalid_numbers": [],
+  "not_in_registry": [],
+  "websites_accepted": 2,
+  "websites_rejected": 2,
+  "gate_breakdown": {
+    "rejected_wrong_orgnr": 4,
+    "orgnr_on_page": 5,
+    "rejected_no_proof": 2
+  },
+  "requests": 28,
+  "search_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "changes_detected": 1,
+  "registry_events_applied": 0,
+  "corroborated_fields": 2,
+  "conflicts_resolved": 0,
+  "conflicts_dropped": 0,
+  "invalid_dropped": 0,
+  "field_coverage": {
+    "legal_name": 4,
+    "legal_form": 4,
+    "industry": 4,
+    "nace_code": 4,
+    "employees": 4,
+    "founded": 4,
+    "registered": 4,
+    "municipality": 4,
+    "postcode": 4,
+    "address": 4,
+    "website": 4,
+    "phone": 3,
+    "latest_accounts_year": 4,
+    "email": 1,
+    "description": 2,
+    "facebook": 2,
+    "linkedin": 1,
+    "instagram": 1
+  },
+  "coverage_ratio": 0.6591,
+  "layer_counts": {
+    "registry": 64,
+    "web_rules": 10
+  },
+  "models": {
+    "gap_filling": "claude-haiku-4-5-20251001",
+    "arbitration": "claude-sonnet-5-5",
+    "search": "brave-web-search"
+  },
+  "budget": {
+    "requests_used": 28,
+    "requests_soft_limit": 1700,
+    "requests_hard_limit": 2000,
+    "search_calls": 0,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0
+  },
+  "cost": {
+    "search_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "search_usd": 0.0,
+    "llm_usd": 0.0,
+    "total_usd": 0.0,
+    "per_1000_profiles_usd": 0.0
+  },
+  "results": [
+    {
+      "org_number": "923609016",
+      "legal_name": "EQUINOR ASA",
+      "ok": true,
+      "facts": 16,
+      "empty_fields": 10,
+      "changes": 1,
+      "gate": {
+        "accepted": false,
+        "match_proof": ""
+      },
+      "layers_used": [
+        "identifier",
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 6.48,
+      "cost_usd": 0.0,
+      "error": ""
+    },
+    {
+      "org_number": "986587098",
+      "legal_name": "2CARE BPA AS",
+      "ok": true,
+      "facts": 23,
+      "empty_fields": 4,
+      "changes": 0,
+      "gate": {
+        "accepted": true,
+        "match_proof": "orgnr_on_page"
+      },
+      "layers_used": [
+        "identifier",
+        "registry",
+        "verified",
+        "web_rules"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 11.96,
+      "cost_usd": 0.0,
+      "error": ""
+    },
+    {
+      "org_number": "984851006",
+      "legal_name": "DNB BANK ASA",
+      "ok": true,
+      "facts": 19,
+      "empty_fields": 8,
+      "changes": 0,
+      "gate": {
+        "accepted": true,
+        "match_proof": "orgnr_on_page"
+      },
+      "layers_used": [
+        "identifier",
+        "registry",
+        "verified",
+        "web_rules"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 42.53,
+      "cost_usd": 0.0,
+      "error": ""
+    },
+    {
+      "org_number": "982463718",
+      "legal_name": "TELENOR ASA",
+      "ok": true,
+      "facts": 16,
+      "empty_fields": 10,
+      "changes": 0,
+      "gate": {
+        "accepted": false,
+        "match_proof": ""
+      },
+      "layers_used": [
+        "identifier",
+        "registry",
+        "verified"
+      ],
+      "requests": 0,
+      "search_calls": 0,
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 255.29,
+      "cost_usd": 0.0,
+      "error": ""
+    }
+  ]
+}

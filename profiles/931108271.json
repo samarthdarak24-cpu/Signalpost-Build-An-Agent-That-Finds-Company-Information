@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931108271",
+  "legal_name": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094304Z",
+  "fact_count": 14,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Johann-Maus-Strasse 2, DE-71254 DITZINGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "forretningsadresse: Johann-Maus-Strasse 2, DE-71254 DITZINGEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: address = 'Johann-Maus-Strasse 2, DE-71254 DITZINGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Johann-Maus-Strasse 2, DE-71254 DITZINGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"beliggenhetsadresse\": 'Johann-Maus-Strasse 2, DE-71254 DITZINGEN' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: business_locations = 'Johann-Maus-Strasse 2, DE-71254 DITZINGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "DE-71254 DITZINGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"poststed\": \"DE-71254 DITZINGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: city = 'DE-71254 DITZINGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Salg av verktøymaskiner og lasere til norske kunder, gir service og reparasjoner på verktøy.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"aktivitet\": \"Salg av verktøymaskiner og lasere til norske kunder, gir service og reparasjoner på verktøy.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: description = 'Salg av verktøymaskiner og lasere til norske kunder, gir service og reparasjoner på ver...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Engroshandel med maskinverktøy",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"beskrivelse\": \"Engroshandel med maskinverktøy\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: industry = 'Engroshandel med maskinverktøy', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"kode\": \"NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: legal_form = 'NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"navn\": \"TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: legal_name = 'TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "46.620",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"kode\": \"46.620\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: nace_code = '46.620', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931108271",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "organisasjonsnummer: \"931108271\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: org_number = '931108271', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-24\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: registered = '2023-04-24', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Private aksjeselskaper mv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "\"beskrivelse\": \"Private aksjeselskaper mv.\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: sector = 'Private aksjeselskaper mv.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931108271",
+      "retrieved_at": "2026-10-10T09:43:19Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "TRUMPF WERKZEUGMASCHINEN SE+CO. KG NUF: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931108271",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "municipality",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "postcode",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "website",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

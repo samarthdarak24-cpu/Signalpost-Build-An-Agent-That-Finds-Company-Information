@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "990512329",
+  "legal_name": "SAMEIET MARIDALSVEIEN 282C",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T113249Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Maridalsveien 282C, 0872 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "forretningsadresse: Maridalsveien 282C, 0872 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: address = 'Maridalsveien 282C, 0872 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Jon Knut Berg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"navn\": \"Jon Knut Berg\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: board_chair = 'Jon Knut Berg', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Jørgen Vigdal, Mary Ann Gursli, Gyrd Brændeland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "roles: Jørgen Vigdal, Mary Ann Gursli, Gyrd Brændeland",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: board_members = 'Jørgen Vigdal, Mary Ann Gursli, Gyrd Brændeland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Maridalsveien 282C, 0872 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"beliggenhetsadresse\": 'Maridalsveien 282C, 0872 OSLO' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: business_locations = 'Maridalsveien 282C, 0872 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Eierseksjonssameie.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"aktivitet\": \"Eierseksjonssameie.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: description = 'Eierseksjonssameie.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "mary-a-g@online.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"epostadresse\": \"mary-a-g@online.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: email = 'mary-a-g@online.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2002-08-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"stiftelsesdato\": \"2002-08-22\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: founded = '2002-08-22', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i borettslag og boligsameier",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i borettslag og boligsameier\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: industry = 'Aktiviteter i borettslag og boligsameier', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ESEK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"kode\": \"ESEK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: legal_form = 'ESEK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SAMEIET MARIDALSVEIEN 282C",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"navn\": \"SAMEIET MARIDALSVEIEN 282C\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: legal_name = 'SAMEIET MARIDALSVEIEN 282C', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "97.001",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"kode\": \"97.001\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: nace_code = '97.001', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "990512329",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "organisasjonsnummer: \"990512329\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: org_number = '990512329', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "932 30 130",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"mobil\": \"932 30 130\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: phone = '932 30 130', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "0872",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"postnummer\": \"0872\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: postcode = '0872', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2008-10-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2008-10-13\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: registered = '2008-10-13', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990512329",
+      "retrieved_at": "2026-10-10T11:33:08Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SAMEIET MARIDALSVEIEN 282C: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "990512329",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "sector",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

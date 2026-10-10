@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "917248907",
+  "legal_name": "MUMUNI CENTER FOR GLOBAL WOMEN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T100059Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Brattvollveien 15, 1164 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "forretningsadresse: Brattvollveien 15, 1164 OSLO",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: address = 'Brattvollveien 15, 1164 OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"poststed\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: city = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "NGO, Forskning, kursing, utvikling skal drive med forskning, kursing og støtte til kvinner som vil inn i politikk og næringslivet, primært i utviklingsland, kursing i Norge for kvinner fra utviklingsland. Samarbeid med universiteter i Norge og utlandet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"aktivitet\": \"NGO, Forskning, kursing, utvikling skal drive med forskning, kursing og støtte til kvinner som vil inn i politikk og næringslivet, primært i utviklingsland, kursing i Norge for kvinner fra utviklingsland. Samarbeid med universiteter i Norge og utlandet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: description = 'NGO, Forskning, kursing, utvikling skal drive med forskning, kursing og støtte til kvin...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Andre tjenester tilknyttet undervisning ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"beskrivelse\": \"Andre tjenester tilknyttet undervisning ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: industry = 'Andre tjenester tilknyttet undervisning ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "MUMUNI CENTER FOR GLOBAL WOMEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"navn\": \"MUMUNI CENTER FOR GLOBAL WOMEN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: legal_name = 'MUMUNI CENTER FOR GLOBAL WOMEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"kommune\": \"OSLO\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: municipality = 'OSLO', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "85.699",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"kode\": \"85.699\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: nace_code = '85.699', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "917248907",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "organisasjonsnummer: \"917248907\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: org_number = '917248907', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Victoria Sharon-Lisa Mumuni",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"navn\": \"Victoria Sharon-Lisa Mumuni\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: owner = 'Victoria Sharon-Lisa Mumuni', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "1164",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"postnummer\": \"1164\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: postcode = '1164', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2016-05-31",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2016-05-31\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: registered = '2016-05-31', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917248907",
+      "retrieved_at": "2026-10-10T10:02:48Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "MUMUNI CENTER FOR GLOBAL WOMEN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "917248907",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "912222934",
+  "legal_name": "GRASDELEN BEITELAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093337Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "c/o Ola Mjølhus, Hauske 45, 4130 HJELMELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "forretningsadresse: c/o Ola Mjølhus, Hauske 45, 4130 HJELMELAND",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: address = 'c/o Ola Mjølhus, Hauske 45, 4130 HJELMELAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Ola Sørensen-Mjølhus",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"navn\": \"Ola Sørensen-Mjølhus\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: board_chair = 'Ola Sørensen-Mjølhus', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Rannveig Laugaland Frette, Trond Rød, Karianna Laugaland, Ola Kleppa",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "roles: Rannveig Laugaland Frette, Trond Rød, Karianna Laugaland, Ola Kleppa",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: board_members = 'Rannveig Laugaland Frette, Trond Rød, Karianna Laugaland, Ola Kleppa', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Ola Sørensen-Mjølhus",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"navn\": \"Ola Sørensen-Mjølhus\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: ceo = 'Ola Sørensen-Mjølhus', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "HJELMELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"poststed\": \"HJELMELAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: city = 'HJELMELAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Organisert tilsyn og sanking av sau.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"aktivitet\": \"Organisert tilsyn og sanking av sau.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: description = 'Organisert tilsyn og sanking av sau.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2012-11-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"stiftelsesdato\": \"2012-11-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: founded = '2012-11-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Tjenester tilknyttet planteproduksjon",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"beskrivelse\": \"Tjenester tilknyttet planteproduksjon\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: industry = 'Tjenester tilknyttet planteproduksjon', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "GRASDELEN BEITELAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"navn\": \"GRASDELEN BEITELAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: legal_name = 'GRASDELEN BEITELAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "HJELMELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"kommune\": \"HJELMELAND\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: municipality = 'HJELMELAND', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "01.610",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"kode\": \"01.610\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: nace_code = '01.610', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "912222934",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "organisasjonsnummer: \"912222934\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: org_number = '912222934', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "51 75 11 23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"telefon\": \"51 75 11 23\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: phone = '51 75 11 23', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "4130",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"postnummer\": \"4130\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: postcode = '4130', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2013-07-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2013-07-30\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: registered = '2013-07-30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912222934",
+      "retrieved_at": "2026-10-10T09:37:07Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "GRASDELEN BEITELAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "912222934",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

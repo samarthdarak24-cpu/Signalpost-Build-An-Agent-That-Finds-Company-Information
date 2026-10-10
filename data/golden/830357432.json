@@ -1,0 +1,39 @@
+{
+  "org_number": "830357432",
+  "legal_name": "Bonheur ASA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "founded",
+    "email",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Fred. Olsens gate 2, 0152 OSLO",
+    "email": "post@fredolsen.no",
+    "founded": "1897-10-20",
+    "industry": "Utleie av egen eller leid fast eiendom",
+    "language_form": "Bokmål",
+    "latest_accounts_year": "2025",
+    "legal_form": "ASA",
+    "legal_name": "Bonheur ASA",
+    "municipality": "OSLO",
+    "nace_code": "68.200",
+    "phone": "22 34 10 00",
+    "postcode": "0152",
+    "purpose": "Engasjement i maritim- og energirelaterte aktiviteter, transport, teknologi og eiendom, investering innen finans og handel så vel som deltakelse i andre foretagender.",
+    "registered": "1995-02-19",
+    "sector": "Private aksjeselskaper mv."
+  }
+}

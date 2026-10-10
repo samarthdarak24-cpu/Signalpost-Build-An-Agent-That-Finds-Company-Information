@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "830968962",
+  "legal_name": "STOKSTAD DESIGN",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T074300Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Myravegen 9, 5943 AUSTRHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "forretningsadresse: Myravegen 9, 5943 AUSTRHEIM",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: address = 'Myravegen 9, 5943 AUSTRHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Myravegen 9, 5943 AUSTRHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"beliggenhetsadresse\": 'Myravegen 9, 5943 AUSTRHEIM' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: business_locations = 'Myravegen 9, 5943 AUSTRHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "AUSTRHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"poststed\": \"AUSTRHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: city = 'AUSTRHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Kreativt trykkeri. Digital markedsføring. Produksjon av gaver og klær.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"aktivitet\": \"Kreativt trykkeri. Digital markedsføring. Produksjon av gaver og klær.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: description = 'Kreativt trykkeri. Digital markedsføring. Produksjon av gaver og klær.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "nydesign.austrheim@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"epostadresse\": \"nydesign.austrheim@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: email = 'nydesign.austrheim@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Etterbehandling av tekstiler",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"beskrivelse\": \"Etterbehandling av tekstiler\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: industry = 'Etterbehandling av tekstiler', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"maalform\": \"Nynorsk\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: language_form = 'Nynorsk', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "STOKSTAD DESIGN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"navn\": \"STOKSTAD DESIGN\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: legal_name = 'STOKSTAD DESIGN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "AUSTRHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"kommune\": \"AUSTRHEIM\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: municipality = 'AUSTRHEIM', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "13.300",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"kode\": \"13.300\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: nace_code = '13.300', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "830968962",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "organisasjonsnummer: \"830968962\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: org_number = '830968962', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Karianne Leikvoll Stokstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"navn\": \"Karianne Leikvoll Stokstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: owner = 'Karianne Leikvoll Stokstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "416 72 708",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"mobil\": \"416 72 708\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: phone = '416 72 708', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5943",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"postnummer\": \"5943\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: postcode = '5943', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-03-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-03-07\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: registered = '2023-03-07', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.nydesignaustrheim.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830968962",
+      "retrieved_at": "2026-10-10T07:43:16Z",
+      "evidence": "\"hjemmeside\": \"www.nydesignaustrheim.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "STOKSTAD DESIGN: website = 'www.nydesignaustrheim.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "830968962",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

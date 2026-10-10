@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "org_number": "988539473",
+  "legal_name": "-EBE- DATA Eyolf Berg",
+  "run_date": "2026-10-08",
+  "run_id": "20261007T191338Z",
+  "fact_count": 17,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Bekkeliveien 5, 3470 SLEMMESTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "forretningsadresse: Bekkeliveien 5, 3470 SLEMMESTAD",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: address = 'Bekkeliveien 5, 3470 SLEMMESTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "city",
+      "value": "SLEMMESTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"poststed\": \"SLEMMESTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: city = 'SLEMMESTAD', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "description",
+      "value": "Rådgivning innen IT, administrasjon og personalforvaltning, databaseutvikling, kurs, tolke- og oversettelsestjenester.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"aktivitet\": \"Rådgivning innen IT, administrasjon og personalforvaltning, databaseutvikling, kurs, tolke- og oversettelsestjenester.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: description = 'Rådgivning innen IT, administrasjon og personalforvaltning, databaseutvikling, kurs, to...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "email",
+      "value": "ebe@ebe-data.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"epostadresse\": \"ebe@ebe-data.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: email = 'ebe@ebe-data.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "industry",
+      "value": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: industry = 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-syst...', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "legal_name",
+      "value": "-EBE- DATA Eyolf Berg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"navn\": \"-EBE- DATA Eyolf Berg\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: legal_name = '-EBE- DATA Eyolf Berg', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "municipality",
+      "value": "ASKER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"kommune\": \"ASKER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: municipality = 'ASKER', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "nace_code",
+      "value": "62.200",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"kode\": \"62.200\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: nace_code = '62.200', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "owner",
+      "value": "Eyolf Berg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"navn\": \"Eyolf Berg\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: owner = 'Eyolf Berg', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "phone",
+      "value": "911 76 537",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"mobil\": \"911 76 537\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: phone = '911 76 537', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "postcode",
+      "value": "3470",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"postnummer\": \"3470\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: postcode = '3470', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "registered",
+      "value": "2005-08-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2005-08-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: registered = '2005-08-20', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    },
+    {
+      "field": "website",
+      "value": "www.ebe-data.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "retrieved_at": "2026-10-07T19:16:51Z",
+      "evidence": "\"hjemmeside\": \"www.ebe-data.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "-EBE- DATA Eyolf Berg: website = 'www.ebe-data.com', read directly from the official register. (registry, retrieved 2026-10-07).",
+      "org_number": "988539473"
+    }
+  ],
+  "changes": [
+    {
+      "field": "website",
+      "old": "www.ebe-data.com",
+      "new": null,
+      "detected_at": "2026-10-07T19:16:58Z",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+      "kind": "web"
+    }
+  ],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,42 @@
+{
+  "org_number": "871454272",
+  "legal_name": "ASKELADDEN BARNEHAGE SA",
+  "checked_by": "hand-checked against data.brreg.no on 2026-10-07",
+  "expect_present": [
+    "legal_name",
+    "legal_form",
+    "nace_code",
+    "industry",
+    "address",
+    "postcode",
+    "municipality",
+    "registered",
+    "website",
+    "employees",
+    "founded",
+    "email",
+    "phone"
+  ],
+  "expect_absent": [
+    "revenue_latest"
+  ],
+  "must_not_contain": [],
+  "reference": {
+    "address": "Maihaugvegen 1, 2609 LILLEHAMMER",
+    "email": "mail@aladden.info",
+    "employees": 7,
+    "founded": "1982-01-01",
+    "industry": "Førskoleundervisning og drift av barnehager",
+    "language_form": "Bokmål",
+    "legal_form": "SA",
+    "legal_name": "ASKELADDEN BARNEHAGE SA",
+    "municipality": "LILLEHAMMER",
+    "nace_code": "85.100",
+    "phone": "61 25 59 51",
+    "postcode": "2609",
+    "purpose": "Å eie og drive barnehage hvor medlemmene kan få barnehageplass. Barnehagen skal drives til det beste for medlemmene og deres barn. Barnehagen er livssynsnøytral. Foretaket skal fremme medlemmenes økonomiske interesser gjennom deres deltakelse i virksomheten som kjøpere av barnehagetjenester fra foretaket. Formålet er ikke kapitalavkastning til medlemmene. Eventuelt årsoverskudd skal godskrives egenkapitalen i foretaket.",
+    "registered": "1995-02-20",
+    "sector": "Private aksjeselskaper mv.",
+    "website": "www.aladden.info"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "total": 88.19,
+  "maximum": 100,
+  "qualified": true,
+  "qualification": {
+    "total": 65,
+    "coverage": 21
+  },
+  "coverage_points": 24.69,
+  "profiles_scored": 120,
+  "golden_count": 12,
+  "missing_golden": [],
+  "categories": [
+    {
+      "category": "coverage",
+      "points": 24.69,
+      "maximum": 35,
+      "ratio": 0.705,
+      "detail": "1693 of 2400 field slots filled with evidence (70.5%)",
+      "breakdown": {
+        "field_hit_rate": {
+          "legal_name": 1.0,
+          "legal_form": 1.0,
+          "industry": 1.0,
+          "nace_code": 1.0,
+          "employees": 0.325,
+          "founded": 0.875,
+          "registered": 1.0,
+          "municipality": 1.0,
+          "postcode": 1.0,
+          "city": 1.0,
+          "address": 1.0,
+          "website": 0.708,
+          "email": 0.717,
+          "phone": 0.758,
+          "description": 1.0,
+          "facebook": 0.0,
+          "linkedin": 0.0,
+          "instagram": 0.0,
+          "lei": 0.0,
+          "latest_accounts_year": 0.725
+        },
+        "evidenced": {
+          "legal_name": 120,
+          "legal_form": 120,
+          "industry": 120,
+          "nace_code": 120,
+          "employees": 39,
+          "founded": 105,
+          "registered": 120,
+          "municipality": 120,
+          "postcode": 120,
+          "city": 120,
+          "address": 120,
+          "website": 85,
+          "email": 86,
+          "phone": 91,
+          "description": 120,
+          "facebook": 0,
+          "linkedin": 0,
+          "instagram": 0,
+          "lei": 0,
+          "latest_accounts_year": 87
+        },
+        "present": {
+          "legal_name": 120,
+          "legal_form": 120,
+          "industry": 120,
+          "nace_code": 120,
+          "employees": 39,
+          "founded": 105,
+          "registered": 120,
+          "municipality": 120,
+          "postcode": 120,
+          "city": 120,
+          "address": 120,
+          "website": 85,
+          "email": 86,
+          "phone": 91,
+          "description": 120,
+          "facebook": 0,
+          "linkedin": 0,
+          "instagram": 0,
+          "lei": 0,
+          "latest_accounts_year": 87
+        }
+      }
+    },
+    {
+      "category": "matching",
+      "points": 30.0,
+      "maximum": 30,
+      "ratio": 1.0,
+      "detail": "1693/1693 facts carry a strong proof and full evidence; 0 profiles contain a foreign org number",
+      "breakdown": {
+        "facts_scored": 1693,
+        "evidence_complete": 1693,
+        "strong_proof": 1693,
+        "proof_types": {
+          "registry": 1693
+        },
+        "org_number_integrity": 1.0
+      }
+    },
+    {
+      "category": "updates",
+      "points": 20.0,
+      "maximum": 20,
+      "ratio": 1.0,
+      "detail": "11 change records across 11 profiles; 251 freshness signals",
+      "breakdown": {
+        "change_records": 11,
+        "profiles_with_changes": 11,
+        "well_formed": 11,
+        "freshness_signals": 251
+      }
+    },
+    {
+      "category": "explanations",
+      "points": 8.5,
+      "maximum": 10,
+      "ratio": 0.85,
+      "detail": "85% mean explanation quality across 2043 facts, each naming its proof type",
+      "breakdown": {
+        "mean_quality": 0.85
+      }
+    },
+    {
+      "category": "ease_of_use",
+      "points": 5.0,
+      "maximum": 5,
+      "ratio": 1.0,
+      "detail": "7/7 packaging checks pass",
+      "breakdown": {
+        "makefile_present": true,
+        "env_example": true,
+        "readme": true,
+        "run_report_written": true,
+        "one_command_run": true,
+        "web_console": true,
+        "tests_present": true
+      }
+    }
+  ]
+}

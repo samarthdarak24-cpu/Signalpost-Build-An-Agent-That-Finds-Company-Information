@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "920799205",
+  "legal_name": "HOVEDARSENALET BIL",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T094803Z",
+  "fact_count": 21,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Hovemovegen 62, 2619 LILLEHAMMER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "forretningsadresse: Hovemovegen 62, 2619 LILLEHAMMER",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: address = 'Hovemovegen 62, 2619 LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Per Olav Skansen Erlimo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"navn\": \"Per Olav Skansen Erlimo\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: board_chair = 'Per Olav Skansen Erlimo', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Marita Johansen, Inger Mette Fredheim, Roar Atle Hansen, Heidi Bråthen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "roles: Marita Johansen, Inger Mette Fredheim, Roar Atle Hansen, Heidi Bråthen",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: board_members = 'Marita Johansen, Inger Mette Fredheim, Roar Atle Hansen, Heidi Bråthen', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Hovemovegen 62, 2619 LILLEHAMMER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"beliggenhetsadresse\": 'Hovemovegen 62, 2619 LILLEHAMMER' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: business_locations = 'Hovemovegen 62, 2619 LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "LILLEHAMMER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"poststed\": \"LILLEHAMMER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: city = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Drive idrett organisert i Norges idrettsforbund og olympiske og paralympiske komité (NIF). Arbeidet skal preges av frivillighet, demokrati, lojalitet og likeverd. All idrettslig aktivitet skal bygge på grunnverdier som idrettsglede, fellesskap, helse og ærlighet.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"aktivitet\": \"Drive idrett organisert i Norges idrettsforbund og olympiske og paralympiske komité (NIF). Arbeidet skal preges av frivillighet, demokrati, lojalitet og likeverd. All idrettslig aktivitet skal bygge på grunnverdier som idrettsglede, fellesskap, helse og ærlighet.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: description = 'Drive idrett organisert i Norges idrettsforbund og olympiske og paralympiske komité (NI...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "perolav.erlimo@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"epostadresse\": \"perolav.erlimo@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: email = 'perolav.erlimo@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "1965-01-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"stiftelsesdato\": \"1965-01-20\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: founded = '1965-01-20', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i idrettslag og -klubber",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i idrettslag og -klubber\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: industry = 'Aktiviteter i idrettslag og -klubber', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "HOVEDARSENALET BIL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"navn\": \"HOVEDARSENALET BIL\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: legal_name = 'HOVEDARSENALET BIL', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "LILLEHAMMER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"kommune\": \"LILLEHAMMER\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: municipality = 'LILLEHAMMER', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "93.120",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"kode\": \"93.120\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: nace_code = '93.120', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "920799205",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "organisasjonsnummer: \"920799205\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: org_number = '920799205', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "90015156",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"mobil\": \"90015156\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: phone = '90015156', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "2619",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"postnummer\": \"2619\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: postcode = '2619', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-05-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-05-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: registered = '2018-05-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920799205",
+      "retrieved_at": "2026-10-10T09:49:05Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "HOVEDARSENALET BIL: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "920799205",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

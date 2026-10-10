@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "org_number": "931250507",
+  "legal_name": "SANDER SYSTAD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T093805Z",
+  "fact_count": 16,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Kjenndalslia 5, 5225 NESTTUN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "forretningsadresse: Kjenndalslia 5, 5225 NESTTUN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: address = 'Kjenndalslia 5, 5225 NESTTUN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "NESTTUN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"poststed\": \"NESTTUN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: city = 'NESTTUN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Influenser.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"aktivitet\": \"Influenser.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: description = 'Influenser.', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"beskrivelse\": \"Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: industry = 'Annen utøvende kunstnerisk virksomhet og underholdningsvirksomhet ikke nevnt annet sted', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "SANDER SYSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"navn\": \"SANDER SYSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: legal_name = 'SANDER SYSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"kommune\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "90.209",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"kode\": \"90.209\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: nace_code = '90.209', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "931250507",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "organisasjonsnummer: \"931250507\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: org_number = '931250507', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Sander Haugstad Systad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"navn\": \"Sander Haugstad Systad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: owner = 'Sander Haugstad Systad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5225",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"postnummer\": \"5225\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: postcode = '5225', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2023-04-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2023-04-21\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: registered = '2023-04-21', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931250507",
+      "retrieved_at": "2026-10-10T09:40:22Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "SANDER SYSTAD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "931250507",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "email",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "phone",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

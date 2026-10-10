@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "org_number": "914254116",
+  "legal_name": "PERMANENT BEAUTY MONIKA PODWIAZKA",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T075825Z",
+  "fact_count": 20,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Olleveien 15, 3158 ANDEBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "forretningsadresse: Olleveien 15, 3158 ANDEBU",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: address = 'Olleveien 15, 3158 ANDEBU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Olleveien 15, 3158 ANDEBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"beliggenhetsadresse\": 'Olleveien 15, 3158 ANDEBU' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: business_locations = 'Olleveien 15, 3158 ANDEBU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "ANDEBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"poststed\": \"ANDEBU\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: city = 'ANDEBU', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Ansiktsbehandlinger, hybrid manikyr og pedikyr, voksing, permanent makeup og salg av kosmetikk.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"aktivitet\": \"Ansiktsbehandlinger, hybrid manikyr og pedikyr, voksing, permanent makeup og salg av kosmetikk.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: description = 'Ansiktsbehandlinger, hybrid manikyr og pedikyr, voksing, permanent makeup og salg av ko...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "monika@permanent-beauty.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"epostadresse\": \"monika@permanent-beauty.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: email = 'monika@permanent-beauty.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Skjønnhetspleie",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"beskrivelse\": \"Skjønnhetspleie\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: industry = 'Skjønnhetspleie', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "PERMANENT BEAUTY MONIKA PODWIAZKA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"navn\": \"PERMANENT BEAUTY MONIKA PODWIAZKA\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: legal_name = 'PERMANENT BEAUTY MONIKA PODWIAZKA', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "SANDEFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"kommune\": \"SANDEFJORD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: municipality = 'SANDEFJORD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "96.220",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"kode\": \"96.220\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: nace_code = '96.220', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "914254116",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "organisasjonsnummer: \"914254116\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: org_number = '914254116', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Monika Podwiazka",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"navn\": \"Monika Podwiazka\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: owner = 'Monika Podwiazka', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "975 07 077",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"mobil\": \"975 07 077\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field mobil",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: phone = '975 07 077', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "3158",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"postnummer\": \"3158\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: postcode = '3158', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2014-10-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2014-10-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: registered = '2014-10-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.permanent-beauty.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914254116",
+      "retrieved_at": "2026-10-10T08:00:57Z",
+      "evidence": "\"hjemmeside\": \"www.permanent-beauty.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "PERMANENT BEAUTY MONIKA PODWIAZKA: website = 'www.permanent-beauty.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "914254116",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

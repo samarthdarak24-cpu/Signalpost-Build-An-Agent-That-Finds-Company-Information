@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "org_number": "921841701",
+  "legal_name": "BERGEN LAUGARLAG",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T080424Z",
+  "fact_count": 24,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Georgernes verft 10, 5011 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "forretningsadresse: Georgernes verft 10, 5011 BERGEN",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: address = 'Georgernes verft 10, 5011 BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_chair",
+      "value": "Haakon Alexander Sundve Thuestad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"navn\": \"Haakon Alexander Sundve Thuestad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role LEDE (Board chair)",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: board_chair = 'Haakon Alexander Sundve Thuestad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_deputies",
+      "value": "Guro Gjuvsland, Erik Vågslid",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "roles: Guro Gjuvsland, Erik Vågslid",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role VARA (Deputy board member)",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: board_deputies = 'Guro Gjuvsland, Erik Vågslid', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "board_members",
+      "value": "Magne Brynjar Skaar, Harald Dahl Våge, Siv Andersen, Live Victoria Hesland Noren",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "roles: Magne Brynjar Skaar, Harald Dahl Våge, Siv Andersen, Live Victoria Hesland Noren",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret role MEDL (Board member)",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: board_members = 'Magne Brynjar Skaar, Harald Dahl Våge, Siv Andersen, Live Victoria Hesland Noren', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "business_locations",
+      "value": "Georgernes verft 10, 5011 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"beliggenhetsadresse\": 'Georgernes verft 10, 5011 BERGEN' (first of 1)",
+      "match_proof": "registry",
+      "confidence": 0.93,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter beliggenhetsadresse",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: business_locations = 'Georgernes verft 10, 5011 BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "ceo",
+      "value": "Bjørnar Skaar Haveland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"navn\": \"Bjørnar Skaar Haveland\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role DAGL (Chief executive)",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: ceo = 'Bjørnar Skaar Haveland', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"poststed\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: city = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Foreningens kjerneaktivitet er å lage tilbud for helårsbading og badstue på måter som sikrer allmennheten best mulig tilgang på badstue, samt utforsker kreativt hvilke inkluderende aktiviteter som kan skje i forbindelse med sjø og varme. Foreningens tilbud skal fremme inkludering og sosial bærekraft.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"aktivitet\": \"Foreningens kjerneaktivitet er å lage tilbud for helårsbading og badstue på måter som sikrer allmennheten best mulig tilgang på badstue, samt utforsker kreativt hvilke inkluderende aktiviteter som kan skje i forbindelse med sjø og varme. Foreningens tilbud skal fremme inkludering og sosial bærekraft.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: description = 'Foreningens kjerneaktivitet er å lage tilbud for helårsbading og badstue på måter som s...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "kontakt@laugaren.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"epostadresse\": \"kontakt@laugaren.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: email = 'kontakt@laugaren.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "founded",
+      "value": "2018-11-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"stiftelsesdato\": \"2018-11-25\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field stiftelsesdato",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: founded = '2018-11-25', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: industry = 'Aktiviteter i andre medlemsorganisasjoner ellers', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "FLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"kode\": \"FLI\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: legal_form = 'FLI', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "BERGEN LAUGARLAG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"navn\": \"BERGEN LAUGARLAG\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: legal_name = 'BERGEN LAUGARLAG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 2,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"underenheter\": 1 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: location_count = 2, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"kommune\": \"BERGEN\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: municipality = 'BERGEN', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "94.992",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"kode\": \"94.992\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: nace_code = '94.992', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "921841701",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "organisasjonsnummer: \"921841701\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: org_number = '921841701', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "94 87 79 30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"telefon\": \"94 87 79 30\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: phone = '94 87 79 30', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "5011",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"postnummer\": \"5011\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: postcode = '5011', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "2018-12-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"2018-12-06\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: registered = '2018-12-06', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Ideelle organisasjoner",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"beskrivelse\": \"Ideelle organisasjoner\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: sector = 'Ideelle organisasjoner', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "laugaren.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921841701",
+      "retrieved_at": "2026-10-10T08:06:18Z",
+      "evidence": "\"hjemmeside\": \"laugaren.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "BERGEN LAUGARLAG: website = 'laugaren.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "921841701",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}

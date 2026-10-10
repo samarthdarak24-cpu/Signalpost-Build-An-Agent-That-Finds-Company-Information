@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "org_number": "981304942",
+  "legal_name": "WINDSTAD",
+  "run_date": "2026-10-10",
+  "run_id": "20261010T084900Z",
+  "fact_count": 19,
+  "facts": [
+    {
+      "field": "address",
+      "value": "Rolfs vei 6, 8380 RAMBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "forretningsadresse: Rolfs vei 6, 8380 RAMBERG",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "forretningsadresse composed",
+      "changed_from": null,
+      "explanation": "WINDSTAD: address = 'Rolfs vei 6, 8380 RAMBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "city",
+      "value": "RAMBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"poststed\": \"RAMBERG\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.poststed",
+      "changed_from": null,
+      "explanation": "WINDSTAD: city = 'RAMBERG', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "description",
+      "value": "Utleie av egen arbeidskraft som sjåfør innen persontransport og gods/varetransport. Rådgining innen transport og logistikk, samt reiseliv.",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"aktivitet\": \"Utleie av egen arbeidskraft som sjåfør innen persontransport og gods/varetransport. Rådgining innen transport og logistikk, samt reiseliv.\"",
+      "match_proof": "registry",
+      "confidence": 0.9,
+      "layer": "registry",
+      "method": "Enhetsregisteret field aktivitet",
+      "changed_from": null,
+      "explanation": "WINDSTAD: description = 'Utleie av egen arbeidskraft som sjåfør innen persontransport og gods/varetransport. Råd...', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "email",
+      "value": "lars.windstad@gmail.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"epostadresse\": \"lars.windstad@gmail.com\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field epostadresse",
+      "changed_from": null,
+      "explanation": "WINDSTAD: email = 'lars.windstad@gmail.com', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "industry",
+      "value": "Godstransport på vei",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"beskrivelse\": \"Godstransport på vei\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.beskrivelse",
+      "changed_from": null,
+      "explanation": "WINDSTAD: industry = 'Godstransport på vei', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"maalform\": \"Bokmål\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field maalform",
+      "changed_from": null,
+      "explanation": "WINDSTAD: language_form = 'Bokmål', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_form",
+      "value": "ENK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"kode\": \"ENK\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field organisasjonsform.kode",
+      "changed_from": null,
+      "explanation": "WINDSTAD: legal_form = 'ENK', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "legal_name",
+      "value": "WINDSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"navn\": \"WINDSTAD\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret field navn",
+      "changed_from": null,
+      "explanation": "WINDSTAD: legal_name = 'WINDSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "location_count",
+      "value": 1,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"underenheter\": 0 registered sub-entities",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret underenheter count, plus the head office",
+      "changed_from": null,
+      "explanation": "WINDSTAD: location_count = 1, read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "municipality",
+      "value": "FLAKSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"kommune\": \"FLAKSTAD\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.kommune",
+      "changed_from": null,
+      "explanation": "WINDSTAD: municipality = 'FLAKSTAD', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "nace_code",
+      "value": "49.410",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"kode\": \"49.410\"",
+      "match_proof": "registry",
+      "confidence": 0.99,
+      "layer": "registry",
+      "method": "Enhetsregisteret field naeringskode1.kode",
+      "changed_from": null,
+      "explanation": "WINDSTAD: nace_code = '49.410', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "org_number",
+      "value": "981304942",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "organisasjonsnummer: \"981304942\"",
+      "match_proof": "registry",
+      "confidence": 1.0,
+      "layer": "registry",
+      "method": "Enhetsregisteret organisasjonsnummer",
+      "changed_from": null,
+      "explanation": "WINDSTAD: org_number = '981304942', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "owner",
+      "value": "Lars Harald Windstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"navn\": \"Lars Harald Windstad\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret role INNH (Owner)",
+      "changed_from": null,
+      "explanation": "WINDSTAD: owner = 'Lars Harald Windstad', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "phone",
+      "value": "91 10 90 94",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"telefon\": \"91 10 90 94\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field telefon",
+      "changed_from": null,
+      "explanation": "WINDSTAD: phone = '91 10 90 94', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "postcode",
+      "value": "8380",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"postnummer\": \"8380\"",
+      "match_proof": "registry",
+      "confidence": 0.97,
+      "layer": "registry",
+      "method": "Enhetsregisteret field forretningsadresse.postnummer",
+      "changed_from": null,
+      "explanation": "WINDSTAD: postcode = '8380', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "registered",
+      "value": "1999-12-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"registreringsdatoEnhetsregisteret\": \"1999-12-16\"",
+      "match_proof": "registry",
+      "confidence": 0.98,
+      "layer": "registry",
+      "method": "Enhetsregisteret field registreringsdatoEnhetsregisteret",
+      "changed_from": null,
+      "explanation": "WINDSTAD: registered = '1999-12-16', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "sector",
+      "value": "Personlig næringsdrivende",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"beskrivelse\": \"Personlig næringsdrivende\"",
+      "match_proof": "registry",
+      "confidence": 0.96,
+      "layer": "registry",
+      "method": "Enhetsregisteret field institusjonellSektorkode.beskrivelse",
+      "changed_from": null,
+      "explanation": "WINDSTAD: sector = 'Personlig næringsdrivende', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "status",
+      "value": "active",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "no dissolution flag set on the register record",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "derived",
+      "method": "derived from Enhetsregisteret status flags",
+      "changed_from": null,
+      "explanation": "WINDSTAD: status = 'active', read directly from the official register. (derived, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    },
+    {
+      "field": "website",
+      "value": "www.windstad.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/981304942",
+      "retrieved_at": "2026-10-10T08:51:59Z",
+      "evidence": "\"hjemmeside\": \"www.windstad.no\"",
+      "match_proof": "registry",
+      "confidence": 0.95,
+      "layer": "registry",
+      "method": "Enhetsregisteret field hjemmeside",
+      "changed_from": null,
+      "explanation": "WINDSTAD: website = 'www.windstad.no', read directly from the official register. (registry, retrieved 2026-10-10).",
+      "org_number": "981304942",
+      "freshness": "recent"
+    }
+  ],
+  "changes": [],
+  "empty_fields": [
+    {
+      "field": "website",
+      "reason": "entity is a sole trader (ENK); web contact details are personal data and are not collected",
+      "candidates_considered": 0
+    },
+    {
+      "field": "employees",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "founded",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "purpose",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_accounts_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "accounting_year",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "reporting_period",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "revenue_latest",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "net_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "operating_result",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "total_assets",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "equity",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "debt",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "ceo",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_chair",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "board_members",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "auditor",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "business_locations",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "facebook",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "linkedin",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "instagram",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "careers_page",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "open_roles",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_job_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "latest_update_title",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "activity_count",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "lei",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    },
+    {
+      "field": "parent_org_number",
+      "reason": "no source produced a value above the confidence threshold",
+      "candidates_considered": 0
+    }
+  ],
+  "errors": []
+}
